@@ -1,0 +1,11 @@
+{
+  "name": "ai-city-remix",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "record": "node scripts/record.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

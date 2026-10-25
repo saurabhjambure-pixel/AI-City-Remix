@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City Remix Test Scene - Three.js</title>
+  <style>
+    body { margin: 0; padding: 0; overflow: hidden; background: #08090d; }
+    canvas { width: 100vw; height: 100vh; display: block; }
+    #overlay {
+      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+      font-size: 28px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; text-align: center; pointer-events: none;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="overlay">Mumbai: The Gateway of India (1924)</div>
+  <script type="module">
+    import * as THREE from 'three';
+
+    const scene = new THREE.Scene();
+    scene.fog = new THREE.FogExp2(0x0a0c14, 0.015);
+
+    const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.shadowMap.enabled = true;
+    document.body.appendChild(renderer.domElement);
+
+    // Lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
+    scene.add(ambientLight);
+
+    const sunLight = new THREE.DirectionalLight(0xffecd2, 1.8);
+    sunLight.position.set(40, 60, 30);
+    sunLight.castShadow = true;
+    scene.add(sunLight);
+
+    const seaLight = new THREE.DirectionalLight(0x38bdf8, 0.6);
+    seaLight.position.set(-30, 10, -20);
+    scene.add(seaLight);
+
+    // Water Surface
+    const waterGeo = new THREE.PlaneGeometry(300, 300, 32, 32);
+    const waterMat = new THREE.MeshStandardMaterial({
+      color: 0x092336,
+      roughness: 0.2,
+      metalness: 0.8
+    });
+    const water = new THREE.Mesh(waterGeo, waterMat);
+    water.rotation.x = -Math.PI / 2;
+    water.position.y = -0.5;
+    scene.add(water);
+
+    // City Base Plaza
+    const plazaGeo = new THREE.BoxGeometry(70, 1, 70);
+    const plazaMat = new THREE.MeshStandardMaterial({ color: 0x1e2430, roughness: 0.7 });
+    const plaza = new THREE.Mesh(plazaGeo, plazaMat);
+    plaza.position.set(0, 0, 0);
+    scene.add(plaza);
+
+    // Central Monument (Gateway Arch style)
+    const archGroup = new THREE.Group();
+    const stoneMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.5, metalness: 0.1 });
+
+    const pillarLeft = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
+    pillarLeft.position.set(-8, 12, 0);
+    archGroup.add(pillarLeft);
+
+    const pillarRight = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
+    pillarRight.position.set(8, 12, 0);
+    archGroup.add(pillarRight);
+
+    const topBeam = new THREE.Mesh(new THREE.BoxGeometry(26, 6, 10), stoneMat);
+    topBeam.position.set(0, 24, 0);
+    archGroup.add(topBeam);
+
+    const dome = new THREE.Mesh(new THREE.SphereGeometry(5, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2), stoneMat);
+    dome.position.set(0, 27, 0);
+    archGroup.add(dome);
+
+    scene.add(archGroup);
+
+    // Background Skyline Buildings
+    const bldgMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.6 });
+    for (let i = 0; i < 40; i++) {
+      const h = 10 + Math.random() * 35;
+      const w = 4 + Math.random() * 6;
+      const bldg = new THREE.Mesh(new THREE.BoxGeometry(w, h, w), bldgMat);
+      const angle = (i / 40) * Math.PI - (Math.PI / 2);
+      const dist = 50 + Math.random() * 40;
+      bldg.position.set(Math.sin(angle) * dist, h / 2, -Math.cos(angle) * dist);
+      scene.add(bldg);
+    }
+
+    // Camera Autoplay Tour Loop
+    let startTime = performance.now();
+    function animate() {
+      requestAnimationFrame(animate);
+      const t = (performance.now() - startTime) * 0.0006;
+      // Smooth orbit trajectory
+      camera.position.x = Math.sin(t) * 45;
+      camera.position.z = Math.cos(t) * 45;
+      camera.position.y = 18 + Math.sin(t * 1.5) * 4;
+      camera.lookAt(0, 12, 0);
+
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>
