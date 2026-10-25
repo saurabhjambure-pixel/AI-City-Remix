@@ -1,0 +1,89 @@
+{
+  "viewBox": "0 0 1920 1080",
+  "river_mula": {
+    "d": "M 575.0 344.0 L 734.3 316.0 L 867.1 372.0 L 973.3 400.0 L 1044.2 460.8 L 1132.6 442.0 L 1265.4 428.0 L 1398.1 456.0",
+    "label": "Mula River",
+    "stroke": "#5fa8d3",
+    "stroke_width": 5
+  },
+  "river_mutha": {
+    "d": "M 707.7 708.0 L 787.4 624.0 L 920.2 568.0 L 999.8 512.0 L 1044.2 460.8",
+    "label": "Mutha River",
+    "stroke": "#5fa8d3",
+    "stroke_width": 5
+  },
+  "landmarks": {
+    "sangam_confluence_of_mula_and_mutha": {
+      "name": "Sangam (Confluence of Mula and Mutha)",
+      "x": 1044.2,
+      "y": 460.8,
+      "color": "#f2a33a"
+    },
+    "shaniwar_wada": {
+      "name": "Shaniwar Wada",
+      "x": 1040.5,
+      "y": 485.1,
+      "color": "#f2a33a"
+    },
+    "lal_mahal": {
+      "name": "Lal Mahal",
+      "x": 1044.7,
+      "y": 487.9,
+      "color": "#f2a33a"
+    },
+    "sinhagad_fort": {
+      "name": "Sinhagad Fort",
+      "x": 775.2,
+      "y": 914.4,
+      "color": "#f2a33a"
+    },
+    "fergusson_college": {
+      "name": "Fergusson College",
+      "x": 999.3,
+      "y": 473.9,
+      "color": "#f2a33a"
+    },
+    "coep_college_of_engineering_pune": {
+      "name": "COEP (College of Engineering Pune)",
+      "x": 1047.6,
+      "y": 455.4,
+      "color": "#f2a33a"
+    },
+    "savitribai_phule_pune_university": {
+      "name": "Savitribai Phule Pune University",
+      "x": 959.5,
+      "y": 391.9,
+      "color": "#f2a33a"
+    },
+    "pune_cantonment": {
+      "name": "Pune Cantonment",
+      "x": 1111.6,
+      "y": 515.1,
+      "color": "#f2a33a"
+    },
+    "khadki_cantonment": {
+      "name": "Khadki Cantonment",
+      "x": 994.0,
+      "y": 364.2,
+      "color": "#f2a33a"
+    },
+    "pimpri_chinchwad": {
+      "name": "Pimpri-Chinchwad",
+      "x": 892.8,
+      "y": 176.6,
+      "color": "#f2a33a"
+    },
+    "hinjewadi_it_park": {
+      "name": "Hinjewadi IT Park",
+      "x": 702.4,
+      "y": 284.4,
+      "color": "#f2a33a"
+    },
+    "magarpatta_city": {
+      "name": "Magarpatta City",
+      "x": 1238.3,
+      "y": 499.7,
+      "color": "#f2a33a"
+    }
+  }
+}

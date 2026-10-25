@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResearchReport",
+  "type": "object",
+  "properties": {
+    "city": {"type": "string"},
+    "total_raw": {"type": "integer"},
+    "kept": {"type": "integer"},
+    "dropped": {"type": "integer"},
+    "independent_publishers": {"type": "integer"},
+    "single_source_claims": {"type": "integer", "enum": [0]},
+    "providers_used": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "required": [
+    "city",
+    "total_raw",
+    "kept",
+    "dropped",
+    "independent_publishers",
+    "single_source_claims",
+    "providers_used"
+  ]
+}

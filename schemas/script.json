@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DocumentaryScript",
+  "type": "object",
+  "properties": {
+    "title": {"type": "string"},
+    "target_seconds": {"type": "integer"},
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "seconds_target": {"type": "integer"},
+          "narration": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {"type": "string"},
+                "claim_ids": {
+                  "type": "array",
+                  "items": {"type": "string"}
+                }
+              },
+              "required": ["text", "claim_ids"]
+            }
+          },
+          "beats": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "t": {"type": "number"},
+                "visual": {"type": "string"}
+              },
+              "required": ["t", "visual"]
+            }
+          },
+          "map_layers": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "labels": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        },
+        "required": ["id", "seconds_target", "narration", "beats", "map_layers", "labels"]
+      }
+    }
+  },
+  "required": ["title", "target_seconds", "scenes"]
+}

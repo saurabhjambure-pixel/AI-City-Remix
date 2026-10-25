@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VerifiedClaimsList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {"type": "string"},
+      "cluster": {"type": "string"},
+      "claim": {"type": "string"},
+      "kind": {
+        "type": "string",
+        "enum": ["event", "date", "number", "place", "name", "culture"]
+      },
+      "value": {"type": ["string", "number", "null"]},
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "url": {"type": "string"},
+            "domain": {"type": "string"},
+            "quote": {"type": "string"},
+            "cache": {"type": "string"}
+          },
+          "required": ["url", "domain", "quote", "cache"]
+        }
+      },
+      "independent_sources": {"type": "integer", "minimum": 2},
+      "verdict": {
+        "type": "object",
+        "properties": {
+          "supported": {"type": "boolean"},
+          "reason": {"type": "string"},
+          "corrected_claim": {"type": ["string", "null"]}
+        },
+        "required": ["supported", "reason"]
+      }
+    },
+    "required": ["id", "cluster", "claim", "kind", "sources", "independent_sources", "verdict"]
+  }
+}

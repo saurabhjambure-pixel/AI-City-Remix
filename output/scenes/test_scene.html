@@ -1,128 +1,660 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>City Remix Test Scene - Three.js</title>
-  <style>
-    body { margin: 0; padding: 0; overflow: hidden; background: #08090d; }
-    canvas { width: 100vw; height: 100vh; display: block; }
-    #overlay {
-      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8);
-      font-size: 28px; font-weight: 600; letter-spacing: 2px;
-      text-transform: uppercase; text-align: center; pointer-events: none;
-    }
-  </style>
-  <script type="importmap">
-    {
-      "imports": {
-        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
-      }
-    }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pune — Mula and Mutha Confluence</title>
+<style>
+  :root {
+    --ink: #0f1115;
+    --ink-soft: #151a20;
+    --saffron: #f2a33a;
+    --river: #5fa8d3;
+    --paper: #e8edf1;
+    --muted: #89949e;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: var(--ink);
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .stage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--ink);
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .scene {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .subtitle {
+    position: absolute;
+    left: 50%;
+    bottom: 36px;
+    z-index: 10;
+    max-width: calc(100vw - 48px);
+    padding: 16px 30px 17px;
+    transform: translateX(-50%) translateY(16px);
+    border-left: 7px solid var(--saffron);
+    border-radius: 4px 12px 12px 4px;
+    background: rgba(15, 17, 21, 0.92);
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.48);
+    color: var(--paper);
+    font-size: clamp(19px, 1.65vw, 32px);
+    font-weight: 720;
+    line-height: 1.25;
+    letter-spacing: 0.012em;
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+  }
+
+  .is-playing .title-kicker {
+    animation: titleKicker 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .title-main {
+    animation: titleRise 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .title-rule {
+    animation: ruleDraw 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .title-detail {
+    animation: detailIn 5s ease-out both;
+  }
+
+  .is-playing .map-frame {
+    animation: frameIn 5s ease-out both;
+  }
+
+  .is-playing .map-grid {
+    animation: gridIn 5s ease-out both;
+  }
+
+  .is-playing .topography {
+    animation: detailIn 5s ease-out both;
+  }
+
+  .is-playing .city-blocks {
+    animation: blocksIn 5s ease-out both;
+  }
+
+  .is-playing .roads-draw path {
+    animation: roadsDraw 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .arterials-draw path {
+    animation: arterialDraw 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .river-underlay {
+    animation: riverUnderlay 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .river-blue {
+    animation: riverBlue 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .river-highlight {
+    animation: riverHighlight 5s ease-out both;
+  }
+
+  .is-playing .river-flow {
+    animation: riverFlow 5s ease-out both;
+  }
+
+  .is-playing .river-label {
+    animation: labelIn 5s ease-out both;
+  }
+
+  .is-playing .landmark {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: landmarkIn 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .confluence-marker {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: markerIn 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-playing .pulse-a {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pulseA 5s ease-out both;
+  }
+
+  .is-playing .pulse-b {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pulseB 5s ease-out both;
+  }
+
+  .is-playing .confluence-callout {
+    animation: calloutIn 5s ease-out both;
+  }
+
+  .is-playing .north-arrow {
+    animation: detailIn 5s ease-out both;
+  }
+
+  .is-playing .legend {
+    animation: detailIn 5s ease-out both;
+  }
+
+  .is-playing .subtitle {
+    animation: subtitleIn 5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .is-finished .title-kicker,
+  .is-finished .title-main,
+  .is-finished .title-rule,
+  .is-finished .title-detail,
+  .is-finished .map-frame,
+  .is-finished .map-grid,
+  .is-finished .topography,
+  .is-finished .city-blocks,
+  .is-finished .roads-draw path,
+  .is-finished .arterials-draw path,
+  .is-finished .river-underlay,
+  .is-finished .river-blue,
+  .is-finished .river-highlight,
+  .is-finished .river-flow,
+  .is-finished .river-label,
+  .is-finished .landmark,
+  .is-finished .confluence-marker,
+  .is-finished .pulse-a,
+  .is-finished .pulse-b,
+  .is-finished .confluence-callout,
+  .is-finished .north-arrow,
+  .is-finished .legend,
+  .is-finished .subtitle {
+    animation-play-state: paused !important;
+  }
+
+  @keyframes titleKicker {
+    0% { opacity: 0; transform: translateY(12px); }
+    7% { opacity: 0; transform: translateY(12px); }
+    18% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes titleRise {
+    0% { opacity: 0; transform: translateY(28px); }
+    8% { opacity: 0; transform: translateY(28px); }
+    22% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes ruleDraw {
+    0% { opacity: 0; transform: scaleX(0); }
+    15% { opacity: 1; transform: scaleX(0); }
+    32% { opacity: 1; transform: scaleX(1); }
+    100% { opacity: 1; transform: scaleX(1); }
+  }
+
+  @keyframes detailIn {
+    0% { opacity: 0; }
+    22% { opacity: 0; }
+    38% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes frameIn {
+    0% { opacity: 0; }
+    8% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes gridIn {
+    0% { opacity: 0; }
+    16% { opacity: 0; }
+    31% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes blocksIn {
+    0% { opacity: 0; }
+    22% { opacity: 0; }
+    39% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes roadsDraw {
+    0% { opacity: 0; stroke-dashoffset: 1; }
+    15% { opacity: 0.2; stroke-dashoffset: 1; }
+    46% { opacity: 1; stroke-dashoffset: 0; }
+    100% { opacity: 1; stroke-dashoffset: 0; }
+  }
+
+  @keyframes arterialDraw {
+    0% { opacity: 0; stroke-dashoffset: 1; }
+    27% { opacity: 0; stroke-dashoffset: 1; }
+    58% { opacity: 1; stroke-dashoffset: 0; }
+    100% { opacity: 1; stroke-dashoffset: 0; }
+  }
+
+  @keyframes riverUnderlay {
+    0% { opacity: 0; stroke-dashoffset: 1; }
+    7% { opacity: 1; stroke-dashoffset: 1; }
+    55% { opacity: 1; stroke-dashoffset: 0; }
+    100% { opacity: 1; stroke-dashoffset: 0; }
+  }
+
+  @keyframes riverBlue {
+    0% { opacity: 0; stroke-dashoffset: 1; }
+    10% { opacity: 1; stroke-dashoffset: 1; }
+    62% { opacity: 1; stroke-dashoffset: 0; }
+    100% { opacity: 1; stroke-dashoffset: 0; }
+  }
+
+  @keyframes riverHighlight {
+    0% { opacity: 0; }
+    34% { opacity: 0; }
+    58% { opacity: 0.68; }
+    100% { opacity: 0.68; }
+  }
+
+  @keyframes riverFlow {
+    0% { opacity: 0; stroke-dashoffset: 0; }
+    24% { opacity: 0; stroke-dashoffset: 0; }
+    35% { opacity: 0.82; stroke-dashoffset: 0; }
+    76% { opacity: 0.5; stroke-dashoffset: -150; }
+    100% { opacity: 0; stroke-dashoffset: -220; }
+  }
+
+  @keyframes labelIn {
+    0% { opacity: 0; transform: translateY(8px); }
+    55% { opacity: 0; transform: translateY(8px); }
+    68% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes landmarkIn {
+    0% { opacity: 0; transform: translateY(14px) scale(0.94); }
+    42% { opacity: 0; transform: translateY(14px) scale(0.94); }
+    57% { opacity: 1; transform: translateY(0) scale(1); }
+    100% { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  @keyframes markerIn {
+    0% { opacity: 0; transform: scale(0.35); }
+    50% { opacity: 0; transform: scale(0.35); }
+    62% { opacity: 1; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes pulseA {
+    0%, 50% { opacity: 0; transform: scale(0.35); }
+    59% { opacity: 0.92; transform: scale(0.8); }
+    78% { opacity: 0; transform: scale(1.85); }
+    100% { opacity: 0; transform: scale(1.85); }
+  }
+
+  @keyframes pulseB {
+    0%, 58% { opacity: 0; transform: scale(0.35); }
+    66% { opacity: 0.75; transform: scale(0.75); }
+    87% { opacity: 0; transform: scale(2.05); }
+    100% { opacity: 0; transform: scale(2.05); }
+  }
+
+  @keyframes calloutIn {
+    0% { opacity: 0; transform: translateX(-12px); }
+    58% { opacity: 0; transform: translateX(-12px); }
+    71% { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes subtitleIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(16px); }
+    63% { opacity: 0; transform: translateX(-50%) translateY(16px); }
+    78% { opacity: 1; transform: translateX(-50%) translateY(0); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  }
+</style>
 </head>
 <body>
-  <div id="overlay">Mumbai: The Gateway of India (1924)</div>
-  <script type="module">
-    import * as THREE from 'three';
+<main class="stage" aria-label="Animated map of Pune at the confluence of the Mula and Mutha rivers">
+  <svg class="scene" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="scene-title scene-desc">
+    <title id="scene-title">Pune at the confluence of the Mula and Mutha rivers</title>
+    <desc id="scene-desc">A stylized dark map of Pune with the Mula flowing south and the Mutha flowing west into their confluence near Sangamwadi, highlighted in saffron and river blue.</desc>
 
-    const scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0x0a0c14, 0.015);
+    <defs>
+      <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#11151b"/>
+        <stop offset="0.48" stop-color="#0f1115"/>
+        <stop offset="1" stop-color="#0b0e12"/>
+      </linearGradient>
 
-    const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.shadowMap.enabled = true;
-    document.body.appendChild(renderer.domElement);
+      <linearGradient id="riverGradient" x1="0" y1="0" x2="0.9" y2="1">
+        <stop offset="0" stop-color="#77c2e7"/>
+        <stop offset="0.48" stop-color="#5fa8d3"/>
+        <stop offset="1" stop-color="#397da6"/>
+      </linearGradient>
 
-    // Lighting
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
-    scene.add(ambientLight);
+      <linearGradient id="saffronGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#ffc061"/>
+        <stop offset="1" stop-color="#f2a33a"/>
+      </linearGradient>
 
-    const sunLight = new THREE.DirectionalLight(0xffecd2, 1.8);
-    sunLight.position.set(40, 60, 30);
-    sunLight.castShadow = true;
-    scene.add(sunLight);
+      <radialGradient id="saffronGlow">
+        <stop offset="0" stop-color="#f2a33a" stop-opacity="0.22"/>
+        <stop offset="0.55" stop-color="#f2a33a" stop-opacity="0.06"/>
+        <stop offset="1" stop-color="#f2a33a" stop-opacity="0"/>
+      </radialGradient>
 
-    const seaLight = new THREE.DirectionalLight(0x38bdf8, 0.6);
-    seaLight.position.set(-30, 10, -20);
-    scene.add(seaLight);
+      <radialGradient id="blueGlow">
+        <stop offset="0" stop-color="#5fa8d3" stop-opacity="0.22"/>
+        <stop offset="0.58" stop-color="#5fa8d3" stop-opacity="0.05"/>
+        <stop offset="1" stop-color="#5fa8d3" stop-opacity="0"/>
+      </radialGradient>
 
-    // Water Surface
-    const waterGeo = new THREE.PlaneGeometry(300, 300, 32, 32);
-    const waterMat = new THREE.MeshStandardMaterial({
-      color: 0x092336,
-      roughness: 0.2,
-      metalness: 0.8
-    });
-    const water = new THREE.Mesh(waterGeo, waterMat);
-    water.rotation.x = -Math.PI / 2;
-    water.position.y = -0.5;
-    scene.add(water);
+      <pattern id="fineGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+        <path d="M48 0H0V48" fill="none" stroke="#dbe6ee" stroke-opacity="0.035" stroke-width="1"/>
+      </pattern>
 
-    // City Base Plaza
-    const plazaGeo = new THREE.BoxGeometry(70, 1, 70);
-    const plazaMat = new THREE.MeshStandardMaterial({ color: 0x1e2430, roughness: 0.7 });
-    const plaza = new THREE.Mesh(plazaGeo, plazaMat);
-    plaza.position.set(0, 0, 0);
-    scene.add(plaza);
+      <pattern id="majorGrid" width="192" height="192" patternUnits="userSpaceOnUse">
+        <path d="M192 0H0V192" fill="none" stroke="#dbe6ee" stroke-opacity="0.055" stroke-width="2"/>
+      </pattern>
 
-    // Central Monument (Gateway Arch style)
-    const archGroup = new THREE.Group();
-    const stoneMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.5, metalness: 0.1 });
+      <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+        <feGaussianBlur stdDeviation="12"/>
+      </filter>
 
-    const pillarLeft = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
-    pillarLeft.position.set(-8, 12, 0);
-    archGroup.add(pillarLeft);
+      <filter id="smallGlow" x="-80%" y="-80%" width="260%" height="260%">
+        <feGaussianBlur stdDeviation="5"/>
+      </filter>
 
-    const pillarRight = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
-    pillarRight.position.set(8, 12, 0);
-    archGroup.add(pillarRight);
+      <clipPath id="mapClip">
+        <rect x="500" y="100" width="1320" height="820" rx="26"/>
+      </clipPath>
+    </defs>
 
-    const topBeam = new THREE.Mesh(new THREE.BoxGeometry(26, 6, 10), stoneMat);
-    topBeam.position.set(0, 24, 0);
-    archGroup.add(topBeam);
+    <rect width="1920" height="1080" fill="url(#backgroundGradient)"/>
+    <rect width="1920" height="1080" fill="url(#fineGrid)"/>
+    <rect width="1920" height="1080" fill="url(#majorGrid)"/>
+    <circle cx="1065" cy="560" r="420" fill="url(#saffronGlow)" opacity="0.44"/>
+    <circle cx="1065" cy="560" r="290" fill="url(#blueGlow)" opacity="0.55"/>
 
-    const dome = new THREE.Mesh(new THREE.SphereGeometry(5, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2), stoneMat);
-    dome.position.set(0, 27, 0);
-    archGroup.add(dome);
+    <g class="map-frame">
+      <rect x="500" y="100" width="1320" height="820" rx="26" fill="#12171d" fill-opacity="0.74" stroke="#303944" stroke-width="4"/>
+      <path d="M500 174H1820" fill="none" stroke="#303944" stroke-width="4"/>
+      <path d="M500 850H1820" fill="none" stroke="#303944" stroke-width="4"/>
+      <rect x="526" y="124" width="1268" height="772" rx="18" fill="url(#fineGrid)" opacity="0.55"/>
+    </g>
 
-    scene.add(archGroup);
+    <g class="map-grid">
+      <text x="548" y="149" fill="#9aa5ae" font-size="18" font-weight="750" letter-spacing="4">PUNE / CONFLUENCE MAP</text>
+      <text x="1760" y="149" fill="#f2a33a" font-size="17" font-weight="800" letter-spacing="3" text-anchor="end">MH 12</text>
+      <path d="M548 164H1762" fill="none" stroke="#48525c" stroke-width="4"/>
+    </g>
 
-    // Background Skyline Buildings
-    const bldgMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.6 });
-    for (let i = 0; i < 40; i++) {
-      const h = 10 + Math.random() * 35;
-      const w = 4 + Math.random() * 6;
-      const bldg = new THREE.Mesh(new THREE.BoxGeometry(w, h, w), bldgMat);
-      const angle = (i / 40) * Math.PI - (Math.PI / 2);
-      const dist = 50 + Math.random() * 40;
-      bldg.position.set(Math.sin(angle) * dist, h / 2, -Math.cos(angle) * dist);
-      scene.add(bldg);
-    }
+    <g clip-path="url(#mapClip)">
+      <g class="topography" fill="none" stroke="#33404a" stroke-width="4" opacity="0.66">
+        <path d="M505 280C610 220 690 235 760 190C830 145 915 160 970 215"/>
+        <path d="M505 325C625 262 694 278 775 235C845 198 917 205 987 252"/>
+        <path d="M505 372C620 312 703 322 786 280C860 243 925 249 997 290"/>
+        <path d="M505 422C615 365 700 369 795 329C870 297 932 300 1003 332"/>
+        <path d="M505 475C630 415 707 424 805 382C875 351 941 347 1007 374"/>
+        <path d="M1120 742C1195 695 1270 690 1350 725C1430 760 1518 757 1596 712C1670 670 1740 670 1825 696"/>
+        <path d="M1104 790C1188 740 1269 736 1351 772C1433 808 1518 803 1597 758C1673 714 1742 717 1825 744"/>
+        <path d="M1087 838C1175 790 1260 789 1348 824C1434 858 1520 853 1602 808C1676 768 1747 768 1825 795"/>
+        <path d="M1322 108C1384 157 1400 211 1378 273C1355 336 1369 389 1425 428"/>
+        <path d="M1384 104C1448 155 1460 217 1438 280C1414 349 1434 400 1493 434"/>
+        <path d="M1448 101C1515 153 1526 220 1501 286C1477 351 1498 399 1559 435"/>
+      </g>
 
-    // Camera Autoplay Tour Loop
-    let startTime = performance.now();
-    function animate() {
-      requestAnimationFrame(animate);
-      const t = (performance.now() - startTime) * 0.0006;
-      // Smooth orbit trajectory
-      camera.position.x = Math.sin(t) * 45;
-      camera.position.z = Math.cos(t) * 45;
-      camera.position.y = 18 + Math.sin(t * 1.5) * 4;
-      camera.lookAt(0, 12, 0);
+      <g class="city-blocks" fill="#171d23" stroke="#303a43" stroke-width="4">
+        <rect x="1090" y="205" width="94" height="62" rx="7"/>
+        <rect x="1212" y="197" width="124" height="76" rx="7"/>
+        <rect x="1367" y="208" width="92" height="76" rx="7"/>
+        <rect x="1491" y="195" width="115" height="70" rx="7"/>
+        <rect x="1635" y="227" width="102" height="84" rx="7"/>
+        <rect x="1100" y="304" width="88" height="67" rx="7"/>
+        <rect x="1212" y="303" width="104" height="84" rx="7"/>
+        <rect x="1348" y="314" width="111" height="78" rx="7"/>
+        <rect x="1490" y="300" width="112" height="78" rx="7"/>
+        <rect x="1635" y="340" width="104" height="85" rx="7"/>
+        <rect x="1130" y="404" width="96" height="70" rx="7"/>
+        <rect x="1252" y="410" width="112" height="75" rx="7"/>
+        <rect x="1394" y="420" width="92" height="69" rx="7"/>
+        <rect x="1510" y="408" width="110" height="84" rx="7"/>
+        <rect x="1650" y="454" width="92" height="73" rx="7"/>
+        <rect x="1100" y="624" width="108" height="80" rx="7"/>
+        <rect x="1236" y="610" width="108" height="74" rx="7"/>
+        <rect x="1373" y="612" width="102" height="82" rx="7"/>
+        <rect x="1504" y="608" width="116" height="88" rx="7"/>
+        <rect x="1650" y="560" width="91" height="84" rx="7"/>
+        <rect x="1115" y="735" width="116" height="75" rx="7"/>
+        <rect x="1260" y="722" width="104" height="82" rx="7"/>
+        <rect x="1395" y="730" width="112" height="73" rx="7"/>
+        <rect x="1538" y="728" width="106" height="78" rx="7"/>
+        <rect x="1672" y="690" width="86" height="91" rx="7"/>
+        <rect x="560" y="614" width="92" height="70" rx="7"/>
+        <rect x="682" y="593" width="108" height="76" rx="7"/>
+        <rect x="550" y="722" width="112" height="71" rx="7"/>
+        <rect x="693" y="700" width="102" height="84" rx="7"/>
+      </g>
 
-      renderer.render(scene, camera);
-    }
-    animate();
+      <g class="roads-draw" fill="none" stroke="#3b4650" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.86">
+        <path pathLength="1" d="M1058 196L1064 837"/>
+        <path pathLength="1" d="M1110 190L1120 838"/>
+        <path pathLength="1" d="M1197 190L1205 835"/>
+        <path pathLength="1" d="M1310 188L1312 837"/>
+        <path pathLength="1" d="M1448 190L1452 833"/>
+        <path pathLength="1" d="M1600 190L1608 833"/>
+        <path pathLength="1" d="M1750 190L1760 833"/>
+        <path pathLength="1" d="M1060 289C1210 280 1328 292 1462 285C1570 280 1665 288 1780 276"/>
+        <path pathLength="1" d="M1060 382C1210 374 1330 390 1460 378C1580 368 1674 378 1780 366"/>
+        <path pathLength="1" d="M1065 497C1210 490 1325 499 1460 492C1580 486 1680 490 1785 480"/>
+        <path pathLength="1" d="M1060 612C1210 604 1330 616 1465 607C1585 600 1685 605 1788 594"/>
+        <path pathLength="1" d="M1060 704C1210 697 1338 712 1460 700C1585 690 1685 700 1790 685"/>
+        <path pathLength="1" d="M1065 797C1210 790 1335 803 1465 792C1580 782 1688 790 1790 778"/>
+        <path pathLength="1" d="M550 545C670 535 795 540 920 530"/>
+        <path pathLength="1" d="M538 650C680 640 800 648 926 635"/>
+        <path pathLength="1" d="M532 760C680 746 800 755 918 741"/>
+        <path pathLength="1" d="M580 200L592 490"/>
+        <path pathLength="1" d="M700 190L710 510"/>
+        <path pathLength="1" d="M820 185L828 520"/>
+      </g>
 
-    window.addEventListener('resize', () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    });
-  </script>
+      <g class="arterials-draw" fill="none" stroke="#8b6331" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+        <path pathLength="1" d="M1048 817C1100 750 1132 678 1148 606C1168 518 1176 414 1190 190"/>
+        <path pathLength="1" d="M1082 570C1200 552 1322 560 1445 548C1570 536 1685 544 1800 526"/>
+        <path pathLength="1" d="M1118 838C1200 732 1260 642 1318 548C1375 456 1418 352 1448 190"/>
+        <path pathLength="1" d="M526 675C660 662 790 667 927 649"/>
+      </g>
+
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <g class="river-underlay" stroke="#263f4d" stroke-width="76" opacity="1">
+          <path pathLength="1" d="M960 100C958 176 1000 218 982 282C966 333 1001 375 1027 426C1052 474 1016 518 1065 560"/>
+          <path pathLength="1" d="M1835 520C1666 500 1530 520 1392 520C1264 520 1168 526 1065 560"/>
+          <path pathLength="1" d="M1065 560C1004 592 966 631 922 687C872 753 806 815 690 916"/>
+        </g>
+
+        <g class="river-blue" stroke="url(#riverGradient)" stroke-width="45">
+          <path pathLength="1" d="M960 100C958 176 1000 218 982 282C966 333 1001 375 1027 426C1052 474 1016 518 1065 560"/>
+          <path pathLength="1" d="M1835 520C1666 500 1530 520 1392 520C1264 520 1168 526 1065 560"/>
+          <path pathLength="1" d="M1065 560C1004 592 966 631 922 687C872 753 806 815 690 916"/>
+        </g>
+
+        <g class="river-highlight" stroke="#bfe8fb" stroke-width="6" opacity="0.68">
+          <path d="M949 117C951 178 987 220 970 285C955 337 990 380 1015 427C1036 468 1008 511 1044 546"/>
+          <path d="M1817 511C1652 493 1529 510 1394 510C1270 509 1164 515 1080 545"/>
+          <path d="M1049 573C997 604 954 641 912 695C861 761 799 819 694 910"/>
+        </g>
+
+        <g class="river-flow" stroke="#e0f5ff" stroke-width="7" stroke-dasharray="18 29" opacity="0">
+          <path d="M960 100C958 176 1000 218 982 282C966 333 1001 375 1027 426C1052 474 1016 518 1065 560"/>
+          <path d="M1835 520C1666 500 1530 520 1392 520C1264 520 1168 526 1065 560"/>
+          <path d="M1065 560C1004 592 966 631 922 687C872 753 806 815 690 916"/>
+        </g>
+      </g>
+
+      <g class="river-label" fill="#9bd5ef" font-weight="850" letter-spacing="7" opacity="1">
+        <text x="929" y="302" transform="rotate(78 929 302)" font-size="24">MULA</text>
+        <text x="1372" y="485" font-size="24">MUTHA</text>
+        <text x="812" y="790" transform="rotate(-38 812 790)" font-size="19" fill="#78b8db">FLOW SOUTH</text>
+      </g>
+
+      <g class="landmark">
+        <g transform="translate(1090 350)">
+          <rect x="0" y="0" width="158" height="118" rx="8" fill="#171a1f" stroke="#f2a33a" stroke-width="5"/>
+          <path d="M0 18H158M18 0V26M48 0V26M79 0V26M110 0V26M140 0V26" fill="none" stroke="#f2a33a" stroke-width="5"/>
+          <path d="M18 92V42H140V92M38 92V62H120V92" fill="none" stroke="#f2a33a" stroke-width="5"/>
+          <rect x="68" y="54" width="23" height="38" rx="11" fill="#f2a33a" opacity="0.9"/>
+          <circle cx="79" cy="21" r="6" fill="#5fa8d3"/>
+        </g>
+        <path d="M1116 479L1116 502L1050 502" fill="none" stroke="#f2a33a" stroke-width="4"/>
+        <rect x="917" y="486" width="134" height="32" rx="6" fill="#0f1115" stroke="#f2a33a" stroke-width="4"/>
+        <text x="984" y="508" fill="#f4c174" font-size="16" font-weight="800" letter-spacing="2" text-anchor="middle">SHANIWAR WADA</text>
+      </g>
+
+      <g class="landmark">
+        <g transform="translate(1414 655)">
+          <rect x="0" y="0" width="126" height="82" rx="8" fill="#171a1f" stroke="#f2a33a" stroke-width="5"/>
+          <path d="M18 18H108M18 43H108M30 0V82M63 0V82M96 0V82" fill="none" stroke="#d18a2f" stroke-width="4"/>
+          <path d="M51 82V58C51 42 75 42 75 58V82" fill="#5fa8d3" stroke="#9dd6ef" stroke-width="4"/>
+        </g>
+        <text x="1477" y="762" fill="#dfe7ed" font-size="16" font-weight="800" letter-spacing="2" text-anchor="middle">PUNE STATION</text>
+      </g>
+
+      <g class="landmark">
+        <circle cx="930" cy="267" r="17" fill="#0f1115" stroke="#f2a33a" stroke-width="5"/>
+        <circle cx="930" cy="267" r="6" fill="#5fa8d3"/>
+        <path d="M930 247V231M916 259L903 246M944 259L957 246" fill="none" stroke="#f2a33a" stroke-width="4" stroke-linecap="round"/>
+        <text x="930" y="225" fill="#dfe7ed" font-size="15" font-weight="750" letter-spacing="2" text-anchor="middle">DAGDUSHETH</text>
+      </g>
+
+      <g class="landmark">
+        <path d="M1627 205L1650 176L1673 205V238H1627Z" fill="#171a1f" stroke="#f2a33a" stroke-width="5"/>
+        <path d="M1641 238V216H1659V238" fill="none" stroke="#f2a33a" stroke-width="4"/>
+        <text x="1650" y="267" fill="#dfe7ed" font-size="15" font-weight="750" letter-spacing="2" text-anchor="middle">AGA KHAN</text>
+      </g>
+
+      <g class="landmark">
+        <circle cx="660" cy="520" r="15" fill="#0f1115" stroke="#f2a33a" stroke-width="5"/>
+        <path d="M660 505V487M649 512L637 500M671 512L683 500" fill="none" stroke="#f2a33a" stroke-width="4" stroke-linecap="round"/>
+        <text x="660" y="561" fill="#aab4bc" font-size="16" font-weight="750" letter-spacing="3" text-anchor="middle">KOTHRUD</text>
+      </g>
+
+      <g class="landmark">
+        <path d="M1358 431L1372 409L1386 431V455H1358Z" fill="#171a1f" stroke="#f2a33a" stroke-width="4"/>
+        <text x="1372" y="477" fill="#aab4bc" font-size="14" font-weight="750" letter-spacing="2" text-anchor="middle">MANGALWAR PETH</text>
+      </g>
+
+      <g class="confluence-marker">
+        <circle class="pulse-a" cx="1065" cy="560" r="30" fill="none" stroke="#f2a33a" stroke-width="6" opacity="0"/>
+        <circle class="pulse-b" cx="1065" cy="560" r="30" fill="none" stroke="#f2a33a" stroke-width="5" opacity="0"/>
+        <circle cx="1065" cy="560" r="31" fill="#0f1115" stroke="#f2a33a" stroke-width="6"/>
+        <circle cx="1065" cy="560" r="14" fill="#5fa8d3" stroke="#d9f1ff" stroke-width="4"/>
+        <circle cx="1065" cy="560" r="5" fill="#f2a33a"/>
+      </g>
+
+      <g class="confluence-callout">
+        <path d="M1091 574L1170 616" fill="none" stroke="#f2a33a" stroke-width="4"/>
+        <circle cx="1170" cy="616" r="5" fill="#f2a33a"/>
+        <rect x="1164" y="590" width="288" height="68" rx="9" fill="#0f1115" stroke="#f2a33a" stroke-width="4"/>
+        <text x="1186" y="617" fill="#f2a33a" font-size="16" font-weight="900" letter-spacing="3">THE SANGAM</text>
+        <text x="1186" y="642" fill="#dce5eb" font-size="16" font-weight="650" letter-spacing="1">MULA + MUTHA · SANGAMWADI</text>
+      </g>
+
+      <g fill="#7f8b94" font-size="14" font-weight="700" letter-spacing="2.4" opacity="0.8">
+        <text x="1202" y="248">MANGALWAR PETH</text>
+        <text x="1510" y="288">YERAWADA</text>
+        <text x="1682" y="488">VIMAN NAGAR</text>
+        <text x="1490" y="827">KOTHRUD</text>
+        <text x="1182" y="827">BHIMWADI</text>
+        <text x="550" y="450">PAUD</text>
+        <text x="555" y="835">WARJE</text>
+        <text x="1575" y="882">PIMPRI</text>
+      </g>
+    </g>
+
+    <g class="title-kicker">
+      <rect x="88" y="67" width="252" height="38" rx="19" fill="none" stroke="#f2a33a" stroke-width="4"/>
+      <circle cx="113" cy="86" r="6" fill="#f2a33a"/>
+      <text x="134" y="93" fill="#f5c77f" font-size="17" font-weight="850" letter-spacing="3">MAHARASHTRA / INDIA</text>
+    </g>
+
+    <g class="title-main">
+      <text x="82" y="244" fill="url(#saffronGradient)" font-size="142" font-weight="950" letter-spacing="-4">PUNE</text>
+      <text x="90" y="289" fill="#dce3e8" font-size="21" font-weight="760" letter-spacing="7">THE CITY OF TWO RIVERS</text>
+    </g>
+
+    <g class="title-rule">
+      <path d="M90 326H423" fill="none" stroke="#f2a33a" stroke-width="7"/>
+      <path d="M90 344H339" fill="none" stroke="#38424b" stroke-width="4"/>
+    </g>
+
+    <g class="title-detail" fill="#aab4bc">
+      <text x="90" y="395" fill="#f2a33a" font-size="16" font-weight="850" letter-spacing="3">CONFLUENCE</text>
+      <text x="90" y="430" font-size="18" font-weight="650" letter-spacing="1.2">18.5204° N</text>
+      <text x="90" y="458" font-size="18" font-weight="650" letter-spacing="1.2">73.8567° E</text>
+      <path d="M90 482H420" fill="none" stroke="#39434c" stroke-width="4"/>
+      <text x="90" y="520" fill="#f2a33a" font-size="15" font-weight="850" letter-spacing="2.5">RIVER SYSTEM</text>
+      <text x="90" y="552" font-size="17" font-weight="650">Mula · North to south</text>
+      <text x="90" y="582" font-size="17" font-weight="650">Mutha · East to west</text>
+      <text x="90" y="628" fill="#f2a33a" font-size="15" font-weight="850" letter-spacing="2.5">CITY PROFILE</text>
+      <text x="90" y="660" font-size="17" font-weight="650">Historic core</text>
+      <text x="90" y="690" font-size="17" font-weight="650">Maratha heartland</text>
+      <text x="90" y="720" font-size="17" font-weight="650">Two rivers, one Pune</text>
+    </g>
+
+    <g class="legend">
+      <rect x="90" y="822" width="334" height="112" rx="14" fill="#141920" stroke="#343e47" stroke-width="4"/>
+      <path d="M118 859H184" fill="none" stroke="#5fa8d3" stroke-width="10" stroke-linecap="round"/>
+      <text x="205" y="866" fill="#dce4e9" font-size="16" font-weight="750" letter-spacing="1.5">RIVER</text>
+      <path d="M118 900H184" fill="none" stroke="#f2a33a" stroke-width="8" stroke-linecap="round"/>
+      <text x="205" y="907" fill="#dce4e9" font-size="16" font-weight="750" letter-spacing="1.5">CONFLUENCE</text>
+    </g>
+
+    <g class="north-arrow">
+      <circle cx="1764" cy="915" r="47" fill="#11161c" stroke="#46515b" stroke-width="4"/>
+      <path d="M1764 878L1782 919L1764 910L1746 919Z" fill="#f2a33a" stroke="#f2a33a" stroke-width="4" stroke-linejoin="round"/>
+      <text x="1764" y="949" fill="#e2e8ec" font-size="18" font-weight="900" text-anchor="middle">N</text>
+    </g>
+  </svg>
+
+  <div class="subtitle">I am Pune. Where the Mula and Mutha meet.</div>
+</main>
+
+<script>
+  (() => {
+    const stage = document.querySelector('.stage');
+    stage.classList.add('is-playing');
+    window.setTimeout(() => {
+      stage.classList.add('is-finished');
+    }, 5000);
+  })();
+</script>
 </body>
 </html>

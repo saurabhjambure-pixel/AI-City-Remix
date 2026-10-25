@@ -19,6 +19,7 @@ if (!input) {
   process.exit(1)
 }
 const size = { width: Number(width), height: Number(height) }
+const targetSec = Number(seconds)
 const dir = mkdtempSync(join(tmpdir(), 'rec-'))
 // WebGL in headless Chromium needs a GPU-less backend; SwiftShader is bundled.
 const browser = await chromium.launch({ channel: process.env.RECORD_CHANNEL || undefined, args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader'] })
@@ -27,10 +28,21 @@ try {
   const page = await context.newPage()
   page.on('pageerror', (e) => console.error('page error:', e.message))
   await page.goto(pathToFileURL(resolve(input)).href, { waitUntil: 'load' })
-  await page.waitForTimeout(Number(seconds) * 1000)
+  await page.waitForTimeout(targetSec * 1000)
   await context.close() // flushes the recording
   const webm = join(dir, readdirSync(dir).find((f) => f.endsWith('.webm')))
-  execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', webm, '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', output], { stdio: 'inherit' })
+  // Convert webm to mp4, cloning the final frame if needed to guarantee exact duration
+  execFileSync('ffmpeg', [
+    '-v', 'error',
+    '-y',
+    '-i', webm,
+    '-vf', 'tpad=stop_mode=clone:stop=-1',
+    '-t', String(targetSec),
+    '-c:v', 'libx264',
+    '-pix_fmt', 'yuv420p',
+    '-movflags', '+faststart',
+    output
+  ], { stdio: 'inherit' })
   console.log(`Saved ${output}`)
 } finally {
   await browser.close()

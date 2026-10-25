@@ -1,442 +1,303 @@
 """
 SandBase API Client for MiniMax M3.1 Flash.
+Target model: minimax/minimax-m3.1-flash
 Endpoint: https://api.sandbase.ai/v1/chat/completions
-Model: minimax/minimax-m3.1-flash
 
-Enforces constraints:
-- Key read from env SANDBASE_API_KEY (or .env file)
-- reasoning_effort must be set explicitly on every call ('low', 'medium', 'high', 'xhigh', 'max')
-- max_tokens 128000 for scene HTML
-- Preserves full assistant message (including reasoning_content) across tool turns
-- Logs every model call and every manual intervention to runs.jsonl
+Enforces MASTER_PLAN.md rules:
+- Key read from .env or environment only.
+- No mocks in real runs: stops and reports if key missing or API unreachable.
+- Explicit effort required per stage (no default).
+- Logs every model call to runs.jsonl: timestamp, stage, scene_id, reasoning_effort,
+  max_tokens, HTTP status, latency, usage (including reasoning_tokens), output file path.
+- Retries twice on 429/5xx/timeout with backoff (10s, 40s). Does not retry 4xx other than 429.
+- JSON schema validation with one repair turn on failure.
+- Full assistant message preserved (including reasoning_content and tool_calls).
 """
 
 import os
 import sys
 import json
 import time
-import base64
-import urllib.request
-import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 
+import requests
+import jsonschema
+from dotenv import load_dotenv
+
+load_dotenv()
 
 RUNS_LOG_PATH = Path("runs.jsonl")
+VALID_REASONING_EFFORTS = {"low", "medium", "high", "xhigh", "max"}
 
 
-def load_env_file(dotenv_path: str = ".env") -> None:
-    """Load key-value pairs from .env if present and not already in os.environ."""
-    p = Path(dotenv_path)
-    if not p.is_file():
-        return
-    try:
-        with open(p, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#") or "=" not in line:
-                    continue
-                k, v = line.split("=", 1)
-                k = k.strip()
-                v = v.strip().strip("'\"")
-                if k not in os.environ:
-                    os.environ[k] = v
-    except Exception as e:
-        print(f"[Warning] Failed to parse {dotenv_path}: {e}", file=sys.stderr)
+def strip_markdown_fences(text: str) -> str:
+    """Strip markdown code block fences if present."""
+    text = text.strip()
+    if text.startswith("```"):
+        lines = text.splitlines()
+        if lines and lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].strip() == "```":
+            lines = lines[:-1]
+        text = "\n".join(lines).strip()
+    return text
 
 
-# Load .env immediately on import
-load_env_file()
-
-
-def log_run_entry(entry: Dict[str, Any], log_path: Union[str, Path] = RUNS_LOG_PATH) -> None:
-    """Append a single JSON line to runs.jsonl."""
-    log_file = Path(log_path)
-    if "timestamp" not in entry:
-        entry["timestamp"] = datetime.now(timezone.utc).isoformat()
-    with open(log_file, "a", encoding="utf-8") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
-
-def log_manual_intervention(action: str, details: Dict[str, Any], reason: str = "") -> None:
-    """Log an explicit manual intervention or environment tweak to runs.jsonl."""
+def log_model_call(
+    stage: str,
+    scene_id: Optional[str],
+    effort: str,
+    max_tokens: int,
+    status_code: Optional[int],
+    latency: float,
+    usage: Dict[str, Any],
+    output_file_path: Optional[str] = None,
+    error: Optional[str] = None,
+) -> None:
+    """Log an M3.1 model call to runs.jsonl as specified in MASTER_PLAN.md §0.5."""
     entry = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "type": "manual_intervention",
-        "action": action,
-        "reason": reason,
-        "details": details,
+        "type": "model_call",
+        "stage": stage,
+        "scene_id": scene_id,
+        "reasoning_effort": effort,
+        "max_tokens": max_tokens,
+        "status_code": status_code,
+        "latency_seconds": round(latency, 3),
+        "usage": usage,
+        "output_file": output_file_path,
+        "error": error,
     }
-    log_run_entry(entry)
-    print(f"[INTERVENTION LOGGED] {action}: {reason}")
+    with open(RUNS_LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 class SandBaseClient:
     API_URL = "https://api.sandbase.ai/v1/chat/completions"
-    DEFAULT_MODEL = "minimax/minimax-m3.1-flash"
-    VALID_REASONING_EFFORTS = {"low", "medium", "high", "xhigh", "max"}
+    MODEL = "minimax/minimax-m3.1-flash"
 
-    def __init__(self, api_key: Optional[str] = None, mock_mode: bool = False):
-        load_env_file()
+    def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or os.environ.get("SANDBASE_API_KEY")
-        self.mock_mode = mock_mode
 
-        if not self.api_key and not self.mock_mode:
-            # Check if user wants mock mode or if key is required
-            print(
-                "[Notice] SANDBASE_API_KEY is not set in environment or .env file.\n"
-                "Run `export SANDBASE_API_KEY=sk-...` or set it in .env to use live MiniMax M3.1 Flash.\n"
-                "To run in offline simulation mode, use mock_mode=True.",
-                file=sys.stderr,
+    def _require_api_key(self) -> str:
+        key = self.api_key or os.environ.get("SANDBASE_API_KEY")
+        if not key or key.strip() == "":
+            raise RuntimeError(
+                "SANDBASE_API_KEY is not set in environment or .env file.\n"
+                "Please add your key to .env (e.g. SANDBASE_API_KEY=sk-...) to proceed."
             )
+        self.api_key = key.strip()
+        return self.api_key
 
-    def chat_completion(
+    def chat(
         self,
+        stage: str,
         messages: List[Dict[str, Any]],
-        reasoning_effort: str,
-        max_tokens: int = 16000,
-        model: Optional[str] = None,
+        effort: str,
+        max_tokens: int,
         tools: Optional[List[Dict[str, Any]]] = None,
         tool_choice: Optional[Union[str, Dict[str, Any]]] = None,
-        temperature: Optional[float] = None,
+        response_format: Optional[Dict[str, Any]] = None,
+        scene_id: Optional[str] = None,
+        output_file_path: Optional[str] = None,
+        schema_path: Optional[Union[str, Path]] = None,
         timeout_seconds: int = 900,
     ) -> Dict[str, Any]:
         """
-        Execute a chat completion request to SandBase API.
+        Execute a chat completion request with MiniMax M3.1 Flash.
         
-        CRITICAL RULES:
-        1. reasoning_effort must be explicitly passed ('low', 'medium', 'high', 'xhigh', 'max').
-        2. Preserves reasoning_content in returned assistant message.
-        3. Logs every model call to runs.jsonl.
+        Rules:
+        - effort is required (no default).
+        - retries twice on 429/5xx/timeout with backoff (10s, 40s).
+        - validates against schema_path if provided, sends one repair turn on failure.
+        - returns choice message dictionary preserving reasoning_content and tool_calls.
         """
-        if not reasoning_effort:
+        if not effort or effort not in VALID_REASONING_EFFORTS:
             raise ValueError(
-                "CRITICAL: reasoning_effort must be set explicitly on every call. "
-                "Supported values: 'low', 'medium', 'high', 'xhigh', 'max'."
-            )
-        if reasoning_effort not in self.VALID_REASONING_EFFORTS:
-            raise ValueError(
-                f"Invalid reasoning_effort: '{reasoning_effort}'. "
-                f"Must be one of {sorted(self.VALID_REASONING_EFFORTS)}."
+                f"CRITICAL: reasoning effort must be explicitly set to one of {sorted(VALID_REASONING_EFFORTS)}. Got: '{effort}'"
             )
 
-        target_model = model or self.DEFAULT_MODEL
-        start_time = time.time()
+        api_key = self._require_api_key()
 
         payload: Dict[str, Any] = {
-            "model": target_model,
+            "model": self.MODEL,
             "messages": messages,
-            "reasoning_effort": reasoning_effort,
+            "reasoning_effort": effort,
             "max_tokens": max_tokens,
         }
         if tools:
             payload["tools"] = tools
             payload["tool_choice"] = tool_choice or "auto"
-        if temperature is not None:
-            payload["temperature"] = temperature
+        if response_format:
+            payload["response_format"] = response_format
 
-        if self.mock_mode or not self.api_key:
-            return self._handle_mock_completion(payload, start_time)
-
-        # Real API Call
         headers = {
-            "Authorization": f"Bearer {self.api_key}",
+            "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
             "User-Agent": "city-remix-pipeline/1.0",
         }
 
-        req_data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(self.API_URL, data=req_data, headers=headers, method="POST")
-
-        status_code = None
+        retry_delays = [10, 40]
+        attempts = 1 + len(retry_delays)
+        last_error = None
         response_json: Dict[str, Any] = {}
-        error_msg: Optional[str] = None
+        status_code: Optional[int] = None
 
+        for attempt in range(attempts):
+            start_time = time.time()
+            try:
+                resp = requests.post(
+                    self.API_URL,
+                    json=payload,
+                    headers=headers,
+                    timeout=timeout_seconds,
+                )
+                status_code = resp.status_code
+                latency = time.time() - start_time
+
+                if status_code == 200:
+                    response_json = resp.json()
+                    usage = response_json.get("usage", {})
+                    log_model_call(
+                        stage=stage,
+                        scene_id=scene_id,
+                        effort=effort,
+                        max_tokens=max_tokens,
+                        status_code=status_code,
+                        latency=latency,
+                        usage=usage,
+                        output_file_path=output_file_path,
+                    )
+                    break
+
+                # Handle HTTP errors
+                error_body = resp.text
+                if status_code == 429 or status_code >= 500:
+                    last_error = f"HTTP {status_code}: {error_body}"
+                    if attempt < len(retry_delays):
+                        delay = retry_delays[attempt]
+                        print(
+                            f"[SandBaseClient] {last_error} on attempt {attempt+1}. Retrying in {delay}s...",
+                            file=sys.stderr,
+                        )
+                        time.sleep(delay)
+                        continue
+                else:
+                    # 4xx error (other than 429): do not retry
+                    last_error = f"HTTP {status_code}: {error_body}"
+                    log_model_call(
+                        stage=stage,
+                        scene_id=scene_id,
+                        effort=effort,
+                        max_tokens=max_tokens,
+                        status_code=status_code,
+                        latency=latency,
+                        usage={},
+                        output_file_path=output_file_path,
+                        error=last_error,
+                    )
+                    raise RuntimeError(f"SandBase API returned unrecoverable error: {last_error}")
+
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+                latency = time.time() - start_time
+                last_error = f"Network/Timeout error: {str(e)}"
+                if attempt < len(retry_delays):
+                    delay = retry_delays[attempt]
+                    print(
+                        f"[SandBaseClient] {last_error} on attempt {attempt+1}. Retrying in {delay}s...",
+                        file=sys.stderr,
+                    )
+                    time.sleep(delay)
+                    continue
+                else:
+                    log_model_call(
+                        stage=stage,
+                        scene_id=scene_id,
+                        effort=effort,
+                        max_tokens=max_tokens,
+                        status_code=None,
+                        latency=latency,
+                        usage={},
+                        output_file_path=output_file_path,
+                        error=last_error,
+                    )
+                    raise RuntimeError(f"SandBase API failed after retries: {last_error}") from e
+
+        if not response_json or "choices" not in response_json:
+            raise RuntimeError(f"Invalid API response received from SandBase: {last_error or 'empty response'}")
+
+        assistant_message = response_json["choices"][0]["message"]
+
+        # Validate against schema if requested
+        if schema_path:
+            assistant_message = self._validate_and_repair(
+                stage=stage,
+                messages=messages,
+                assistant_message=assistant_message,
+                effort=effort,
+                max_tokens=max_tokens,
+                schema_path=Path(schema_path),
+                scene_id=scene_id,
+                output_file_path=output_file_path,
+            )
+
+        return assistant_message
+
+    def _validate_and_repair(
+        self,
+        stage: str,
+        messages: List[Dict[str, Any]],
+        assistant_message: Dict[str, Any],
+        effort: str,
+        max_tokens: int,
+        schema_path: Path,
+        scene_id: Optional[str],
+        output_file_path: Optional[str],
+    ) -> Dict[str, Any]:
+        """Validate content against JSON Schema; attempt exactly one repair turn on failure."""
+        with open(schema_path, "r", encoding="utf-8") as f:
+            schema = json.load(f)
+
+        content = assistant_message.get("content") or ""
+        clean_content = strip_markdown_fences(content)
+
+        validation_error = None
         try:
-            with urllib.request.urlopen(req, timeout=timeout_seconds) as resp:
-                status_code = resp.status
-                body = resp.read().decode("utf-8")
-                response_json = json.loads(body)
-        except urllib.error.HTTPError as e:
-            status_code = e.code
-            err_body = e.read().decode("utf-8", errors="replace")
-            error_msg = f"HTTP {e.code}: {err_body}"
-            print(f"[SandBaseClient Error] {error_msg}", file=sys.stderr)
-            raise RuntimeError(error_msg) from e
+            parsed = json.loads(clean_content)
+            jsonschema.validate(instance=parsed, schema=schema)
+            return assistant_message
         except Exception as e:
-            error_msg = str(e)
-            print(f"[SandBaseClient Network Error] {error_msg}", file=sys.stderr)
-            raise
-        finally:
-            elapsed = time.time() - start_time
-            # Log the model call to runs.jsonl
-            log_entry = {
-                "timestamp": datetime.now(timezone.utc).isoformat(),
-                "type": "model_call",
-                "model": target_model,
-                "endpoint": self.API_URL,
-                "reasoning_effort": reasoning_effort,
-                "max_tokens": max_tokens,
-                "duration_seconds": round(elapsed, 3),
-                "messages_count": len(messages),
-                "status_code": status_code,
-                "usage": response_json.get("usage", {}),
-                "error": error_msg,
-            }
-            if response_json.get("choices"):
-                choice = response_json["choices"][0]
-                assistant_msg = choice.get("message", {})
-                log_entry["assistant_message"] = {
-                    "role": assistant_msg.get("role"),
-                    "has_reasoning_content": bool(assistant_msg.get("reasoning_content")),
-                    "reasoning_length": len(assistant_msg.get("reasoning_content") or ""),
-                    "content_length": len(assistant_msg.get("content") or ""),
-                    "tool_calls_count": len(assistant_msg.get("tool_calls") or []),
-                }
-            log_run_entry(log_entry)
+            validation_error = str(e)
+            print(f"[Schema Validation Warning] Output in stage '{stage}' failed validation: {validation_error}")
 
-        return response_json
+        # Send one repair turn
+        print(f"[Schema Repair] Requesting repair turn from MiniMax M3.1 Flash for stage '{stage}'...")
+        repair_messages = list(messages)
+        repair_messages.append(assistant_message)
+        repair_messages.append({
+            "role": "user",
+            "content": f"Your output failed validation against the required JSON schema:\n{validation_error}\nReturn corrected, valid JSON only matching the schema.",
+        })
 
-    def _handle_mock_completion(self, payload: Dict[str, Any], start_time: float) -> Dict[str, Any]:
-        """High fidelity mock completion for smoke tests when running offline."""
-        messages = payload["messages"]
-        last_msg = messages[-1]
-        tools = payload.get("tools")
-        reasoning_effort = payload["reasoning_effort"]
-        max_tokens = payload["max_tokens"]
-
-        # Formulate mock thinking and response based on prompt context
-        reasoning = (
-            f"[Simulated MiniMax M3.1 Flash reasoning | effort={reasoning_effort}]\n"
-            f"Analyzing prompt. Detected task: city documentary scene creation.\n"
-            f"Determining rendering mode: Three.js 3D canvas with procedural geometry and autoplay camera tour.\n"
-            f"Ensuring 60fps, 1080p viewport, and self-contained HTML with zero external local asset dependencies."
+        repair_msg = self.chat(
+            stage=f"{stage}_repair",
+            messages=repair_messages,
+            effort=effort,
+            max_tokens=max_tokens,
+            scene_id=scene_id,
+            output_file_path=output_file_path,
+            schema_path=None,
         )
 
-        mock_message: Dict[str, Any] = {
-            "role": "assistant",
-            "content": None,
-            "reasoning_content": reasoning,
-        }
-
-        # Check if the model should make a tool call
-        if tools and len(messages) == 1:
-            # First tool call: e.g. research or script
-            mock_message["content"] = "I am orchestrating the documentary production. Initiating city research and outline."
-            mock_message["tool_calls"] = [
-                {
-                    "id": "call_mock_init_01",
-                    "type": "function",
-                    "function": {
-                        "name": "save_research_claims",
-                        "arguments": json.dumps({
-                            "city": "Mumbai",
-                            "claims": [
-                                {
-                                    "era": "1853",
-                                    "topic": "First Passenger Train",
-                                    "claim": "India's first passenger railway operated from Bori Bunder to Thane.",
-                                    "source": "Historical records of Great Indian Peninsula Railway",
-                                },
-                                {
-                                    "era": "1924",
-                                    "topic": "Gateway of India",
-                                    "claim": "Constructed in Indo-Saracenic architectural style overlooking the Arabian Sea.",
-                                    "source": "Bombay Architectural Archives",
-                                },
-                            ],
-                        }),
-                    },
-                }
-            ]
-        elif any("generate a test 3d scene" in str(m.get("content", "")).lower() or "generate_scene_html" in str(m.get("content", "")).lower() for m in messages) or max_tokens == 128000:
-            # Mock scene HTML generation
-            mock_html = self._get_mock_test_scene_html()
-            mock_message["content"] = mock_html
-        elif any("review" in str(m.get("content", "")).lower() for m in messages):
-            # Mock vision review
-            mock_message["content"] = (
-                "VISUAL REVIEW PASS: The rendered frame shows clear 3D architectural geometry, "
-                "proper ambient and directional lighting, smooth procedural motion, and high contrast. "
-                "Framing is well centered for 1080p presentation with no blank canvas detected. Score: 9/10."
+        repair_content = strip_markdown_fences(repair_msg.get("content") or "")
+        try:
+            re_parsed = json.loads(repair_content)
+            jsonschema.validate(instance=re_parsed, schema=schema)
+            print(f"[Schema Repair] Repair turn succeeded for stage '{stage}'.")
+            return repair_msg
+        except Exception as e:
+            raise RuntimeError(
+                f"Stage '{stage}' output failed schema validation after repair turn: {e}\nRaw content:\n{repair_content[:500]}"
             )
-        else:
-            mock_message["content"] = "City documentary sequence verified. All pipeline stages completed."
-
-        elapsed = time.time() - start_time
-        response_json = {
-            "id": f"chatcmpl-mock-{int(time.time())}",
-            "object": "chat.completion",
-            "created": int(time.time()),
-            "model": payload["model"],
-            "choices": [
-                {
-                    "index": 0,
-                    "message": mock_message,
-                    "finish_reason": "tool_calls" if mock_message.get("tool_calls") else "stop",
-                }
-            ],
-            "usage": {
-                "prompt_tokens": 850,
-                "completion_tokens": 1200,
-                "reasoning_tokens": 600,
-                "total_tokens": 2050,
-            },
-        }
-
-        # Log simulated call
-        log_entry = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "type": "model_call",
-            "model": payload["model"],
-            "endpoint": "https://api.sandbase.ai/v1/chat/completions [MOCK_SIMULATION]",
-            "reasoning_effort": reasoning_effort,
-            "max_tokens": max_tokens,
-            "duration_seconds": round(elapsed, 3),
-            "messages_count": len(messages),
-            "status_code": 200,
-            "usage": response_json["usage"],
-            "mock": True,
-            "assistant_message": {
-                "role": mock_message["role"],
-                "has_reasoning_content": True,
-                "reasoning_length": len(reasoning),
-                "content_length": len(mock_message.get("content") or ""),
-                "tool_calls_count": len(mock_message.get("tool_calls") or []),
-            },
-        }
-        log_run_entry(log_entry)
-        return response_json
-
-    @staticmethod
-    def _get_mock_test_scene_html() -> str:
-        """Procedural 3D scene used only for offline simulated verification if no API key is available."""
-        return """<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>City Remix Test Scene - Three.js</title>
-  <style>
-    body { margin: 0; padding: 0; overflow: hidden; background: #08090d; }
-    canvas { width: 100vw; height: 100vh; display: block; }
-    #overlay {
-      position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8);
-      font-size: 28px; font-weight: 600; letter-spacing: 2px;
-      text-transform: uppercase; text-align: center; pointer-events: none;
-    }
-  </style>
-  <script type="importmap">
-    {
-      "imports": {
-        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
-      }
-    }
-  </script>
-</head>
-<body>
-  <div id="overlay">Mumbai: The Gateway of India (1924)</div>
-  <script type="module">
-    import * as THREE from 'three';
-
-    const scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0x0a0c14, 0.015);
-
-    const camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.shadowMap.enabled = true;
-    document.body.appendChild(renderer.domElement);
-
-    // Lighting
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
-    scene.add(ambientLight);
-
-    const sunLight = new THREE.DirectionalLight(0xffecd2, 1.8);
-    sunLight.position.set(40, 60, 30);
-    sunLight.castShadow = true;
-    scene.add(sunLight);
-
-    const seaLight = new THREE.DirectionalLight(0x38bdf8, 0.6);
-    seaLight.position.set(-30, 10, -20);
-    scene.add(seaLight);
-
-    // Water Surface
-    const waterGeo = new THREE.PlaneGeometry(300, 300, 32, 32);
-    const waterMat = new THREE.MeshStandardMaterial({
-      color: 0x092336,
-      roughness: 0.2,
-      metalness: 0.8
-    });
-    const water = new THREE.Mesh(waterGeo, waterMat);
-    water.rotation.x = -Math.PI / 2;
-    water.position.y = -0.5;
-    scene.add(water);
-
-    // City Base Plaza
-    const plazaGeo = new THREE.BoxGeometry(70, 1, 70);
-    const plazaMat = new THREE.MeshStandardMaterial({ color: 0x1e2430, roughness: 0.7 });
-    const plaza = new THREE.Mesh(plazaGeo, plazaMat);
-    plaza.position.set(0, 0, 0);
-    scene.add(plaza);
-
-    // Central Monument (Gateway Arch style)
-    const archGroup = new THREE.Group();
-    const stoneMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.5, metalness: 0.1 });
-
-    const pillarLeft = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
-    pillarLeft.position.set(-8, 12, 0);
-    archGroup.add(pillarLeft);
-
-    const pillarRight = new THREE.Mesh(new THREE.BoxGeometry(6, 24, 8), stoneMat);
-    pillarRight.position.set(8, 12, 0);
-    archGroup.add(pillarRight);
-
-    const topBeam = new THREE.Mesh(new THREE.BoxGeometry(26, 6, 10), stoneMat);
-    topBeam.position.set(0, 24, 0);
-    archGroup.add(topBeam);
-
-    const dome = new THREE.Mesh(new THREE.SphereGeometry(5, 24, 16, 0, Math.PI * 2, 0, Math.PI / 2), stoneMat);
-    dome.position.set(0, 27, 0);
-    archGroup.add(dome);
-
-    scene.add(archGroup);
-
-    // Background Skyline Buildings
-    const bldgMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.6 });
-    for (let i = 0; i < 40; i++) {
-      const h = 10 + Math.random() * 35;
-      const w = 4 + Math.random() * 6;
-      const bldg = new THREE.Mesh(new THREE.BoxGeometry(w, h, w), bldgMat);
-      const angle = (i / 40) * Math.PI - (Math.PI / 2);
-      const dist = 50 + Math.random() * 40;
-      bldg.position.set(Math.sin(angle) * dist, h / 2, -Math.cos(angle) * dist);
-      scene.add(bldg);
-    }
-
-    // Camera Autoplay Tour Loop
-    let startTime = performance.now();
-    function animate() {
-      requestAnimationFrame(animate);
-      const t = (performance.now() - startTime) * 0.0006;
-      // Smooth orbit trajectory
-      camera.position.x = Math.sin(t) * 45;
-      camera.position.z = Math.cos(t) * 45;
-      camera.position.y = 18 + Math.sin(t * 1.5) * 4;
-      camera.lookAt(0, 12, 0);
-
-      renderer.render(scene, camera);
-    }
-    animate();
-
-    window.addEventListener('resize', () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    });
-  </script>
-</body>
-</html>"""
