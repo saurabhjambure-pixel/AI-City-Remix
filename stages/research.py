@@ -11,11 +11,12 @@ from typing import Any, Dict, List, Optional
 
 from sandbase_client import SandBaseClient
 from tools.fetch import fetch_url
-from tools.search import web_search
+from tools.search import ENGINES, web_search
 
 
 MAX_SEARCH_CALLS = 60
 MAX_FETCH_CALLS = 80
+MAX_SAVE_REVISIONS = 1  # after the first save_claims, code-check failures are returned once for fixing
 
 
 RESEARCH_TOOLS = [
@@ -23,12 +24,12 @@ RESEARCH_TOOLS = [
         "type": "function",
         "function": {
             "name": "web_search",
-            "description": "Search the web/Wikipedia for historical, geographic, or cultural articles about the city.",
+            "description": "Search the web for historical, geographic, or cultural pages about the city. SandBase engines that are unavailable fall back to Wikipedia search.",
             "parameters": {
                 "type": "object",
                 "properties": {
                     "query": {"type": "string", "description": "Specific search query"},
-                    "engine": {"type": "string", "enum": ["auto", "wikipedia"], "default": "auto"}
+                    "engine": {"type": "string", "enum": ENGINES, "default": "tavily"}
                 },
                 "required": ["query"]
             }
@@ -38,7 +39,7 @@ RESEARCH_TOOLS = [
         "type": "function",
         "function": {
             "name": "fetch_url",
-            "description": "Fetch a webpage, extract clean text, cache to disk, and return 30k characters of text.",
+            "description": "Fetch a webpage, extract clean text, cache to disk, and return 30k characters of text from offset plus the page's outbound links (e.g. a Wikipedia article's references).",
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -98,12 +99,27 @@ RESEARCH_TOOLS = [
 ]
 
 
+def save_feedback(claims: List[Dict[str, Any]], output_dir: Path) -> List[Dict[str, Any]]:
+    """Run the verify stage's deterministic code check and list what would be discarded."""
+    from stages.verify import MIN_PUBLISHERS, code_check
+    problems = []
+    for c in claims:
+        checked = code_check(c, output_dir)
+        if checked["source_failures"] or checked["independent_sources"] < MIN_PUBLISHERS:
+            problems.append({
+                "id": c.get("id"),
+                "independent_publishers": checked["independent_sources"],
+                "rejected_sources": checked["source_failures"],
+            })
+    return problems
+
+
 def run_research_stage(
     city: str,
     output_dir: Path,
     client: SandBaseClient,
     force: bool = False,
-    max_turns: int = 35,
+    max_turns: int = 60,
 ) -> Path:
     """Execute Stage 1: Research."""
     claims_raw_path = output_dir / "claims.raw.json"
@@ -135,10 +151,13 @@ def run_research_stage(
     search_count = 0
     fetch_count = 0
     claims_saved = False
+    save_revisions = 0
 
     turn = 0
     while turn < max_turns and not claims_saved:
         turn += 1
+        if turn == max_turns - 1 and not claims_raw_path.is_file():
+            messages.append({"role": "user", "content": "Turn limit reached. Call save_claims now with every claim you have."})
         print(f"[Stage 1: Research] Turn {turn}/{max_turns} (Searches: {search_count}/{MAX_SEARCH_CALLS}, Fetches: {fetch_count}/{MAX_FETCH_CALLS})...")
 
         assistant_msg = client.chat(
@@ -179,7 +198,7 @@ def run_research_stage(
                 else:
                     search_count += 1
                     query = args.get("query", city)
-                    res = web_search(query)
+                    res = web_search(query, engine=args.get("engine", "tavily"))
                     result_str = json.dumps(res, ensure_ascii=False)
 
             elif fn_name == "fetch_url":
@@ -197,8 +216,18 @@ def run_research_stage(
                 with open(claims_raw_path, "w", encoding="utf-8") as f:
                     json.dump(claims, f, indent=2, ensure_ascii=False)
                 print(f"[Stage 1: Research] Saved {len(claims)} raw claims to {claims_raw_path}")
-                result_str = json.dumps({"status": "saved", "count": len(claims), "file": str(claims_raw_path)})
-                claims_saved = True
+                feedback = save_feedback(claims, output_dir)
+                if feedback and save_revisions < MAX_SAVE_REVISIONS:
+                    save_revisions += 1
+                    result_str = json.dumps({
+                        "status": "saved_with_problems", "count": len(claims),
+                        "problems": feedback,
+                        "instruction": "Fix these (re-copy complete sentences, add a source from another publisher, "
+                                       "or drop the claim), then call save_claims again with the FULL corrected list.",
+                    }, ensure_ascii=False)
+                else:
+                    result_str = json.dumps({"status": "saved", "count": len(claims), "file": str(claims_raw_path)})
+                    claims_saved = True
 
             else:
                 result_str = json.dumps({"error": f"Unknown tool: {fn_name}"})

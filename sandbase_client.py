@@ -17,6 +17,7 @@ Enforces MASTER_PLAN.md rules:
 import os
 import sys
 import json
+import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 RUNS_LOG_PATH = Path("runs.jsonl")
+_LOG_LOCK = threading.Lock()  # stages call chat() from worker threads
 VALID_REASONING_EFFORTS = {"low", "medium", "high", "xhigh", "max"}
 
 
@@ -70,7 +72,7 @@ def log_model_call(
         "output_file": output_file_path,
         "error": error,
     }
-    with open(RUNS_LOG_PATH, "a", encoding="utf-8") as f:
+    with _LOG_LOCK, open(RUNS_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 

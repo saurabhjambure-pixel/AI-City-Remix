@@ -114,9 +114,7 @@ Each claim **must** carry ≥1 source with a **verbatim quote** copied from the 
 1. **Code (deterministic):** for each source, re-read the cached text and confirm the quote appears in it (normalise whitespace and case). Drop sources that fail.
 2. **Code:** count independent sources = distinct registrable domains, treating Wikipedia mirrors as one.
 3. **M3.1 judge:** for each claim plus its surviving quotes: `{"supported": true|false, "reason": "...", "corrected_claim": "..."|null}`. A correction may only narrow the claim to what the quotes say.
-4. **Keep rule:**
-   - dates and numbers: ≥3 independent supporting sources, **or** ≥2 when one is an official or academic domain (`.gov.in`, `.ac.in`, `.edu`, a journal, PMC/PMRDA, census).
-   - everything else: ≥2 independent sources.
+4. **Keep rule:** judge-supported **and ≥2 independent publishers for every claim** (registrable domains via `tldextract`; Wikipedia family = one publisher; web.archive.org snapshots count as the archived site). Supersedes the earlier 3-source rule for dates and numbers (CLAUDE.md §4A). Before judging, claims with <2 publishers get a corroboration pass (M3.1, ≤3 searches each). Quotes must be complete sentences; date/number quotes must contain the claim's value.
 5. Write `claims.json` (kept only) and `research-report.json`: `{total_raw, kept, dropped, independent_publishers, single_source_claims: 0, providers_used}`.
 
 Acceptance: ≥25 kept claims; `single_source_claims == 0`; every kept quote passes the code check.

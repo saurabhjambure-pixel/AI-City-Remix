@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JudgeVerdicts",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {"type": "string"},
+      "supported": {"type": "boolean"},
+      "reason": {"type": "string"},
+      "corrected_claim": {"type": ["string", "null"]}
+    },
+    "required": ["id", "supported", "reason"]
+  }
+}
