@@ -3,12 +3,13 @@ stages/verify.py
 Stage 2: Verify (code check + corroboration + M3.1 judge)
 1. Code check: each quote must be a complete sentence, appear verbatim in the cached page,
    and (for date/number claims) contain the claim's value.
-2. Corroboration (M3.1 + tools, effort 'high'): claims with < 2 independent publishers get
-   up to 3 searches to add a source from a new publisher. The new source passes the same code check.
-3. M3.1 judge (effort 'xhigh') decides from the quotes alone.
-4. Keep rule: supported AND >= 2 independent publishers (CLAUDE.md §4A; supersedes the
+2. M3.1 judge (effort 'xhigh') decides from the quotes alone, may narrow the claim, and lists
+   the quotes that EACH on their own state the final claim. Only those quotes count.
+3. Corroboration (M3.1 + tools, effort 'high'): supported claims with < 2 supporting publishers get
+   up to 3 searches to add a source from a new publisher (same code check), then are judged again.
+4. Keep rule: supported AND >= 2 independent supporting publishers (CLAUDE.md §4A; supersedes the
    3-source rule for dates and numbers).
-Writes claims.checked.json (resume point), claims.json and research-report.json.
+Writes claims.judged.json (every claim with its verdicts, for audit), claims.json and research-report.json.
 """
 
 import json
@@ -27,6 +28,7 @@ from tools.search import available_engines, web_search
 
 
 MIN_PUBLISHERS = 2
+SEARCH_ENGINE_DOMAINS = {"duckduckgo.com", "google.com", "bing.com", "yahoo.com", "yandex.com", "baidu.com", "search.brave.com", "brave.com", "startpage.com", "ecosia.org"}
 CORROBORATE_MAX_SEARCHES = 3
 CORROBORATE_MAX_FETCHES = 6
 CORROBORATE_MAX_TURNS = 12
@@ -93,6 +95,8 @@ def check_source(src: Dict[str, Any], claim: Dict[str, Any], output_dir: Path) -
     quote = (src.get("quote") or "").strip()
     if not url or not quote:
         return None, "missing url or quote"
+    if extract_registrable_domain(url) in SEARCH_ENGINE_DOMAINS:
+        return None, "search-engine results page is not a publisher; fetch the result's own page"
     body = read_cached_body(url, output_dir)
     if body is None:
         return None, "page was never fetched"
@@ -226,18 +230,49 @@ def corroborate(claim: Dict[str, Any], output_dir: Path, client: SandBaseClient)
 
 def judge_batch(batch: List[Dict[str, Any]], client: SandBaseClient, verify_prompt: str) -> Dict[str, Dict[str, Any]]:
     batch_input = [{"id": c["id"], "claim": c["claim"], "kind": c["kind"], "value": c.get("value"),
-                    "quotes": [s["quote"] for s in c["sources"]]} for c in batch]
+                    "quotes": [{"index": i, "publisher": s["domain"], "quote": s["quote"]} for i, s in enumerate(c["sources"])]}
+                   for c in batch]
     messages = [
         {"role": "system", "content": verify_prompt},
         {"role": "user", "content": (
             "Evaluate these claims based strictly on the provided verbatim quotes.\n"
-            "Return a JSON list of objects: [{\"id\": \"...\", \"supported\": true|false, \"reason\": \"...\", \"corrected_claim\": \"...\"|null}]\n\n"
+            "Return a JSON list of objects: [{\"id\": \"...\", \"supported\": true|false, \"reason\": \"...\", "
+            "\"corrected_claim\": \"...\"|null, \"supporting_quotes\": [indices]}]\n\n"
             f"{json.dumps(batch_input, indent=2, ensure_ascii=False)}")},
     ]
     msg = client.chat(stage="verify", messages=messages, effort="xhigh", max_tokens=32000,
                       schema_path="schemas/verdicts.json", scene_id=",".join(c["id"] for c in batch))
     verdicts = json.loads(strip_markdown_fences(msg.get("content") or "[]"))
     return {v["id"]: v for v in verdicts}
+
+
+def judge_all(claims: List[Dict[str, Any]], client: SandBaseClient, verify_prompt: str) -> Dict[str, Dict[str, Any]]:
+    batches = [claims[i:i + JUDGE_BATCH] for i in range(0, len(claims), JUDGE_BATCH)]
+    print(f"[Stage 2: Verify] Judging {len(claims)} claims in {len(batches)} batches (effort=xhigh)...")
+    verdict_map: Dict[str, Dict[str, Any]] = {}
+    with ThreadPoolExecutor(max_workers=JUDGE_WORKERS) as pool:
+        for vm in pool.map(lambda b: judge_batch(b, client, verify_prompt), batches):
+            verdict_map.update(vm)
+    return verdict_map
+
+
+def apply_verdict(c: Dict[str, Any], v: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    """Narrow the claim to the judge's final wording and keep only the quotes that each support it."""
+    c = dict(c)
+    if not v:
+        c["verdict"] = {"supported": False, "reason": "judge returned no verdict", "corrected_claim": None}
+        c["sources"], c["independent_sources"] = [], 0
+        return c
+    idx = {i for i in v.get("supporting_quotes", []) if isinstance(i, int)}
+    supporting = [s for i, s in enumerate(c["sources"]) if i in idx] if v.get("supported") else []
+    if v.get("corrected_claim"):
+        c.setdefault("original_claim", c["claim"])
+        c["claim"] = v["corrected_claim"]
+    c["unsupporting_sources"] = c.get("unsupporting_sources", []) + [s for s in c["sources"] if s not in supporting]
+    c["sources"] = supporting
+    c["independent_sources"] = len({s["domain"] for s in supporting})
+    c["verdict"] = {"supported": bool(supporting), "reason": v.get("reason", ""), "corrected_claim": v.get("corrected_claim")}
+    return c
 
 
 def run_verify_stage(
@@ -249,7 +284,6 @@ def run_verify_stage(
     """Execute Stage 2: Verify."""
     claims_path = output_dir / "claims.json"
     report_path = output_dir / "research-report.json"
-    checked_path = output_dir / "claims.checked.json"
 
     if claims_path.is_file() and report_path.is_file() and not force:
         print(f"[Stage 2: Verify] Reusing existing {claims_path} and {report_path}")
@@ -260,49 +294,48 @@ def run_verify_stage(
         raise FileNotFoundError(f"Missing {raw_claims_file}. Stage 1 must be run first.")
     raw_claims = json.loads(raw_claims_file.read_text(encoding="utf-8"))
 
-    # 1 + 2. Code check, then corroborate claims short of publishers (resumable via claims.checked.json)
-    if checked_path.is_file() and not force and checked_path.stat().st_mtime >= raw_claims_file.stat().st_mtime:
-        print(f"[Stage 2: Verify] Reusing corroborated claims from {checked_path}")
-        checked = json.loads(checked_path.read_text(encoding="utf-8"))
-    else:
-        checked = [code_check(c, output_dir) for c in raw_claims]
-        need = [i for i, c in enumerate(checked) if c["independent_sources"] < MIN_PUBLISHERS]
-        print(f"[Stage 2: Verify] Code check: {len(checked) - len(need)}/{len(checked)} claims already have "
-              f">= {MIN_PUBLISHERS} publishers; corroborating {len(need)} with {CORROBORATE_WORKERS} workers...")
-        with ThreadPoolExecutor(max_workers=CORROBORATE_WORKERS) as pool:
-            for i, result in zip(need, pool.map(lambda i: corroborate(checked[i], output_dir, client), need)):
-                checked[i] = result
-                print(f"  {result['id']}: {result['independent_sources']} publishers {result['corroboration']['log']}")
-        checked_path.write_text(json.dumps(checked, indent=2, ensure_ascii=False), encoding="utf-8")
-
-    # 3. M3.1 judge on claims that can still meet the keep rule
     verify_prompt = Path("prompts/verify.md").read_text(encoding="utf-8")
-    eligible = [c for c in checked if c["independent_sources"] >= MIN_PUBLISHERS]
-    batches = [eligible[i:i + JUDGE_BATCH] for i in range(0, len(eligible), JUDGE_BATCH)]
-    print(f"[Stage 2: Verify] Judging {len(eligible)} claims in {len(batches)} batches (effort=xhigh)...")
-    verdict_map: Dict[str, Dict[str, Any]] = {}
-    with ThreadPoolExecutor(max_workers=JUDGE_WORKERS) as pool:
-        for vm in pool.map(lambda b: judge_batch(b, client, verify_prompt), batches):
-            verdict_map.update(vm)
+
+    # 1. Code check
+    checked = [code_check(c, output_dir) for c in raw_claims]
+    with_sources = [c for c in checked if c["sources"]]
+    print(f"[Stage 2: Verify] Code check: {len(with_sources)}/{len(checked)} claims have at least one valid quote; "
+          f"{sum(len(c['source_failures']) for c in checked)} quotes rejected.")
+
+    # 2. Judge round 1
+    verdicts = judge_all(with_sources, client, verify_prompt)
+    judged = {c["id"]: apply_verdict(c, verdicts.get(c["id"])) for c in with_sources}
+
+    # 3. Corroborate supported claims short of publishers, then judge them again
+    need = [cid for cid, c in judged.items() if c["verdict"]["supported"] and c["independent_sources"] < MIN_PUBLISHERS]
+    print(f"[Stage 2: Verify] Corroborating {len(need)} supported claims with < {MIN_PUBLISHERS} publishers "
+          f"({CORROBORATE_WORKERS} workers)...")
+    with ThreadPoolExecutor(max_workers=CORROBORATE_WORKERS) as pool:
+        corroborated = list(pool.map(lambda cid: corroborate(judged[cid], output_dir, client), need))
+    gained = [c for c in corroborated if c["independent_sources"] >= MIN_PUBLISHERS]
+    for c in corroborated:
+        print(f"  {c['id']}: {c['independent_sources']} publishers {c['corroboration']['log']}")
+        judged[c["id"]] = c
+    if gained:
+        verdicts2 = judge_all(gained, client, verify_prompt)
+        for c in gained:
+            judged[c["id"]] = apply_verdict(c, verdicts2.get(c["id"]))
 
     # 4. Keep rule
     kept, drop_reasons = [], Counter()
     for c in checked:
-        if c["independent_sources"] < MIN_PUBLISHERS:
-            drop_reasons["fewer than 2 independent publishers"] += 1
-            continue
-        v = verdict_map.get(c["id"])
-        if not v:
-            drop_reasons["judge returned no verdict"] += 1
-            continue
-        if not v.get("supported"):
+        j = judged.get(c["id"])
+        if j is None:
+            drop_reasons["no quote passed the code check"] += 1
+        elif not j["verdict"]["supported"]:
             drop_reasons["judge: quotes do not support claim"] += 1
-            continue
-        c = {k: val for k, val in c.items() if k not in ("source_failures", "corroboration")}
-        c["verdict"] = {"supported": True, "reason": v.get("reason", ""), "corrected_claim": v.get("corrected_claim")}
-        if v.get("corrected_claim"):
-            c["claim"] = v["corrected_claim"]
-        kept.append(c)
+        elif j["independent_sources"] < MIN_PUBLISHERS:
+            drop_reasons["fewer than 2 independent supporting publishers"] += 1
+        else:
+            kept.append({k: val for k, val in j.items()
+                         if k not in ("source_failures", "corroboration", "unsupporting_sources", "original_claim")})
+    (output_dir / "claims.judged.json").write_text(
+        json.dumps([judged.get(c["id"], c) for c in checked], indent=2, ensure_ascii=False), encoding="utf-8")
 
     claims_path.write_text(json.dumps(kept, indent=2, ensure_ascii=False), encoding="utf-8")
 
@@ -315,8 +348,7 @@ def run_verify_stage(
         "independent_publishers": len(publishers),
         "single_source_claims": sum(1 for c in kept if c["independent_sources"] < MIN_PUBLISHERS),
         "providers_used": publishers,
-        "corroborated": sum(1 for c in checked if c.get("corroboration", {}).get("log", []) and
-                            any(l.startswith("added") for l in c["corroboration"]["log"])),
+        "corroborated": sum(1 for c in kept if c["id"] in {g["id"] for g in gained}),
         "drop_reasons": dict(drop_reasons),
         "keep_rule": f">= {MIN_PUBLISHERS} independent publishers (registrable domains; Wikipedia family = 1) and judge-supported",
     }

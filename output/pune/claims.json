@@ -1,30 +1,527 @@
 [
   {
-    "id": "c036",
-    "cluster": "education",
-    "claim": "The College of Engineering Pune traces its origin to the Poona Engineering Class and Mechanical School opened in July 1854 to train Public Works Department subordinate officers.",
+    "id": "c006",
+    "cluster": "origins",
+    "claim": "Copper plates dated 758 and 768 AD record Rashtrakuta rule in the Pune region.",
     "kind": "date",
-    "value": "July 1854",
+    "value": 758,
     "sources": [
       {
-        "url": "https://www.coeptech.ac.in/about-us",
-        "domain": "ac.in",
-        "quote": "COEP’s precursor, The Poona Engineering Class and Mechanical School was opened in July 1854, with an aim to provide suitable learning to the subordinate officers in the Public Works Department.",
-        "cache": "pune/sources/85cab889a813d858abec6b8160d249cdd5a2f959.txt"
+        "url": "https://www.maharashtratourism.net/cities/pune/history.html",
+        "domain": "maharashtratourism.net",
+        "quote": "Evidence found as copper plates of 758 AD and of 768 AD reveal that the Rashtrakootas ruled this region at that time.",
+        "cache": "sources/3400cda8231a293e67b1f26e1721768604e508d5.txt"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/COEP_Technological_University",
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
         "domain": "wikipedia.org",
-        "quote": "The institution was started in July 1854 at Pune, as the \"Poona Engineering and Mechanical School\", to train public works department (PWD) officials and was housed in Bhawanipeth, Poona in three houses for teaching purpose and a separate house for principal to train subordinate officers in the Public Works Department.",
-        "cache": "pune/sources/fd533d0325a0057567ca9cd76f0449d7cf71bb2d.txt"
+        "quote": "The first reference to Pune region is found in two copper plates dated to 758 and 768 AD, issued by Rashtrakuta ruler Krishna I.",
+        "cache": "sources/cf0dd7dd6a9267220e7f0f581f078e004ac5841c.txt"
       }
     ],
     "independent_sources": 2,
     "verdict": {
-      "id": "c036",
       "supported": true,
-      "reason": "The quotes state that COEP's precursor, the Poona Engineering Class and Mechanical School, opened in July 1854 to train Public Works Department subordinate officers.",
+      "reason": "No single quote states all parts of the original claim. Quotes 0 and 1 support the narrower date-and-Rashtrakuta-rule claim, while the naming information appears only in quote 2.",
+      "corrected_claim": "Copper plates dated 758 and 768 AD record Rashtrakuta rule in the Pune region."
+    }
+  },
+  {
+    "id": "c007",
+    "cluster": "origins",
+    "claim": "Pune was ruled by the Yadava dynasty.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      },
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/history.html",
+        "domain": "maharashtratourism.net",
+        "quote": "Pune was ruled by the Yadava dynasty after the Rashtrakootas.",
+        "cache": "sources/3400cda8231a293e67b1f26e1721768604e508d5.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 1 supports rule after the Rashtrakutas, while quote 0 supports Yadava rule of Devagiri through 1327, but neither quote alone supports the entire compound claim. The corrected claim is the common core supported by both.",
+      "corrected_claim": "Pune was ruled by the Yadava dynasty."
+    }
+  },
+  {
+    "id": "c008",
+    "cluster": "origins",
+    "claim": "\"Punya\" means \"holy\".",
+    "kind": "culture",
+    "sources": [
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/history.html",
+        "domain": "maharashtratourism.net",
+        "quote": "The Pune Gazetteer explains the term Pune as Punya - a holy place.",
+        "cache": "sources/3400cda8231a293e67b1f26e1721768604e508d5.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "'Vishaya' means land, while 'Punaka' and 'Punya' mean holy.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 supports the full claim, while quotes 0 and 1 both support the narrower statement that Punya means holy.",
+      "corrected_claim": "\"Punya\" means \"holy\"."
+    }
+  },
+  {
+    "id": "c012",
+    "cluster": "maratha",
+    "claim": "Shivaji spent his early childhood at Lal Mahal, where his mother Jijabai lived.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/history.html",
+        "domain": "maharashtratourism.net",
+        "quote": "Pune became popular with the rise of Maratha ruler Shivaji. He spent his early childhood in Pune at Lal Mahal, a palace built by his father Shahaji, where Shivaji's mother Jijabai lived for a decade.",
+        "cache": "sources/3400cda8231a293e67b1f26e1721768604e508d5.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lal_Mahal",
+        "domain": "wikipedia.org",
+        "quote": "Young Shivaji grew up here, and stayed in the Lal Mahal with his mother Jijabai till he captured the Torna fort in 1645.",
+        "cache": "sources/1fb53aaf1343b1dd9039e3520188a4f270b19121.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Both quotes support that Shivaji spent his early childhood at Lal Mahal where his mother Jijabai lived. Neither quote describes Pune as a razed city, and only quote 0 identifies Shahaji as the builder, so those details are removed.",
+      "corrected_claim": "Shivaji spent his early childhood at Lal Mahal, where his mother Jijabai lived."
+    }
+  },
+  {
+    "id": "c013",
+    "cluster": "maratha",
+    "claim": "Tanaji Malusare died in the Battle of Sinhagad in 1670.",
+    "kind": "date",
+    "value": 1670,
+    "sources": [
+      {
+        "url": "https://www.thehindu.com/news/national/a-warriors-memorial-comes-to-light/article26262366.ece",
+        "domain": "thehindu.com",
+        "quote": "Restoration workers at Sinhagad Fort, 35 km from Pune, have stumbled upon the original commemorative memorial of Tanaji Malusare, the brave Maratha warrior after whom Shivaji is said to have named Sinhagad Fort (Lion's fort). Malusare died in 1670 after being seriously wounded in the Sinhagad battle.",
+        "cache": "sources/c9e5660feb8c7b389e431e0e013a795ea1c0d18b.txt"
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/life-style/why-sinhagad-fort-is-a-popular-site-with-trekkers-and-picnickers/articleshow/73171672.cms",
+        "domain": "indiatimes.com",
+        "quote": "It has a strong historical significance because Maratha warrior Tanhaji fought and died here in the Battle of Sinhagad in 1670.",
+        "cache": "sources/064d19d893703694f899efaeeadef6e57867ca61.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quotes 1 and 2 support Tanaji Malusare's death in the Battle of Sinhagad in 1670. No quote establishes that the fort was Kondhana or that Shivaji renamed it afterward, and quote 1 only says that Shivaji 'is said to have named' it.",
+      "corrected_claim": "Tanaji Malusare died in the Battle of Sinhagad in 1670."
+    }
+  },
+  {
+    "id": "c014",
+    "cluster": "maratha",
+    "claim": "Sinhagad, previously known as Kondhana, is a fort near Pune.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://pune.gov.in/tourist-place/sinhagad/",
+        "domain": "pune.gov.in",
+        "quote": "Sinhagad, ealier known as ‘Kondhana’ is the most prominent and popular fort in Pune.It is located at village Donaje, taluka-Haveli. It is 25 km away from Pune on a hill 1290 m high.",
+        "cache": "sources/ec92f9f80847dd26f227014e4cc972d9d7ef9331.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinhagad_Fort",
+        "domain": "wikipedia.org",
+        "quote": "Sinhagad (also known as the Lion's Fort) is an ancient hill fortress located at around 28 kilometres southwest of Pune, India. Previously known as Kondhana, the fort has been the site of many battles, most notably the Battle of Sinhagad in 1670.",
+        "cache": "sources/5d1ccf1e3be3b987f2bc970a80c4503d72900b37.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 alone states that Sinhagad is the most prominent fort, is 25 km from Pune, and stands on a 1,290 m hill, while quote 1 gives a distance of around 28 km. Both quotes support the former name Kondhana and its location near Pune.",
+      "corrected_claim": "Sinhagad, previously known as Kondhana, is a fort near Pune."
+    }
+  },
+  {
+    "id": "c015",
+    "cluster": "maratha",
+    "claim": "Restoration workers uncovered the original commemorative memorial of Tanaji Malusare.",
+    "kind": "event",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinhagad_Fort",
+        "domain": "wikipedia.org",
+        "quote": "The original commemorative memorial of Tanaji Malusare was unearthed by the restoration workers in February 2019.",
+        "cache": "sources/5d1ccf1e3be3b987f2bc970a80c4503d72900b37.txt"
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/a-warriors-memorial-comes-to-light/article26262366.ece",
+        "domain": "thehindu.com",
+        "quote": "Restoration workers at Sinhagad Fort, 35 km from Pune, have stumbled upon the original commemorative memorial of Tanaji Malusare, the brave Maratha warrior after whom Shivaji is said to have named Sinhagad Fort (Lion’s fort).",
+        "cache": "sources/c9e5660feb8c7b389e431e0e013a795ea1c0d18b.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Both quotes state that restoration workers uncovered or stumbled upon the original commemorative memorial of Tanaji Malusare.",
       "corrected_claim": null
+    }
+  },
+  {
+    "id": "c021",
+    "cluster": "peshwa",
+    "claim": "Nanasaheb Peshwa ruled from 1740 to 1761.",
+    "kind": "date",
+    "value": 1740,
+    "sources": [
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/history.html",
+        "domain": "maharashtratourism.net",
+        "quote": "Nanasaheb Peshwa succeeded Thorala Bajirao Peshwa and ruled the Maratha kingdom from 1740 to 1761.",
+        "cache": "sources/3400cda8231a293e67b1f26e1721768604e508d5.txt"
+      },
+      {
+        "url": "https://web.archive.org/web/20140422232813/http://pune.gov.in/puneCollectorate/Gazette/Poona-II/history_marathas.html",
+        "domain": "pune.gov.in",
+        "quote": "Balaji Bajirav, alias Nanasaheb, Third Peshwa, 1740-1761.",
+        "cache": "sources/dfdaa9cd193ef3b6e84f720acc95f72a09c925f1.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 directly states that Nanasaheb Peshwa ruled from 1740 to 1761, and quote 1 identifies Nanasaheb as the Third Peshwa for the same period. Neither quote supports the additional assertion that he expanded Peshwa administration over Poona.",
+      "corrected_claim": "Nanasaheb Peshwa ruled from 1740 to 1761."
+    }
+  },
+  {
+    "id": "c030",
+    "cluster": "education",
+    "claim": "The College of Engineering Pune was established in 1854.",
+    "kind": "date",
+    "value": 1854,
+    "sources": [
+      {
+        "url": "https://www.coeptech.ac.in/",
+        "domain": "coeptech.ac.in",
+        "quote": "College of Engineering, Pune (CoEP), chartered in 1854 is a nationally respected leader in technical education.",
+        "cache": "sources/9b2b1e3eff586d842f9352ad4b0b45837d2ff1b1.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "The College of Engineering Pune, an autonomous institute of the government of Maharashtra founded in 1854, is the third oldest engineering college in Asia.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "No single quote supports the full claim, including both the 1854 charter and the statement that the college is the third oldest engineering college in Asia. The corrected claim is supported by quote 0, which says it was chartered in 1854, and quote 2, which says it was founded in 1854.",
+      "corrected_claim": "The College of Engineering Pune was established in 1854."
+    }
+  },
+  {
+    "id": "c032",
+    "cluster": "education",
+    "claim": "Pune is known as the 'Oxford of the East' because of its concentration of educational institutions.",
+    "kind": "name",
+    "sources": [
+      {
+        "url": "https://pune.gov.in/en/about-district/",
+        "domain": "pune.gov.in",
+        "quote": "Pune also has made its mark as the educational epicenter winning itself the sobriquet, 'The Oxford of the East'.",
+        "cache": "sources/527b045f859e09e84debd0ea048613016c5b03ca.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 identifies Pune as an educational epicenter that earned the sobriquet 'The Oxford of the East,' while quote 2 explicitly states that the sobriquet is used because of Pune's educational institutions.",
+      "corrected_claim": null
+    }
+  },
+  {
+    "id": "c035",
+    "cluster": "industry",
+    "claim": "Talegaon, Chakan, and Pimpri-Chinchwad are identified as industrial areas.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://timesofindia.indiatimes.com/city/pune/hinjawadi-no-1-liveable-city-in-india/articleshow/78403304.cms",
+        "domain": "indiatimes.com",
+        "quote": "Hinjawadi is well-connected to the suburbs of Baner and Wakad as well as the industrial areas of Talegaon, Chakan and Pimpri-Chinchwad.",
+        "cache": "sources/ce23a0a2d89790ade54670b34ef8e90d61c7cbb7.txt"
+      },
+      {
+        "url": "https://www.financialexpress.com/money/hinjawadi-an-investors-paradise-in-pune/2568206/",
+        "domain": "financialexpress.com",
+        "quote": "Hinjawadi is in proximity to the suburbs of Baner near Wakad as well as the industrial areas of Talegaon, Chakan, and Pimpri-Chinchwad.",
+        "cache": "sources/ed4a9b62f33dc12a4d6450a6ce134529e1a65570.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quotes 0 and 1 identify Talegaon, Chakan, and Pimpri-Chinchwad as industrial areas. No quote states that these three places collectively form 'the industrial belt of the Pune region,' so the claim is narrowed accordingly.",
+      "corrected_claim": "Talegaon, Chakan, and Pimpri-Chinchwad are identified as industrial areas."
+    }
+  },
+  {
+    "id": "c037",
+    "cluster": "industry",
+    "claim": "Pimpri-Chinchwad is the third fastest growing city in the country.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://timesofindia.indiatimes.com/city/pune/pimpri-chinchwad-is-third-fastest-growing-city-in-the-country/articleshow/65687190.cms",
+        "domain": "indiatimes.com",
+        "quote": "In the last two decades, Pimpri Chinchwad is the third fastest growing city in the country.",
+        "cache": "sources/dcc616fa0ab86434a5ef1ee2948c09374e9de148.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "domain": "wikipedia.org",
+        "quote": "It is one of the most rapidly developing suburban areas in India and has emerged as the third fastest growing city in the country.",
+        "cache": "sources/4d24bbd1efdea690628f27e794f08d0c9da9c787.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "No single quote states every part of the original claim. Quotes 1 and 2 both support the narrower claim that Pimpri-Chinchwad is the third fastest growing city in the country.",
+      "corrected_claim": "Pimpri-Chinchwad is the third fastest growing city in the country."
+    }
+  },
+  {
+    "id": "c039",
+    "cluster": "industry",
+    "claim": "Bajaj Auto is committed to promoting science and technology as part of its CSR focus, with skill development in STEM as a focus area.",
+    "kind": "name",
+    "sources": [
+      {
+        "url": "https://www.bajajauto.com/corporate/",
+        "domain": "bajajauto.com",
+        "quote": "Bajaj Auto is committed to promoting science and technology as part of its CSR focus areas i.e. Skill-development in STEM.",
+        "cache": "sources/d47837ffe5a1badc941d5936fbc8c3974669d801.txt"
+      },
+      {
+        "url": "https://duckduckgo.com/html/?q=Bajaj+Auto+CSR+STEM+skill+development+skilling+initiative",
+        "domain": "duckduckgo.com",
+        "quote": "Bajaj Auto is committed to promoting science and technology as part of its CSR focus areas i.e. Skill-development in STEM. Our CSR initiatives are designed to address skill-gaps in STEM from school education to higher education.",
+        "cache": "sources/d36f16360d865bd7df8ee9224f5d31e48d2c93a1.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Both quotes directly state that Bajaj Auto is committed to promoting science and technology through its CSR focus on skill development in STEM.",
+      "corrected_claim": null
+    }
+  },
+  {
+    "id": "c040",
+    "cluster": "it_growth",
+    "claim": "The Rajiv Gandhi Infotech Park, also known as Hinjawadi IT Park, occupies 2,800 acres and has over 165 offices of top corporates.",
+    "kind": "number",
+    "value": "2,800",
+    "sources": [
+      {
+        "url": "https://timesofindia.indiatimes.com/city/pune/hinjawadi-no-1-liveable-city-in-india/articleshow/78403304.cms",
+        "domain": "indiatimes.com",
+        "quote": "The RGIP, also known as Hinjawadi IT Park, occupies 2,800 acres and has over 165 offices of top corporates.",
+        "cache": "sources/ce23a0a2d89790ade54670b34ef8e90d61c7cbb7.txt"
+      },
+      {
+        "url": "https://www.financialexpress.com/money/hinjawadi-an-investors-paradise-in-pune/2568206/",
+        "domain": "financialexpress.com",
+        "quote": "Also known as the Hinjawadi Park, it occupies 2800 acres and has over 165 offices of top corporates.",
+        "cache": "sources/ed4a9b62f33dc12a4d6450a6ce134529e1a65570.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Only quote 0 supports the full claim of 2,800 acres and offices of over 800 companies. Quotes 1 and 2 instead agree that the park has over 165 offices of top corporates, so the claim is narrowed to the fact supported by two publishers.",
+      "corrected_claim": "The Rajiv Gandhi Infotech Park, also known as Hinjawadi IT Park, occupies 2,800 acres and has over 165 offices of top corporates."
+    }
+  },
+  {
+    "id": "c042",
+    "cluster": "it_growth",
+    "claim": "The IT park was built at a cost of Rs 155 crore by MIDC.",
+    "kind": "event",
+    "sources": [
+      {
+        "url": "https://economictimes.indiatimes.com/west/rajiv-gandhi-infotech-park-in-hinjewadi-facing-infrastructural-problems/articleshow/12467920.cms",
+        "domain": "indiatimes.com",
+        "quote": "Built at a cost of Rs 155 crore by MIDC, the IT park is challenged by chaotic traffic, insufficient security arrangements and shortage of power supply among many other things.",
+        "cache": "sources/fe90eb85b3652568a2f1ee6009b45b686ac1f032.txt"
+      },
+      {
+        "url": "https://duckduckgo.com/html/?q=Hinjewadi+%22IT+park%22+MIDC+%22Rs+155+crore%22",
+        "domain": "duckduckgo.com",
+        "quote": "Hinjewadi is home to the Rajiv Gandhi Infotech Park, which is spread over 2,800 acres and was built by the Maharashtra Industrial Development Corporation at a reported cost of Rs 155 crore.",
+        "cache": "sources/1125836d8f6b78414cf7a7fa6344cb2e98a088a1.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Both quotes state that the IT park was built by MIDC, also identified as the Maharashtra Industrial Development Corporation, at a cost of Rs 155 crore.",
+      "corrected_claim": null
+    }
+  },
+  {
+    "id": "c045",
+    "cluster": "it_growth",
+    "claim": "Hinjawadi is popularly known as Pune's Silicon Valley.",
+    "kind": "name",
+    "sources": [
+      {
+        "url": "https://www.financialexpress.com/money/hinjawadi-an-investors-paradise-in-pune/2568206/",
+        "domain": "financialexpress.com",
+        "quote": "Popularly known as Pune’s Silicon Valley, Hinjawadi has the presence of top multinationals.",
+        "cache": "sources/ed4a9b62f33dc12a4d6450a6ce134529e1a65570.txt"
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/city/pune/hinjawadi-no-1-liveable-city-in-india/articleshow/78403304.cms",
+        "domain": "indiatimes.com",
+        "quote": "Hinjawadi is popularly known as Puneâs Silicon Valley.",
+        "cache": "sources/ce23a0a2d89790ade54670b34ef8e90d61c7cbb7.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Both quotes state that Hinjawadi is popularly known as Pune's Silicon Valley.",
+      "corrected_claim": null
+    }
+  },
+  {
+    "id": "c046",
+    "cluster": "culture",
+    "claim": "Tilak started the celebration of Ganesh Chaturthi.",
+    "kind": "culture",
+    "sources": [
+      {
+        "url": "https://timesofindia.indiatimes.com/travel/destinations/125-years-ago-a-halwai-made-this-famous-ganpati-temple-in-pune/articleshow/70979655.cms",
+        "domain": "indiatimes.com",
+        "quote": "Years later, when Lokmanya Tilak started the practice of organising annual Ganesh Chaturthi celebrations in Maharashtra, Dagdusheth Ganpati gained fame as the most adored deity in Pune.",
+        "cache": "sources/c3d78cba5c614d4202eadebd724d65357ea19abf.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "Ganesh Chaturthi is widely and publicly celebrated in Pune. Lokamanya Bal Gangadhar Tilak started the public celebration of the festival as a means to circumvent the colonial British government ban on Hindu gatherings through its anti-public assembly legislation in 1892.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "No single quote establishes the full composite claim, particularly the characterization of Ganeshotsav as Pune's premier festival and the precise formulation about Dagadusheth Ganpati. Quotes 0 and 1 both support the narrower fact that Tilak started the celebration of Ganesh Chaturthi.",
+      "corrected_claim": "Tilak started the celebration of Ganesh Chaturthi."
+    }
+  },
+  {
+    "id": "c047",
+    "cluster": "culture",
+    "claim": "Dagdusheth Halwai and his wife Lakshmibai lost their only son to the plague epidemic.",
+    "kind": "place",
+    "sources": [
+      {
+        "url": "https://timesofindia.indiatimes.com/travel/destinations/125-years-ago-a-halwai-made-this-famous-ganpati-temple-in-pune/articleshow/70979655.cms",
+        "domain": "indiatimes.com",
+        "quote": "The story dates back to more than 125 years when Shri Dagdusheth Halwai and his wife Lakshmibai lived in Pune. As fate would have it, they lost their only son to the plague epidemic.",
+        "cache": "sources/c3d78cba5c614d4202eadebd724d65357ea19abf.txt"
+      },
+      {
+        "url": "https://www.pilgrimaide.com/blog/Dagdusheth-Halwai-Ganapati-Temple",
+        "domain": "pilgrimaide.com",
+        "quote": "He lost his only son to the plague epidemic in the late 1800s. A very depressed Dagduseth and his wife, Lakshmibai were asked to build a temple by their Guru Shri Madhavnath Maharaj.",
+        "cache": "sources/c3cda5d219a54a9c9efd1a761582b68288529562.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 explicitly states that Dagdusheth Halwai and his wife Lakshmibai lost their only son to the plague epidemic; quote 1 independently conveys the same fact.",
+      "corrected_claim": null
+    }
+  },
+  {
+    "id": "c049",
+    "cluster": "culture",
+    "claim": "Ganeshotsav is celebrated in Pune.",
+    "kind": "culture",
+    "sources": [
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/",
+        "domain": "maharashtratourism.net",
+        "quote": "This is the most important and biggest festival in Pune. It falls on the 4th day of the bright fortnight of Bhadrapada (August - September). People buy Ganesh images to keep in their houses as a divine guest for five to ten days.",
+        "cache": "sources/aca517bec49968d56d332dfbdf8764ee5d293672.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "domain": "wikipedia.org",
+        "quote": "Ganesh Chaturthi is widely and publicly celebrated in Pune.",
+        "cache": "sources/d56705ced29ca098f165e14559c4fe4b6e358e82.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "Quote 0 supports the festival's prominence, its Bhadrapada timing, and a five-to-ten-day household display, but it does not say that public pandals hold the idols. Quotes 0 and 1 both support the narrower proposition that Ganeshotsav is celebrated in Pune.",
+      "corrected_claim": "Ganeshotsav is celebrated in Pune."
+    }
+  },
+  {
+    "id": "c050",
+    "cluster": "culture",
+    "claim": "Pune is a cultural centre of Maharashtra.",
+    "kind": "culture",
+    "sources": [
+      {
+        "url": "https://www.maharashtratourism.net/cities/pune/",
+        "domain": "maharashtratourism.net",
+        "quote": "Pune, the cultural capital of Maharashtra, is an important city of India.",
+        "cache": "sources/aca517bec49968d56d332dfbdf8764ee5d293672.txt"
+      },
+      {
+        "url": "https://pune.gov.in/en/about-district/",
+        "domain": "pune.gov.in",
+        "quote": "The city leads as the 'veritable heartland' of cultural Maharashtra.",
+        "cache": "sources/527b045f859e09e84debd0ea048613016c5b03ca.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "supported": true,
+      "reason": "The quotes support Pune's status as a cultural centre, but none states that it is a centre specifically for Marathi theatre, music, literature, and education. The corrected claim narrows the assertion to the cultural-centre fact supported by quotes 0 and 1.",
+      "corrected_claim": "Pune is a cultural centre of Maharashtra."
     }
   }
 ]

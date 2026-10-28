@@ -8,8 +8,9 @@
       "id": {"type": "string"},
       "supported": {"type": "boolean"},
       "reason": {"type": "string"},
-      "corrected_claim": {"type": ["string", "null"]}
+      "corrected_claim": {"type": ["string", "null"]},
+      "supporting_quotes": {"type": "array", "items": {"type": "integer", "minimum": 0}}
     },
-    "required": ["id", "supported", "reason"]
+    "required": ["id", "supported", "reason", "supporting_quotes"]
   }
 }

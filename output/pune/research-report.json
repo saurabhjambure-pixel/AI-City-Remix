@@ -1,16 +1,26 @@
 {
   "city": "Pune",
-  "total_raw": 60,
-  "kept": 1,
-  "dropped": 59,
-  "independent_publishers": 6,
+  "total_raw": 50,
+  "kept": 20,
+  "dropped": 30,
+  "independent_publishers": 10,
   "single_source_claims": 0,
   "providers_used": [
-    "ac.in",
-    "fergusson.edu",
-    "gov.in",
-    "kirloskars.com",
-    "seruminstitute.com",
+    "bajajauto.com",
+    "coeptech.ac.in",
+    "duckduckgo.com",
+    "financialexpress.com",
+    "indiatimes.com",
+    "maharashtratourism.net",
+    "pilgrimaide.com",
+    "pune.gov.in",
+    "thehindu.com",
     "wikipedia.org"
-  ]
+  ],
+  "corroborated": 6,
+  "drop_reasons": {
+    "fewer than 2 independent supporting publishers": 25,
+    "judge: quotes do not support claim": 5
+  },
+  "keep_rule": ">= 2 independent publishers (registrable domains; Wikipedia family = 1) and judge-supported"
 }

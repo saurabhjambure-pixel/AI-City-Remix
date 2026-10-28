@@ -1,0 +1,215 @@
+{
+  "city": "Pune",
+  "search_bbox": [
+    18.3,
+    73.5,
+    18.8,
+    74.1
+  ],
+  "boundaries": [
+    {
+      "id": "boundary_city",
+      "label": "Pune",
+      "query": "Pune City Subdistrict",
+      "name_regex": "^Pune City"
+    }
+  ],
+  "rivers": [
+    {
+      "id": "river_mula",
+      "label": "Mula",
+      "query": "Mula River",
+      "osm_name": "Mula"
+    },
+    {
+      "id": "river_mutha",
+      "label": "Mutha",
+      "query": "Mutha River",
+      "osm_name": "Mutha"
+    },
+    {
+      "id": "river_mula_mutha",
+      "label": "Mula-Mutha",
+      "query": "Mula-Mutha River",
+      "osm_name": "Mula-Mutha"
+    }
+  ],
+  "confluence": {
+    "id": "sangam",
+    "label": "Sangam",
+    "between": [
+      "river_mula",
+      "river_mutha"
+    ]
+  },
+  "places": [
+    {
+      "id": "shaniwar_wada",
+      "label": "Shaniwar Wada",
+      "names": [
+        "Shaniwar Wada"
+      ]
+    },
+    {
+      "id": "lal_mahal",
+      "label": "Lal Mahal",
+      "names": [
+        "Lal Mahal"
+      ]
+    },
+    {
+      "id": "sinhagad",
+      "label": "Sinhagad",
+      "names": [
+        "Sinhagad"
+      ]
+    },
+    {
+      "id": "pataleshwar",
+      "label": "Pataleshwar",
+      "names": [
+        "Pataleshwar Cave Temple",
+        "Pataleshwar Caves",
+        "Pataleshwar"
+      ]
+    },
+    {
+      "id": "parvati",
+      "label": "Parvati Hill",
+      "names": [
+        "Parvati Hill",
+        "Parvati Temple"
+      ]
+    },
+    {
+      "id": "fergusson_college",
+      "label": "Fergusson College",
+      "names": [
+        "Fergusson College"
+      ]
+    },
+    {
+      "id": "coep",
+      "label": "COEP",
+      "names": [
+        "COEP Technological University",
+        "College of Engineering Pune",
+        "College of Engineering, Pune"
+      ]
+    },
+    {
+      "id": "sppu",
+      "label": "Pune University",
+      "names": [
+        "Savitribai Phule Pune University"
+      ]
+    },
+    {
+      "id": "pune_cantonment",
+      "label": "Pune Cantonment",
+      "names": [
+        "Pune Cantonment"
+      ]
+    },
+    {
+      "id": "khadki",
+      "label": "Khadki",
+      "names": [
+        "Khadki"
+      ]
+    },
+    {
+      "id": "pimpri_chinchwad",
+      "label": "Pimpri-Chinchwad",
+      "names": [
+        "Pimpri-Chinchwad"
+      ]
+    },
+    {
+      "id": "hinjewadi",
+      "label": "Hinjewadi",
+      "names": [
+        "Hinjawadi",
+        "Hinjewadi",
+        "Rajiv Gandhi Infotech Park"
+      ]
+    },
+    {
+      "id": "magarpatta",
+      "label": "Magarpatta",
+      "names": [
+        "Magarpatta City",
+        "Magarpatta"
+      ]
+    },
+    {
+      "id": "dagdusheth",
+      "label": "Dagdusheth Ganpati",
+      "names": [
+        "Shreemant Dagdusheth Halwai Ganpati Mandir",
+        "Dagdusheth Halwai Ganpati Temple",
+        "Dagdusheth Ganpati"
+      ]
+    }
+  ],
+  "views": {
+    "core": {
+      "center": "sangam",
+      "radius_km": 3.0,
+      "show": [
+        "shaniwar_wada",
+        "lal_mahal",
+        "sangam",
+        "dagdusheth",
+        "pataleshwar",
+        "fergusson_college",
+        "coep",
+        "parvati",
+        "river_mula",
+        "river_mutha",
+        "river_mula_mutha",
+        "boundary_city"
+      ]
+    },
+    "city": {
+      "fit": [
+        "boundary_city",
+        "pimpri_chinchwad",
+        "hinjewadi",
+        "khadki",
+        "magarpatta"
+      ],
+      "show": [
+        "sangam",
+        "pimpri_chinchwad",
+        "hinjewadi",
+        "khadki",
+        "pune_cantonment",
+        "magarpatta",
+        "sppu",
+        "river_mula",
+        "river_mutha",
+        "river_mula_mutha",
+        "boundary_city"
+      ]
+    },
+    "region": {
+      "fit": [
+        "boundary_city",
+        "pimpri_chinchwad",
+        "hinjewadi",
+        "sinhagad"
+      ],
+      "show": [
+        "sangam",
+        "sinhagad",
+        "pimpri_chinchwad",
+        "hinjewadi",
+        "river_mula",
+        "river_mutha",
+        "river_mula_mutha",
+        "boundary_city"
+      ]
+    }
+  }
+}
