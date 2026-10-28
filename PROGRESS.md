@@ -21,7 +21,7 @@
       `python3 run.py --city "Pune" --stage verify`
       `python3 run.py --city "Pune" --stage mapdata`
 
-- **2026-10-29 ~01:30 IST — Handoff steps 1–4 (Claude Code)**
+- **2026-10-29 ~00:20 IST — Handoff steps 1–4 (Claude Code)**
   - **Step 1:** committed previous agent's state (`wip: antigravity state`); source caches, map cache, logs and MP4s now gitignored. Tree matched CLAUDE.md §4 (no root `tools.py`; it is the `tools/` package).
   - **Step 2:** `.env` key works: one `low` smoke call, HTTP 200, 7 reasoning tokens.
   - **Step 3 (defect A):**
@@ -37,3 +37,10 @@
     - Three views (core 3 km around the Sangam, city, region) with their own projections, label placement with no label overlaps, 20 KB total. `preview.html` + `preview_{core,city,region}.png` via `scripts/shoot_preview.mjs`, zero console errors. Fergusson College omitted from core (no room for its label).
     - Note: `svg_paths.json` is now `{views: {core|city|region: {layers: …}}}`; `stages/script.py` and `stages/scenes.py` still read the old flat format — fix in step 5 (defect C). `stages/endcard.py` defaults `independent_publishers` to 10 if missing — remove in step 5.
   - **Blocked:** ≥25 verified claims (have 18). Owner decision needed on how to get more.
+
+- **2026-10-29 00:52 IST — Research extend round (owner request: more claims, prioritise geography + British)**
+  - New `run.py --extend --priority <clusters>`: research keeps the verified raw claims, M3.1 adds new ones only (prompt now stresses that EACH quote must state the whole claim). Run-1 files kept as `claims.raw.run1.json` / `claims.run1.json`.
+  - Result: 20 carried + 37 new = 57 raw → **24 kept**, 33 dropped (30 with exactly one supporting publisher, 3 unsupported), 14 publishers, 8 rescued by corroboration, single_source_claims 0. c039 (DuckDuckGo) now dropped; c042 re-sourced from indiatimes.
+  - Per cluster kept: industry 4, culture 4, geography 4, maratha 3, education 3, it_growth 3, british 2, origins 1, **peshwa 0** (the one run-1 Peshwa claim failed re-judging).
+  - Several new geography claims were narrowed by the judge to weak wording (e.g. "Khadakwasla is a source of water").
+  - **Gate (≥25) still NOT met: 24.**

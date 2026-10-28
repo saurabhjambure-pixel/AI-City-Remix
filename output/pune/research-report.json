@@ -1,26 +1,30 @@
 {
   "city": "Pune",
-  "total_raw": 50,
-  "kept": 20,
-  "dropped": 30,
-  "independent_publishers": 10,
+  "total_raw": 57,
+  "kept": 24,
+  "dropped": 33,
+  "independent_publishers": 14,
   "single_source_claims": 0,
   "providers_used": [
-    "bajajauto.com",
+    "asianage.com",
     "coeptech.ac.in",
-    "duckduckgo.com",
     "financialexpress.com",
+    "hindustantimes.com",
+    "indianexpress.com",
     "indiatimes.com",
+    "indiatravelblog.com",
     "maharashtratourism.net",
-    "pilgrimaide.com",
-    "pune.gov.in",
+    "rediff.com",
+    "thehighereducationreview.com",
     "thehindu.com",
+    "unipune.ac.in",
+    "virtualpune.com",
     "wikipedia.org"
   ],
-  "corroborated": 6,
+  "corroborated": 8,
   "drop_reasons": {
-    "fewer than 2 independent supporting publishers": 25,
-    "judge: quotes do not support claim": 5
+    "fewer than 2 independent supporting publishers": 30,
+    "judge: quotes do not support claim": 3
   },
   "keep_rule": ">= 2 independent publishers (registrable domains; Wikipedia family = 1) and judge-supported"
 }

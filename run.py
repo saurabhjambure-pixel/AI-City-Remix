@@ -48,6 +48,8 @@ def main():
     parser.add_argument("--stage", type=str, default="all", choices=STAGES + ["all"], help="Stage to run (or 'all')")
     parser.add_argument("--force", type=str, default=None, help="Force rerun of specific stage (or 'all')")
     parser.add_argument("--workers", type=int, default=4, help="Parallel workers for scene generation")
+    parser.add_argument("--extend", action="store_true", help="research: keep verified claims and add new ones")
+    parser.add_argument("--priority", type=str, default="", help="research --extend: comma-separated clusters to prioritise")
 
     args = parser.parse_args()
 
@@ -76,7 +78,8 @@ def main():
         force_flag = should_force(stg)
 
         if stg == "research":
-            run_research_stage(city, output_dir, client, force=force_flag)
+            run_research_stage(city, output_dir, client, force=force_flag, extend=args.extend,
+                               priority_clusters=[c for c in args.priority.split(",") if c])
         elif stg == "verify":
             run_verify_stage(city, output_dir, client, force=force_flag)
         elif stg == "mapdata":

@@ -120,8 +120,14 @@ def run_research_stage(
     client: SandBaseClient,
     force: bool = False,
     max_turns: int = 60,
+    extend: bool = False,
+    priority_clusters: Optional[List[str]] = None,
 ) -> Path:
-    """Execute Stage 1: Research."""
+    """Execute Stage 1: Research.
+
+    extend=True keeps the raw claims that verify already kept (claims.json) and asks M3.1 for
+    NEW claims only, prioritising priority_clusters; the saved file is kept + new.
+    """
     claims_raw_path = output_dir / "claims.raw.json"
     if claims_raw_path.is_file() and not force:
         print(f"[Stage 1: Research] Reusing existing {claims_raw_path}")
@@ -132,20 +138,40 @@ def run_research_stage(
     with open(prompt_file, "r", encoding="utf-8") as f:
         system_prompt = f.read().format(city=city)
 
+    prior: List[Dict[str, Any]] = []
+    kept_path = output_dir / "claims.json"
+    if extend and claims_raw_path.is_file() and kept_path.is_file():
+        kept_ids = {c["id"] for c in json.loads(kept_path.read_text(encoding="utf-8"))}
+        prior = [c for c in json.loads(claims_raw_path.read_text(encoding="utf-8")) if c["id"] in kept_ids]
+        print(f"[Stage 1: Research] Extending: keeping {len(prior)} previously verified raw claims")
+
+    task = (
+        f"Begin thorough factual research on {city}.\n"
+        f"Use web_search and fetch_url to find authoritative information.\n"
+        f"Target 35-50 claims across the 9 clusters.\n"
+        f"CRITICAL: Every claim needs at least 2 independent publishers, and EACH quote must ON ITS OWN state the "
+        f"whole claim (every name, date and number in it). A quote that is only on the same topic, or that states "
+        f"half the claim, does not count. Keep claims short and single-fact so two publishers can both state them.\n"
+        f"When you have collected claims across all clusters, call save_claims."
+    )
+    if prior:
+        from collections import Counter
+        counts = Counter(c["cluster"] for c in prior)
+        task = (
+            f"Continue factual research on {city}. These claims are ALREADY VERIFIED; do not repeat them:\n"
+            + "\n".join(f"- [{c['cluster']}] {c['claim']}" for c in prior)
+            + f"\n\nVerified claims per cluster: {dict(counts)}.\n"
+            f"Find 35-45 NEW claims. Priority: {', '.join(priority_clusters or [])} (at least 10 new claims each, "
+            f"they currently have none or few); then clusters with fewer than 4 verified claims.\n"
+            f"CRITICAL: Every claim needs at least 2 independent publishers, and EACH quote must ON ITS OWN state the "
+            f"whole claim (every name, date and number in it). A quote that is only on the same topic, or that states "
+            f"half the claim, does not count; earlier claims were dropped for exactly this. Keep claims short and "
+            f"single-fact so two publishers can both state them. Use ids c101, c102, ...\n"
+            f"Call save_claims with the NEW claims only."
+        )
     messages: List[Dict[str, Any]] = [
         {"role": "system", "content": system_prompt},
-        {
-            "role": "user",
-            "content": (
-                f"Begin thorough factual research on {city}.\n"
-                f"Use web_search and fetch_url to find authoritative information.\n"
-                f"Target 35-50 claims across the 9 clusters.\n"
-                f"CRITICAL: Every single claim MUST include at least 2 independent sources from DIFFERENT domains "
-                f"(e.g. .gov.in, .ac.in, .edu, reputable archives, Wikipedia) with verbatim quotes copied directly from fetched text.\n"
-                f"Single-source claims will be dropped by the verifier.\n"
-                f"When you have collected claims across all clusters, call save_claims."
-            ),
-        },
+        {"role": "user", "content": task},
     ]
 
     search_count = 0
@@ -213,9 +239,13 @@ def run_research_stage(
 
             elif fn_name == "save_claims":
                 claims = args.get("claims", [])
+                prior_ids = {c["id"] for c in prior}
+                for n, c in enumerate(claims):
+                    if c.get("id") in prior_ids:
+                        c["id"] = f"c{901 + n}"
                 with open(claims_raw_path, "w", encoding="utf-8") as f:
-                    json.dump(claims, f, indent=2, ensure_ascii=False)
-                print(f"[Stage 1: Research] Saved {len(claims)} raw claims to {claims_raw_path}")
+                    json.dump(prior + claims, f, indent=2, ensure_ascii=False)
+                print(f"[Stage 1: Research] Saved {len(prior)} kept + {len(claims)} new raw claims to {claims_raw_path}")
                 feedback = save_feedback(claims, output_dir)
                 if feedback and save_revisions < MAX_SAVE_REVISIONS:
                     save_revisions += 1
