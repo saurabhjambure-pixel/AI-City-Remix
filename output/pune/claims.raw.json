@@ -1,0 +1,914 @@
+[
+  {
+    "id": "c001",
+    "cluster": "geography",
+    "claim": "Pune is situated in the Deccan Plateau and forms part of Pune Division in western Maharashtra.",
+    "kind": "place",
+    "value": "Pune Division, Deccan Plateau, Maharashtra",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "Pune is situated in the Deccan Plateau and is part of the Pune Division."
+      }
+    ]
+  },
+  {
+    "id": "c002",
+    "cluster": "geography",
+    "claim": "Pune district lies on the leeward side of the Western Ghats at an altitude of about 559 metres, extending east onto the Deccan Plateau.",
+    "kind": "place",
+    "value": "559 metres",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune_district",
+        "quote": "on the north and northeast. On the leeward side of the"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune_district",
+        "quote": "on the east. Pune is at an altitude of 559 metres (1,863"
+      }
+    ]
+  },
+  {
+    "id": "c003",
+    "cluster": "geography",
+    "claim": "Sinhagad Fort stands atop a rugged hill at an elevation of about 1,300 metres above sea level.",
+    "kind": "number",
+    "value": "1300",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "elevation of about 1,300 meters above sea level."
+      }
+    ]
+  },
+  {
+    "id": "c004",
+    "cluster": "geography",
+    "claim": "Khadakwasla Dam stands on the Mutha River and plays a significant role in providing water to Pune.",
+    "kind": "place",
+    "value": "Mutha River",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "Situated on the Mutha River, it plays a significant role in providing water to Pune."
+      }
+    ]
+  },
+  {
+    "id": "c005",
+    "cluster": "geography",
+    "claim": "Khadakwasla Lake, created by the dam, is the main source of water for Pune and its suburbs.",
+    "kind": "place",
+    "value": "Khadakwasla Lake",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Khadakwasla_Dam",
+        "quote": "known as Khadakwasla Lake which is the main source of water for Pune and its suburbs."
+      }
+    ]
+  },
+  {
+    "id": "c006",
+    "cluster": "geography",
+    "claim": "The Sahyadri/Western Ghats block the rain-bearing monsoon winds, creating a rain shadow over the interior Deccan Plateau where Pune lies.",
+    "kind": "culture",
+    "value": "rain shadow",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Western_Ghats",
+        "quote": "The Western Ghats play an important role in determining the climate and seasons in India."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Western_Ghats",
+        "quote": "winds flowing eastward from the Arabian Sea, resulting in rainfall along the western coast. By the time the air rises above the mountains it is dry, forming a"
+      }
+    ]
+  },
+  {
+    "id": "c007",
+    "cluster": "origins",
+    "claim": "The earliest reference to the Pune region is on two copper plates dated to 758 and 768 CE issued by Rashtrakuta ruler Krishna I.",
+    "kind": "date",
+    "value": "758 and 768 CE",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune_district",
+        "quote": "The first reference to the Pune region is found on two copper plates, dated to 758 and 768 CE and issued by the"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "The first reference to Pune region is found in two copper plates dated to 758 and 768 AD, issued by"
+      }
+    ]
+  },
+  {
+    "id": "c008",
+    "cluster": "origins",
+    "claim": "Copper plates dated 858 and 868 CE show that by the 9th century an agricultural settlement known as Punnaka existed at the location of modern Pune, under Rashtrakuta rule.",
+    "kind": "date",
+    "value": "858 and 868 CE",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "CE show that by the 9th century an agricultural settlement known as Punnaka existed at the location of the modern Pune. The plates indicate that this region was ruled by the"
+      }
+    ]
+  },
+  {
+    "id": "c009",
+    "cluster": "origins",
+    "claim": "The name Pune derives from 'Punya' and 'Vishaya' (holy land); by the 13th century the town was known as Punawadi.",
+    "kind": "name",
+    "value": "Punawadi / Punya-vishaya",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "By the 13th century, it had come to be known as Punawadi."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "'Vishaya' means land, while 'Punaka' and 'Punya' mean holy."
+      }
+    ]
+  },
+  {
+    "id": "c010",
+    "cluster": "origins",
+    "claim": "The Pataleshwar Caves are an 8th-century Rashtrakuta rock-cut Shiva temple with a circular Nandi mandapa, protected and managed by the Archaeological Survey of India.",
+    "kind": "date",
+    "value": "8th century CE",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pataleshwar_Caves",
+        "quote": ", Maharashtra, India. Dedicated to Shiva, it was a monumental monolithic excavation with a notable circular Nandi mandapa and a large pillared mandapa."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pataleshwar_Caves",
+        "quote": "of India and managed by the Archaeological Survey of India."
+      }
+    ]
+  },
+  {
+    "id": "c011",
+    "cluster": "origins",
+    "claim": "Pune was ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327, after which it was under various Muslim sultanates.",
+    "kind": "date",
+    "value": "9th century - 1327",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "from the 9th century to 1327. Pune was under control of various"
+      }
+    ]
+  },
+  {
+    "id": "c012",
+    "cluster": "origins",
+    "claim": "Under the Deccan sultanates Pune was a village called 'Kasabe Pune', encircled by a defensive wall built in the early 1300s.",
+    "kind": "name",
+    "value": "Kasabe Pune",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "During this period, it was a village and was called \"Kasabe Pune\". A defensive wall around was built by Barya Arab, a commander of either the Khaljis or the Tughlaqs, in the early 1300s."
+      }
+    ]
+  },
+  {
+    "id": "c013",
+    "cluster": "maratha",
+    "claim": "Maloji Bhosale was awarded the fiefdom (jagir) of Pune by the Nizam Shahi rulers of Ahmednagar in the early 1600s.",
+    "kind": "event",
+    "value": "Maloji Bhosale granted the fiefdom of Pune",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "In the early 1600s, the region surrounding Pune was brought under Maratha influence when Maloji Bhosale, an influential Maratha figure, was awarded the fiefdom of Pune by the Nizam Shahi rulers of Ahmednagar."
+      }
+    ]
+  },
+  {
+    "id": "c014",
+    "cluster": "maratha",
+    "claim": "Shahaji chose Pune as the domicile for his wife Jijabai and their younger son Shivaji, the future founder of the Maratha Empire.",
+    "kind": "place",
+    "value": "Pune",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "Maloji’s son, Shahaji, who was instrumental in military campaigns across southern India, chose Pune as the domicile for his wife Jijabai and their younger son, Shivaji."
+      }
+    ]
+  },
+  {
+    "id": "c015",
+    "cluster": "maratha",
+    "claim": "Lal Mahal was built by Dadoji Konddeo in 1630 AD to rejuvenate the recently razed city of Pune, and the residence of Jijabai and Shivaji was completed in 1640 AD.",
+    "kind": "date",
+    "value": "1630 / 1640 AD",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lal_Mahal",
+        "quote": "in the year 1630 AD with the idea of rejuvenating the recently razed city of"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "residence of Jiajabai and Shivaji was completed in 1640 AD."
+      }
+    ]
+  },
+  {
+    "id": "c016",
+    "cluster": "maratha",
+    "claim": "Shivaji spent his youth at the Lal Mahal in Pune.",
+    "kind": "place",
+    "value": "Lal Mahal, Pune",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "Shivaji spent his young years at the Lal Mahal."
+      }
+    ]
+  },
+  {
+    "id": "c017",
+    "cluster": "maratha",
+    "claim": "After Tanaji Malusare's death in the 1670 Battle of Sinhagad, Shivaji is said to have lamented 'Gad ala, pan Sinha gela', and the fort was renamed Sinhagad.",
+    "kind": "event",
+    "value": "1670",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinhagad",
+        "quote": "Thus the fort was named as Sinhagad. A bust of Tanaji Malusare was established on the fort in memory of his contribution to the battle."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinhagad",
+        "quote": "Gad ala, pan Sinha gela\""
+      }
+    ]
+  },
+  {
+    "id": "c018",
+    "cluster": "maratha",
+    "claim": "Shivneri Fort, in Junnar taluka of Pune district, is the birthplace of Chhatrapati Shivaji Maharaj, founder of the Maratha Empire.",
+    "kind": "place",
+    "value": "Shivneri Fort",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "It holds great historical significance as it is the birthplace of Chhatrapati Shivaji Maharaj, the renowned founder of the Maratha Empire."
+      }
+    ]
+  },
+  {
+    "id": "c019",
+    "cluster": "peshwa",
+    "claim": "Balaji Vishwanath was the first Peshwa, appointed by Chhatrapati Shahu, and under him Pune emerged as the centre of political and administrative activity for the Maratha Empire.",
+    "kind": "name",
+    "value": "Balaji Vishwanath",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "This transformation was initiated under the guidance of Balaji Vishwanath, who was the first Peshwa, appointed by Chhatrapati Shahu, the grandson of Shivaji."
+      }
+    ]
+  },
+  {
+    "id": "c020",
+    "cluster": "peshwa",
+    "claim": "Baji Rao I was appointed Peshwa in 1720 by Shahu at the age of 20, despite opposition from other chieftains.",
+    "kind": "date",
+    "value": "1720",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baji_Rao_I",
+        "quote": "appointed the 20-year-old Bajirao as Peshwa despite opposition from other chieftains."
+      }
+    ]
+  },
+  {
+    "id": "c021",
+    "cluster": "peshwa",
+    "claim": "Baji Rao moved his administration from Saswad to Pune in 1728, laying the foundation for turning what was a kasbah into a large city.",
+    "kind": "date",
+    "value": "1728",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "to Pune in 1728, and in the process, laid the foundation for turning what was a"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Baji_Rao_I",
+        "quote": "to Pune in 1728, laying the foundation for the transformation of the"
+      }
+    ]
+  },
+  {
+    "id": "c022",
+    "cluster": "peshwa",
+    "claim": "Baji Rao I began construction of Shaniwar Wada on the eastern bank of the Mutha River; the work was completed in 1730, ushering in the era of Peshwa control over the city.",
+    "kind": "date",
+    "value": "1730",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "on the eastern bank of the Mutha River. The construction was completed in 1730, ushering in the era of Peshwa control over the city."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Shaniwar_Wada",
+        "quote": "Shaniwarwada was completed in 1732, at a total cost of Rs. 16,110, a very large sum at that time."
+      }
+    ]
+  },
+  {
+    "id": "c023",
+    "cluster": "peshwa",
+    "claim": "Shaniwar Wada's perimeter fortification wall has five gateways and nine bastion towers, enclosing a garden complex with the foundations of the original buildings.",
+    "kind": "number",
+    "value": "5 gateways, 9 bastion towers",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shaniwar_Wada",
+        "quote": "Currently, the perimeter fortification wall has five gateways and nine bastion towers, enclosing a garden complex with the foundations of the original buildings."
+      }
+    ]
+  },
+  {
+    "id": "c024",
+    "cluster": "peshwa",
+    "claim": "Under the Peshwas, Pune was both the administrative capital and the financial capital of the Maratha Confederacy.",
+    "kind": "place",
+    "value": "administrative and financial capital",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "During this period, in addition to being the administrative capital of the Confederacy, the city also became the financial capital."
+      }
+    ]
+  },
+  {
+    "id": "c025",
+    "cluster": "peshwa",
+    "claim": "The underground aqueduct built by Nanasaheb to carry water from the Katraj lake to Shaniwar Wada was still in working order in 2004.",
+    "kind": "date",
+    "value": "2004",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "The aqueduct was still in working order in 2004."
+      }
+    ]
+  },
+  {
+    "id": "c026",
+    "cluster": "british",
+    "claim": "The Battle of Khadki (also Ganeshkhind or Kirkee) was fought on 5 November 1817; the East India Company won decisively and Khadki later became a military cantonment.",
+    "kind": "date",
+    "value": "5 November 1817",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Khadki",
+        "quote": ", on 5 November 1817 between the forces of the British"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Khadki",
+        "quote": "The forces of the East India Company achieved a decisive victory, with Khadki later becoming a military cantonment under British rule."
+      }
+    ]
+  },
+  {
+    "id": "c027",
+    "cluster": "british",
+    "claim": "At the Battle of Khadki, Bapu Gokhale commanded about 28,000 Maratha troops with 20 guns, against a British force of about 3,000 with 8 guns.",
+    "kind": "number",
+    "value": "28,000 vs 3,000",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Khadki",
+        "quote": "Bapu Gokhale commanded a total force of 28,000 men (20,000 horse and 8,000 infantry) with 20 guns. The British force numbered only 3,000, of whom 2,000 were cavalry and 1,000 infantry, with 8 guns."
+      }
+    ]
+  },
+  {
+    "id": "c028",
+    "cluster": "british",
+    "claim": "The East India Company took over Shaniwar Wada, seat of the Peshwa, on 17 November 1817, and by 1818 the Peshwa had surrendered.",
+    "kind": "date",
+    "value": "17 November 1817",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Khadki",
+        "quote": ", the seat of the Peshwa, on 17 November 1817. By 1818, the Peshwa had surrendered to the East India Company."
+      }
+    ]
+  },
+  {
+    "id": "c029",
+    "cluster": "british",
+    "claim": "After the fall of Peshwa rule in 1818 the East India Company made Pune a major military base, establishing cantonments east of the city and at nearby Khadki.",
+    "kind": "event",
+    "value": "1818",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "After the fall of Peshwa rule in 1818, the British East India Company made the city one of its major military bases. They established military cantonments in the eastern part of the city, and another one at nearby"
+      }
+    ]
+  },
+  {
+    "id": "c030",
+    "cluster": "british",
+    "claim": "During British rule Pune was made the monsoon capital of the Bombay Presidency, the seasonal retreat of the Governor of Bombay being at Ganesh Khind.",
+    "kind": "place",
+    "value": "monsoon capital of Bombay Presidency",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "During British rule, Pune was made into the monsoon capital of the Bombay presidency."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "Due to its milder weather, the city became the \"Monsoon capital\" of the Governor of Bombay, thus making it one of the most important cities of the"
+      }
+    ]
+  },
+  {
+    "id": "c031",
+    "cluster": "british",
+    "claim": "The Poona Municipality was established in 1858, and the cantonment area was administered separately from the municipality from the beginning.",
+    "kind": "date",
+    "value": "1858",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "The Poona Municipality was established in 1858. The cantonment area had its own separate administration from the beginning and is governed separately even today."
+      }
+    ]
+  },
+  {
+    "id": "c032",
+    "cluster": "british",
+    "claim": "Mahatma Gandhi, his wife Kasturba and secretary Mahadev Desai were interned at the Aga Khan Palace in Pune from 9 August 1942 to 6 May 1944; the palace took five years and about 1.2 million rupees to build.",
+    "kind": "date",
+    "value": "9 August 1942 - 6 May 1944",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aga_Khan_Palace",
+        "quote": "were interned in the palace from 9 August 1942 to 6 May 1944, following the launch of"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Aga_Khan_Palace",
+        "quote": "The construction took place over 5 years and involved one hundred thousand people. It cost approximately 1.2 million rupees."
+      }
+    ]
+  },
+  {
+    "id": "c033",
+    "cluster": "education",
+    "claim": "The University of Pune (now Savitribai Phule Pune University) was established on 10 February 1949 under the Pune University Act passed by the Bombay legislature in 1948.",
+    "kind": "date",
+    "value": "10 February 1949",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Savitribai_Phule_Pune_University",
+        "quote": "The University of Pune was established on 10 February 1949 under the Pune University Act passed by the"
+      }
+    ]
+  },
+  {
+    "id": "c034",
+    "cluster": "education",
+    "claim": "Jyotirao and Savitribai Phule set up the first girls' school in Pune in 1848, described as India's first native-run school for girls.",
+    "kind": "date",
+    "value": "1848",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Savitribai_Phule_Pune_University",
+        "quote": "founded India's first native-run school for girls in 1848."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "who set up the first girls' school in Pune in 1848."
+      }
+    ]
+  },
+  {
+    "id": "c035",
+    "cluster": "education",
+    "claim": "The Deccan Education Society was formed in 1884 and a year later Fergusson College was established, its first principal being Vaman Shriram Apte.",
+    "kind": "date",
+    "value": "1884 / 1885",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fergusson_College",
+        "quote": "was formed in 1884; a year later the Fergusson College was established."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fergusson_College",
+        "quote": "It was founded in 1885 by Vaman Shriram Apte,"
+      },
+      {
+        "url": "https://www.fergusson.edu/",
+        "quote": "The Founders of the Fergusson College had first started the New English School, Pune in 1880 and later established the Deccan Education Society (DES) in 1884.The college held these classes, for almost ten years, in the old Gadre Wada and other locations in Poona."
+      }
+    ]
+  },
+  {
+    "id": "c036",
+    "cluster": "education",
+    "claim": "The College of Engineering Pune traces its origin to the Poona Engineering Class and Mechanical School opened in July 1854 to train Public Works Department subordinate officers.",
+    "kind": "date",
+    "value": "July 1854",
+    "sources": [
+      {
+        "url": "https://www.coeptech.ac.in/about-us",
+        "quote": "COEP’s precursor, The Poona Engineering Class and Mechanical School was opened in July 1854, with an aim to provide suitable learning to the subordinate officers in the Public Works Department."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/COEP_Technological_University",
+        "quote": "The institution was started in July 1854 at Pune, as the \"Poona Engineering and Mechanical School\", to train public works department (PWD) officials and was housed in Bhawanipeth, Poona in three houses for teaching purpose and a separate house for principal to train subordinate officers in the Public Works Department."
+      }
+    ]
+  },
+  {
+    "id": "c037",
+    "cluster": "education",
+    "claim": "Founded in 1854, COEP is the third oldest engineering education institute in India and was upgraded to an independent technological university by a Maharashtra government notification of 23 June 2022.",
+    "kind": "date",
+    "value": "23 June 2022",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/COEP_Technological_University",
+        "quote": ", Maharashtra, India. Established in 1854, it is the 3rd oldest engineering education institute in India, after the"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/COEP_Technological_University",
+        "quote": "On 23 June 2022, the Government of Maharashtra issued a notification regarding upgrading the college to an independent technological university."
+      }
+    ]
+  },
+  {
+    "id": "c038",
+    "cluster": "education",
+    "claim": "Pune is known as the 'Oxford of the East' because of institutions such as Fergusson College, Savitribai Phule Pune University and Symbiosis International University.",
+    "kind": "name",
+    "value": "Oxford of the East",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "Pune is often referred to as the “Oxford of the East” due to its prestigious educational institutions like Fergusson College, Savitribai Phule Pune University, and Symbiosis International University."
+      }
+    ]
+  },
+  {
+    "id": "c039",
+    "cluster": "education",
+    "claim": "Deccan College was established on 6 October 1821 as Hindoo College, one of the oldest institutions of modern learning in India, and is now a deemed university.",
+    "kind": "date",
+    "value": "6 October 1821",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deccan_College_Post-Graduate_and_Research_Institute",
+        "quote": "Established on 6 October 1821 as Hindoo College, it is one of the oldest institutions of modern learning in India."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Pune",
+        "quote": "In the 1820s, the company government set up a Hindu college, to impart education in Sanskrit."
+      }
+    ]
+  },
+  {
+    "id": "c040",
+    "cluster": "industry",
+    "claim": "Pune District is the third largest contributor to the economy of Maharashtra after Mumbai and Thane, with an estimated nominal GDP of Rs. 3,31,478 crores for 2019-20.",
+    "kind": "number",
+    "value": "331478 crore",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "With an estimated nominal GDP of Rs. 3,31,478 crores for year 2019–20, Pune District is the third largest contributor to the economy of Maharashtra, after Mumbai and Thane."
+      }
+    ]
+  },
+  {
+    "id": "c041",
+    "cluster": "industry",
+    "claim": "MIDC came into being as a separate corporation on 1 August 1962 and has developed 233 industrial areas across Maharashtra on 53,120 hectares.",
+    "kind": "date",
+    "value": "1 August 1962",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maharashtra_Industrial_Development_Corporation",
+        "quote": "which gave birth to MIDC, as a separate corporation on 1 August 1962."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Maharashtra_Industrial_Development_Corporation",
+        "quote": "Up to date 233 industrial areas are developed by MIDC in Maharashtra on 53120 hectors."
+      }
+    ]
+  },
+  {
+    "id": "c042",
+    "cluster": "industry",
+    "claim": "Industrialisation in the Pimpri-Chinchwad region began with the arrival of Hindustan Antibiotics in 1954, and the area is now home to the Indian operations of major automobile companies.",
+    "kind": "date",
+    "value": "1954",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "Industrialization started in 1954 with the arrival of antibiotics research institute"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "PCMC, Pune is now home to the Indian operations of major automobile companies like"
+      }
+    ]
+  },
+  {
+    "id": "c043",
+    "cluster": "industry",
+    "claim": "Bajaj Auto, headquartered in Pune, is ranked as the world's fourth largest two and three wheeler manufacturer.",
+    "kind": "name",
+    "value": "Bajaj Auto",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": ", headquartered in Pune, is ranked as the world's fourth largest two and three wheeler manufacturer."
+      }
+    ]
+  },
+  {
+    "id": "c044",
+    "cluster": "industry",
+    "claim": "Major automobile manufacturers including Tata Motors, Mahindra & Mahindra, Skoda, Mercedes-Benz and Volkswagen have manufacturing plants in Chakan.",
+    "kind": "place",
+    "value": "Chakan",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "have there manufacturing plants in Chakan."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "TATA Motors"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "Mahindra & Mahindra"
+      }
+    ]
+  },
+  {
+    "id": "c045",
+    "cluster": "industry",
+    "claim": "The Kirloskar Group, a Pune-based engineering group, has existed for over 135 years, starting with the iron plough and chaff cutters made in the early 1900s.",
+    "kind": "number",
+    "value": "135+ years",
+    "sources": [
+      {
+        "url": "https://www.kirloskars.com/",
+        "quote": "For a period of over 135+ years, we at the Kirloskar Group, affectionately referred to as Kirloskar, have focused on the progress of economic self-sufficiency and industrial growth in India."
+      },
+      {
+        "url": "https://www.kirloskars.com/",
+        "quote": "Our first products, the iron plough and chaff cutters, were introduced by our founder Hon. Late Shri Laxmanrao Kirloskar to encourage modernization in the agricultural and farming sector in the early 1900s."
+      }
+    ]
+  },
+  {
+    "id": "c046",
+    "cluster": "industry",
+    "claim": "Hindustan Antibiotics Limited, based in Pune, is India's first government-owned drug manufacturer; it was inaugurated by Jawaharlal Nehru on 10 March 1954 and production began in 1955.",
+    "kind": "date",
+    "value": "10 March 1954",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hindustan_Antibiotics_Limited",
+        "quote": "Government of India. It is based in Pune, India. It is the first"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hindustan_Antibiotics_Limited",
+        "quote": "government-owned-drug manufacturer"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hindustan_Antibiotics_Limited",
+        "quote": "on 10 March 1954. Production began in 1955."
+      }
+    ]
+  },
+  {
+    "id": "c047",
+    "cluster": "industry",
+    "claim": "Serum Institute of India, the world's fifth largest vaccine producer by volume, is based in Pune at Hadapsar.",
+    "kind": "place",
+    "value": "Hadapsar, Pune",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "producer by volume, is based in Pune."
+      },
+      {
+        "url": "https://www.seruminstitute.com/",
+        "quote": "212/2, Hadapsar, Pune 411028 India"
+      }
+    ]
+  },
+  {
+    "id": "c048",
+    "cluster": "it_growth",
+    "claim": "The Rajiv Gandhi Infotech Park at Hinjawadi is a ₹60,000 crore (US$8.9 billion) project developed by the Maharashtra Industrial Development Corporation.",
+    "kind": "number",
+    "value": "60000 crore",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "is a ₹ 60,000 crore (US$8.9 billion) project by the"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "is a ₹60,000 crore (US$8.9 billion) project by the"
+      }
+    ]
+  },
+  {
+    "id": "c049",
+    "cluster": "it_growth",
+    "claim": "The Hinjawadi IT Park encompasses about 2,800 acres and is home to over 800 IT companies.",
+    "kind": "number",
+    "value": "2800 acres, 800+ companies",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "and is home to over 800 IT companies."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pimpri-Chinchwad",
+        "quote": "and is home to over 800 IT companies of all sizes."
+      }
+    ]
+  },
+  {
+    "id": "c050",
+    "cluster": "it_growth",
+    "claim": "As of 2017 the IT sector in Pune employed more than 300,000 people.",
+    "kind": "number",
+    "value": "300000",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "As of 2017, the IT sector employed more than 300,000 people."
+      }
+    ]
+  },
+  {
+    "id": "c051",
+    "cluster": "it_growth",
+    "claim": "Beyond Hinjawadi, IT companies are also located at Magarpatta and Kharadi, and Pune has emerged as a hub for tech startups in India.",
+    "kind": "place",
+    "value": "Magarpatta, Kharadi",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "Besides Hinjawadi, IT companies are also located at"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "Pune has also emerged as a new hub for tech startups in India."
+      }
+    ]
+  },
+  {
+    "id": "c052",
+    "cluster": "it_growth",
+    "claim": "Magarpatta is a 182-hectare gated township at Hadapsar in Pune, about 30% green cover, with construction beginning in 2000.",
+    "kind": "number",
+    "value": "182 hectares",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magarpatta",
+        "quote": ", Pune, India. It has a commercial area, residential area, hospital with several specializations, a 10-hectare urban park named \"Aditi Gardens\", a shopping mall named \"Seasons Mall\", a shopping complex named \"Destination Centre\" and schools. Around 30% of the area is made up of green cover. Construction began in 2000 and continues as of 2025."
+      }
+    ]
+  },
+  {
+    "id": "c053",
+    "cluster": "it_growth",
+    "claim": "Since the 1990s Pune has seen landmark integrated townships such as Magarpatta, Nanded City, Amanora, Blue Ridge, Life Republic and Lavasa; the Pune Metropolitan Region was defined in 1967.",
+    "kind": "date",
+    "value": "1967",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "Since the 1990s a number of landmark integrated townships and gated communities have been developed in Pune such as"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "was defined in 1967 covering the area under PMC, the"
+      }
+    ]
+  },
+  {
+    "id": "c054",
+    "cluster": "culture",
+    "claim": "Pune became renowned for the inception of the public Ganeshotsav festival in 1892, initiated by Bal Gangadhar Tilak, which transformed from a private celebration into a grand public gathering.",
+    "kind": "date",
+    "value": "1892",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "Pune became renowned for the inception of the public Ganeshotsav festival in 1892. Initiated by the nationalist leader Bal Gangadhar Tilak, this festival transformed from a private celebration into a grand public gathering, bolstering nationalist fervor across the nation."
+      }
+    ]
+  },
+  {
+    "id": "c055",
+    "cluster": "culture",
+    "claim": "Tilak championed the Ganesh festival to circumvent the colonial ban on Hindu gatherings under the anti-public assembly legislation of 1892, starting it in Pune and Girgaon, Mumbai.",
+    "kind": "event",
+    "value": "1892",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ganesh_Chaturthi",
+        "quote": "championed it as a means to circumvent the colonial British government ban on Hindu gatherings through its anti-public assembly legislation in 1892. Lokmanya Tilak started the festival in Pune and Girgaon, Mumbai."
+      }
+    ]
+  },
+  {
+    "id": "c056",
+    "cluster": "culture",
+    "claim": "In 1893 Tilak helped expand Ganesh Chaturthi into a mass community event and a hidden means for political activism, poetry recitals, plays, concerts and folk dances.",
+    "kind": "date",
+    "value": "1893",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ganesh_Chaturthi",
+        "quote": "In 1893, Tilak helped expand Ganesh Chaturthi festival into a mass community event and a hidden means for political activism, intellectual discourse, poetry recitals, plays, concerts, and folk dances."
+      }
+    ]
+  },
+  {
+    "id": "c057",
+    "cluster": "culture",
+    "claim": "The Kasba Ganapati is Pune's gramadevata, installed by Jijabai, and holds the privilege of leading the Ganeshotsav procession.",
+    "kind": "name",
+    "value": "Kasba Ganapati",
+    "sources": [
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "It is the Gram Daivat, or village deity, of Pune. Located near Lal Mahal, Kasba Peth, it holds the esteemed position of being the foremost honored Ganpati in Pune. As a result, it is given the privilege of leading the Ganesh Utsav Procession."
+      },
+      {
+        "url": "https://maharashtratourism.gov.in/pune/",
+        "quote": "The statue of Ganesh was originally installed by Jijabai, the mother of Chh. Shivaji Maharaj."
+      }
+    ]
+  },
+  {
+    "id": "c058",
+    "cluster": "culture",
+    "claim": "Dhol-Tasha pathaks have become a cultural identity of Pune, with over 150 such groups operating in and around the city.",
+    "kind": "number",
+    "value": "150+ pathaks",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "has become a cultural identity of Pune with there being over 150 such groups operating in and around Pune."
+      }
+    ]
+  },
+  {
+    "id": "c059",
+    "cluster": "culture",
+    "claim": "Bakarwadi is a popular snack from Pune introduced in the early 1960s, and Puneri misal is one of the city's popular vegetarian dishes.",
+    "kind": "culture",
+    "value": "Bakarwadi / Puneri misal",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "is a popular snack from Pune introduced in the early 1960s."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pune",
+        "quote": "is one of the popular vegetarian dishes in Pune."
+      }
+    ]
+  },
+  {
+    "id": "c060",
+    "cluster": "culture",
+    "claim": "Dagdusheth Halwai, who became a successful sweet seller in Pune in the late 1800s, gave his name to a halwai sweet shop that still exists near Datta Mandir.",
+    "kind": "name",
+    "value": "Dagdusheth Halwai Sweets",
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dagadusheth_Halwai_Ganapati_Temple",
+        "quote": "His original halwai shop still exists under the name “Dagdusheth Halwai Sweets” near Datta Mandir in Pune."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dagadusheth_Halwai_Ganapati_Temple",
+        "quote": "He later moved to Pune, where he became a successful sweet seller (halwai) and a wealthy businessman in the city during the late 1800s."
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "c036",
+    "cluster": "education",
+    "claim": "The College of Engineering Pune traces its origin to the Poona Engineering Class and Mechanical School opened in July 1854 to train Public Works Department subordinate officers.",
+    "kind": "date",
+    "value": "July 1854",
+    "sources": [
+      {
+        "url": "https://www.coeptech.ac.in/about-us",
+        "domain": "ac.in",
+        "quote": "COEP’s precursor, The Poona Engineering Class and Mechanical School was opened in July 1854, with an aim to provide suitable learning to the subordinate officers in the Public Works Department.",
+        "cache": "pune/sources/85cab889a813d858abec6b8160d249cdd5a2f959.txt"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/COEP_Technological_University",
+        "domain": "wikipedia.org",
+        "quote": "The institution was started in July 1854 at Pune, as the \"Poona Engineering and Mechanical School\", to train public works department (PWD) officials and was housed in Bhawanipeth, Poona in three houses for teaching purpose and a separate house for principal to train subordinate officers in the Public Works Department.",
+        "cache": "pune/sources/fd533d0325a0057567ca9cd76f0449d7cf71bb2d.txt"
+      }
+    ],
+    "independent_sources": 2,
+    "verdict": {
+      "id": "c036",
+      "supported": true,
+      "reason": "The quotes state that COEP's precursor, the Poona Engineering Class and Mechanical School, opened in July 1854 to train Public Works Department subordinate officers.",
+      "corrected_claim": null
+    }
+  }
+]

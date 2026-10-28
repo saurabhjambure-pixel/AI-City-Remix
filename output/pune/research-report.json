@@ -1,0 +1,16 @@
+{
+  "city": "Pune",
+  "total_raw": 60,
+  "kept": 1,
+  "dropped": 59,
+  "independent_publishers": 6,
+  "single_source_claims": 0,
+  "providers_used": [
+    "ac.in",
+    "fergusson.edu",
+    "gov.in",
+    "kirloskars.com",
+    "seruminstitute.com",
+    "wikipedia.org"
+  ]
+}

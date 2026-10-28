@@ -123,8 +123,10 @@ def run_research_stage(
             "content": (
                 f"Begin thorough factual research on {city}.\n"
                 f"Use web_search and fetch_url to find authoritative information.\n"
-                f"Target 40-60 claims across the 9 clusters. "
-                f"Every single claim MUST include at least one verbatim quote copied directly from fetched text.\n"
+                f"Target 35-50 claims across the 9 clusters.\n"
+                f"CRITICAL: Every single claim MUST include at least 2 independent sources from DIFFERENT domains "
+                f"(e.g. .gov.in, .ac.in, .edu, reputable archives, Wikipedia) with verbatim quotes copied directly from fetched text.\n"
+                f"Single-source claims will be dropped by the verifier.\n"
                 f"When you have collected claims across all clusters, call save_claims."
             ),
         },

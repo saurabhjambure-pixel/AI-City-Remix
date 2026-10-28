@@ -21,12 +21,15 @@ def normalize_text(text: str) -> str:
 
 
 def extract_registrable_domain(url: str) -> str:
-    """Extract registrable domain from URL, mapping Wikipedia mirrors to one."""
+    """Extract registrable domain from URL, mapping Wikipedia mirrors to one and supporting ccTLDs."""
     try:
         netloc = urlparse(url).netloc.lower()
         if "wikipedia.org" in netloc or "wikimedia.org" in netloc:
             return "wikipedia.org"
         parts = netloc.split(".")
+        compound_tlds = {"gov.in", "ac.in", "co.in", "nic.in", "edu.in", "org.in", "co.uk", "org.uk", "ac.uk"}
+        if len(parts) >= 3 and ".".join(parts[-2:]) in compound_tlds:
+            return ".".join(parts[-3:])
         if len(parts) >= 2:
             return ".".join(parts[-2:])
         return netloc
