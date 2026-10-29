@@ -79,3 +79,9 @@
 - Plan rev 3 written (docs/PLAN_chronicle_ink.md): `stages/chronicle_agent.py` forwards each Skill AGENT_TASK to M3.1, replacing questions.py, film_gate.py and era_hull.py.
 - Phase 0 done except the geo.mjs run, which needs one hotspot session after M3.1 writes geo/places.json.
 - Next: Phase 1 (project, sources, claims).
+
+## 2026-10-29 — Phase 1 started
+- Project `output/pune-chronicle/` created (`new-project.mjs --qid Q1538 --seconds 150 --film-lang en`, plus `style: model`, `structure: life`). The Skill locked Q1538 and read Wikidata, zh and en Wikipedia; Britannica returned 403 (`no_tier1_source`). The Skill now awaits claims.
+- `stages/chronicle_agent.py`: runs `chronicle.mjs all`, forwards each `awaiting_<step>` to M3.1, and logs to runs.jsonl. The claims handler sends one call per source chunk (medium effort, 4 parallel) and keeps only verbatim excerpts. Dry run: 10 chunks of about 16k characters. Tests: `.venv/bin/python -m tests.test_chronicle_agent` (3 ok).
+- **Blocked:** a headless-Chrome read of Britannica was refused by the permission system (bot-check circumvention). Without a tier-1 source no fact can verify. Owner decision needed on how Britannica text enters `sources/`.
+- Claims are not run yet: source ids change whenever a source is added, so claims wait until the source set is final.
