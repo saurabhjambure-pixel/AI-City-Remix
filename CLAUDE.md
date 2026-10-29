@@ -29,7 +29,7 @@ You are taking over this project from a planning chat and a previous coding agen
 | Item | Value |
 |---|---|
 | Endpoint | `https://api.sandbase.ai/v1/chat/completions` (OpenAI-compatible) |
-| Model | `minimax/minimax-m3.1-flash` (re-confirm with `sandbase discover -t llm` before the rev-2 run; never assume) |
+| Model | `minimax/minimax-m3.1-flash` (confirmed Oct 29 via `sandbase inspect sandbase_minimax_minimax_m3_1_flash`; accepts text, image and video input; 1M context) |
 | Effort levels | `low` `medium` `high` `xhigh` `max`; thinking cannot be disabled |
 | Per stage | research high · verify xhigh · script high · scenes medium · review medium · end card low |
 | max_tokens | 128000 for scene HTML (reasoning counts against it); 32000 elsewhere; API max 512K |

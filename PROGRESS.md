@@ -57,3 +57,8 @@
 - Story: begin at the historic core, whole city vs local detail, rivers and landmarks link origins, growth and present; central question now optional.
 - Owner explicitly selected MiniMax Speech narration and MiniMax Music. New checks before paid stages: model id via discover, `sandbase balance`.
 - Next: Phase 0 (fetch the unversioned Skill zip, review it, smoke-test geo.mjs and HyperFrames).
+
+## 2026-10-29 — Phase 0 started
+- Model id confirmed: `minimax/minimax-m3.1-flash` (`sandbase inspect sandbase_minimax_minimax_m3_1_flash`; text/image/video input, 1M context).
+- SandBase balance: **$4.91**. Spend so far from runs.jsonl ≈ $3.43 (19.95M prompt / 0.73M completion tokens; mostly the 530 corroboration calls). Rough remaining need ≈ $2.5–4 (reference-tier pass, story, review, speech ≈ $0.25, music ≈ $0.12), so the reference-tier pass must stay lean; ask before exceeding.
+- `https://www.sandbase.ai/lab/downloads/chronicle-ink.zip` → HTTP 401 (sign-in required). **Blocked on owner download.**
