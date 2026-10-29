@@ -102,3 +102,10 @@
   
   263 single-source claims are available for at most 2 hedged lines.
 - Next: Phase 2/3. M3.1 writes geo/places.json, then the hotspot run of geo_cached.mjs; then the script.
+
+## 2026-10-29 — Phase 2: places.json
+- `--write-places` (`chronicle_places`, high effort): M3.1 names landmarks by English Wikipedia title; code resolves Wikidata QIDs and keeps only those within the map radius. No coordinates are written by the model.
+- Kept: Shaniwar Wada (0.2 km), Lal Mahal, Pataleshwar Caves, Pune Cantonment, Savitribai Phule Pune University, Pune Junction, Pune airport.
+- Dropped (logged in work/agent/places.log): Panshet Dam (30 km) and Sinhagad (20 km), both outside the 15 km radius; Mula-Mutha River (Wikidata point 52 km away; the river itself comes from OSM); "Aga Khan Palace, Pune" and "Southern Command, Indian Army" (no such Wikipedia title).
+- Areas: 4 nested extents around Shaniwar Wada (0.35 / 0.8 / 1.6 / 3.4 km). Fabric: buildings within 1.5 km of Shaniwar Wada, streets 2.4 km, built-up 8 km.
+- Next: hotspot run of `node tools/geo_cached.mjs --project output/pune-chronicle`.

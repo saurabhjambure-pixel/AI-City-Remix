@@ -1,0 +1,108 @@
+{
+ "center": {
+  "qid": "Q1538"
+ },
+ "radius_km": 15,
+ "places": [
+  {
+   "id": "shaniwar_wada",
+   "qid": "Q1351060",
+   "label": {
+    "en": "Shaniwar Wada",
+    "zh-CN": "沙尼瓦尔瓦达"
+   }
+  },
+  {
+   "id": "lal_mahal",
+   "qid": "Q13642664",
+   "label": {
+    "en": "Lal Mahal",
+    "zh-CN": "拉尔宫"
+   }
+  },
+  {
+   "id": "pataleshwar_caves",
+   "qid": "Q7144204",
+   "label": {
+    "en": "Pataleshwar Caves",
+    "zh-CN": "帕塔莱什瓦尔石窟"
+   }
+  },
+  {
+   "id": "pune_cantonment",
+   "qid": "Q2936867",
+   "label": {
+    "en": "Pune Cantonment",
+    "zh-CN": "浦那兵营"
+   }
+  },
+  {
+   "id": "savitribai_phule_pune_university",
+   "qid": "Q3135913",
+   "label": {
+    "en": "Pune University",
+    "zh-CN": "萨维特里拜·普勒浦那大学"
+   }
+  },
+  {
+   "id": "pune_junction",
+   "qid": "Q3632576",
+   "label": {
+    "en": "Pune Junction",
+    "zh-CN": "浦那枢纽站"
+   }
+  },
+  {
+   "id": "pune_international_airport",
+   "qid": "Q1432525",
+   "label": {
+    "en": "Pune International Airport",
+    "zh-CN": "浦那国际机场"
+   }
+  }
+ ],
+ "areas": [
+  {
+   "id": "early_settlement_core",
+   "around": "shaniwar_wada",
+   "radius_km": 0.35,
+   "label": {
+    "en": "early settlement core",
+    "zh-CN": "早期聚落核心"
+   }
+  },
+  {
+   "id": "likely_maratha_capital",
+   "around": "shaniwar_wada",
+   "radius_km": 0.8,
+   "label": {
+    "en": "likely Maratha capital",
+    "zh-CN": "可能的马拉塔都城"
+   }
+  },
+  {
+   "id": "colonial_city",
+   "around": "shaniwar_wada",
+   "radius_km": 1.6,
+   "label": {
+    "en": "colonial-era city",
+    "zh-CN": "殖民时期城区"
+   }
+  },
+  {
+   "id": "post_1940_institutional_city",
+   "around": "shaniwar_wada",
+   "radius_km": 3.4,
+   "label": {
+    "en": "post-1940 institutional city",
+    "zh-CN": "战后机构城区"
+   }
+  }
+ ],
+ "fabric": {
+  "focus": "shaniwar_wada",
+  "streets_km": 2.4,
+  "buildings_km": 1.5,
+  "builtup_km": 8
+ }
+}

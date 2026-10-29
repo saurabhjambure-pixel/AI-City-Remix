@@ -1,0 +1,161 @@
+{
+ "radius_km": 15,
+ "places": [
+  {
+   "id": "mula_mutha_river",
+   "enwiki_title": "Mula-Mutha River",
+   "label": {
+    "en": "Mula-Mutha River",
+    "zh-CN": "穆拉-穆塔河"
+   },
+   "why": "Makes the verified confluence of the Mula and Mutha rivers the spatial spine connecting the historic core with the present city."
+  },
+  {
+   "id": "shaniwar_wada",
+   "enwiki_title": "Shaniwar Wada",
+   "label": {
+    "en": "Shaniwar Wada",
+    "zh-CN": "沙尼瓦尔瓦达"
+   },
+   "why": "Anchors the old city and supports the cautiously illustrated likelihood that the historic core formed the focus of Maratha capital life."
+  },
+  {
+   "id": "lal_mahal",
+   "enwiki_title": "Lal Mahal",
+   "label": {
+    "en": "Lal Mahal",
+    "zh-CN": "拉尔宫"
+   },
+   "why": "Provides a close-range palace landmark beside Shaniwar Wada, using its verified landmark status without asserting the separate completion-date lead."
+  },
+  {
+   "id": "pataleshwar_caves",
+   "enwiki_title": "Pataleshwar Caves",
+   "label": {
+    "en": "Pataleshwar Caves",
+    "zh-CN": "帕塔莱什瓦尔石窟"
+   },
+   "why": "Signals the rock-cut temple layer within the historic core, with its precise ancient dating treated cautiously rather than asserted firmly."
+  },
+  {
+   "id": "aga_khan_palace",
+   "enwiki_title": "Aga Khan Palace, Pune",
+   "label": {
+    "en": "Aga Khan Palace",
+    "zh-CN": "浦那阿迦汗宫"
+   },
+   "why": "Provides a verified landmark for contrasting a monumental palace precinct with the dense surrounding old-city fabric."
+  },
+  {
+   "id": "panshet_dam",
+   "enwiki_title": "Panshet Dam",
+   "label": {
+    "en": "Panshet Dam",
+    "zh-CN": "潘谢特水坝"
+   },
+   "why": "Anchors the flood story: the dam's collapse in 1961 washed away a substantial part of Pune's old town."
+  },
+  {
+   "id": "pune_cantonment",
+   "enwiki_title": "Pune Cantonment",
+   "label": {
+    "en": "Pune Cantonment",
+    "zh-CN": "浦那兵营"
+   },
+   "why": "Shows the scale of the military cantonment and creates a strong spatial contrast with the compact historic core, without asserting the separate British-build date lead."
+  },
+  {
+   "id": "savitribai_phule_pune_university",
+   "enwiki_title": "Savitribai Phule Pune University",
+   "label": {
+    "en": "Pune University",
+    "zh-CN": "萨维特里拜·普勒浦那大学"
+   },
+   "why": "Supports the verified 1948 date for Pune's university and marks the postwar institutional growth of the city."
+  },
+  {
+   "id": "southern_command",
+   "enwiki_title": "Southern Command, Indian Army",
+   "label": {
+    "en": "Southern Command",
+    "zh-CN": "印度陆军南方司令部"
+   },
+   "why": "Locates the verified headquarters of the Indian Army's Southern Command and ties the military story to Pune's modern institutional geography."
+  },
+  {
+   "id": "pune_junction",
+   "enwiki_title": "Pune Junction",
+   "label": {
+    "en": "Pune Junction",
+    "zh-CN": "浦那枢纽站"
+   },
+   "why": "Provides a transport-era expansion cue connecting the old core with the modern city, without asserting the separate 1858 opening-date lead."
+  },
+  {
+   "id": "pune_international_airport",
+   "enwiki_title": "Pune International Airport",
+   "label": {
+    "en": "Pune International Airport",
+    "zh-CN": "浦那国际机场"
+   },
+   "why": "Anchors the present-day metropolitan edge and helps contrast the city's regional scale with its tightly concentrated historic core."
+  },
+  {
+   "id": "sinhagad",
+   "enwiki_title": "Sinhagad",
+   "label": {
+    "en": "Sinhagad",
+    "zh-CN": "辛哈加德"
+   },
+   "why": "Provides a verified landmark for the outer landscape and a strong large-scale contrast with the intimate old-city views."
+  }
+ ],
+ "areas": [
+  {
+   "id": "early_settlement_core",
+   "around": "shaniwar_wada",
+   "radius_km": 0.35,
+   "label": {
+    "en": "early settlement core",
+    "zh-CN": "早期聚落核心"
+   },
+   "why": "An AI-illustration extent for the small earliest historic core around the Shaniwar Wada–Lal Mahal cluster; it does not imply an exact surveyed boundary."
+  },
+  {
+   "id": "likely_maratha_capital",
+   "around": "shaniwar_wada",
+   "radius_km": 0.8,
+   "label": {
+    "en": "likely Maratha capital",
+    "zh-CN": "可能的马拉塔都城"
+   },
+   "why": "Suggests cautiously the likely Maratha-capital phase centered on the old core; the footprint is illustrative rather than a precise historical boundary."
+  },
+  {
+   "id": "colonial_city",
+   "around": "shaniwar_wada",
+   "radius_km": 1.6,
+   "label": {
+    "en": "colonial-era city",
+    "zh-CN": "殖民时期城区"
+   },
+   "why": "Illustrates the outward urban extent associated with Pune after its capture by the British in 1817 and its role as the Bombay Presidency's seasonal capital."
+  },
+  {
+   "id": "post_1940_institutional_city",
+   "around": "shaniwar_wada",
+   "radius_km": 3.4,
+   "label": {
+    "en": "post-1940 institutional city",
+    "zh-CN": "战后机构城区"
+   },
+   "why": "Places the university dating to 1948 and the modern military headquarters within a wider postwar institutional layer, while the extent remains an approximation."
+  }
+ ],
+ "fabric": {
+  "focus": "shaniwar_wada",
+  "streets_km": 2.4,
+  "buildings_km": 1.5,
+  "builtup_km": 8
+ }
+}
