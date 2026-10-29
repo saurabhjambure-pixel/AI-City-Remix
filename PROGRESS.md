@@ -44,3 +44,10 @@
   - Per cluster kept: industry 4, culture 4, geography 4, maratha 3, education 3, it_growth 3, british 2, origins 1, **peshwa 0** (the one run-1 Peshwa claim failed re-judging).
   - Several new geography claims were narrowed by the judge to weak wording (e.g. "Khadakwasla is a source of water").
   - **Gate (≥25) still NOT met: 24.**
+
+## 2026-10-29 08:20 IST — New brief: chronicle-ink rebuild (Phase 0)
+- Rules re-read: uploads close Oct 31 23:59:59 UTC; each upload/edit reviewed within a day. Contest ids for Pune from the site: city_id "pune", 18.5211, 73.8553 (Q1538).
+- Plan: `docs/PLAN_chronicle_ink.md`. CLAUDE.md §1/§6/§8 and MASTER_PLAN §3 fact rule updated. Owner approved MiniMax Speech narration and MiniMax Music.
+- **Blocker:** the Skill zip download returns 401 "Sign in at /lab/download"; the owner must download it.
+- Overpass: all 4 mirrors time out (also outside the sandbox). Reachable: Nominatim, api.openstreetmap.org, download.geofabrik.de, query.wikidata.org.
+- SandBase tools found: `sandbase_minimax_speech_2_8_hd` (text, voice_id; ~$0.1/1k chars), `sandbase_minimax_music_3` (prompt + lyrics with [instrumental] tags, duration ≤300 s).

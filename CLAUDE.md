@@ -4,7 +4,8 @@ You are taking over this project from a planning chat and a previous coding agen
 
 ## 1. Goal and deadline
 
-- Contest: SandBase "AI City Remix". Uploads close **Oct 28 23:59 UTC = Thu Oct 29, 05:29 IST**. Judging Oct 29–30, results Oct 31.
+- Contest: SandBase "AI City Remix". Uploads close **Oct 31 23:59:59 UTC = Sun Nov 1, 05:29 IST** (rules re-read Oct 29). Judging Nov 1–2, results Nov 3. Each upload or edit is reviewed within a day.
+- **Current brief (Oct 29):** rebuild the Pune film on the official chronicle-ink v0.4.3 Skill (subject=city, structure=life, style=model), with MiniMax Speech narration and MiniMax Music (owner approved both). Plan: `docs/PLAN_chronicle_ink.md`. Contest ids: `city_id "pune"`, lat 18.5211, lng 73.8553 (Wikidata Q1538).
 - Entry 1: "I Am Pune", a ~150 s film in which Pune narrates itself in the first person, directed end to end by **MiniMax M3.1 flash via SandBase**.
 - Entry 2 (Oct 28): 60–90 s demo of the same tool on a contrasting place.
 - Judging weights: AI workflow 30% (less human intervention, new tools, open source scores extra) · Accuracy 25% · Story and craft 25% · Reach 20%.
@@ -75,25 +76,27 @@ Defects to fix (in this order):
 5. Fix C, then run stages 4–11 to a first full film.
 6. After each step, append a dated line to `PROGRESS.md` and commit.
 
-## 6. Schedule (IST)
+## 6. Schedule (UTC; replaces the Oct 25–28 schedule)
 
 | When | Gate |
 |---|---|
-| Sun Oct 25 | A and B done; ≥25 verified claims; real map views |
-| **Mon Oct 26, 3 PM** | **v1 film passes stage 11 (all checks)** → owner uploads; repo public |
-| Mon Oct 26 evening | Review loop working |
-| **Tue Oct 27, 9 PM** | **Final Pune film uploaded** (edits re-enter review for up to a day) |
-| Wed Oct 28, 9 PM | Entry 2 uploaded |
+| Oct 29 06:00 | Skill reviewed, mapping sent, geo.mjs and HyperFrames smoke tests pass (or blocker reported) |
+| Oct 29 18:00 | Reference-tier facts done; question chosen; film.json passes the gate |
+| Oct 30 06:00 | Test segments approved; narration and music done |
+| **Oct 30 12:00** | **v1 passes check → owner uploads** |
+| **Oct 31 12:00** | **Final edit uploaded** (last safe point for review before close) |
 
-If behind, cut in this order: music → review round 2 → scene 6 → entry 2. Never cut verification or the final checks.
+If behind, cut in this order: teaser → music (code-generated instead) → 5th chapter → narration (captions only). Never cut verification, geo truth or the final checks. Entry 2 is dropped.
 
 ## 7. Contest constraints (enforce in stage 11)
 
 60–180 s · MP4 · ≥720p (target 1920×1080) · English with subtitles in the video · original work · no copyrighted film or music · **no real living people** (no faces, none named; the personal close is voice only) · maps lawful: city level, **no national or state borders** · directed with M3.1 flash through SandBase.
 
-## 8. Film outline (script stage input; M3.1 may adjust)
+## 8. Film outline (superseded Oct 29)
 
-1. Cold open at the river confluence: "I am Pune." · 2. Maratha seat: Lal Mahal, Shaniwar Wada (Bahirjee Naik line only if verified) · 3. Peshwa capital to British rule, cantonments · 4. "Oxford of the East", colleges · 5. Industry then IT: Pimpri-Chinchwad, Hinjewadi · 6. One warm thing: monsoon or food · 7. Personal close, voice only: "Someone new is putting down roots here…" · 8. End card with research stats, "Directed by MiniMax M3.1 flash via SandBase", repo URL.
+The old 8-scene outline is retired. The film follows the waterways (Mula, Mutha, the Sangam, the reservoirs upstream) and is built around ONE question that M3.1 picks from verified claims, posed in the first 10 s and answered in the final chapter. The shot grammar (hook, survey, chapters ≤30 s, payoff at the opening camera, close) is in `docs/PLAN_chronicle_ink.md` Phase 3 and is enforced by `stages/film_gate.py`. Last caption: "Putting down roots here, one brick at a time." (owner-authored).
+
+**Fact standard (chronicle-ink):** each fact needs two agreeing publishers, one of them a reference institution (e.g. Britannica, UNESCO); at most two hedged single-source lines ("Records say…"); every number and name in a caption must be in its claims. This supersedes the ≥25-claim gate.
 
 ## 9. Upload-form copy (owner pastes; fill [brackets] from real runs)
 
