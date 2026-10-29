@@ -62,3 +62,14 @@
 - Model id confirmed: `minimax/minimax-m3.1-flash` (`sandbase inspect sandbase_minimax_minimax_m3_1_flash`; text/image/video input, 1M context).
 - SandBase balance: **$4.91**. Spend so far from runs.jsonl ≈ $3.43 (19.95M prompt / 0.73M completion tokens; mostly the 530 corroboration calls). Rough remaining need ≈ $2.5–4 (reference-tier pass, story, review, speech ≈ $0.25, music ≈ $0.12), so the reference-tier pass must stay lean; ask before exceeding.
 - `https://www.sandbase.ai/lab/downloads/chronicle-ink.zip` → HTTP 401 (sign-in required). **Blocked on owner download.**
+
+## 2026-10-29 — Phase 0: Skill reviewed
+- `~/Downloads/chronicle-ink-0.4.3.zip` SHA-256 matches 61dbc7b6…e1af. Unzipped to `vendor/chronicle-ink-0.4.3/chronicle-ink/` (gitignored, not redistributed). 475 files, no dependencies, no install scripts, no binaries, no eval, no env reads. Spawns only ffmpeg/ffprobe, curl (photos) and pinned `npx hyperframes@0.8.30`. Network: research sources (no cookies), Wikidata, Nominatim, Overpass.
+- `chronicle.mjs doctor`: Node 25.9, ffmpeg 8.1, Chrome found, 8 CPUs (4 render workers). The recipe estimates ~0.8 s per frame, so a 150 s film renders in about 1 h.
+- Findings that change the plan:
+  - Tier 1 is fixed by the Skill (`sources-allowlist.json`): Britannica, UNESCO and a few museums. Indian government and university sites are leads only. Wikipedia counts as one publisher.
+  - Britannica and UNESCO return 403 to curl. The Britannica Pune article reads fine in a browser and supports the Mula–Mutha junction, the Maratha capital 1714–1817, "Oxford and Cambridge of India", the University of Pune (1948) and the **1961 Panshet Dam collapse**.
+  - The Skill bans vision models: contact sheets are reviewed as numbers and rendered frames.
+  - Narration must say exactly the caption (≤2.7 words/s per shot). Music must be instrumental (`sandbase_minimax_music_2_6`, `is_instrumental: true`).
+  - Timing is the fixed 88 BPM beat map (27 two-bar shots for 150 s). The camera should stay calm at 2.4–5 km with few altitude changes.
+  - **Overpass is blocked on this network (curl and browser), and geo.mjs needs it for rivers, roads and buildings.**

@@ -8,3 +8,6 @@ output/*/sources/
 output/*/map/cache/
 *.mp4
 *.log
+
+# Official Skill, unzipped from the verified download (not redistributed)
+vendor/
