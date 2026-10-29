@@ -18,6 +18,31 @@ Facts checked on Oct 29:
   - Stages 4–11 have never run.
 - **SandBase tools:** `sandbase_minimax_speech_2_8_hd` and `sandbase_minimax_music_3` (instrumental via `[instrumental]` tags).
 
+## Rev 3: what reading the Skill changed (Oct 29; overrides the phases below)
+
+The Skill was verified (SHA-256 matches) and reviewed in `vendor/chronicle-ink-0.4.3/chronicle-ink/`. Owner decisions: the map comes from a **hotspot run**, and segment review **follows the Skill** (no vision model).
+
+- **Harness, not a parallel pipeline.** The Skill's `chronicle.mjs all` stops at each `awaiting_…` step and writes `AGENT_TASK.md`. The new `stages/chronicle_agent.py` forwards each task and its request files to M3.1, writes M3.1's answer to the requested path, logs to runs.jsonl, and reruns `all`. This replaces the planned `questions.py`, `film_gate.py` and `era_hull.py`. The Skill's own script gate does the caption checks.
+- **Facts:**
+  - Tier 1 is fixed by the Skill (`src/engine/data/sources-allowlist.json`). For Pune that is effectively **Britannica**, UNESCO and a few museums. Wikipedia counts as one publisher. Indian government and university sites, and our 24 news-sourced claims, are **leads only**.
+  - No `REFERENCE_INSTITUTIONS` list of our own.
+  - M3.1 chooses the source pages. The harness saves them verbatim as `sources/<n>-<name>.txt` (`source: <url>` on the first line), using Playwright for Britannica, which returns 403 to curl.
+  - M3.1 writes `work/facts/claims.agent.json`, with two claims per fact (one per publisher). The Skill's `facts` stage cross-checks them. `verify.py` is retired for this film.
+  - The Britannica Pune article already supports: the Mula–Mutha junction, the Bhonsle and Maratha capital (1714–1817), "Oxford and Cambridge of India", University of Pune (1948), BORI (1917), the industrial suburbs, and **the 1961 Panshet Dam collapse washing away much of the old town** (a verifiable scar).
+- **Map:** `tools/geo_cached.mjs` runs the unchanged `geo.mjs` and records every map read to `geo/cache/`. There is one hotspot session once M3.1 has written `geo/places.json`; reruns are then `--offline`. Era extents are M3.1's `areas` (polygon or `around` + `radius_km`), tagged "AI illustration" by the Skill.
+- **Shots:**
+  - 150 s = 27 two-bar shots on the fixed 88 BPM sections: intro 2 · verse 6 · build 2 · drop 4 · breakdown 4 · build2 2 · drop2 4 · outro 3.
+  - Section roles follow `references/narrative-city.md`. "Begin at the historic core" maps to intro then verse: the globe, then the old core at the Sangam.
+  - The camera stays calm at 2.4–5 km with few altitude changes. This **replaces** "alternate wide and close" and "fly, linger, pull back each chapter". Local detail comes from `focus` callouts on landmarks.
+  - Captions: ≤2 lines, ≤9 words / 42 characters per line. We keep the 400 px legibility check.
+- **Sound:**
+  - **Narration:** one `minimax/speech/2.8/hd` clip per shot, saying **exactly the caption** (≤2.7 words/s), in `voice/voice.json`.
+  - **Music:** `minimax/music/2.6` with `is_instrumental: true`, in `music/track.json`.
+  - The Skill masters to −14 LUFS; its own mix replaces our `assemble.py`.
+- **Review:** the Skill's render segments, contact sheets and numeric checks (frame-difference flicker scan, timing, captions). M3.1 reviews the numbers and text in `work/review.json` (max 3 rounds per segment). No frames are sent to a vision model.
+- **Render:** about 0.8 s per frame, so roughly 1 h for 150 s with 4 workers. `npx hyperframes@0.8.30` is installed and runs. Keep `buildings_km` small enough for fewer than 60,000 footprints.
+- **Still ours:** the cover, `entry.json`, `director_notes`, the submit wrapper, and `how_it_was_made.md`.
+
 ## What the rev-2 brief changes (vs rev 1)
 
 | Area | Rev 1 / old plan | Rev 2 / this plan |

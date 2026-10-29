@@ -73,3 +73,9 @@
   - Narration must say exactly the caption (≤2.7 words/s per shot). Music must be instrumental (`sandbase_minimax_music_2_6`, `is_instrumental: true`).
   - Timing is the fixed 88 BPM beat map (27 two-bar shots for 150 s). The camera should stay calm at 2.4–5 km with few altitude changes.
   - **Overpass is blocked on this network (curl and browser), and geo.mjs needs it for rivers, roads and buildings.**
+- Owner decisions: map data via a **hotspot run** of geo.mjs; segment review **follows the Skill** (numeric checks, no vision model).
+- `tools/geo_cached.mjs` added: it wraps the unchanged geo.mjs and records and replays Wikidata, Nominatim and Overpass reads. Tested here: Wikidata cached (Q1538 → 18.5211, 73.8553, matching the contest coordinates); Overpass hangs as expected.
+- HyperFrames 0.8.30 installs and runs via npx.
+- Plan rev 3 written (docs/PLAN_chronicle_ink.md): `stages/chronicle_agent.py` forwards each Skill AGENT_TASK to M3.1, replacing questions.py, film_gate.py and era_hull.py.
+- Phase 0 done except the geo.mjs run, which needs one hotspot session after M3.1 writes geo/places.json.
+- Next: Phase 1 (project, sources, claims).
