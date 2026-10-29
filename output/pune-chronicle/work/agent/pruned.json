@@ -1,0 +1,52 @@
+[
+ {
+  "predicate": "disaster",
+  "text": "In July 1961, the Panshet and Hadakwasla dams burst, and their stored water flooded much of Pune's old city.",
+  "source": "s02"
+ },
+ {
+  "predicate": "disaster",
+  "text": "A breach in the Panshet dam caused a destructive flood in Pune in 1961.",
+  "source": "s03"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is located in Pune district.",
+  "source": "s02"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is located in Pune district",
+  "source": "s01"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is located in Bombay State",
+  "source": "s01"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is located in Bombay Presidency",
+  "source": "s01"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is located in Maratha Empire",
+  "source": "s01"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune lies in the western part of the Deccan Plateau.",
+  "source": "s02"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune is in the western part of India.",
+  "source": "s03"
+ },
+ {
+  "predicate": "located_in",
+  "text": "Pune lies on the western margin of the Deccan Plateau.",
+  "source": "s03"
+ }
+]

@@ -1,0 +1,5975 @@
+{
+ "claims": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in west-central Maharashtra state in western India.",
+    "zh-CN": "浦那位于印度西部马哈拉施特拉邦中西部。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04",
+   "id": "a1"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04",
+   "id": "a2"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04",
+   "id": "a3"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha peoples",
+      "zh-CN": "马拉塔人"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of the Maratha peoples.",
+    "zh-CN": "浦那是马拉塔人的文化之都。"
+   },
+   "excerpt": "Called “Queen of the Deccan,” Pune is the cultural capital of the Maratha peoples.",
+   "source_id": "s04",
+   "id": "a4"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhonsle Marathas",
+      "zh-CN": "博恩斯勒马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "17th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+    "zh-CN": "浦那在17世纪首次作为博恩斯勒马拉塔人的首都而important起来。"
+   },
+   "excerpt": "The city first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+   "source_id": "s04",
+   "id": "a5"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mughals",
+      "zh-CN": "莫卧儿人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was temporarily captured by the Mughals.",
+    "zh-CN": "浦那曾一度被莫卧儿人占领。"
+   },
+   "excerpt": "It was temporarily captured by the Mughals",
+   "source_id": "s04",
+   "id": "a6"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1714"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune served as the official Maratha capital from 1714.",
+    "zh-CN": "浦那自1714年起担任马拉塔人的正式首都。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04",
+   "id": "a7"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune fell to the British in 1817.",
+    "zh-CN": "浦那于1817年落入英国人手中。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04",
+   "id": "a8"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bombay Presidency",
+      "zh-CN": "孟买总督辖区"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was the seasonal capital of the Bombay Presidency.",
+    "zh-CN": "浦那曾是孟买总督辖区的季节性首府。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04",
+   "id": "a9"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+    "zh-CN": "浦那是一个颇受欢迎的旅游度假地，拥有凉爽的天气、历史与宗教纪念物、博物馆、公园、酒店和文化景点。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04",
+   "id": "a10"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "“Oxford and Cambridge of India.”"
+   },
+   "scope": null,
+   "text": {
+    "en": "Jawaharlal Nehru referred to Pune as the “Oxford and Cambridge of India.”",
+    "zh-CN": "贾瓦哈拉尔·尼赫鲁称浦那为“印度的牛津和剑桥”。"
+   },
+   "excerpt": "former prime minister Jawaharlal Nehru referred to it as the “Oxford and Cambridge of India.”",
+   "source_id": "s04",
+   "id": "a11"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune houses some 30 constituent and affiliated colleges of the University of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune houses some 30 constituent and affiliated colleges of the University of Pune.",
+    "zh-CN": "浦那拥有浦那大学的约30所直属及附属学院。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04",
+   "id": "a12"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune",
+      "zh-CN": "浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1948"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune dates to 1948.",
+    "zh-CN": "浦那大学始于1948年。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04",
+   "id": "a13"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhandarkar Oriental Research Institute",
+      "zh-CN": "班达卡尔东方研究所"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1917"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute dates to 1917.",
+    "zh-CN": "班达卡尔东方研究所始于1917年。"
+   },
+   "excerpt": "the Bhandarkar Oriental Research Institute (1917) is renowned for research and instruction in the Sanskrit and Prakrit languages",
+   "source_id": "s04",
+   "id": "a14"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts.",
+    "zh-CN": "班达卡尔东方研究所收藏有超过20,000份古代手稿。"
+   },
+   "excerpt": "and has more than 20,000 ancient manuscripts.",
+   "source_id": "s04",
+   "id": "a15"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Southern Command of the Indian Army",
+      "zh-CN": "印度军队南方司令部"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the headquarters of the southern command of the Indian Army.",
+    "zh-CN": "浦那是印度军队南方司令部的所在地。"
+   },
+   "excerpt": "Pune is also the headquarters of the southern command of the Indian army, with the Khadakwasla Academy located nearby.",
+   "source_id": "s04",
+   "id": "a16"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A sprawling complex of industrial suburbs has developed around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "A sprawling complex of industrial suburbs has developed around Pune.",
+    "zh-CN": "浦那周围已形成一片庞大的工业郊区。"
+   },
+   "excerpt": "A sprawling complex of industrial suburbs has developed around the city.",
+   "source_id": "s04",
+   "id": "a17"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is largely residential and commercial."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is largely residential and commercial.",
+    "zh-CN": "浦那老城 largely 以住宅和商业用途为主。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04",
+   "id": "a18"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is served by large-scale commuter transport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is served by large-scale commuter transport.",
+    "zh-CN": "浦那老城拥有大规模通勤交通服务。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04",
+   "id": "a19"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam",
+      "zh-CN": "潘谢特水坝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The collapse of the Panshet Dam in 1961 washed away a substantial part of Pune's old town.",
+    "zh-CN": "潘谢特水坝于1961年坍塌，冲毁了浦那老城的一大部分。"
+   },
+   "excerpt": "In 1961 the Panshet Dam collapsed, washing away a substantial part of the old town.",
+   "source_id": "s04",
+   "id": "a20"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,538,473"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's city population was 2,538,473 in 2001.",
+    "zh-CN": "2001年浦那市区人口为2,538,473。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04",
+   "id": "a21"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,760,636"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's urban agglomeration population was 3,760,636 in 2001.",
+    "zh-CN": "2001年浦那城市集聚区人口为3,760,636。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04",
+   "id": "a22"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary city population was 3,115,431 in 2011.",
+    "zh-CN": "2011年浦那市区初步人口为3,115,431。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04",
+   "id": "a23"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "5,049,968"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary urban agglomeration population was 5,049,968 in 2011.",
+    "zh-CN": "2011年浦那城市集聚区初步人口为5,049,968。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04",
+   "id": "a24"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly known as Poona.",
+    "zh-CN": "浦那旧称 Poona。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05",
+   "id": "a25"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05",
+   "id": "a26"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Residency at Pune"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune"
+     }
+    },
+    "date": {
+     "raw": "November 1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The residency at Pune was burned in November 1817.",
+    "zh-CN": "1817年11月，浦那的驻官邸邸被焚毁。"
+   },
+   "excerpt": "Battle of Kirkee (November 1817), though the residency at Pune and Elphinstone’s notes for future literary works were burned.",
+   "source_id": "s07",
+   "id": "a27"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "In 1779, a British army was surrounded while on its way to Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "In 1779, a British army was surrounded while on its way to Pune.",
+    "zh-CN": "1779年，一支英国军队在前往浦那的途中被包围。"
+   },
+   "excerpt": "In 1779 a British army was surrounded on its way to Pune",
+   "source_id": "s08",
+   "id": "a28"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "国家 印度",
+   "source_id": "s02",
+   "id": "a29"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "邦马哈拉施特拉邦",
+   "source_id": "s02",
+   "id": "a30"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "450.69平方公里（174.01平方英里）"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a total area of 450.69 square kilometres (174.01 square miles).",
+    "zh-CN": "浦那的总面积为450.69平方公里（174.01平方英里）。"
+   },
+   "excerpt": "450.69平方公里（174.01平方英里）",
+   "source_id": "s02",
+   "id": "a32"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431人"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had a population of 3,115,431 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,115,431人。"
+   },
+   "excerpt": "人口\n（2011年）\n• 总计3,115,431人",
+   "source_id": "s02",
+   "id": "a33"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02",
+   "id": "a35"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Muta River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02",
+   "id": "a36"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha Empire",
+      "zh-CN": "马拉地帝国"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "近代以前"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly the capital of the Maratha Empire.",
+    "zh-CN": "浦那在近代以前曾为马拉地帝国的首都。"
+   },
+   "excerpt": "浦城在近代以前，曾为马拉地帝国首都。",
+   "source_id": "s02",
+   "id": "a37"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那至少从937年起即有记录。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been recorded since at least 937.",
+    "zh-CN": "浦那至少从937年起即有记录。"
+   },
+   "excerpt": "浦那至少从937年起即有记录",
+   "source_id": "s02",
+   "id": "a38"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was originally known as Punawadi.",
+    "zh-CN": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "excerpt": "原名为浦那瓦迪（Punawadi）",
+   "source_id": "s02",
+   "id": "a39"
+  },
+  {
+   "predicate": "named_after",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Puṇyanagara",
+     "zh-CN": "Puṇyanagara（美德之城）"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The name Pune is derived from the Sanskrit Puṇyanagara, meaning “City of Virtue.”",
+    "zh-CN": "浦那之名引自梵语中的Puṇyanagara（美德之城）。"
+   },
+   "excerpt": "浦那之名引自梵语中的Puṇyanagara（美德之城）。",
+   "source_id": "s02",
+   "id": "a40"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1976年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The modern English spelling of Pune was settled in 1976, while Poona was common in British-era documents.",
+    "zh-CN": "今天的浦那英语写法于1976年确定，而英国统治时期的英文文书中常写作Poona。"
+   },
+   "excerpt": "在英属印度，浦那在英语文书里常写为Poona，今天的英语写法则订于1976年。",
+   "source_id": "s02",
+   "id": "a41"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Adil Shahi dynasty",
+      "zh-CN": "阿迪勒·沙阿王朝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1630年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was sacked and destroyed by the Adil Shahi dynasty in 1630.",
+    "zh-CN": "1630年，浦那遭阿迪勒·沙阿王朝洗劫与摧毁。"
+   },
+   "excerpt": "1630年，本城为阿迪勒·沙阿王朝洗劫与摧毁",
+   "source_id": "s02",
+   "id": "a42"
+  },
+  {
+   "predicate": "rebuilt",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636年至1647年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was rebuilt from 1636 to 1647 after its destruction in 1630.",
+    "zh-CN": "浦那在1630年遭到摧毁后，于1636年至1647年再次重建。"
+   },
+   "excerpt": "从1636年至1647年再次重建起来",
+   "source_id": "s02",
+   "id": "a43"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Water Palace",
+      "zh-CN": "水之宫殿"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Water Palace in Pune was completed in 1640.",
+    "zh-CN": "浦那的水之宫殿于1640年完工。"
+   },
+   "excerpt": "建造了水之宫殿。这座王宫于1640年完工。",
+   "source_id": "s02",
+   "id": "a44"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada Castle",
+      "zh-CN": "沙尼瓦瓦达城堡"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1730年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada Castle in Pune was completed in 1730.",
+    "zh-CN": "浦那的沙尼瓦瓦达城堡于1730年完工。"
+   },
+   "excerpt": "在穆塔河畔建造沙尼瓦瓦达城堡。城堡于1730年完工",
+   "source_id": "s02",
+   "id": "a45"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British India",
+      "zh-CN": "英属印度"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "British India occupied Pune in 1817.",
+    "zh-CN": "1817年，英属印度占领浦那。"
+   },
+   "excerpt": "1817年，英属印度诸省占领浦那",
+   "source_id": "s02",
+   "id": "a46"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1858年",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established as a municipality in 1858.",
+    "zh-CN": "浦那于1858年设市。"
+   },
+   "excerpt": "浦那于1858年设市。",
+   "source_id": "s02",
+   "id": "a47"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "bubonic plague outbreak",
+      "zh-CN": "腺鼠疫传染"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1896年末"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bubonic plague outbreak occurred in Pune at the end of 1896.",
+    "zh-CN": "1896年末，浦那发生腺鼠疫传染。"
+   },
+   "excerpt": "1896年末浦那发生腺鼠疫传染。",
+   "source_id": "s02",
+   "id": "a48"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001 after construction began in 1998.",
+    "zh-CN": "六股道的孟买浦那高速公路于1998年开工，并于2001年竣工。"
+   },
+   "excerpt": "1998年六股道的孟买浦那高速公路开工，2001年竣工。",
+   "source_id": "s02",
+   "id": "a50"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "German Bakery bombing",
+      "zh-CN": "德国面包店炸弹爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Koregaon Park, Pune",
+      "zh-CN": "浦那东部柯立根公园"
+     }
+    },
+    "date": {
+     "raw": "2010年2月13日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred at the German Bakery in Koregaon Park in eastern Pune on 13 February 2010.",
+    "zh-CN": "2010年2月13日，浦那东部柯立根公园的德国面包店发生炸弹爆炸事件。"
+   },
+   "excerpt": "2010年2月13日在浦那东部的柯立根公园的德国面包店发生了一起炸弹爆炸事件",
+   "source_id": "s02",
+   "id": "a51"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "new cricket stadium on the Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路上的新球场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2012年4月1日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A new cricket stadium on the Mumbai–Pune Expressway in Pune began to be used on 1 April 2012.",
+    "zh-CN": "浦那孟买浦那高速公路上的新球场于2012年4月1日开始使用。"
+   },
+   "excerpt": "2012年4月1日开始使用的一座位于孟买浦那高速公路上的新球场",
+   "source_id": "s02",
+   "id": "a52"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是印度第九大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the ninth-largest city in India.",
+    "zh-CN": "浦那是印度第九大城。"
+   },
+   "excerpt": "是印度第九大城",
+   "source_id": "s02",
+   "id": "a53"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都",
+   "source_id": "s02",
+   "id": "a54"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the second-largest city in Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都与第二大城",
+   "source_id": "s02",
+   "id": "a55"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是西高止山脉上的第一大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest city on the Western Ghats.",
+    "zh-CN": "浦那是西高止山脉上的第一大城。"
+   },
+   "excerpt": "西高止山脉上的第一大城",
+   "source_id": "s02",
+   "id": "a56"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是第3级世界都市。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is currently classified as a Level 3 global city.",
+    "zh-CN": "浦那现为第3级世界都市。"
+   },
+   "excerpt": "浦那现为第3级世界都市。",
+   "source_id": "s02",
+   "id": "a57"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那有七万名信息技术职工。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has 70,000 information-technology employees.",
+    "zh-CN": "浦那有七万名信息技术职工。"
+   },
+   "excerpt": "今天浦那在信息技术方面有七万职工。",
+   "source_id": "s02",
+   "id": "a58"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "225个德国公司在浦那设有据点。"
+   },
+   "scope": null,
+   "text": {
+    "en": "225 German companies have bases in Pune.",
+    "zh-CN": "225个德国公司在浦那设有据点。"
+   },
+   "excerpt": "225个德国公司在浦那设有据点。",
+   "source_id": "s02",
+   "id": "a59"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被称为印度的“汽车之城”。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been called India's “Automobile City.”",
+    "zh-CN": "浦那被称为印度的“汽车之城”。"
+   },
+   "excerpt": "《独立报》因此称浦那为印度的“汽车之城”。",
+   "source_id": "s02",
+   "id": "a60"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那市议会由149名直接选举产生的议员组成。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's municipal council consists of 149 directly elected councillors.",
+    "zh-CN": "浦那市议会由149名通过直接选举产生的议员组成。"
+   },
+   "excerpt": "浦那市议会由149名通过直接选举产生的议员组成。",
+   "source_id": "s02",
+   "id": "a61"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is regarded as the cultural center of Maharashtra.",
+    "zh-CN": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "excerpt": "浦那被看作是马哈拉施特拉邦的文化中心。",
+   "source_id": "s02",
+   "id": "a62"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦",
+   "source_id": "s02",
+   "id": "a63"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "The population listed for Pune is 3,115,431.",
+    "zh-CN": "浦那的人口为3,115,431。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02",
+   "id": "a64"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那在印度最大城市列表中排名第9。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranks ninth in the list of India's largest cities.",
+    "zh-CN": "浦那在印度最大城市列表中排名第9。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02",
+   "id": "a65"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03",
+   "id": "a66"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03",
+   "id": "a67"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18",
+    "unit": "km²"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation covers 516.18 km².",
+    "zh-CN": "浦那市政公司辖区面积为516.18平方公里。"
+   },
+   "excerpt": "area_blank1_km2\":{\"wt\":\"516.18\"}",
+   "source_id": "s03",
+   "id": "a69"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256.46",
+    "unit": "km²"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region covers 7,256.46 km².",
+    "zh-CN": "浦那都会区面积为7,256.46平方公里。"
+   },
+   "excerpt": "area_blank2_km2\":{\"wt\":\"7,256.46\"}",
+   "source_id": "s03",
+   "id": "a70"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "6,200,000"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation has a population of 6,200,000.",
+    "zh-CN": "浦那市政公司辖区人口为620万。"
+   },
+   "excerpt": "population_blank1\":{\"wt\":\"6,200,000\"",
+   "source_id": "s03",
+   "id": "a71"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "7,276,000"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region has a population of 7,276,000.",
+    "zh-CN": "浦那都会区人口为727.6万。"
+   },
+   "excerpt": "population_blank2\":{\"wt\":\"7,276,000\"",
+   "source_id": "s03",
+   "id": "a72"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "largest",
+    "category": {
+     "label": {
+      "en": "city in Maharashtra by geographical area",
+      "zh-CN": "马哈拉施特拉邦按地理面积计算的城市"
+     }
+    },
+    "as_of": 2021
+   },
+   "scope": null,
+   "text": {
+    "en": "In 2021, Pune was described as Maharashtra's largest city by geographical area.",
+    "zh-CN": "2021年，浦那被称为马哈拉施特拉邦按地理面积计算的最大城市。"
+   },
+   "excerpt": "date=1 July 2021 |title=Pune pips Mumbai as Maharashtra's largest city in terms of geographical area",
+   "source_id": "s03",
+   "id": "a73"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is also known as Poona."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is also known as Poona.",
+    "zh-CN": "浦那也被称为Poona。"
+   },
+   "excerpt": "other_name\":{\"wt\":\"Poona\"}",
+   "source_id": "s03",
+   "id": "a74"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East.",
+    "zh-CN": "浦那的别称包括“东方牛津”“德干女王”和“东方底特律”。"
+   },
+   "excerpt": "Nicknames:\nOxford of the East, The Queen of Deccan, Detroit of the East",
+   "source_id": "s03",
+   "id": "a75"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is governed as a municipal corporation by the Pune Municipal Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is governed as a municipal corporation by the Pune Municipal Corporation.",
+    "zh-CN": "浦那实行市政公司治理，治理机构为浦那市政公司。"
+   },
+   "excerpt": "government_type\":{\"wt\":\"[[Municipal Corporations in India|Municipal Corporation]]\"},\"governing_body\":{\"wt\":\"[[Pune Municipal Corporation]]\"",
+   "source_id": "s03",
+   "id": "a76"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The mayor of Pune is Manjusha Nagpure."
+   },
+   "scope": null,
+   "text": {
+    "en": "The mayor of Pune is Manjusha Nagpure.",
+    "zh-CN": "浦那市长是Manjusha Nagpure。"
+   },
+   "excerpt": "leader_name\":{\"wt\":\"Manjusha Nagpure\"",
+   "source_id": "s03",
+   "id": "a77"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's elevation is 570.62 metres."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's elevation is 570.62 metres.",
+    "zh-CN": "浦那海拔为570.62米。"
+   },
+   "excerpt": "elevation_m\":{\"wt\":\"570.62\"",
+   "source_id": "s03",
+   "id": "a78"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "custom_label1_sec1\":{\"wt\":\"[[Official language]]\"},\"custom_data1_sec1\":{\"wt\":\"[[Marathi language|Marathi]]",
+   "source_id": "s03",
+   "id": "a79"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is the city's international airport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is the city's international airport.",
+    "zh-CN": "浦那国际机场是该市的国际机场。"
+   },
+   "excerpt": "custom_label2_sec1\":{\"wt\":\"[[International airport]]s\"},\"custom_data2_sec1\":{\"wt\":\"[[Pune International Airport]]",
+   "source_id": "s03",
+   "id": "a80"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's rapid transit system is Pune Metro."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's rapid transit system is Pune Metro.",
+    "zh-CN": "浦那的快速交通系统是浦那地铁。"
+   },
+   "excerpt": "custom_label3_sec1\":{\"wt\":\"[[Transit system|Transit]]\"},\"custom_data3_sec1\":{\"wt\":\"'''[[Rapid Transit]]''': [[Pune Metro]]",
+   "source_id": "s03",
+   "id": "a81"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's commuter rail system is Pune Suburban Railway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's commuter rail system is Pune Suburban Railway.",
+    "zh-CN": "浦那的通勤铁路系统是浦那郊区铁路。"
+   },
+   "excerpt": "'''[[Commuter rail]]''': [[Pune Suburban Railway]]",
+   "source_id": "s03",
+   "id": "a82"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority."
+   },
+   "scope": null,
+   "text": {
+    "en": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority.",
+    "zh-CN": "浦那的城市规划机构是浦那都会区发展局。"
+   },
+   "excerpt": "custom_label4_sec1\":{\"wt\":\"Urban Planning Authority\"},\"custom_data4_sec1\":{\"wt\":\"[[Pune Metropolitan Region Development Authority]]",
+   "source_id": "s03",
+   "id": "a83"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's GDP is $78 billion."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's GDP is $78 billion.",
+    "zh-CN": "浦那的国内生产总值为780亿美元。"
+   },
+   "excerpt": "custom_data5_sec1\":{\"wt\":\"$78 billion",
+   "source_id": "s03",
+   "id": "a84"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Country India",
+   "source_id": "s03",
+   "id": "a85"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State Maharashtra",
+   "source_id": "s03",
+   "id": "a86"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "758 CE",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established in 758 CE.",
+    "zh-CN": "浦那于公元758年建立。"
+   },
+   "excerpt": "Established758 CE",
+   "source_id": "s03",
+   "id": "a87"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a geographical area of 516.18 km².",
+    "zh-CN": "浦那的地理面积为516.18平方公里。"
+   },
+   "excerpt": "In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by area, with a geographical area of 516.18km2",
+   "source_id": "s03",
+   "id": "a88"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River runs through Pune's historical landscape.",
+    "zh-CN": "穆塔河贯穿浦那的历史景观。"
+   },
+   "excerpt": "He also commissioned the construction of the Shaniwar Wada on the high grounds of right bank of the Mutha River.",
+   "source_id": "s03",
+   "id": "a89"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1857"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's English name was anglicized to Poona in 1857.",
+    "zh-CN": "该城市的英语名称于1857年被 anglicized 为 Poona。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03",
+   "id": "a90"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1978"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's name was changed to Pune in 1978.",
+    "zh-CN": "该城市的名称于1978年改为浦那。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03",
+   "id": "a91"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Muhiyabad",
+      "zh-CN": "穆希亚巴德"
+     }
+    },
+    "date": {
+     "raw": "between 1703 and 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A neighbourhood in central Pune was temporarily renamed Muhiyabad between 1703 and 1705.",
+    "zh-CN": "浦那老城中心的一个街区在1703年至1705年间被暂时改名为穆希亚巴德。"
+   },
+   "excerpt": "Mughal emperor Aurangzeb renamed a small neighbourhood in central part of the old city as Muhiyabad (the only divergent naming) some time between 1703 and 1705",
+   "source_id": "s03",
+   "id": "a92"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Seuna Yadavas of Devagiri",
+      "zh-CN": "德瓦吉里的塞乌纳·雅达瓦人"
+     }
+    },
+    "date": {
+     "raw": "from the 9th century to 1327"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+    "zh-CN": "从9世纪到1327年，浦那属于德瓦吉里的塞乌纳·雅达瓦人统治的领土。"
+   },
+   "excerpt": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+   "source_id": "s03",
+   "id": "a93"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maloji Bhosale",
+      "zh-CN": "马洛吉·博萨勒"
+     }
+    },
+    "date": {
+     "raw": "1599"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Maloji Bhosale was granted the jagir of Pune in 1599.",
+    "zh-CN": "浦那的采邑于1599年授予马洛吉·博萨勒。"
+   },
+   "excerpt": "Pune was part of the Jagir (fiefdom) granted by the Nizamshahi (Ahmadnagar Sultanate) to Maloji Bhosale in 1599.",
+   "source_id": "s03",
+   "id": "a94"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "town",
+      "zh-CN": "城镇"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was destroyed by Murar Jagdeo in 1636.",
+    "zh-CN": "浦那于1636年被穆拉尔·贾格德奥摧毁。"
+   },
+   "excerpt": "The town was destroyed by Murar Jagdeo, a general from the rival Adil Shahi dynasty in 1636.",
+   "source_id": "s03",
+   "id": "a95"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves rock-cut temple complex",
+      "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pataleshwar Caves rock-cut temple complex was built in Pune.",
+    "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群建于浦那。"
+   },
+   "excerpt": "The Pataleshwar Caves rock-cut temple complex was built during this era.",
+   "source_id": "s03",
+   "id": "a96"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640 AD"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal residence was completed in 1640 AD.",
+    "zh-CN": "拉尔宫于公元1640年建成。"
+   },
+   "excerpt": "The Lal Mahal residence of Jiajabai and Shivaji was completed in 1640 AD.",
+   "source_id": "s03",
+   "id": "a97"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Peshwas",
+      "zh-CN": "佩什瓦"
+     }
+    },
+    "date": {
+     "raw": "1730"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The completion of Shaniwar Wada in 1730 ushered in the era of Peshwa control of Pune.",
+    "zh-CN": "沙尼瓦尔瓦达宫于1730年建成，标志着浦那进入佩什瓦统治时期。"
+   },
+   "excerpt": "The construction was completed in 1730, ushering in the era of Peshwa control of the city.",
+   "source_id": "s03",
+   "id": "a98"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aurangzeb",
+      "zh-CN": "奥朗则布"
+     }
+    },
+    "date": {
+     "raw": "1703 to 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by Mughal emperor Aurangzeb from 1703 to 1705.",
+    "zh-CN": "浦那于1703年至1705年被莫卧儿皇帝奥朗则布占领。"
+   },
+   "excerpt": "From 1703 to 1705, towards the end of the 27-year-long Mughal–Maratha Wars, the town was occupied by Mughal emperor Aurangzeb and its name was changed temporarily to Muhiyabad.",
+   "source_id": "s03",
+   "id": "a99"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "date": {
+     "raw": "June 1670"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by the Marathas again in June 1670.",
+    "zh-CN": "浦那于1670年6月再次被马拉塔人占领。"
+   },
+   "excerpt": "Pune was occupied again by Marathas in June 1670, four months to the battle of Sinhagad and remained in the hands of Marathas.",
+   "source_id": "s03",
+   "id": "a100"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "lake at Katraj",
+      "zh-CN": "卡特拉吉湖"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Nanasaheb constructed a lake at Katraj on the outskirts of Pune.",
+    "zh-CN": "纳纳萨海布在浦那郊外修建了卡特拉吉湖。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03",
+   "id": "a101"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "underground aqueduct",
+      "zh-CN": "地下引水渠"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "An underground aqueduct carried water from the Katraj lake to Shaniwar Wada and Pune.",
+    "zh-CN": "一条地下引水渠将水从卡特拉吉湖引至沙尼瓦尔瓦达宫和浦那。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03",
+   "id": "a102"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "date": {
+     "raw": "5 November"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British seized Pune on 5 November following the Battle of Khadki.",
+    "zh-CN": "卡德基战役后，英国人于11月5日夺取浦那。"
+   },
+   "excerpt": "The Peshwas were defeated at the Battle of Khadki (then spelled Kirkee) on 5 November near Pune and the city was seized by the British.",
+   "source_id": "s03",
+   "id": "a103"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British military cantonment",
+      "zh-CN": "英军军事营地"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British built a large military cantonment east of Pune.",
+    "zh-CN": "英国人在浦那以东修建了一座大型军事营地。"
+   },
+   "excerpt": "It was placed under the administration of the Bombay Presidency and the British built a large military cantonment to the east of the city (now used by the Indian Army).",
+   "source_id": "s03",
+   "id": "a104"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Poona Municipality was established in 1858."
+   },
+   "scope": null,
+   "text": {
+    "en": "Poona Municipality was established in 1858.",
+    "zh-CN": "浦那市政机构于1858年成立。"
+   },
+   "excerpt": "Poona Municipality was established in 1858.",
+   "source_id": "s03",
+   "id": "a105"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "railway line from Bombay to Pune",
+      "zh-CN": "孟买到浦那的铁路线"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1858"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A railway line from Bombay to Pune opened in 1858.",
+    "zh-CN": "一条从孟买通往浦那的铁路于1858年通车。"
+   },
+   "excerpt": "A railway line from Bombay to the city opened in 1858, run by the Great Indian Peninsula Railway (GIPR).",
+   "source_id": "s03",
+   "id": "a106"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British rule",
+      "zh-CN": "英国统治"
+     }
+    },
+    "date": {
+     "raw": "1818–1947"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was under British rule from 1818 to 1947.",
+    "zh-CN": "浦那于1818年至1947年处于英国统治之下。"
+   },
+   "excerpt": "British rule (1818–1947)",
+   "source_id": "s03",
+   "id": "a107"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's official language is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's official language is Marathi.",
+    "zh-CN": "浦那的官方语言是马拉地语。"
+   },
+   "excerpt": "Official languageMarathi",
+   "source_id": "s03",
+   "id": "a108"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Airport",
+      "zh-CN": "浦那国际机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is located in Pune.",
+    "zh-CN": "浦那国际机场位于浦那。"
+   },
+   "excerpt": "International airportsPune International Airport (PNQ)",
+   "source_id": "s03",
+   "id": "a109"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Oxford of the East\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+    "zh-CN": "浦那因其教育机构而常被称为“东方的牛津”。"
+   },
+   "excerpt": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+   "source_id": "s03",
+   "id": "a110"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"the most liveable city in India\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been ranked \"the most liveable city in India\" several times.",
+    "zh-CN": "浦那曾多次被评为“印度最宜居的城市”。"
+   },
+   "excerpt": "It has been ranked \"the most liveable city in India\" several times.",
+   "source_id": "s03",
+   "id": "a111"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Monsoon capital\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the \"Monsoon capital\" of the Governor of Bombay.",
+    "zh-CN": "浦那成为孟买总督的“季风之都”。"
+   },
+   "excerpt": "Due to its milder weather, the city became the \"Monsoon capital\" of the Governor of Bombay, thus making it one of the most important cities of the Bombay Presidency.",
+   "source_id": "s03",
+   "id": "a112"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune expanded through the construction of around 250 temples and bridges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune expanded through the construction of around 250 temples and bridges.",
+    "zh-CN": "浦那通过修建约250座寺庙和桥梁而扩张。"
+   },
+   "excerpt": "The patronage of the Maratha Peshwas resulted in a great expansion of Pune, with the construction of around 250 temples and bridges in the city",
+   "source_id": "s03",
+   "id": "a113"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Municipal Corporation (PMC)",
+      "zh-CN": "浦那市政公司（PMC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Poona Municipal Council was reorganized to form the Pune Municipal Corporation in 1950.",
+    "zh-CN": "1950年，浦那市政委员会被改组为浦那市政公司。"
+   },
+   "excerpt": "The Poona Municipal Council was reorganised to form the Pune Municipal Corporation (PMC) in 1950.",
+   "source_id": "s03",
+   "id": "a114"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune, now Savitribai Phule Pune University",
+      "zh-CN": "浦那大学，现为萨维特里拜·普莱·浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1949",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune, now Savitribai Phule Pune University, was established in 1949.",
+    "zh-CN": "浦那大学（现为萨维特里拜·普莱·浦那大学）于1949年成立。"
+   },
+   "excerpt": "the establishment of the University of Pune (now, Savitribai Phule Pune University) in 1949",
+   "source_id": "s03",
+   "id": "a115"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Chemical Laboratory",
+      "zh-CN": "国家化学实验室"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Chemical Laboratory was established in Pune in 1950.",
+    "zh-CN": "国家化学实验室于1950年在浦那成立。"
+   },
+   "excerpt": "the National Chemical Laboratory in 1950",
+   "source_id": "s03",
+   "id": "a116"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Defence Academy",
+      "zh-CN": "国防学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1955",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Defence Academy was established in Pune in 1955.",
+    "zh-CN": "国防学院于1955年在浦那成立。"
+   },
+   "excerpt": "the National Defence Academy in 1955",
+   "source_id": "s03",
+   "id": "a117"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Hindustan Antibiotics",
+      "zh-CN": "印度斯坦抗生素公司"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Hadapsar, Bhosari and Pimpri, Pune",
+      "zh-CN": "浦那的哈达普萨尔、博萨里和皮姆普里"
+     }
+    },
+    "date": {
+     "raw": "1954",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in Pune's Hadapsar, Bhosari and Pimpri areas.",
+    "zh-CN": "印度斯坦抗生素公司于1954年成立，标志着浦那哈达普萨尔、博萨里和皮姆普里地区工业发展的开始。"
+   },
+   "excerpt": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in the Hadapsar, Bhosari, and Pimpri areas.",
+   "source_id": "s03",
+   "id": "a118"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Six-lane Mumbai–Pune Expressway",
+      "zh-CN": "六车道孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001.",
+    "zh-CN": "六车道孟买—浦那高速公路于2001年完工。"
+   },
+   "excerpt": "it was completed in 2001",
+   "source_id": "s03",
+   "id": "a120"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bomb explosion at the German Bakery",
+      "zh-CN": "德国面包店炸弹爆炸"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "German Bakery, Koregaon Park, Pune",
+      "zh-CN": "浦那科里冈公园的德国面包店"
+     }
+    },
+    "date": {
+     "raw": "13 February 2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bomb exploded at the German Bakery in Koregaon Park, Pune, on 13 February 2010.",
+    "zh-CN": "2010年2月13日，一枚炸弹在浦那科里冈公园的德国面包店爆炸。"
+   },
+   "excerpt": "On 13 February 2010, a bomb exploded at the German Bakery in the upmarket Koregaon Park neighbourhood in eastern Pune",
+   "source_id": "s03",
+   "id": "a121"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "'Oxford Of The East'"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has the nickname 'Oxford Of The East'.",
+    "zh-CN": "浦那有“东方牛津”的昵称。"
+   },
+   "excerpt": "earning it the nickname of the 'Oxford Of The East'",
+   "source_id": "s03",
+   "id": "a122"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "15,642 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune district has an area of 15,642 square kilometers.",
+    "zh-CN": "浦那县面积为15,642平方公里。"
+   },
+   "excerpt": "The area of Pune district is 15,642 km2",
+   "source_id": "s03",
+   "id": "a123"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "518 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune municipal corporation area covers 518 square kilometers.",
+    "zh-CN": "浦那市政公司辖区面积为518平方公里。"
+   },
+   "excerpt": "the municipal corporation area covers 518 km2",
+   "source_id": "s03",
+   "id": "a124"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River flows through Pune.",
+    "zh-CN": "穆拉河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03",
+   "id": "a126"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River flows through Pune.",
+    "zh-CN": "穆塔河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03",
+   "id": "a127"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "帕瓦纳河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03",
+   "id": "a128"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "因德拉亚尼河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03",
+   "id": "a129"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Metropolitan Region has grown to an area of 7,256 square kilometers.",
+    "zh-CN": "浦那大都会区已扩展至7,256平方公里。"
+   },
+   "excerpt": "has grown to 7,256 km2 made up of the ten talukas of the Pune district",
+   "source_id": "s03",
+   "id": "a130"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "36%"
+   },
+   "scope": null,
+   "text": {
+    "en": "Approximately 36 percent of Pune's population lives in slum areas.",
+    "zh-CN": "浦那约36%的人口居住在贫民区。"
+   },
+   "excerpt": "Approximately 36% of the population lives in 486 slum areas.",
+   "source_id": "s03",
+   "id": "a131"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "second_highest",
+    "category": {
+     "en": "Quality of Living Rankings in India",
+     "zh-CN": "印度生活质量排名"
+    },
+    "as_of": 2017
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranked 145th and second highest in India in the Mercer 2017 Quality of Living Rankings.",
+    "zh-CN": "在梅瑟2017年生活质量排名中，浦那位居全球第145位、印度第二。"
+   },
+   "excerpt": "ranked Pune at 145, second highest in India after Hyderabad at 144",
+   "source_id": "s03",
+   "id": "a132"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+    "zh-CN": "浦那位于科伊纳大坝周边地震活跃区以北100公里（62英里）。"
+   },
+   "excerpt": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+   "source_id": "s03",
+   "id": "a133"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5."
+   },
+   "scope": null,
+   "text": {
+    "en": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5.",
+    "zh-CN": "印度气象局将浦那评为2至5级地震分区中的3区。"
+   },
+   "excerpt": "The India Meteorological Department has assessed this area as being in Zone 3, on a scale of 2 to 5, with 5 being the most prone to earthquakes.",
+   "source_id": "s03",
+   "id": "a134"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "earthquakes",
+      "zh-CN": "地震"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has experienced moderate- and low-intensity earthquakes in its history.",
+    "zh-CN": "浦那历史上曾经历中等强度和多次低强度地震。"
+   },
+   "excerpt": "Pune has experienced some moderate – and many low – intensity earthquakes in its history.",
+   "source_id": "s03",
+   "id": "a135"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "73,000"
+   },
+   "scope": "1851",
+   "text": {
+    "en": "Pune had a population of 73,000 in 1851.",
+    "zh-CN": "1851年，浦那的人口为73,000。"
+   },
+   "excerpt": "1851 73,000—",
+   "source_id": "s03",
+   "id": "a136"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "118,790"
+   },
+   "scope": "1891",
+   "text": {
+    "en": "Pune had a population of 118,790 in 1891.",
+    "zh-CN": "1891年，浦那的人口为118,790。"
+   },
+   "excerpt": "1891 118,790+62.7%",
+   "source_id": "s03",
+   "id": "a137"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "153,320"
+   },
+   "scope": "1901",
+   "text": {
+    "en": "Pune had a population of 153,320 in 1901.",
+    "zh-CN": "1901年，浦那的人口为153,320。"
+   },
+   "excerpt": "1901 153,320+29.1%",
+   "source_id": "s03",
+   "id": "a138"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "158,856"
+   },
+   "scope": "1911",
+   "text": {
+    "en": "Pune had a population of 158,856 in 1911.",
+    "zh-CN": "1911年，浦那的人口为158,856。"
+   },
+   "excerpt": "1911 158,856+3.6%",
+   "source_id": "s03",
+   "id": "a139"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,523"
+   },
+   "scope": "1921",
+   "text": {
+    "en": "Pune had a population of 198,523 in 1921.",
+    "zh-CN": "1921年，浦那的人口为198,523。"
+   },
+   "excerpt": "1921 198,523+25.0%",
+   "source_id": "s03",
+   "id": "a140"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,078"
+   },
+   "scope": "1931",
+   "text": {
+    "en": "Pune had a population of 198,078 in 1931.",
+    "zh-CN": "1931年，浦那的人口为198,078。"
+   },
+   "excerpt": "1931 198,078−0.2%",
+   "source_id": "s03",
+   "id": "a141"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "257,554"
+   },
+   "scope": "1941",
+   "text": {
+    "en": "Pune had a population of 257,554 in 1941.",
+    "zh-CN": "1941年，浦那的人口为257,554。"
+   },
+   "excerpt": "1941 257,554+30.0%",
+   "source_id": "s03",
+   "id": "a142"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "488,419"
+   },
+   "scope": "1951",
+   "text": {
+    "en": "Pune had a population of 488,419 in 1951.",
+    "zh-CN": "1951年，浦那的人口为488,419。"
+   },
+   "excerpt": "1951 488,419+89.6%",
+   "source_id": "s03",
+   "id": "a143"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "856,105"
+   },
+   "scope": "1971",
+   "text": {
+    "en": "Pune had a population of 856,105 in 1971.",
+    "zh-CN": "1971年，浦那的人口为856,105。"
+   },
+   "excerpt": "1971 856,105+75.3%",
+   "source_id": "s03",
+   "id": "a144"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,203,351"
+   },
+   "scope": "1981",
+   "text": {
+    "en": "Pune had a population of 1,203,351 in 1981.",
+    "zh-CN": "1981年，浦那的人口为1,203,351。"
+   },
+   "excerpt": "1981 1,203,351+40.6%",
+   "source_id": "s03",
+   "id": "a145"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,566,651"
+   },
+   "scope": "1991",
+   "text": {
+    "en": "Pune had a population of 1,566,651 in 1991.",
+    "zh-CN": "1991年，浦那的人口为1,566,651。"
+   },
+   "excerpt": "1991 1,566,651+30.2%",
+   "source_id": "s03",
+   "id": "a146"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,540,069"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "Pune had a population of 2,540,069 in 2001.",
+    "zh-CN": "2001年，浦那的人口为2,540,069。"
+   },
+   "excerpt": "2001 2,540,069+62.1%",
+   "source_id": "s03",
+   "id": "a147"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,124,458"
+   },
+   "scope": "2011",
+   "text": {
+    "en": "Pune had a population of 3,124,458 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,124,458。"
+   },
+   "excerpt": "2011 3,124,458+23.0%",
+   "source_id": "s03",
+   "id": "a148"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a major industrial metropolis that has attracted migrants from all parts of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a major industrial metropolis that has attracted migrants from all parts of India.",
+    "zh-CN": "浦那是一座吸引印度各地移民的主要工业都市。"
+   },
+   "excerpt": "Since Pune is a major industrial metropolis, it has attracted migrants from all parts of India.",
+   "source_id": "s03",
+   "id": "a149"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "43,900"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "The number of people migrating to Pune was 43,900 in 2001.",
+    "zh-CN": "2001年，迁入浦那的人数为43,900。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03",
+   "id": "a150"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "88,200"
+   },
+   "scope": "2005",
+   "text": {
+    "en": "The number of people migrating to Pune was 88,200 in 2005.",
+    "zh-CN": "2005年，迁入浦那的人数为88,200。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03",
+   "id": "a151"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001.",
+    "zh-CN": "1991年至2001年间，浦那吸纳了38个外围村庄。"
+   },
+   "excerpt": "The sharp increase in population during the decade 1991–2001 led to the absorption of 38 fringe villages into the city.",
+   "source_id": "s03",
+   "id": "a152"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth."
+   },
+   "scope": null,
+   "text": {
+    "en": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth.",
+    "zh-CN": "来自原农村地区的人口迁入占浦那人口增长的70%。"
+   },
+   "excerpt": "As agriculture has dwindled in recent decades, immigration of the erstwhile rural peoples now accounts for 70 per cent of the population growth.",
+   "source_id": "s03",
+   "id": "a153"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 86.15% in 2011."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 86.15% in 2011.",
+    "zh-CN": "2011年，浦那的平均识字率为86.15%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03",
+   "id": "a154"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 80.45% in 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 80.45% in 2001.",
+    "zh-CN": "2001年，浦那的平均识字率为80.45%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03",
+   "id": "a155"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hinduism is the major religion in Pune, practised by a little under 80% of the population."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hinduism is the major religion in Pune, practised by a little under 80% of the population.",
+    "zh-CN": "印度教是浦那的主要宗教，信徒略少于总人口的80%。"
+   },
+   "excerpt": "Hinduism is the major religion, practised by a little under 80% of people in Pune.",
+   "source_id": "s03",
+   "id": "a156"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Parvati temple complex",
+      "zh-CN": "帕尔瓦蒂寺群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Parvati temple complex on Parvati Hill dates back to the 18th century.",
+    "zh-CN": "帕尔瓦蒂山上的帕尔瓦蒂寺群可追溯至18世纪。"
+   },
+   "excerpt": "Of the many Hindu temples in the city, the Parvati temple complex on Parvati Hill and at least 250 others date back to the 18th century.",
+   "source_id": "s03",
+   "id": "a157"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+    "zh-CN": "达加杜塞特·哈尔瓦伊·象头神庙是浦那最富有的象头神庙。"
+   },
+   "excerpt": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+   "source_id": "s03",
+   "id": "a158"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Meher Baba was born in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Meher Baba was born in Pune.",
+    "zh-CN": "梅赫·巴巴出生于浦那。"
+   },
+   "excerpt": "Pune is also the birthplace of Meher Baba, although his followers usually travel to Meherabad to visit his tomb.",
+   "source_id": "s03",
+   "id": "a159"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "St. Patrick's Cathedral",
+      "zh-CN": "圣帕特里克大教堂"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1850"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "St. Patrick's Cathedral was built in 1850.",
+    "zh-CN": "圣帕特里克大教堂建于1850年。"
+   },
+   "excerpt": "St. Patrick's Cathedral built in 1850 is the seat of the bishop of the Roman Catholic Diocese of Poona.",
+   "source_id": "s03",
+   "id": "a160"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Ohel David Synagogue",
+      "zh-CN": "欧海尔·大卫会堂"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ohel David Synagogue, locally known as Lal Deval, dates to the 19th century.",
+    "zh-CN": "当地称为“红色会堂”的欧海尔·大卫会堂可追溯至19世纪。"
+   },
+   "excerpt": "The 19th-century Ohel David Synagogue, known locally as Lal Deval, is said to be one of the largest synagogues in Asia outside Israel.",
+   "source_id": "s03",
+   "id": "a161"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Osho lived and taught in Pune for much of the 1970s and 1980s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Osho lived and taught in Pune for much of the 1970s and 1980s.",
+    "zh-CN": "奥修在20世纪70年代和80年代的大部分时间里居住并讲学于浦那。"
+   },
+   "excerpt": "The controversial Guru Rajneesh, also known as Osho, lived and taught in Pune for much of the 1970s and 1980s.",
+   "source_id": "s03",
+   "id": "a162"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Osho International Meditation Resort is located in Koregaon Park in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Osho International Meditation Resort is located in Koregaon Park in Pune.",
+    "zh-CN": "奥修国际冥想度假村位于浦那的科里冈公园。"
+   },
+   "excerpt": "The Osho International Meditation Resort, one of the world's largest spiritual centres, is located in Koregaon Park and attracts visitors from over a hundred countries.",
+   "source_id": "s03",
+   "id": "a163"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03",
+   "id": "a164"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the most-spoken language in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the most-spoken language in Pune.",
+    "zh-CN": "马拉地语是浦那使用最广泛的语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03",
+   "id": "a165"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化之都，也是马拉地文学中心。"
+   },
+   "excerpt": "Pune, being the cultural capital of Maharashtra, is a centre for Marathi literature and its dialect forms the basis for the written standard of Marathi.",
+   "source_id": "s03",
+   "id": "a166"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government.",
+    "zh-CN": "浦那市政公司和皮姆普里-钦奇瓦德市政公司负责地方治理。"
+   },
+   "excerpt": "Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are the civic bodies responsible for local government.",
+   "source_id": "s03",
+   "id": "a167"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune City Police Department is the law-enforcement agency for Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune City Police Department is the law-enforcement agency for Pune.",
+    "zh-CN": "浦那城市警察局是浦那的执法机构。"
+   },
+   "excerpt": "The Pune City Police Department is the law enforcement agency for the city of Pune.",
+   "source_id": "s03",
+   "id": "a168"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River in Pune contains only sewage outside the monsoon months.",
+    "zh-CN": "浦那的穆塔河在季风月份以外只含污水。"
+   },
+   "excerpt": "The city lacks the capacity to treat all the sewage it generates, which leads to the Mutha river containing only sewage outside the monsoon months.",
+   "source_id": "s03",
+   "id": "a169"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Unplanned and haphazard development has turned the Mula-Mutha River into a dead river.",
+    "zh-CN": "无计划且杂乱无章的开发已使穆拉-穆塔河成为一条死河。"
+   },
+   "excerpt": "According to Anwesha Borthakur and Pardeep Singh, unplanned and haphazard development has turned the Mula-Mutha river into a dead river.",
+   "source_id": "s03",
+   "id": "a170"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers.",
+    "zh-CN": "2009年，浦那产生的污水只有65%在排入河流前得到处理。"
+   },
+   "excerpt": "In 2009 only 65% of sewage generated was treated before being discharged into the rivers.",
+   "source_id": "s03",
+   "id": "a171"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers.",
+    "zh-CN": "浦那市政公司已制定恢复河流生机的计划。"
+   },
+   "excerpt": "The Pune municipal corporation has undertaken plans to restore life into the rivers.",
+   "source_id": "s03",
+   "id": "a172"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir.",
+    "zh-CN": "浦那市政公司供应的饮用水取自卡达克瓦斯拉水库。"
+   },
+   "excerpt": "The PMC supplies the city with potable water that is sourced from the Khadakwasla Reservoir.",
+   "source_id": "s03",
+   "id": "a173"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Around 1,600 tons of solid waste is generated in Pune each day."
+   },
+   "scope": null,
+   "text": {
+    "en": "Around 1,600 tons of solid waste is generated in Pune each day.",
+    "zh-CN": "浦那每天产生约1,600吨固体废物。"
+   },
+   "excerpt": "Around 1,600 tons of solid waste is generated in Pune each day.",
+   "source_id": "s03",
+   "id": "a174"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material.",
+    "zh-CN": "浦那的固体废物由53%的有机可堆肥材料和47%的无机材料组成。"
+   },
+   "excerpt": "The waste consists of 53% organic, compostable material; and 47% inorganic material, of which around half is recyclable.",
+   "source_id": "s03",
+   "id": "a175"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a well-known manufacturing and industrial center of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a well-known manufacturing and industrial center of India.",
+    "zh-CN": "浦那是印度著名的制造业和工业中心。"
+   },
+   "excerpt": "Pune is a well known manufacturing and industrial center of India.",
+   "source_id": "s03",
+   "id": "a176"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20.",
+    "zh-CN": "浦那区2019—20财年的人均GDP为316,848卢比。"
+   },
+   "excerpt": "GDP per capita of Pune District in 2019–20 was Rs. 3,16,848.",
+   "source_id": "s03",
+   "id": "a177"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its automotive industry."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its automotive industry.",
+    "zh-CN": "浦那以其汽车产业而闻名。"
+   },
+   "excerpt": "The city is known for its automotive industry.",
+   "source_id": "s03",
+   "id": "a178"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan."
+   },
+   "scope": null,
+   "text": {
+    "en": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan.",
+    "zh-CN": "通用汽车、兰博基尼、捷豹、雷诺、大众和菲亚特在查坎设有制造厂。"
+   },
+   "excerpt": "General Motors, Land Rover, Jaguar, Renault, Volkswagen, and Fiat have there manufacturing plants in Chakan.",
+   "source_id": "s03",
+   "id": "a179"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Kirloskar Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Kirloskar Group is headquartered in Pune.",
+    "zh-CN": "Kir loskar集团总部设在浦那。"
+   },
+   "excerpt": "The Kirloskar Group, one of India's largest manufacturers and exporters of pumps and the largest infrastructure pumping project contractor in Asia, is headquartered in Pune.",
+   "source_id": "s03",
+   "id": "a180"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Kalyani Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Kalyani Group is headquartered in Pune.",
+    "zh-CN": "Kalyani集团总部设在浦那。"
+   },
+   "excerpt": "Kalyani Group headquartered in Pune owns Bharat Forge",
+   "source_id": "s03",
+   "id": "a181"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bharat Forge operates the world's largest single-location forging facility in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bharat Forge operates the world's largest single-location forging facility in Pune.",
+    "zh-CN": "Bharat Forge在浦那运营着全球最大的单地点锻造设施。"
+   },
+   "excerpt": "Bharat Forge which operates world's largest single location forging facility",
+   "source_id": "s03",
+   "id": "a182"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India.",
+    "zh-CN": "截至2023年8月，特斯拉已在浦那租下场地，作为在印度建立业务存在的第一步。"
+   },
+   "excerpt": "As of August 2023, Tesla, Inc. has leased a space in Pune, marking its initial step towards establishing a presence in India.",
+   "source_id": "s03",
+   "id": "a183"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation.",
+    "zh-CN": "位于欣贾瓦迪的拉吉夫·甘地信息科技园是马哈拉施特拉邦工业发展公司投资600亿卢比的项目。"
+   },
+   "excerpt": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹ 60,000 crore (US$8.9 billion) project by the Maharashtra Industrial Development Corporation (MIDC).",
+   "source_id": "s03",
+   "id": "a184"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres.",
+    "zh-CN": "拉吉夫·甘地信息科技园占地约2,800英亩。"
+   },
+   "excerpt": "The IT Park encompasses an area of about 2,800 acres (11 km2)",
+   "source_id": "s03",
+   "id": "a185"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies.",
+    "zh-CN": "拉吉夫·甘地信息科技园内有800多家信息技术公司。"
+   },
+   "excerpt": "and is home to over 800 IT companies.",
+   "source_id": "s03",
+   "id": "a186"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's IT sector employed more than 300,000 people as of 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's IT sector employed more than 300,000 people as of 2017.",
+    "zh-CN": "截至2017年，浦那信息技术行业雇用了超过30万人。"
+   },
+   "excerpt": "As of 2017, the IT sector employed more than 300,000 people.",
+   "source_id": "s03",
+   "id": "a187"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has emerged as a new hub for technology startups in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has emerged as a new hub for technology startups in India.",
+    "zh-CN": "浦那已成为印度新兴的科技初创企业中心。"
+   },
+   "excerpt": "Pune has also emerged as a new hub for tech startups in India.",
+   "source_id": "s03",
+   "id": "a188"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Food Cluster development project is an initiative funded by the World Bank."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Food Cluster development project is an initiative funded by the World Bank.",
+    "zh-CN": "浦那食品集群开发项目是一项由世界银行资助的倡议。"
+   },
+   "excerpt": "Pune Food Cluster development project is an initiative funded by the World Bank.",
+   "source_id": "s03",
+   "id": "a189"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune.",
+    "zh-CN": "包括育碧浦那、Zensar Technologies和KPIT Technologies在内的多家大型科技公司总部设在浦那。"
+   },
+   "excerpt": "Major technology companies Ubisoft Pune, Zensar Technologies, Patni Computer Systems, Persistent Systems, Indiacom, Harbinger Knowledge Products, Seniority, Monjin, Mylab Discovery Solutions, Quick Heal and KPIT Technologies are headquartered in Pune.",
+   "source_id": "s03",
+   "id": "a190"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Infosys was founded in Pune and has a large campus in the city."
+   },
+   "scope": null,
+   "text": {
+    "en": "Infosys was founded in Pune and has a large campus in the city.",
+    "zh-CN": "Infosys创立于浦那，并在该市拥有一座大型园区。"
+   },
+   "excerpt": "Indian tech giant Infosys was founded in Pune who have a mega campus in city.",
+   "source_id": "s03",
+   "id": "a191"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is an emerging center for visual effects services."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is an emerging center for visual effects services.",
+    "zh-CN": "浦那正成为视觉特效服务的新兴中心。"
+   },
+   "excerpt": "Pune is an emerging centre for VFX services",
+   "source_id": "s03",
+   "id": "a192"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Exhibition and Convention Centre (PIECC)",
+      "zh-CN": "浦那国际展览与会议中心（PIECC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2017",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Exhibition and Convention Centre opened in 2017.",
+    "zh-CN": "浦那国际展览与会议中心于2017年开幕。"
+   },
+   "excerpt": "The Pune International Exhibition and Convention Centre (PIECC) opened in 2017.",
+   "source_id": "s03",
+   "id": "a193"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC covers 97 hectares."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC covers 97 hectares.",
+    "zh-CN": "浦那国际展览与会议中心占地97公顷。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03",
+   "id": "a194"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC has a seating capacity of 20,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC has a seating capacity of 20,000.",
+    "zh-CN": "浦那国际展览与会议中心的座席容量为20,000。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03",
+   "id": "a195"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "World Trade Center Pune",
+      "zh-CN": "浦那世界贸易中心"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The World Trade Center in Pune is a complex built to foster international trade.",
+    "zh-CN": "浦那世界贸易中心是为促进国际贸易而建的综合体。"
+   },
+   "excerpt": "World Trade Center (WTC) Pune is a 1.6 million sq. ft. complex built to foster international trade.",
+   "source_id": "s03",
+   "id": "a196"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves temple",
+      "zh-CN": "帕塔莱什瓦尔石窟寺"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "8th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The rock-cut Pataleshwar Caves temple dates to the 8th century.",
+    "zh-CN": "石凿的帕塔莱什瓦尔石窟寺可追溯至8世纪。"
+   },
+   "excerpt": "the 8th century rock-cut Pataleshwar Caves temple",
+   "source_id": "s03",
+   "id": "a197"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada",
+      "zh-CN": "沙尼瓦尔瓦达"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada dates to the 18th century.",
+    "zh-CN": "沙尼瓦尔瓦达可追溯至18世纪。"
+   },
+   "excerpt": "the 18th century Shaniwar Wada",
+   "source_id": "s03",
+   "id": "a198"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿伽汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Aga Khan Palace dates to the 19th century.",
+    "zh-CN": "阿伽汗宫可追溯至19世纪。"
+   },
+   "excerpt": "the 19th century Aga Khan Palace",
+   "source_id": "s03",
+   "id": "a199"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde."
+   },
+   "scope": null,
+   "text": {
+    "en": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde.",
+    "zh-CN": "位于瓦诺夫里的辛德查特里是为马拉塔将军马哈达吉·辛德设立的纪念建筑。"
+   },
+   "excerpt": "Shinde Chhatri, located at Wanowrie, is a memorial dedicated to the Maratha general Mahadaji Shinde (Scindia).",
+   "source_id": "s03",
+   "id": "a200"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation.",
+    "zh-CN": "维什兰包格瓦达是佩什瓦最后一座住宅宫殿，目前正由市公司翻新。"
+   },
+   "excerpt": "A renowned wada in Pune is the last residential palace of the Peshwa called Vishrambaug Wada which is currently being renovated by the city corporation.",
+   "source_id": "s03",
+   "id": "a201"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment.",
+    "zh-CN": "浦那以英属印度时期的平房建筑以及军营区20世纪初的花园城市运动布局而闻名。"
+   },
+   "excerpt": "The city is also known for its British Raj bungalow architecture and the Garden Cities Movement layout of the Cantonment from the early 20th century.",
+   "source_id": "s03",
+   "id": "a202"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden."
+   },
+   "scope": null,
+   "text": {
+    "en": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden.",
+    "zh-CN": "浦那的公园和绿地包括卡马拉·尼赫鲁公园、桑巴吉公园、沙胡乌迪亚、佩什韦公园、萨拉斯包格、皇后花园和 bund garden。"
+   },
+   "excerpt": "Parks and green spaces in the city include the Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens, and Bund Garden.",
+   "source_id": "s03",
+   "id": "a203"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits.",
+    "zh-CN": "哈奴曼山、韦塔尔山和塔尔贾伊山是浦那市界内的自然保护区。"
+   },
+   "excerpt": "The Hanuman hill, Vetal hill, and Taljai Hills are protected nature reserves on hills within the city limits.",
+   "source_id": "s03",
+   "id": "a204"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999."
+   },
+   "scope": null,
+   "text": {
+    "en": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999.",
+    "zh-CN": "原位于佩什韦公园的动物园于1999年与卡特拉杰的爬行动物园合并。"
+   },
+   "excerpt": "The zoo, earlier located at Peshwe Park, was merged with the reptile park at Katraj in 1999.",
+   "source_id": "s03",
+   "id": "a205"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's riverfront development is situated along the banks of the Mula-Mutha River.",
+    "zh-CN": "浦那河滨开发项目位于穆拉－穆塔河沿岸。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03",
+   "id": "a206"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River.",
+    "zh-CN": "浦那河滨项目当时仍在建设，由浦那市政公司沿穆拉－穆塔河开发。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03",
+   "id": "a207"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "excerpt": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha, and Sudarshan Rangmanch are prominent theatres in the city.",
+   "source_id": "s03",
+   "id": "a208"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000.",
+    "zh-CN": "甘内什卡拉克里达兰加曼奇是浦那最大的室内剧院，座席容量约为45,000。"
+   },
+   "excerpt": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in the city, with a seating capacity of approximately 45,000.",
+   "source_id": "s03",
+   "id": "a209"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December.",
+    "zh-CN": "萨瓦伊·甘达瓦音乐节每年12月在浦那举行。"
+   },
+   "excerpt": "The Sawai Gandharva Sangeet Mahotsav, one of the most prominent and sought-after Indian classical music festivals in India, is held in Pune every year in December.",
+   "source_id": "s03",
+   "id": "a210"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali."
+   },
+   "scope": null,
+   "text": {
+    "en": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali.",
+    "zh-CN": "“排灯节清晨”这一音乐节概念起源于浦那。"
+   },
+   "excerpt": "The concept of Diwāḷī Pahāṭ (lit. Diwali dawn) originated in Pune as a music festival on the morning of the festival of Diwali.",
+   "source_id": "s03",
+   "id": "a211"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "More than 150 Dhol-Tasha pathak groups operate in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "More than 150 Dhol-Tasha pathak groups operate in and around Pune.",
+    "zh-CN": "浦那及其周边运营着150多个鼓乐团。"
+   },
+   "excerpt": "with there being over 150 such groups operating in and around Pune.",
+   "source_id": "s03",
+   "id": "a212"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The main cuisine of Pune is Maharashtrian cuisine."
+   },
+   "scope": null,
+   "text": {
+    "en": "The main cuisine of Pune is Maharashtrian cuisine.",
+    "zh-CN": "浦那的主要菜系是马哈拉施特拉菜。"
+   },
+   "excerpt": "The main cuisine of Pune is Maharashtrian cuisine.",
+   "source_id": "s03",
+   "id": "a213"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s.",
+    "zh-CN": "Bakarwadi是浦那一种流行小吃，始于20世纪60年代初。"
+   },
+   "excerpt": "Bakarwadi is a popular snack from Pune introduced in the early 1960s.",
+   "source_id": "s03",
+   "id": "a214"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is operated by the Airports Authority of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is operated by the Airports Authority of India.",
+    "zh-CN": "浦那国际机场由印度机场管理局运营。"
+   },
+   "excerpt": "The airport is operated by the Airports Authority of India.",
+   "source_id": "s03",
+   "id": "a215"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018.",
+    "zh-CN": "2018年，浦那国际机场在年客流量500万至1,500万人类别中获机场服务质量第三名。"
+   },
+   "excerpt": "Pune International Airport at Lohegaon was ranked third best in the category of 5–15 million passengers by Airport Service Quality in 2018.",
+   "source_id": "s03",
+   "id": "a216"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity."
+   },
+   "scope": null,
+   "text": {
+    "en": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity.",
+    "zh-CN": "由于现有机场容量有限，提议新建恰特拉帕蒂·桑巴吉·马哈拉吉国际机场。"
+   },
+   "excerpt": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport has been proposed, due to the limited capacity of the existing airport.",
+   "source_id": "s03",
+   "id": "a217"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Non-availability of land delayed the proposed airport project for over a decade."
+   },
+   "scope": null,
+   "text": {
+    "en": "Non-availability of land delayed the proposed airport project for over a decade.",
+    "zh-CN": "土地未能到位使拟建机场项目延误了十多年。"
+   },
+   "excerpt": "non-availability of land delayed the project for over a decade.",
+   "source_id": "s03",
+   "id": "a218"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport location was changed to Purandar in September 2016."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport location was changed to Purandar in September 2016.",
+    "zh-CN": "拟建机场的选址于2016年9月改为普兰达尔。"
+   },
+   "excerpt": "In September 2016 the location was changed to Purandar, about 20 kilometres (12 mi) south-east of the city",
+   "source_id": "s03",
+   "id": "a219"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement.",
+    "zh-CN": "据2024年6月的一份部长声明，在相关当局批准后，拟建机场项目预计将取得进展。"
+   },
+   "excerpt": "But with approvals in place from relevant authorities the project is going to be making progress per a statement made by the civil aviation minister in June 2024.",
+   "source_id": "s03",
+   "id": "a220"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws.",
+    "zh-CN": "浦那的公共交通包括浦那地铁、PMPML公交服务、浦那郊区铁路和机动三轮车。"
+   },
+   "excerpt": "Public transport in Pune include two operational lines of the Pune Metro, bus services operated by PMPML, the Pune Suburban Railway and auto rickshaws.",
+   "source_id": "s03",
+   "id": "a221"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station."
+   },
+   "scope": null,
+   "text": {
+    "en": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station.",
+    "zh-CN": "浦那地铁第三条线路正在建设，连接欣贾瓦迪信息技术园区与浦那地区法院站。"
+   },
+   "excerpt": "Work is underway on an additional, third line of Pune Metro connecting the Hinjewadi IT hub to the District Court Pune station.",
+   "source_id": "s03",
+   "id": "a222"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The third Pune Metro line is expected to open to the public by 2025."
+   },
+   "scope": null,
+   "text": {
+    "en": "The third Pune Metro line is expected to open to the public by 2025.",
+    "zh-CN": "浦那地铁第三条线路预计于2025年前后向公众开放。"
+   },
+   "excerpt": "This line is expected to open to the public by 2025.",
+   "source_id": "s03",
+   "id": "a223"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Metro has two operational lines with a combined operational length of 31.25 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Metro has two operational lines with a combined operational length of 31.25 km.",
+    "zh-CN": "浦那地铁有两条运营线路，合计运营里程为31.25公里。"
+   },
+   "excerpt": "The system comprises two operational lines with a combined operational length of 31.25 km (19.42 mi).",
+   "source_id": "s03",
+   "id": "a224"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km.",
+    "zh-CN": "浦那地铁第三条线路完工后，合计运营里程将增至59.1公里。"
+   },
+   "excerpt": "Construction for a third line is underway, which on completion would increase the combined operational length to 59.1 km.",
+   "source_id": "s03",
+   "id": "a225"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station.",
+    "zh-CN": "紫线从皮姆普里钦奇瓦德市政公司地铁站通往斯瓦盖特地铁站。"
+   },
+   "excerpt": "The Purple Line starts from the Pimpri Chinchwad Municipal Corporation metro station and terminates at the Swargate metro station.",
+   "source_id": "s03",
+   "id": "a226"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station.",
+    "zh-CN": "水线从瓦纳兹地铁站通往拉姆瓦迪地铁站。"
+   },
+   "excerpt": "The Aqua line starts from the Vanaz metro station and ends at the Ramwadi metro station.",
+   "source_id": "s03",
+   "id": "a227"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange."
+   },
+   "scope": null,
+   "text": {
+    "en": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange.",
+    "zh-CN": "浦那地铁的两条运营线路均经过浦那地区法院站，该站作为跨站台换乘站。"
+   },
+   "excerpt": "Both lines pass through the District Court Pune metro station, which as acts as a cross platform interchange.",
+   "source_id": "s03",
+   "id": "a228"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public buses within Pune and its suburbs are operated by PMPML."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public buses within Pune and its suburbs are operated by PMPML.",
+    "zh-CN": "浦那市区及郊区的公共公交车由PMPML运营。"
+   },
+   "excerpt": "Public buses within the city and its suburbs are operated by PMPML .",
+   "source_id": "s03",
+   "id": "a229"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "Indian city to adopt e-buses"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the first Indian city to adopt e-buses in January 2019.",
+    "zh-CN": "2019年1月，浦那成为印度首个采用电动公交车的城市。"
+   },
+   "excerpt": "In January 2019, Pune became the first Indian city to adopt e-buses",
+   "source_id": "s03",
+   "id": "a230"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "all-electric bus depot"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Bhekrai Nagar became India's first all-electric bus depot in January 2019.",
+    "zh-CN": "2019年1月，贝赫赖 Nagar成为印度首个全电动公交车场。"
+   },
+   "excerpt": "Bhekrai Nagar became the country's first all electric bus depot.",
+   "source_id": "s03",
+   "id": "a231"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Up to 490 electric buses had been deployed across Pune as of January 2026."
+   },
+   "scope": null,
+   "text": {
+    "en": "Up to 490 electric buses had been deployed across Pune as of January 2026.",
+    "zh-CN": "截至2026年1月，浦那全市已部署最多490辆电动公交车。"
+   },
+   "excerpt": "As of January 2026, up to 490 electric buses have been deployed across the city.",
+   "source_id": "s03",
+   "id": "a232"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "PMPML operates the Rainbow BRTS system in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "PMPML operates the Rainbow BRTS system in Pune.",
+    "zh-CN": "PMPML运营浦那的彩虹公交快速交通系统。"
+   },
+   "excerpt": "PMPML operates the Rainbow BRTS system.",
+   "source_id": "s03",
+   "id": "a233"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched.",
+    "zh-CN": "彩虹公交快速交通系统启动时是印度同类公交快速交通系统中的首个。"
+   },
+   "excerpt": "When launched, it was the first of its kind in India bus rapid transit system in India.",
+   "source_id": "s03",
+   "id": "a234"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed.",
+    "zh-CN": "截至2023年，计划总长68公里的彩虹公交快速交通系统仅完成16公里。"
+   },
+   "excerpt": "As of 2023 only 16 km out of 68 km proposed were completed for the project.",
+   "source_id": "s03",
+   "id": "a235"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+    "zh-CN": "从耶拉瓦达至维曼讷格尔的专用公交专用道于2023年被撤销。"
+   },
+   "excerpt": "dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+   "source_id": "s03",
+   "id": "a236"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala.",
+    "zh-CN": "浦那郊区铁路连接浦那、皮姆普里钦奇瓦德和洛纳瓦拉。"
+   },
+   "excerpt": "The Pune Suburban Railway (popularly called local trains) connects Pune to the industrial city of Pimpri-Chinchwad and the hill station of Lonavala.",
+   "source_id": "s03",
+   "id": "a237"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has a diesel locomotive shed and an electric trip shed."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a diesel locomotive shed and an electric trip shed.",
+    "zh-CN": "浦那设有柴油机车库和电力机车检修库。"
+   },
+   "excerpt": "At Pune, there is a diesel locomotive shed and an electric trip shed.",
+   "source_id": "s03",
+   "id": "a238"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Railway Station is administered by the Pune Railway Division of Central Railways."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+    "zh-CN": "浦那火车站由中央铁路公司浦那铁路分局管理。"
+   },
+   "excerpt": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+   "source_id": "s03",
+   "id": "a239"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 48 connects Pune with Mumbai and Bangalore."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 48 connects Pune with Mumbai and Bangalore.",
+    "zh-CN": "印度国道48号连接浦那、孟买和班加罗尔。"
+   },
+   "excerpt": "National Highway 48 connects it to Mumbai and Bangalore",
+   "source_id": "s03",
+   "id": "a240"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 65 connects Pune with Hyderabad."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 65 connects Pune with Hyderabad.",
+    "zh-CN": "印度国道65号连接浦那和海得拉巴。"
+   },
+   "excerpt": "National Highway 65 connects it to Hyderabad",
+   "source_id": "s03",
+   "id": "a241"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 60 connects Pune with Nashik."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 60 connects Pune with Nashik.",
+    "zh-CN": "印度国道60号连接浦那和纳西克。"
+   },
+   "excerpt": "National Highway 60 connects it to Nashik.",
+   "source_id": "s03",
+   "id": "a242"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "State Highway 27 connects Pune with Ahmednagar."
+   },
+   "scope": null,
+   "text": {
+    "en": "State Highway 27 connects Pune with Ahmednagar.",
+    "zh-CN": "马哈拉施特拉邦国道27号连接浦那和艾哈迈德讷格尔。"
+   },
+   "excerpt": "State Highway 27 connects Pune to Ahmednagar.",
+   "source_id": "s03",
+   "id": "a243"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai Pune Expressway",
+      "zh-CN": "孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2002",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was built in 2002.",
+    "zh-CN": "孟买—浦那高速公路于2002年建成。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway, and it was built in 2002.",
+   "source_id": "s03",
+   "id": "a244"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "six-lane high-speed expressway in India"
+    },
+    "as_of": 2002
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was India's first six-lane high-speed expressway.",
+    "zh-CN": "孟买—浦那高速公路是印度首条六车道高速公路。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway",
+   "source_id": "s03",
+   "id": "a245"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway.",
+    "zh-CN": "孟买—浦那高速公路仅允许四轮车辆通行。"
+   },
+   "excerpt": "Only four-wheeler vehicles are allowed on it.",
+   "source_id": "s03",
+   "id": "a246"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours.",
+    "zh-CN": "孟买—浦那高速公路将浦那与孟买之间的出行时间缩短至略多于两小时。"
+   },
+   "excerpt": "This expressway has reduced travel time between Pune and Mumbai to a little over two hours.",
+   "source_id": "s03",
+   "id": "a247"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Three ring roads are planned around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Three ring roads are planned around Pune.",
+    "zh-CN": "浦那周边规划建设三条环城道路。"
+   },
+   "excerpt": "Three ring roads are planned around the city.",
+   "source_id": "s03",
+   "id": "a248"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was once known as the cycle city of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was once known as the cycle city of India.",
+    "zh-CN": "浦那曾被称为印度的自行车之城。"
+   },
+   "excerpt": "Once known as the \"cycle city of India\", Pune has experienced a rapid growth in the number of motorised two wheelers",
+   "source_id": "s03",
+   "id": "a249"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was reported to have one million two-wheelers in 2005."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was reported to have one million two-wheelers in 2005.",
+    "zh-CN": "据2005年的报道，浦那拥有100万辆两轮摩托车。"
+   },
+   "excerpt": "In 2005 the city was reported to have one million two wheelers.",
+   "source_id": "s03",
+   "id": "a250"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune.",
+    "zh-CN": "车辆和工业活动增加导致浦那部分地区颗粒物污染增加了十倍。"
+   },
+   "excerpt": "the increase in vehicular and industrial activity had led to a 10-fold increase in particulate pollution in some areas of the city.",
+   "source_id": "s03",
+   "id": "a251"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 3.62 million total vehicles in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 3.62 million total vehicles in 2018.",
+    "zh-CN": "2018年，浦那共有362万辆机动车。"
+   },
+   "excerpt": "In 2018 the number of vehicles in the city has exceeded its population with 3.62 million total vehicles",
+   "source_id": "s03",
+   "id": "a252"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 2.70 million two-wheelers in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 2.70 million two-wheelers in 2018.",
+    "zh-CN": "2018年，浦那拥有270万辆两轮摩托车。"
+   },
+   "excerpt": "2.70 million being two wheelers.[verification needed]",
+   "source_id": "s03",
+   "id": "a253"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune registered 300,000 new vehicles in fiscal year 2017–18."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune registered 300,000 new vehicles in fiscal year 2017–18.",
+    "zh-CN": "浦那在2017—18财年新登记了30万辆机动车。"
+   },
+   "excerpt": "In the fiscal year 2017–18 alone 300,000 new vehicles were registered in the city",
+   "source_id": "s03",
+   "id": "a254"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers.",
+    "zh-CN": "浦那在2017—18财年新登记车辆中有三分之二是两轮摩托车。"
+   },
+   "excerpt": "two-thirds of them two wheelers.",
+   "source_id": "s03",
+   "id": "a255"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004."
+   },
+   "scope": null,
+   "text": {
+    "en": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004.",
+    "zh-CN": "2004年，Jawaharlal Nehru国家城市更新任务下的公交快速交通系统项目曾尝试建设130公里的自行车道以复兴骑行。"
+   },
+   "excerpt": "A revival of cycling in Pune with 130 kilometres (81 mi) of cycle tracks built was attempted",
+   "source_id": "s03",
+   "id": "a256"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable."
+   },
+   "scope": null,
+   "text": {
+    "en": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable.",
+    "zh-CN": "2011年的一份报告称，实际建成的自行车道仅有88公里，而且大部分无法使用。"
+   },
+   "excerpt": "However, a 2011 report revealed that only 88 kilometres (55 mi) of tracks were actually built and most were unusable at the time of the report.",
+   "source_id": "s03",
+   "id": "a257"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017.",
+    "zh-CN": "自2017年末起，浦那在智慧城市任务框架下推出了基于应用程序的自行车共享计划。"
+   },
+   "excerpt": "Under the Smart Cities Mission, app based cycle sharing schemes have been launched in the city since late 2017.",
+   "source_id": "s03",
+   "id": "a258"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks.",
+    "zh-CN": "浦那市政委员会制定了浦那自行车计划，规划建设470公里的自行车道。"
+   },
+   "excerpt": "The PMC has devised the Pune Cycle Plan with 470 kilometres (290 mi) of cycle tracks planned.",
+   "source_id": "s03",
+   "id": "a259"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than one hundred educational institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than one hundred educational institutes.",
+    "zh-CN": "浦那拥有100多所教育机构。"
+   },
+   "excerpt": "Pune has over a hundred educational institutes",
+   "source_id": "s03",
+   "id": "a260"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University.",
+    "zh-CN": "除萨维特里拜·普莱·浦那大学外，浦那还有九所以上法定认定大学。"
+   },
+   "excerpt": "more than nine deemed universities apart from the Savitribai Phule Pune University",
+   "source_id": "s03",
+   "id": "a261"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges.",
+    "zh-CN": "按附属学院总数计算，萨维特里拜·普莱·浦那大学是全国最大的大学。"
+   },
+   "excerpt": "which is the largest university in the country based on total number of affiliated colleges.",
+   "source_id": "s03",
+   "id": "a262"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya.",
+    "zh-CN": "浦那的高等教育机构主要吸引来自伊朗、阿拉伯联合酋长国、埃塞俄比亚和肯尼亚的国际学生。"
+   },
+   "excerpt": "Higher education institutes attract international students mainly from the Middle Eastern countries such as Iran, and United Arab Emirates, and also African countries such as Ethiopia and Kenya.",
+   "source_id": "s03",
+   "id": "a263"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the largest centre for Japanese-language learning in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest centre for Japanese-language learning in India.",
+    "zh-CN": "浦那是印度最大的日语学习中心。"
+   },
+   "excerpt": "Pune is the largest centre for Japanese learning in India.",
+   "source_id": "s03",
+   "id": "a264"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "German and French are also taught in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "German and French are also taught in Pune.",
+    "zh-CN": "浦那还教授德语和法语。"
+   },
+   "excerpt": "Other languages taught in the city include German, which is taught at the Goethe-Institut, and French, which is taught at Alliance Française.",
+   "source_id": "s03",
+   "id": "a265"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Several colleges in Pune have student exchange programmes with colleges in Europe."
+   },
+   "scope": null,
+   "text": {
+    "en": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+    "zh-CN": "浦那的数所学院与欧洲的学院设有学生交流项目。"
+   },
+   "excerpt": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+   "source_id": "s03",
+   "id": "a266"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 297 primary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 297 primary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营297所小学。"
+   },
+   "excerpt": "The PMC runs 297 primary schools",
+   "source_id": "s03",
+   "id": "a267"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 30 secondary and higher-secondary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 30 secondary and higher-secondary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营30所中学和高级中学。"
+   },
+   "excerpt": "30 secondary and higher secondary schools.",
+   "source_id": "s03",
+   "id": "a268"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad.",
+    "zh-CN": "浦那乡村和郊区地区的公立小学由浦那县议会运营。"
+   },
+   "excerpt": "In the rural and suburban areas of the PMR, public primary schools are run by the Pune Zilla Parishad.",
+   "source_id": "s03",
+   "id": "a269"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The primary language of instruction in Pune's public schools is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "The primary language of instruction in Pune's public schools is Marathi.",
+    "zh-CN": "浦那公立学校的主要教学语言是马拉地语。"
+   },
+   "excerpt": "The language of instruction in public schools is primarily Marathi",
+   "source_id": "s03",
+   "id": "a270"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune.",
+    "zh-CN": "浦那市政委员会还运营乌尔都语、英语和卡纳达语教学学校。"
+   },
+   "excerpt": "the PMC also runs Urdu, English and Kannada medium schools.",
+   "source_id": "s03",
+   "id": "a271"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Private schools in Pune also offer instruction in Hindi and Gujarati."
+   },
+   "scope": null,
+   "text": {
+    "en": "Private schools in Pune also offer instruction in Hindi and Gujarati.",
+    "zh-CN": "浦那的私立学校还提供印地语和古吉拉特语教学。"
+   },
+   "excerpt": "Along with these languages, private schools also offer instruction in Hindi and Gujarati.",
+   "source_id": "s03",
+   "id": "a272"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students."
+   },
+   "scope": null,
+   "text": {
+    "en": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students.",
+    "zh-CN": "位于萨达希夫佩特的贾纳·普拉博迪尼学校是印度首个面向智力优秀和有天赋学生的学校。"
+   },
+   "excerpt": "Jnana Prabodhini Prashala, located in Sadashiv Peth, is the first school for intellectually gifted and talented students in India.",
+   "source_id": "s03",
+   "id": "a273"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide.",
+    "zh-CN": "位于穆尔希谷的UWC马欣德拉学院是全球18所联合世界学院之一。"
+   },
+   "excerpt": "it counts with one of the 18 United World Colleges across the globe, having UWC Mahindra College in the Mulshi Valley.",
+   "source_id": "s03",
+   "id": "a274"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Most colleges in Pune are affiliated with Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Most colleges in Pune are affiliated with Savitribai Phule Pune University.",
+    "zh-CN": "浦那大多数学院隶属于萨维特里拜·普莱·浦那大学。"
+   },
+   "excerpt": "Most colleges in Pune are affiliated to the SPPU (Savitribai Phule Pune University).",
+   "source_id": "s03",
+   "id": "a275"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Nine other universities have been established in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Nine other universities have been established in Pune.",
+    "zh-CN": "浦那还建立了其他九所大学。"
+   },
+   "excerpt": "Nine other universities have also been established in the city.",
+   "source_id": "s03",
+   "id": "a276"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation.",
+    "zh-CN": "浦那设有军事情报培训学校，提供反情报、战斗情报、航拍图像与判读等文凭课程。"
+   },
+   "excerpt": "Pune also hosts the Military Intelligence Training School which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation, among others.",
+   "source_id": "s03",
+   "id": "a277"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "College of Engineering Pune",
+      "zh-CN": "浦那工程学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1854",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune was founded in 1854.",
+    "zh-CN": "浦那工程学院创立于1854年。"
+   },
+   "excerpt": "The College of Engineering Pune, an autonomous institute of the government of Maharashtra founded in 1854",
+   "source_id": "s03",
+   "id": "a278"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Engineering Pune is the third-oldest engineering college in Asia."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune is the third-oldest engineering college in Asia.",
+    "zh-CN": "浦那工程学院是亚洲第三古老的工程学院。"
+   },
+   "excerpt": "is the third oldest engineering college in Asia.",
+   "source_id": "s03",
+   "id": "a279"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Deccan Education Society",
+      "zh-CN": "德干教育协会"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1884",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Deccan Education Society was founded in Pune in 1884.",
+    "zh-CN": "德干教育协会于1884年在浦那创立。"
+   },
+   "excerpt": "The Deccan Education Society was founded by local citizens in 1884",
+   "source_id": "s03",
+   "id": "a280"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884.",
+    "zh-CN": "巴尔·甘加达尔·蒂拉克是1884年在浦那创立德干教育协会的当地人士之一。"
+   },
+   "excerpt": "including social and political activist Bal Gangadhar Tilak",
+   "source_id": "s03",
+   "id": "a281"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Fergusson College",
+      "zh-CN": "弗格森学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1885",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Fergusson College was founded in Pune in 1885.",
+    "zh-CN": "弗格森学院于1885年在浦那创立。"
+   },
+   "excerpt": "responsible for founding Fergusson College in 1885.",
+   "source_id": "s03",
+   "id": "a282"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Indian Law Society's Law College is one of India's top ten law schools."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indian Law Society's Law College is one of India's top ten law schools.",
+    "zh-CN": "印度法律协会的法律学院是印度十所顶尖法学院之一。"
+   },
+   "excerpt": "The Indian Law Society's Law College is one of the top ten law schools in India.",
+   "source_id": "s03",
+   "id": "a283"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Armed Forces Medical College consistently ranks among India's top five medical colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Armed Forces Medical College consistently ranks among India's top five medical colleges.",
+    "zh-CN": "武装部队医学院持续位居印度五大医学院之列。"
+   },
+   "excerpt": "The Armed Forces Medical College consistently ranks among the top five medical colleges in India.",
+   "source_id": "s03",
+   "id": "a284"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network.",
+    "zh-CN": "印度电影与电视学院是全球CILECT电影学院网络中的三家印度机构之一。"
+   },
+   "excerpt": "The Film and Television Institute of India, one of only three Indian institutions in the global CILECT film school network",
+   "source_id": "s03",
+   "id": "a285"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is located on Law College Road in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is located on Law College Road in Pune.",
+    "zh-CN": "印度电影与电视学院位于浦那法学院路。"
+   },
+   "excerpt": "is located on Law College Road.",
+   "source_id": "s03",
+   "id": "a286"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Lalit Kala Kendra has operated on the SPPU campus since 1987."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lalit Kala Kendra has operated on the SPPU campus since 1987.",
+    "zh-CN": "拉利特·卡拉·肯德拉自1987年起在SPPU校区运营。"
+   },
+   "excerpt": "The Lalit Kala Kendra is an undergraduate department of Music, Dance and Drama on the SPPU campus that has been operational since 1987.",
+   "source_id": "s03",
+   "id": "a287"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune.",
+    "zh-CN": "军事工程学院、陆军体育训练学院和武器技术研究所均位于浦那。"
+   },
+   "excerpt": "The College of Military Engineering, the Army Institute of Physical Training, and the Institute of Armament Technology are also in Pune.",
+   "source_id": "s03",
+   "id": "a288"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa."
+   },
+   "scope": null,
+   "text": {
+    "en": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa.",
+    "zh-CN": "基督大学浦那拉瓦萨校区是班加罗尔基督大学的组成部分，位于拉瓦萨。"
+   },
+   "excerpt": "Christ University Pune Lavasa campus, is part of Christ University, Bangalore located in Lavasa.",
+   "source_id": "s03",
+   "id": "a289"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University operates 33 colleges and institutions in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University operates 33 colleges and institutions in Pune.",
+    "zh-CN": "辛共生国际大学在浦那运营33所学院和机构。"
+   },
+   "excerpt": "Symbiosis International University operates 33 colleges and institutions in the city",
+   "source_id": "s03",
+   "id": "a290"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University colleges are ranked among India's top management and law institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University colleges are ranked among India's top management and law institutes.",
+    "zh-CN": "辛共生国际大学的学院位居印度顶尖管理和法学院之列。"
+   },
+   "excerpt": "They are ranked among the top management and law institutes in the country.",
+   "source_id": "s03",
+   "id": "a291"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology.",
+    "zh-CN": "辛共生计算机研究与学院是印度少数推广开源技术的学院之一。"
+   },
+   "excerpt": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open source technology.",
+   "source_id": "s03",
+   "id": "a292"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College is the third United World College in Asia and is located near Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College is the third United World College in Asia and is located near Pune.",
+    "zh-CN": "UWC马欣德拉学院是亚洲第三所联合世界学院，位于浦那附近。"
+   },
+   "excerpt": "UWC Mahindra College, one of eighteen United World Colleges worldwide and the third is Asia",
+   "source_id": "s03",
+   "id": "a293"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences.",
+    "zh-CN": "浦那拥有政府和非政府研究机构，研究领域涵盖人文科学至自然科学。"
+   },
+   "excerpt": "Pune is home to a number of governmental and non-governmental research institutes focusing on a wide range of subject areas from the humanities to the sciences.",
+   "source_id": "s03",
+   "id": "a294"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune.",
+    "zh-CN": "印度国防部在浦那及周边运营与国防有关的教育、培训和研究机构。"
+   },
+   "excerpt": "The Ministry of Defence also runs a number of defence related education, training and research establishments in and around the city.",
+   "source_id": "s03",
+   "id": "a295"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Modern badminton originated in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Modern badminton originated in Pune.",
+    "zh-CN": "现代羽毛球运动起源于浦那。"
+   },
+   "excerpt": "Badminton in its modern form originated in Pune.",
+   "source_id": "s03",
+   "id": "a296"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The first rules for modern badminton were drawn up in Poona in 1873."
+   },
+   "scope": null,
+   "text": {
+    "en": "The first rules for modern badminton were drawn up in Poona in 1873.",
+    "zh-CN": "现代羽毛球运动的第一套规则于1873年在浦那制定。"
+   },
+   "excerpt": "Poona where it was particularly popular and where the first rules for the game were drawn up in 1873.",
+   "source_id": "s03",
+   "id": "a297"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is a river in Pune.",
+    "zh-CN": "穆拉-穆塔河是浦那的一条河流。"
+   },
+   "excerpt": "The Royal Connaught Boat Club is one of several boating clubs on the Mula-Mutha river.",
+   "source_id": "s03",
+   "id": "a298"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Race Course",
+      "zh-CN": "浦那赛马场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1830",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Race Course was built in 1833 on 118.5 acres of land.",
+    "zh-CN": "浦那赛马场建于1833年，占地118.5英亩。"
+   },
+   "excerpt": "Pune Race Course was built in 1830 on 118.5 acres (0.480 km2) of land",
+   "source_id": "s03",
+   "id": "a299"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Skatepark",
+      "zh-CN": "浦那滑板公园"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Sahakarnagar",
+      "zh-CN": "萨哈卡尔纳加尔"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Skatepark was built in Sahakarnagar and includes an eight-foot bowl in a 3,000-square-foot flatground.",
+    "zh-CN": "浦那滑板公园建于萨哈卡尔纳加尔，设有一个八英尺深的碗池和3000平方英尺的平地。"
+   },
+   "excerpt": "Pune Skatepark is a skateboarding park built in Sahakarnagar, consisting of an eight-foot bowl in a 3,000 square foot flatground.",
+   "source_id": "s03",
+   "id": "a300"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "All India Radio has been broadcasting from Pune since 1953."
+   },
+   "scope": null,
+   "text": {
+    "en": "All India Radio has been broadcasting from Pune since 1953.",
+    "zh-CN": "全印广播电台自1953年起一直在浦那播音。"
+   },
+   "excerpt": "The government owned All India Radio (AIR) has been broadcasting from Pune since 1953.",
+   "source_id": "s03",
+   "id": "a301"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune International Marathon is an annual marathon conducted in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Marathon is an annual marathon conducted in Pune.",
+    "zh-CN": "浦那国际马拉松赛是每年在浦那举行的马拉松赛事。"
+   },
+   "excerpt": "The Pune International Marathon is an annual marathon conducted in Pune.",
+   "source_id": "s03",
+   "id": "a302"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosted the 2009 FIVB Men's Junior World Championship."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosted the 2009 FIVB Men's Junior World Championship.",
+    "zh-CN": "浦那主办了2009年国际排联男青年世界锦标赛。"
+   },
+   "excerpt": "The city hosted the 2009 FIVB Men's Junior World Championship.",
+   "source_id": "s03",
+   "id": "a303"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State of Maharashtra Capital: Mumbai Second capital: Nagpur History Aurangabad Mumbai Nagpur Nashik Pune",
+   "source_id": "s03",
+   "id": "a304"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Bhima River",
+     "zh-CN": "比马河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhima River is among Pune's geographical water bodies.",
+    "zh-CN": "比马河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Bhima River",
+   "source_id": "s03",
+   "id": "a305"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River is among Pune's geographical water bodies.",
+    "zh-CN": "因德拉亚尼河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Indrayani River",
+   "source_id": "s03",
+   "id": "a306"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula River",
+   "source_id": "s03",
+   "id": "a307"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉－穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula-Mutha River",
+   "source_id": "s03",
+   "id": "a308"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mutha River",
+   "source_id": "s03",
+   "id": "a309"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Nira River",
+     "zh-CN": "尼拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nira River is among Pune's geographical water bodies.",
+    "zh-CN": "尼拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Nira River",
+   "source_id": "s03",
+   "id": "a310"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River is among Pune's geographical water bodies.",
+    "zh-CN": "帕瓦纳河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Pavana River",
+   "source_id": "s03",
+   "id": "a311"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿迦汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aga Khan Palace is a landmark in Pune.",
+    "zh-CN": "阿迦汗宫是浦那的一处地标。"
+   },
+   "excerpt": "Aga Khan Palace",
+   "source_id": "s03",
+   "id": "a312"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal is a landmark in Pune.",
+    "zh-CN": "拉尔宫是浦那的一处地标。"
+   },
+   "excerpt": "Lal Mahal",
+   "source_id": "s03",
+   "id": "a313"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Sinhagad",
+      "zh-CN": "辛哈加德"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Sinhagad is a landmark in Pune.",
+    "zh-CN": "辛哈加德是浦那的一处地标。"
+   },
+   "excerpt": "Sinhagad",
+   "source_id": "s03",
+   "id": "a314"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Dashabhuja Ganapati Temple",
+      "zh-CN": "达沙布贾象头神庙"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Dashabhuja Ganapati Temple is a temple in Pune.",
+    "zh-CN": "达沙布贾象头神庙是浦那的一座寺庙。"
+   },
+   "excerpt": "Dashabhuja Ganapati Temple, Pune",
+   "source_id": "s03",
+   "id": "a315"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Nehru Stadium",
+      "zh-CN": "尼赫鲁体育场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nehru Stadium is a stadium in Pune.",
+    "zh-CN": "尼赫鲁体育场是浦那的一座体育场。"
+   },
+   "excerpt": "Nehru Stadium, Pune",
+   "source_id": "s03",
+   "id": "a316"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Airport",
+      "zh-CN": "浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Airport is an airport in Pune.",
+    "zh-CN": "浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "Pune Airport",
+   "source_id": "s03",
+   "id": "a317"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "New Pune Airport",
+      "zh-CN": "新浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "New Pune Airport is an airport in Pune.",
+    "zh-CN": "新浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "New Pune Airport",
+   "source_id": "s03",
+   "id": "a318"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "2010 Pune bombing",
+      "zh-CN": "2010年浦那爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred in Pune in 2010.",
+    "zh-CN": "2010年浦那发生了一起爆炸事件。"
+   },
+   "excerpt": "2010 Pune bombing",
+   "source_id": "s03",
+   "id": "a319"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in west-central Maharashtra state in western India.",
+    "zh-CN": "浦那位于印度西部马哈拉施特拉邦中西部。"
+   },
+   "excerpt": "State Maharashtra",
+   "source_id": "s03",
+   "id": "a320"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03",
+   "id": "a321"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03",
+   "id": "a322"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mughals",
+      "zh-CN": "莫卧儿人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was temporarily captured by the Mughals.",
+    "zh-CN": "浦那曾一度被莫卧儿人占领。"
+   },
+   "excerpt": "Pune at different points in time has been ruled by the Rashtrakuta dynasty, Ahmadnagar Sultanate, the Mughals, and the Adil Shahi dynasty.",
+   "source_id": "s03",
+   "id": "a323"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune fell to the British in 1817.",
+    "zh-CN": "浦那于1817年落入英国人手中。"
+   },
+   "excerpt": "1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。",
+   "source_id": "s02",
+   "id": "a324"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bombay Presidency",
+      "zh-CN": "孟买总督辖区"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was the seasonal capital of the Bombay Presidency.",
+    "zh-CN": "浦那曾是孟买总督辖区的季节性首府。"
+   },
+   "excerpt": "1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。",
+   "source_id": "s02",
+   "id": "a325"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune",
+      "zh-CN": "浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1948"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune dates to 1948.",
+    "zh-CN": "浦那大学始于1948年。"
+   },
+   "excerpt": "浦那的大多数学院属于1948年设立的萨维特里巴伊·菲勒普纳大学",
+   "source_id": "s02",
+   "id": "a326"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Southern Command of the Indian Army",
+      "zh-CN": "印度军队南方司令部"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the headquarters of the southern command of the Indian Army.",
+    "zh-CN": "浦那是印度军队南方司令部的所在地。"
+   },
+   "excerpt": "The Southern Command of the Indian Army, established in 1895, is headquartered in Pune cantonment.",
+   "source_id": "s03",
+   "id": "a327"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam",
+      "zh-CN": "潘谢特水坝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The collapse of the Panshet Dam in 1961 washed away a substantial part of Pune's old town.",
+    "zh-CN": "潘谢特水坝于1961年坍塌，冲毁了浦那老城的一大部分。"
+   },
+   "excerpt": "1961年7月潘赛特大坝和哈达夸斯拉大坝崩裂，它们的蓄水淹没浦那，摧毁了老城的大部分地区。",
+   "source_id": "s02",
+   "id": "a328"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary city population was 3,115,431 in 2011.",
+    "zh-CN": "2011年浦那市区初步人口为3,115,431。"
+   },
+   "excerpt": "人口\n（2011年）\n• 总计3,115,431人",
+   "source_id": "s02",
+   "id": "a329"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly known as Poona.",
+    "zh-CN": "浦那旧称 Poona。"
+   },
+   "excerpt": "Pune (Marathi: Puṇē, pronounced [ˈpuɳeː] ⓘ), previously spelled in English as Poona (the official name until 1978), is a city",
+   "source_id": "s03",
+   "id": "a330"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Country India",
+   "source_id": "s03",
+   "id": "a331"
+  }
+ ]
+}

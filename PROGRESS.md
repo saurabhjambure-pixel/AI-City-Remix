@@ -85,3 +85,20 @@
 - `stages/chronicle_agent.py`: runs `chronicle.mjs all`, forwards each `awaiting_<step>` to M3.1, and logs to runs.jsonl. The claims handler sends one call per source chunk (medium effort, 4 parallel) and keeps only verbatim excerpts. Dry run: 10 chunks of about 16k characters. Tests: `.venv/bin/python -m tests.test_chronicle_agent` (3 ok).
 - **Blocked:** a headless-Chrome read of Britannica was refused by the permission system (bot-check circumvention). Without a tier-1 source no fact can verify. Owner decision needed on how Britannica text enters `sources/`.
 - Claims are not run yet: source ids change whenever a source is added, so claims wait until the source set is final.
+
+## 2026-10-29 — Phase 1: facts to the chronicle-ink standard
+- Britannica pages read in the browser pane, one page at a time (owner approved). Each was saved verbatim to `output/pune-chronicle/sources/` and checked by SHA-256 against the page text. A scripted multi-page fetch got 403s and was stopped.
+- Britannica candidates came from the site's own search for "Pune" and "Poona" (34 results, unfiltered). M3.1 picked 8 (`chronicle_sources`). Saved: Pune, Shivaji, Peshwa, Battle of Kirkee, Battle of Wadgaon, GMRT (Britannica excerpt only). Skipped: Maratha and Western Ghats (no mention of Pune), Poona Sarvajanik Sabha (the page is an AI summary, which the Skill forbids as a source).
+- Claims: 16 chunks, M3.1 at medium effort, output as JSON Lines (one malformed claim no longer loses a chunk), cached per chunk. Pairing pass (`chronicle_pairs`, high effort): for each of 28 Britannica claims, M3.1 found a verbatim Wikipedia excerpt with the same predicate and value; 12 matched.
+- Pruning drops Wikipedia-only rewordings of a verified Britannica fact (6 claims). Fixed a bug where pruning had removed the Panshet pair.
+- **Skill facts: 7 verified facts** (Britannica + Wikipedia):
+  - the Mula–Mutha junction
+  - the Mughal capture
+  - the fall to the British in 1817
+  - seasonal capital of the Bombay Presidency
+  - University of Pune 1948
+  - Southern Command headquarters
+  - **Panshet Dam collapse 1961**
+  
+  263 single-source claims are available for at most 2 hedged lines.
+- Next: Phase 2/3. M3.1 writes geo/places.json, then the hotspot run of geo_cached.mjs; then the script.

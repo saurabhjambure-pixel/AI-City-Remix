@@ -1,0 +1,60 @@
+{
+ "picks": [
+  {
+   "url": "https://www.britannica.com/biography/Shivaji",
+   "title": "Shivaji (Indian king)",
+   "enwiki_title": "Shivaji",
+   "story_role": "origins",
+   "why": "It should describe Pune's emergence as an early Maratha capital and political center."
+  },
+  {
+   "url": "https://www.britannica.com/topic/peshwa",
+   "title": "Peshwa (Maratha chief minister)",
+   "enwiki_title": "Peshwa",
+   "story_role": "core",
+   "why": "It should explain Pune's role as the Peshwa seat during Maratha expansion."
+  },
+  {
+   "url": "https://www.britannica.com/topic/Maratha",
+   "title": "Maratha",
+   "enwiki_title": "Maratha",
+   "story_role": "core",
+   "why": "It should situate Pune within the Maratha polity that made the city a capital."
+  },
+  {
+   "url": "https://www.britannica.com/topic/battle-of-Wadgaon",
+   "title": "Battle of Wadgaon (Indian history [1779])",
+   "enwiki_title": "Battle of Wadgaon",
+   "story_role": "turning_point",
+   "why": "The campaign fought near Pune offers a concrete early-British turning point in the city's history."
+  },
+  {
+   "url": "https://www.britannica.com/topic/Battle-of-Kirkee",
+   "title": "Battle of Kirkee (British-Indian history)",
+   "enwiki_title": "Battle of Khadki",
+   "story_role": "turning_point",
+   "why": "The 1817 defeat near Pune was decisive in the Marathas' loss of power and the city's transformation."
+  },
+  {
+   "url": "https://www.britannica.com/topic/Poona-Sarvajanik-Sabha",
+   "title": "Poona Sarvajanik Sabha (Indian political association)",
+   "enwiki_title": "Poona Sarvajanik Sabha",
+   "story_role": "growth",
+   "why": "It should document a major civic institution founded in Pune and the city's role in public politics."
+  },
+  {
+   "url": "https://www.britannica.com/place/Western-Ghats",
+   "title": "Sahyadri / Western Ghats",
+   "enwiki_title": "Western Ghats",
+   "story_role": "geography",
+   "why": "It should establish Pune's position against the Sahyadri and Western Ghats landscape."
+  },
+  {
+   "url": "https://www.britannica.com/topic/Giant-Metrewave-Wavelength-Telescope",
+   "title": "Giant Metrewave Wavelength Telescope (telescope, Pune, India)",
+   "enwiki_title": "Giant Metrewave Radio Telescope",
+   "story_role": "present",
+   "why": "It should anchor a modern scientific landmark in the Pune area on the present-day map."
+  }
+ ]
+}

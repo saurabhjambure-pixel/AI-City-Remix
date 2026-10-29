@@ -11,3 +11,9 @@ output/*/map/cache/
 
 # Official Skill, unzipped from the verified download (not redistributed)
 vendor/
+
+# chronicle-ink project: full source texts and run logs stay local (only excerpts are published)
+output/pune-chronicle/sources/
+output/pune-chronicle/work/research/sources/
+output/pune-chronicle/work/agent/*.log
+output/pune-chronicle/work/agent/claims/*.failed*.txt

@@ -1,0 +1,146 @@
+{
+ "raw": "{\"for\":\"b1\",\"source_id\":\"s03\",\"excerpt\":\"State Maharashtra\"}\n{\"for\":\"b2\",\"source_id\":\"s03\",\"excerpt\":\"The old city of Pune is at the confluence of the Mula and Mutha rivers.\"}\n{\"for\":\"b3\",\"source_id\":\"s03\",\"excerpt\":\"The old city of Pune is at the confluence of the Mula and Mutha rivers.\"}\n{\"for\":\"b4\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b5\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b6\",\"source_id\":\"s03\",\"excerpt\":\"Pune at different points in time has been ruled by the Rashtrakuta dynasty, Ahmadnagar Sultanate, the Mughals, and the Adil Shahi dynasty.\"}\n{\"for\":\"b7\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b8\",\"source_id\":\"s02\",\"excerpt\":\"1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。\"}\n{\"for\":\"b9\",\"source_id\":\"s02\",\"excerpt\":\"1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。\"}\n{\"for\":\"b10\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b11\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b12\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b13\",\"source_id\":\"s02\",\"excerpt\":\"浦那的大多数学院属于1948年设立的萨维特里巴伊·菲勒普纳大学\"}\n{\"for\":\"b14\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b15\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b16\",\"source_id\":\"s03\",\"excerpt\":\"The Southern Command of the Indian Army, established in 1895, is headquartered in Pune cantonment.\"}\n{\"for\":\"b17\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b18\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b19\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b20\",\"source_id\":\"s02\",\"excerpt\":\"1961年7月潘赛特大坝和哈达夸斯拉大坝崩裂，它们的蓄水淹没浦那，摧毁了老城的大部分地区。\"}\n{\"for\":\"b21\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b22\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b23\",\"source_id\":\"s02\",\"excerpt\":\"人口\\n（2011年）\\n• 总计3,115,431人\"}\n{\"for\":\"b24\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b25\",\"source_id\":\"s03\",\"excerpt\":\"Pune (Marathi: Puṇē, pronounced [ˈpuɳeː] ⓘ), previously spelled in English as Poona (the official name until 1978), is a city\"}\n{\"for\":\"b26\",\"source_id\":\"s03\",\"excerpt\":\"Country India\"}\n{\"for\":\"b27\",\"source_id\":null,\"excerpt\":null}\n{\"for\":\"b28\",\"source_id\":null,\"excerpt\":null}",
+ "answers": [
+  {
+   "for": "b1",
+   "source_id": "s03",
+   "excerpt": "State Maharashtra"
+  },
+  {
+   "for": "b2",
+   "source_id": "s03",
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers."
+  },
+  {
+   "for": "b3",
+   "source_id": "s03",
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers."
+  },
+  {
+   "for": "b4",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b5",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b6",
+   "source_id": "s03",
+   "excerpt": "Pune at different points in time has been ruled by the Rashtrakuta dynasty, Ahmadnagar Sultanate, the Mughals, and the Adil Shahi dynasty."
+  },
+  {
+   "for": "b7",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b8",
+   "source_id": "s02",
+   "excerpt": "1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。"
+  },
+  {
+   "for": "b9",
+   "source_id": "s02",
+   "excerpt": "1817年，英属印度诸省占领浦那后，它成为一个兵营城市和孟买管辖区的“雨季首府”直至印度独立。"
+  },
+  {
+   "for": "b10",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b11",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b12",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b13",
+   "source_id": "s02",
+   "excerpt": "浦那的大多数学院属于1948年设立的萨维特里巴伊·菲勒普纳大学"
+  },
+  {
+   "for": "b14",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b15",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b16",
+   "source_id": "s03",
+   "excerpt": "The Southern Command of the Indian Army, established in 1895, is headquartered in Pune cantonment."
+  },
+  {
+   "for": "b17",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b18",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b19",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b20",
+   "source_id": "s02",
+   "excerpt": "1961年7月潘赛特大坝和哈达夸斯拉大坝崩裂，它们的蓄水淹没浦那，摧毁了老城的大部分地区。"
+  },
+  {
+   "for": "b21",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b22",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b23",
+   "source_id": "s02",
+   "excerpt": "人口\n（2011年）\n• 总计3,115,431人"
+  },
+  {
+   "for": "b24",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b25",
+   "source_id": "s03",
+   "excerpt": "Pune (Marathi: Puṇē, pronounced [ˈpuɳeː] ⓘ), previously spelled in English as Poona (the official name until 1978), is a city"
+  },
+  {
+   "for": "b26",
+   "source_id": "s03",
+   "excerpt": "Country India"
+  },
+  {
+   "for": "b27",
+   "source_id": null,
+   "excerpt": null
+  },
+  {
+   "for": "b28",
+   "source_id": null,
+   "excerpt": null
+  }
+ ],
+ "malformed": []
+}
