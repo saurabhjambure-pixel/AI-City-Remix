@@ -1,15 +1,14 @@
 # CLAUDE.md — City Remix (handoff)
 
-You are taking over this project from a planning chat and a previous coding agent (Google Antigravity). Read this file, then `MASTER_PLAN.md` (the full spec), then `PROGRESS.md` if present. Then start at **§5 First actions**.
+You are taking over this project from a planning chat and a previous coding agent (Google Antigravity). Read this file, then `docs/PLAN_chronicle_ink.md` (the current plan), then `PROGRESS.md`. `MASTER_PLAN.md` is the original pipeline spec; §4–§5 below are the Oct 25 audit and are history. Continue from the plan phase that PROGRESS.md says is next.
 
 ## 1. Goal and deadline
 
 - Contest: SandBase "AI City Remix". Uploads close **Oct 31 23:59:59 UTC = Sun Nov 1, 05:29 IST** (rules re-read Oct 29). Judging Nov 1–2, results Nov 3. Each upload or edit is reviewed within a day.
-- **Current brief (Oct 29):** rebuild the Pune film on the official chronicle-ink v0.4.3 Skill (subject=city, structure=life, style=model), with MiniMax Speech narration and MiniMax Music (owner approved both). Plan: `docs/PLAN_chronicle_ink.md`. Contest ids: `city_id "pune"`, lat 18.5211, lng 73.8553 (Wikidata Q1538).
-- Entry 1: "I Am Pune", a ~150 s film in which Pune narrates itself in the first person, directed end to end by **MiniMax M3.1 flash via SandBase**.
-- Entry 2 (Oct 28): 60–90 s demo of the same tool on a contrasting place.
+- **Current brief (Oct 29, rev 2):** a 120–180 s (target ~150 s) Pune life-story film on the official chronicle-ink Skill (subject=city, structure=life, style=model), directed end to end by **MiniMax M3.1 flash via SandBase**. Narration (MiniMax Speech) and MiniMax Music are **explicitly selected by the owner**. Plan: `docs/PLAN_chronicle_ink.md`.
+- Contest ids (preserve exactly): `city_id "pune"`, `place_lat 18.5211`, `place_lng 73.8553` (Wikidata Q1538). Entry id `a43da048-c1e7-429f-9306-005dabcd638b`. **One entry only:** never create another; later versions are edits to this entry.
 - Judging weights: AI workflow 30% (less human intervention, new tools, open source scores extra) · Accuracy 25% · Story and craft 25% · Reach 20%.
-- Owner: Saurabh. Owner signs in, uploads, adds the cover and ticks the declaration. You never sign in or upload.
+- Owner: Saurabh. You never sign in to SandBase. The owner has delegated **this entry's upload and submission** to the official client `contest-submit.py` with a one-entry token (rules in §2.9). If the client asks for the contest declaration, show the owner its exact wording first.
 
 ## 2. Non-negotiable rules
 
@@ -21,20 +20,26 @@ You are taking over this project from a planning chat and a previous coding agen
 6. Always set `reasoning_effort` explicitly (API default is `max`). Keep the full assistant message (incl. `reasoning_content`, `tool_calls`) across tool turns.
 7. Stages are resumable; `--force <stage>` reruns one.
 8. Commits: small, descriptive; never commit `.env`, source caches or large videos.
+9. **Submission token:** passed only as `LAB_SUBMISSION_TOKEN` in the subprocess environment (from a mode-600 file outside the repo, or the client's hidden prompt). Never in arguments, URLs, logs, `runs.jsonl`, commits, `entry.json` or chat output; never sent to any other service. Report success only when Lab returns `pending` or `approved` (pending is not approval). On failure keep the files and report; on HTTP 401 or expiry ask the owner for resume instructions at `https://www.sandbase.ai/lab/event/aicityremix/mine?upload=a43da048-c1e7-429f-9306-005dabcd638b`. Never re-render or create a new entry because of it.
+10. **Budget:** check `sandbase balance` before paid stages; ask the owner before exceeding it.
+11. **Brief vs Skill conflicts** (e.g. Overpass blocked, sparse building heights): explain and ask; never switch Skills or invent data silently.
 
 ## 3. Model and tool facts (verified)
 
 | Item | Value |
 |---|---|
 | Endpoint | `https://api.sandbase.ai/v1/chat/completions` (OpenAI-compatible) |
-| Model | `minimax/minimax-m3.1-flash` |
+| Model | `minimax/minimax-m3.1-flash` (re-confirm with `sandbase discover -t llm` before the rev-2 run; never assume) |
 | Effort levels | `low` `medium` `high` `xhigh` `max`; thinking cannot be disabled |
 | Per stage | research high · verify xhigh · script high · scenes medium · review medium · end card low |
 | max_tokens | 128000 for scene HTML (reasoning counts against it); 32000 elsewhere; API max 512K |
 | Timeouts | 900 s per call; scene pages can take minutes to an hour → run in parallel |
 | Images | `{"type":"image_url","image_url":{"url":"data:image/jpeg;base64,..."}}`; video input unconfirmed, send frames |
 | Price | $0.15 / $0.60 per 1M input/output tokens |
-| SandBase CLI | `npx -y @sandbaseai/cli@latest discover|inspect|run` (inspect is free) — use to find search and TTS endpoint names |
+| SandBase CLI | `npx -y @sandbaseai/cli@latest discover|inspect|run|balance` (inspect is free) |
+| Speech / music | `sandbase_minimax_speech_2_8_hd` (text, voice_id; ~$0.1/1k chars) · `sandbase_minimax_music_3` (prompt + lyrics; `[instrumental]` tags; duration ≤300 s; ~$0.12) |
+| Skill | chronicle-ink from `https://www.sandbase.ai/lab/downloads/chronicle-ink.zip` (unversioned; record version and SHA-256 on download; may need owner sign-in) |
+| Submit | `python3 tools/contest-submit.py --contest city-life --entry a43da048-c1e7-429f-9306-005dabcd638b --metadata final/entry.json --video final/film.mp4 --cover final/cover.jpg` (read the client fully before first run) |
 | Recorder | `scripts/record.mjs` (from sandbase-lab/awesome-minimax-m3-1-flash): `node scripts/record.mjs in.html out.mp4 <sec> 1920 1080`; output has no audio |
 
 Scene HTML rules (official prompt guide): one self-contained file, no external assets or CDNs (Three.js import map is the only exception), autoplay a timeline of exact length, fill the viewport, bold strokes and large type, "check zero console errors", "return only the complete HTML".
@@ -80,11 +85,13 @@ Defects to fix (in this order):
 
 | When | Gate |
 |---|---|
-| Oct 29 06:00 | Skill reviewed, mapping sent, geo.mjs and HyperFrames smoke tests pass (or blocker reported) |
-| Oct 29 18:00 | Reference-tier facts done; question chosen; film.json passes the gate |
+| Oct 29 12:00 | Skill reviewed, model id and balance checked, geo.mjs and HyperFrames smoke tests pass (or blocker raised) |
+| Oct 29 22:00 | Reference-tier facts done; spine chosen; film.json passes the gate |
 | Oct 30 06:00 | Test segments approved; narration and music done |
-| **Oct 30 12:00** | **v1 passes check → owner uploads** |
-| **Oct 31 12:00** | **Final edit uploaded** (last safe point for review before close) |
+| **Oct 30 12:00** | **v1 passes check → submitted via the official client (pending)** |
+| **Oct 31 12:00** | **Last edit submitted** (one review cycle before close) |
+
+The submission token expires within 24 h of issue (about Oct 30 morning); if it lapses, use the resume link rather than rushing quality.
 
 If behind, cut in this order: teaser → music (code-generated instead) → 5th chapter → narration (captions only). Never cut verification, geo truth or the final checks. Entry 2 is dropped.
 
@@ -92,15 +99,18 @@ If behind, cut in this order: teaser → music (code-generated instead) → 5th 
 
 60–180 s · MP4 · ≥720p (target 1920×1080) · English with subtitles in the video · original work · no copyrighted film or music · **no real living people** (no faces, none named; the personal close is voice only) · maps lawful: city level, **no national or state borders** · directed with M3.1 flash through SandBase.
 
-## 8. Film outline (superseded Oct 29)
+## 8. Film outline (rev 2, Oct 29)
 
-The old 8-scene outline is retired. The film follows the waterways (Mula, Mutha, the Sangam, the reservoirs upstream) and is built around ONE question that M3.1 picks from verified claims, posed in the first 10 s and answered in the final chapter. The shot grammar (hook, survey, chapters ≤30 s, payoff at the opening camera, close) is in `docs/PLAN_chronicle_ink.md` Phase 3 and is enforced by `stages/film_gate.py`. Last caption: "Putting down roots here, one brick at a time." (owner-authored).
+**Begin at the historic core** (the old city by the Sangam) and explain how Pune took its present shape. Contrast the whole city with local details: each chapter flies to one exact place, lingers on its detail, then pulls back to show its era lit on today's buildings. Origins, growth and the present are connected **through the rivers and landmarks on the real map**. Close by returning to the opening core view. M3.1 chooses the spine from verified claims; an optional central question is allowed as a craft choice. Turning points only from sourced claims; never invent disasters, wars or rebirth, and no fictional people or events as history. Vary viewpoint, scenes and shot order; do not copy the Skill's "rings of a city" examples. Shot grammar: `docs/PLAN_chronicle_ink.md` Phase 3, enforced by `stages/film_gate.py`. `my_city_line` (≤50 chars, owner-authored): "Putting down roots here, one brick at a time." — also the last caption.
 
 **Fact standard (chronicle-ink):** each fact needs two agreeing publishers, one of them a reference institution (e.g. Britannica, UNESCO); at most two hedged single-source lines ("Records say…"); every number and name in a caption must be in its claims. This supersedes the ≥25-claim gate.
 
-## 9. Upload-form copy (owner pastes; fill [brackets] from real runs)
+## 9. Entry metadata (`final/entry.json`)
 
-- Title: `I Am Pune`
-- Summary (190 chars): `Pune tells its own story, from the river confluence to Maratha palaces, colleges and the IT boom, drawn on its real map. Every fact double-sourced. Directed end to end by MiniMax M3.1 flash.`
-- Me and this city: `Putting down roots here, one brick at a time.`
-- When the film is final, generate `final/how_it_was_made.md` from real numbers in `runs.jsonl` and `research-report.json` (stages, tools, human interventions, cost), and `final/fact_sources.txt` (one unique URL per line from `claims.json`).
+`{"title" (≤80), "summary" (≤200), "lang":"en", "fields":{"city_id":"pune","place_lat":18.5211,"place_lng":73.8553,"used_m31_flash":true,"director_notes","sources":[...],"my_city_line"}}`
+
+- Title and summary: M3.1 drafts them from the finished film; true to what is on screen.
+- `used_m31_flash: true` only with runs.jsonl evidence.
+- `director_notes`: actual prompts, M3.1 call counts and token totals from runs.jsonl, the Skill and tools, human involvement (infrastructure by Google Antigravity and Claude Code; owner chose the city and brief; any logged manual edits).
+- `sources`: one per unique URL in the final verified claims. No credentials anywhere.
+- Also generate `final/how_it_was_made.md` and `final/fact_sources.txt` from real numbers.

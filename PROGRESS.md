@@ -51,3 +51,9 @@
 - **Blocker:** the Skill zip download returns 401 "Sign in at /lab/download"; the owner must download it.
 - Overpass: all 4 mirrors time out (also outside the sandbox). Reachable: Nominatim, api.openstreetmap.org, download.geofabrik.de, query.wikidata.org.
 - SandBase tools found: `sandbase_minimax_speech_2_8_hd` (text, voice_id; ~$0.1/1k chars), `sandbase_minimax_music_3` (prompt + lyrics with [instrumental] tags, duration ≤300 s).
+
+## 2026-10-29 — Brief rev 2 adopted (plan and CLAUDE.md updated)
+- Upload is now automatic through the official `contest-submit.py` for entry a43da048-c1e7-429f-9306-005dabcd638b; the one-entry token stays out of the repo, logs and arguments (CLAUDE.md §2.9).
+- Story: begin at the historic core, whole city vs local detail, rivers and landmarks link origins, growth and present; central question now optional.
+- Owner explicitly selected MiniMax Speech narration and MiniMax Music. New checks before paid stages: model id via discover, `sandbase balance`.
+- Next: Phase 0 (fetch the unversioned Skill zip, review it, smoke-test geo.mjs and HyperFrames).
