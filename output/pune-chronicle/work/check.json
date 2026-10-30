@@ -1,0 +1,127 @@
+{
+  "schema": "chronicle-check/2",
+  "film": "out/film.mp4",
+  "strict": false,
+  "items": [
+    {
+      "id": "format",
+      "status": "pass",
+      "details": {
+        "problems": [],
+        "duration": 150,
+        "frames": 4500,
+        "expected_frames": 4500
+      }
+    },
+    {
+      "id": "loudness",
+      "status": "pass",
+      "details": {
+        "I": -14.7,
+        "TP": -2,
+        "LRA": 3.7,
+        "failed": []
+      }
+    },
+    {
+      "id": "downbeats",
+      "status": "pass",
+      "details": {
+        "shots": 27,
+        "off_beat": [],
+        "sections_off": [],
+        "max_quantisation_ms": 15.2
+      }
+    },
+    {
+      "id": "sfx_sync",
+      "status": "pass",
+      "details": {
+        "cues": 57,
+        "tiers": {
+          "normal": 30,
+          "emphasis": 22,
+          "climax": 5
+        },
+        "median_ms": 2.7,
+        "max_ms": 3.3,
+        "out_of_sync": []
+      }
+    },
+    {
+      "id": "captions",
+      "status": "pass",
+      "details": {
+        "blocks": 27,
+        "dir": "ltr",
+        "problems": []
+      }
+    },
+    {
+      "id": "aigc",
+      "status": "pass",
+      "details": {
+        "metadata": {
+          "Label": "1",
+          "ContentProducer": "SandBase Lab chronicle-ink 0.4.3",
+          "ProduceID": "cb447eff10122420edc76fde9e610a4a",
+          "ReservedCode1": "",
+          "ContentPropagator": "",
+          "PropagateID": "",
+          "ReservedCode2": ""
+        },
+        "badge": {
+          "kind": "aigc",
+          "start": 0,
+          "end": 3
+        },
+        "end_card_s": 5.47
+      }
+    },
+    {
+      "id": "rehooks",
+      "status": "pass",
+      "details": {
+        "gaps": [
+          21.8,
+          21.8,
+          32.7,
+          21.8,
+          32.7,
+          19.1
+        ]
+      }
+    },
+    {
+      "id": "facts",
+      "status": "pass",
+      "details": {
+        "gate": "passed",
+        "lang": "en"
+      }
+    },
+    {
+      "id": "scene_scan",
+      "status": "pass",
+      "details": {
+        "scenes": 1,
+        "rejected": []
+      }
+    },
+    {
+      "id": "visual_review",
+      "status": "pass",
+      "details": {
+        "segments": 5,
+        "missing": [],
+        "open_blocking": [],
+        "over_rounds": []
+      }
+    }
+  ],
+  "failed": [],
+  "rework": [],
+  "sheet": "out/sheet.jpg",
+  "joins": "out/joins.jpg",
+  "listening": "not certified: a person still has to listen to the mix"
+}

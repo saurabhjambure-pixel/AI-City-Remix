@@ -1,0 +1,18 @@
+{
+ "title": "Pune: Mula River and Mutha River",
+ "summary": "An animated map traces Pune from its early core at the Mula-Mutha junction through Maratha and colonial expansion, the 1961 flood, and today’s city and institutions.",
+ "lang": "en",
+ "fields": {
+  "city_id": "pune",
+  "place_lat": 18.5211,
+  "place_lng": 73.8553,
+  "used_m31_flash": true,
+  "director_notes": "Directed by MiniMax M3.1 flash (minimax/minimax-m3.1-flash) through the SandBase API, using the official chronicle-ink v0.4.3 Skill (subject city, structure life, style model). M3.1 chose the Britannica pages from Britannica's own search results, wrote every claim with a verbatim excerpt, matched Britannica facts to Wikipedia, picked the landmarks and era areas, wrote the chronology, the 27-shot list and every caption, the music prompt, and this title and summary. Film-stage M3.1 calls: caption_fix 9, claims 38, entailment 18, entry_text 2, events_fix 2, film 33, music_prompt 1, pairs 2, places 1, review 5, sfx 4, sources 4, view_fix 2. All logged M3.1 calls in this project: 822 (21,617,042 prompt / 1,597,730 completion tokens, about $4.2). Narration: MiniMax Speech 2.8 HD, one clip per caption; music: MiniMax Music 2.6 instrumental, both via SandBase (tool runs: sandbase_minimax_music_2_6 1, sandbase_minimax_speech_2_8_hd 36). Facts: the Skill's cross-check (two agreeing publishers, one a reference institution); captions bound to claim ids. Geography: OpenStreetMap buildings, streets and water and Wikidata landmarks via the Skill's geo.mjs; era extents are approximations. Pictures drawn by code (WebGL), rendered with HyperFrames; no image or video model. Human involvement: the owner chose the city, brief and closing line, approved narration and music, downloaded the Skill (its download needs a sign-in), ran the map download on another network, and approved how sources were read. The coding agent (Claude Code) read the Britannica pages M3.1 chose in a browser and saved them verbatim (checked by hash) because the site blocks scripts, and widened the 3D building window from 1.5 to 3 km so every camera view has buildings (render coverage, not content). Segment reviews used code measurements and contact-sheet notes, never a vision model. Infrastructure code was written with Google Antigravity and Claude Code. Manual edits to film content: none. Prompts: stages/chronicle_agent.py and stages/chronicle_audio.py.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pune",
+   "https://www.britannica.com/place/Pune",
+   "https://zh.wikipedia.org/wiki/浦那"
+  ],
+  "my_city_line": "Putting down roots here, one brick at a time."
+ }
+}

@@ -24,6 +24,11 @@ SKILL = ROOT / "vendor" / "chronicle-ink-0.4.3" / "chronicle-ink"
 CITY = {"city_id": "pune", "place_lat": 18.5211, "place_lng": 73.8553}
 MY_CITY_LINE = "Putting down roots here, one brick at a time."
 MAX_VIDEO, MAX_COVER = 100 * 1024 * 1024, 5 * 1024 * 1024
+# The Skill's mux comment says no voice or music model was used, which is false once the opt-in narration and
+# track are on; the AIGC JSON tag is kept as the Skill wrote it.
+AIGC_COMMENT = ("AI-generated content (AIGC). Visuals drawn by code written by an AI agent (MiniMax M3.1 flash via SandBase, "
+                "chronicle-ink Skill); narration MiniMax Speech 2.8 HD and instrumental music MiniMax Music 2.6, both via SandBase; "
+                "no image or video model was used.")
 
 
 def probe(path: Path) -> Dict[str, Any]:
@@ -60,7 +65,7 @@ def fit_size(src: Path, dst: Path, target_mib: float = 88.0) -> None:
     common = ["-c:v", "libx264", "-preset", "slow", "-b:v", f"{v_kbps}k", "-pix_fmt", "yuv420p", "-profile:v", "high"]
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), *common, "-pass", "1", "-passlogfile", str(log), "-an", "-f", "mp4", "/dev/null"], check=True)
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), *common, "-pass", "2", "-passlogfile", str(log), "-c:a", "copy",
-                    "-map_metadata", "0", "-movflags", "+faststart+use_metadata_tags", str(dst)], check=True)
+                    "-map_metadata", "0", "-metadata", f"comment={AIGC_COMMENT}", "-movflags", "+faststart+use_metadata_tags", str(dst)], check=True)
     for f in dst.parent.glob(log.name + "*.log*"):
         f.unlink()
     print(f"[final] {dst.name}: {dst.stat().st_size / 1048576:.1f} MiB at {v_kbps} kb/s video")
@@ -73,7 +78,17 @@ def bound_claims(project: Path, script: Dict[str, Any]) -> List[Dict[str, Any]]:
     for kp in script.get("knowledge_points", []):
         ids |= set(kp.get("claims") or [])
     facts = json.loads((project / "work/facts/facts.json").read_text())
-    return [c for c in facts["claims"] if c["id"] in ids]
+    clusters = {c["cluster"] for c in facts["claims"] if c["id"] in ids}
+    # a verified fact is a cluster of claims from two publishers: its sources are every claim's in the cluster
+    return [c for c in facts["claims"] if c["id"] in ids or (c["status"] == "verified" and c["cluster"] in clusters)]
+
+
+def readable(url: str) -> str:
+    """Wikipedia REST reads become the article URL a reader can open."""
+    import re as _re
+    from urllib.parse import unquote
+    m = _re.match(r"https://([a-z-]+)\.wikipedia\.org/api/rest_v1/page/html/(.+)$", url)
+    return f"https://{m.group(1)}.wikipedia.org/wiki/{unquote(m.group(2))}" if m else url
 
 
 def run_totals() -> Dict[str, Any]:
@@ -111,14 +126,21 @@ Stay strictly true to what is on screen (the shot list below); no facts beyond i
 def make_entry(project: Path, client: SandBaseClient, film_check: Dict[str, Any]) -> Dict[str, Any]:
     script = json.loads((project / "script.json").read_text())
     shots = [f"{s['id']} ({s['section']}): {s['caption']['en']['text']} | {s.get('description', '')}" for s in script["shots"]]
-    msg = client.chat(stage="chronicle_entry_text", effort="medium", max_tokens=8000,
-                      messages=[{"role": "system", "content": TITLE_SYSTEM},
-                                {"role": "user", "content": f"Film title on screen: {script['title']['en']}\nShots:\n" + "\n".join(shots)}],
-                      output_file_path="final/entry.json")
-    text = json.loads(strip_markdown_fences(msg.get("content") or ""))
-    title, summary = text["title"][:80], text["summary"][:200]
+    msgs = [{"role": "system", "content": TITLE_SYSTEM},
+            {"role": "user", "content": f"Film title on screen: {script['title']['en']}\nShots:\n" + "\n".join(shots)}]
+    for attempt in range(3):
+        msg = client.chat(stage="chronicle_entry_text", effort="medium", max_tokens=8000, messages=msgs,
+                          scene_id=f"try{attempt + 1}", output_file_path="final/entry.json")
+        text = json.loads(strip_markdown_fences(msg.get("content") or ""))
+        title, summary = text.get("title", ""), text.get("summary", "")
+        if 0 < len(title) <= 80 and 0 < len(summary) <= 200:
+            break
+        msgs += [msg, {"role": "user", "content": f"The title has {len(title)} characters (max 80) and the summary {len(summary)} "
+                       "(max 200). Return the JSON again within the limits, as complete sentences."}]
+    else:
+        raise RuntimeError("M3.1 could not fit the title and summary limits")
     claims = bound_claims(project, script)
-    sources = sorted({s["url"] for c in claims for s in c["sources"] if s.get("url")})
+    sources = sorted({readable(s["url"]) for c in claims for s in c["sources"] if s.get("url") and "wikidata.org/w/api.php" not in s["url"]})
     t = run_totals()
     stages = ", ".join(f"{k.replace('chronicle_', '')} {v}" for k, v in sorted(t["film_stage_calls"].items()))
     notes = (
@@ -133,9 +155,12 @@ def make_entry(project: Path, client: SandBaseClient, film_check: Dict[str, Any]
         f"(two agreeing publishers, one a reference institution); captions bound to claim ids. Geography: OpenStreetMap "
         f"buildings, streets and water and Wikidata landmarks via the Skill's geo.mjs; era extents are approximations. "
         f"Pictures drawn by code (WebGL), rendered with HyperFrames; no image or video model. Human involvement: the owner "
-        f"chose the city, brief and closing line, approved narration and music, downloaded the Skill and chose how sources "
-        f"were read; Britannica pages were read in a browser and saved verbatim (checked by hash) because the site blocks "
-        f"scripts. Infrastructure code was written with Google Antigravity and Claude Code. Manual edits to film content: "
+        f"chose the city, brief and closing line, approved narration and music, downloaded the Skill (its download needs a "
+        f"sign-in), ran the map download on another network, and approved how sources were read. The coding agent (Claude Code) "
+        f"read the Britannica pages M3.1 chose in a browser and saved them verbatim (checked by hash) because the site blocks "
+        f"scripts, and widened the 3D building window from 1.5 to 3 km so every camera view has buildings (render coverage, "
+        f"not content). Segment reviews used code measurements and contact-sheet notes, never a vision model. Infrastructure "
+        f"code was written with Google Antigravity and Claude Code. Manual edits to film content: "
         f"{'; '.join(m for m in t['manual_edits'] if m) or 'none'}. Prompts: stages/chronicle_agent.py and stages/chronicle_audio.py."
     )
     entry = {"title": title, "summary": summary, "lang": "en",

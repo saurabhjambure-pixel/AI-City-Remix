@@ -656,14 +656,50 @@
       ]
      },
      "findings": [
-      "The contact sheet notes that the Panshet Dam collapse marker remains visible in the 2026 shots, incorrectly carrying the 1961 event into the present-day map."
+      "The contact sheet notes that the Panshet Dam collapse marker remains visible in the 2026 shots, incorrectly carrying the 1961 event into the present-day map.",
+      "Contact sheet note (render 5, end card at about 148 s): the closing rings label the first extent 'Early settlement · 1714', implying the settlement began in 1714; no claim dates the first settlement (Britannica: importance in the 17th century, official Maratha capital from 1714)."
      ],
      "fixes": [
-      "Remove the Panshet Dam collapse marker after its intended event window and re-check all present-day shots."
+      "Remove the Panshet Dam collapse marker after its intended event window and re-check all present-day shots.",
+      "Panshet Dam collapse chronology now ends in 2011, and its marker fades before the 2026 shots; the 128 s frame confirms the marker is absent.",
+      "First extent (early_settlement_core) is undated; the closing rings no longer imply that the early settlement began in 1714, and only the Maratha capital extent is labeled 1714."
      ],
-     "open_blocking": [
-      "The Panshet Dam collapse marker must not remain visible in the 2026 shots."
-     ]
+     "open_blocking": [],
+     "re_rendered": {
+      "measurements": {
+       "id": "s5",
+       "from_s": 109.1,
+       "to_s": 150,
+       "frames": 1227,
+       "mean_luma": 109.9,
+       "dark_frames_pct": 0.0,
+       "median_frame_diff": 0.76,
+       "flicker_spikes_s": [],
+       "empty_view_pct": 0.0,
+       "empty_view_at_s": [],
+       "shots": [
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+       ],
+       "captions": [
+        "A bright local marker anchors today's map",
+        "Today’s streets fill every lit edge",
+        "The same rivers are visible",
+        "The map holds the whole present city",
+        "The whole city returns to the opening view",
+        "Old and new shapes share the same map",
+        "Putting down roots here, one brick at a time."
+       ]
+      },
+      "notes": [
+       "End card frame at 148 s: the rings show only 'Maratha capital extent · 1714'; no year label on the first settlement; credits list Music (MiniMax Music 2.6) and Narration (MiniMax Speech 2.8 HD)."
+      ]
+     }
     }
    ]
   }

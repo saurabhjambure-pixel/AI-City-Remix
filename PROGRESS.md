@@ -109,3 +109,20 @@
 - Dropped (logged in work/agent/places.log): Panshet Dam (30 km) and Sinhagad (20 km), both outside the 15 km radius; Mula-Mutha River (Wikidata point 52 km away; the river itself comes from OSM); "Aga Khan Palace, Pune" and "Southern Command, Indian Army" (no such Wikipedia title).
 - Areas: 4 nested extents around Shaniwar Wada (0.35 / 0.8 / 1.6 / 3.4 km). Fabric: buildings within 1.5 km of Shaniwar Wada, streets 2.4 km, built-up 8 km.
 - Next: hotspot run of `node tools/geo_cached.mjs --project output/pune-chronicle`.
+
+## 2026-10-30 — Film complete, package ready (submission waits for a new token)
+- Map: geo.mjs ran on a Wi-Fi network that reaches Overpass (cached; reruns offline). 16,911 buildings within 3 km of Shaniwar Wada; heights sparse (1%), so no heights shots.
+- Script: M3.1 film plan (xhigh) → 27 shots, the Skill's gate plus an independent M3.1 entailment check (fresh context). Prompt and code fixes along the way:
+  - flood shown as river plus blue spread, not a fire scar;
+  - close views only inside the building window;
+  - years only from claims ("17th century" never becomes 1601);
+  - knowledge cards bind verified claims only;
+  - bridges describe the picture; the owner's line is the author's own.
+- Sound: MiniMax Music 2.6 instrumental (297 s, trimmed); MiniMax Speech 2.8 HD, one clip per caption. S07 and S16 were shortened by M3.1 to fit their shots.
+- Review (Skill director's loop, no vision model):
+  - code measured each segment (edge-density empty views, flicker, luma);
+  - M3.1 wrote rounds 1–3;
+  - findings fixed by M3.1: fire-as-flood, empty views, "AI illustration" in the year slot, crowded sound cues, the flood marker lasting into 2026, and "Early settlement · 1714" on the end rings.
+- Final Skill check: **10/10 passed** (format, loudness, downbeats, sfx_sync, captions, aigc, rehooks, facts, scene_scan, visual_review).
+- final/: film.mp4 (86.5 MiB, two-pass from the 600+ MB master, comment metadata corrected), cover.jpg, entry.json, check.json, fact_sources.txt.
+- Submission: the first token expired (grant_expired). Cloudflare blocks Python's default UA, so `tools/submit_entry.py` runs the unmodified client with an honest UA (owner approved). Waiting for the owner's new authorization.

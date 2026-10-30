@@ -1,0 +1,51 @@
+{
+ "film": {
+  "duration_s": 150.0,
+  "duration_ok": true,
+  "size": "1920x1080",
+  "size_ok": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "codecs_ok": true,
+  "bytes": 90747252,
+  "bytes_ok": true,
+  "full_decode_ok": true,
+  "decode_errors": "",
+  "ok": true
+ },
+ "totals": {
+  "m31_calls": 822,
+  "prompt_tokens": 21617042,
+  "completion_tokens": 1597730,
+  "reasoning_tokens": 934109,
+  "film_stage_calls": {
+   "chronicle_sources": 4,
+   "chronicle_claims": 38,
+   "chronicle_pairs": 2,
+   "chronicle_places": 1,
+   "chronicle_film": 33,
+   "chronicle_entailment": 18,
+   "chronicle_music_prompt": 1,
+   "chronicle_review": 5,
+   "chronicle_sfx": 4,
+   "chronicle_caption_fix": 9,
+   "chronicle_view_fix": 2,
+   "chronicle_events_fix": 2,
+   "chronicle_entry_text": 2
+  },
+  "earlier_stage_calls": {
+   "": 10,
+   "smoke_test": 2,
+   "research": 104,
+   "verify": 54,
+   "smoke": 1,
+   "verify_corroborate": 530
+  },
+  "tool_runs": {
+   "sandbase_minimax_music_2_6": 1,
+   "sandbase_minimax_speech_2_8_hd": 36
+  },
+  "manual_edits": [],
+  "m31_cost_usd": 4.2
+ }
+}

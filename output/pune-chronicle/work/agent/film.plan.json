@@ -254,7 +254,8 @@
     "from": 1714,
     "to": 1714,
     "color": "#D6B46A",
-    "morph": false
+    "morph": false,
+    "spot": true
    },
    {
     "area": "likely_maratha_capital",
