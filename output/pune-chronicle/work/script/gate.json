@@ -1,16 +1,13 @@
 {
   "schema": "chronicle-gate/2",
-  "script_sha256": "b706ac349e54f9cdb304f93611bf55b00dee219f9fcf8f7ba6aa87b9df4e7fff",
+  "script_sha256": "312ed013293924e95b1b5fd13ac5d9cde746a27d0cc4939c853aa1e346564eea",
   "status": "passed",
   "exit": 0,
   "entailment_by": "agent",
   "lang": "en",
   "entailment_ran": true,
   "errors": [],
-  "warnings": [
-    "entailment_partial:title",
-    "entailment_partial:kp1"
-  ],
+  "warnings": [],
   "budget": {
     "unit": "words",
     "total": 192,

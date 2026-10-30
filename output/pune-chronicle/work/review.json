@@ -37,6 +37,32 @@
      "open_blocking": [
       "Reduce the 614 MB final render to the 100 MiB contest limit."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s1",
+      "from_s": 0,
+      "to_s": 10.9,
+      "frames": 327,
+      "mean_luma": 106.8,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 5.93,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S01",
+       "S02"
+      ],
+      "captions": [
+       "The whole city glows on the live map",
+       "How did this city take shape?"
+      ]
+     },
+     "findings": [],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   },
@@ -83,6 +109,47 @@
      ],
      "open_blocking": [
       "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s2",
+      "from_s": 10.9,
+      "to_s": 43.63,
+      "frames": 983,
+      "mean_luma": 102.3,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 2.6,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S03",
+       "S04",
+       "S05",
+       "S06",
+       "S07",
+       "S08"
+      ],
+      "captions": [
+       "Pune sits where Mula and Mutha meet",
+       "The small outlined core glows clearly",
+       "What shaped this city’s early outline?",
+       "According to the account: Pune rose as Bhonsle capital",
+       "Records say Pune was capital from 1714.",
+       "The camera settles over the old centre"
+      ]
+     },
+     "findings": [
+      "S04 (about 11–19 s) displays “AI illustration” in the large year-figure slot even though the corner HUD already carries that label.",
+      "All six shots have captions; empty views, near-black frames, and flicker spikes measure at 0%, 0%, and none, respectively."
+     ],
+     "fixes": [
+      "Replace the unintended “AI illustration” text in the S04 year-figure slot with the intended figure, or suppress it if the slot should remain blank; avoid duplicating the HUD label."
+     ],
+     "open_blocking": [
+      "Correct the unintended S04 year-slot text before the final render."
      ]
     }
    ]
@@ -154,6 +221,66 @@
       "Replace the sustained empty-camera view at 56.5–66.0 s; 36.9% exceeds the 10% void threshold.",
       "Reduce the 614 MB final render to the 100 MiB contest limit."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s3",
+      "from_s": 43.63,
+      "to_s": 76.37,
+      "frames": 981,
+      "mean_luma": 85.6,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 3.41,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 21.5,
+      "empty_view_at_s": [
+       54.0,
+       54.5,
+       55.0,
+       55.5,
+       67.5,
+       68.0,
+       68.5,
+       69.0,
+       69.5,
+       70.0,
+       70.5,
+       71.0,
+       71.5,
+       72.0
+      ],
+      "shots": [
+       "S09",
+       "S10",
+       "S11",
+       "S12",
+       "S13",
+       "S14"
+      ],
+      "captions": [
+       "The lit footprint widens beyond the core",
+       "Pune served as the seasonal capital of Bombay Presidency",
+       "The British took Pune in 1817",
+       "Light reaches the map’s eastern edge",
+       "The camera glides along the expanded city edge",
+       "The University of Pune dates to 1948"
+      ]
+     },
+     "findings": [
+      "Empty views occupy 21.5% of the segment, exceeding the 10% limit; measurements identify voids around 54.0–55.5 s and 67.5–72.0 s.",
+      "The contact sheet notes additional wide frames around 52–62 s that are dim and contain streets but few lit buildings.",
+      "The S09 sound-cue relocation is reported as applied but still awaiting rerender, so it is not verified in the current rendered segment.",
+      "All six shots have captions, and no flicker spikes or near-black frames were measured."
+     ],
+     "fixes": [
+      "Reframe the affected shots to keep buildings or streets visibly filling the frame, and increase readable building illumination in the dim 52–62 s views; reduce empty-view share to 10% or less.",
+      "Rerender S03–S14 so the S09 sound cue is placed on beat 2 and outside the transition ring."
+     ],
+     "open_blocking": [
+      "The measured 21.5% empty-view share is a blocking camera-void issue that must be brought to 10% or less before the final render.",
+      "Include the pending S09 cue relocation in the rerender before final delivery."
+     ]
     }
    ]
   },
@@ -203,6 +330,42 @@
       "Correct the fire imagery in the flood shots before the final render.",
       "Reduce the 614 MB final render to the 100 MiB contest limit."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s4",
+      "from_s": 76.37,
+      "to_s": 109.1,
+      "frames": 982,
+      "mean_luma": 114.0,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 5.06,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S15",
+       "S16",
+       "S17",
+       "S18",
+       "S19",
+       "S20"
+      ],
+      "captions": [
+       "What changes along the glowing map lines?",
+       "Panshet Dam collapsed in 1961, washing away much of old Pune.",
+       "The camera pauses over the old centre",
+       "Water threads through the lowest streets",
+       "What rises after the water recedes?",
+       "Pune hosts the southern command headquarters"
+      ]
+     },
+     "findings": [
+      "All six shots have captions; empty views and near-black frames are both 0%, with no flicker spikes detected."
+     ],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   },
@@ -291,6 +454,44 @@
       "Remove or smooth the visible effect pop at 116.53–116.90 s.",
       "Reduce the 614 MB final render to the 100 MiB contest limit."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s5",
+      "from_s": 109.1,
+      "to_s": 150,
+      "frames": 1227,
+      "mean_luma": 109.7,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 0.76,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S21",
+       "S22",
+       "S23",
+       "S24",
+       "S25",
+       "S26",
+       "S27"
+      ],
+      "captions": [
+       "A bright local marker anchors today's map",
+       "Today’s streets fill every lit edge",
+       "The same rivers are visible",
+       "The map holds the whole present city",
+       "The whole city returns to the opening view",
+       "Old and new shapes share the same map",
+       "Putting down roots here, one brick at a time."
+      ]
+     },
+     "findings": [
+      "All seven shots have captions; empty views and near-black frames are both 0%, with no flicker spikes detected."
+     ],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   }

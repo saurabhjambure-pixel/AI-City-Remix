@@ -658,7 +658,7 @@
    ],
    "view": {
     "at": "shaniwar_wada",
-    "dist_km": 2,
+    "dist_km": 3.0,
     "pitch": 60
    },
    "year": [
@@ -666,12 +666,6 @@
     1714
    ],
    "effects": {
-    "big": {
-     "text": {
-      "en": "AI illustration",
-      "zh-CN": "AI 示意图"
-     }
-    },
     "halo": {
      "area": "early_settlement_core",
      "beat": 1
@@ -927,11 +921,6 @@
    "motion": "The outline morphs outward and a blue route spreads from the old centre across the larger extent.",
    "sfx": [
     {
-     "beat": 1,
-     "kind": "reveal",
-     "tier": "normal"
-    },
-    {
      "beat": 2,
      "kind": "appear",
      "tier": "emphasis"
@@ -1002,8 +991,8 @@
     }
    ],
    "view": {
-    "at": "likely_maratha_capital",
-    "dist_km": 4.8,
+    "at": "shaniwar_wada",
+    "dist_km": 3.2,
     "pitch": 60
    },
    "year": [
@@ -1062,8 +1051,8 @@
     }
    ],
    "view": {
-    "at": "pune_cantonment",
-    "dist_km": 5.2,
+    "at": "pune_junction",
+    "dist_km": 3.0,
     "pitch": 57
    },
    "year": [
@@ -1177,8 +1166,8 @@
     }
    ],
    "view": {
-    "at": "colonial_city",
-    "dist_km": 5.2,
+    "at": "center",
+    "dist_km": 3.4,
     "pitch": 60
    },
    "year": [
@@ -1237,8 +1226,8 @@
     }
    ],
    "view": {
-    "at": "savitribai_phule_pune_university",
-    "dist_km": 5.8,
+    "at": "shaniwar_wada",
+    "dist_km": 3.2,
     "pitch": 64
    },
    "year": [
@@ -1564,7 +1553,7 @@
    "motion": "The camera pans toward the cantonment as its ring and callout settle into place.",
    "sfx": [
     {
-     "beat": 1,
+     "beat": 2,
      "kind": "reveal",
      "tier": "emphasis"
     }

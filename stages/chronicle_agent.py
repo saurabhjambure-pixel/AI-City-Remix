@@ -585,9 +585,12 @@ def check_film_plan(film: Dict[str, Any], plan: Dict[str, Any], basemap: Dict[st
             b = cue.get("beat")
             if not isinstance(b, int) or isinstance(b, bool) or not 1 <= b <= 4 * int(sh.get("bars") or 1) - 1:
                 errs.append(f"{sh.get('id')}: sfx beat {b!r} must be a whole number from 1 to {4 * int(sh.get('bars') or 1) - 1}")
-        for line in (sh.get("caption", {}).get("en", {}).get("text") or "").split("\n"):
-            if len(line) > 42 or len(line.split()) > 9:
-                errs.append(f"{sh.get('id')}: caption line too long ({len(line)} chars, {len(line.split())} words)")
+        text = sh.get("caption", {}).get("en", {}).get("text") or ""
+        lines = text.split("\n") if "\n" in text else [text]
+        # the Skill wraps an unbroken caption itself: limit explicit lines to 42 chars, a whole caption to 2 lines
+        limit = 42 if len(lines) > 1 else 84
+        if len(lines) > 2 or any(len(l) > limit or len(l.split()) > 9 * (2 if limit == 84 else 1) for l in lines):
+            errs.append(f"{sh.get('id')}: caption too long for 2 lines of 42 characters / 9 words")
     return errs
 
 
@@ -737,7 +740,9 @@ def write_film(project: Path, client: SandBaseClient, feedback: Optional[List[st
 
 SFX_SYSTEM = """You are the sound designer of a chronicle-ink film. The Skill's check measures each scripted sound
 cue's onset on the SFX track and fails cues more than one frame from their action. The cues listed failed: the
-"route" and "count" sounds swell in slowly, so their measured onset lands late. For each listed shot, return its
+"route" and "count" sounds swell in slowly, so their measured onset lands late; and the automatic transition
+sound at beat 0 rings for a whole beat, so a cue at beat 1 blurs with it (both then fail). Keep scripted cues at
+beat 2 or later. For each listed shot, return its
 corrected sfx list: keep cues that passed, change a failed cue to a sharp-attack kind ("appear" or "reveal") that
 still fits its action, or drop it if the action needs no sound. Beats stay whole numbers inside the shot.
 Output JSON Lines, one per listed shot, nothing else: {"id": <shot id>, "sfx": [{"beat", "kind", "tier"}]}"""
@@ -748,7 +753,7 @@ def fix_sfx(project: Path, client: SandBaseClient) -> List[str]:
     check = json.loads((project / "work/check.json").read_text())
     bad = next(i for i in check["items"] if i["id"] == "sfx_sync")["details"].get("out_of_sync", [])
     tl = json.loads((project / "work/timeline.json").read_text())
-    failed = [c for c in tl["sfx"] if c["id"] in bad and c.get("source") == "shot"]
+    failed = [c for c in tl["sfx"] if c["id"] in bad]  # an auto cue fails when a scripted cue crowds it
     shots = sorted({c["shot"] for c in failed})
     if not shots:
         return []
@@ -757,11 +762,17 @@ def fix_sfx(project: Path, client: SandBaseClient) -> List[str]:
     listing = [{"id": sh["id"], "bars": sh["bars"], "motion": sh.get("motion"), "sfx": sh.get("sfx", []),
                 "failed": [{"beat_index": c.get("step"), "kind": c["kind"]} for c in failed if c["shot"] == sh["id"]]}
                for sh in film["shots"] if sh["id"] in shots]
-    msg = client.chat(stage="chronicle_sfx", effort="low", max_tokens=8000,
-                      messages=[{"role": "system", "content": SFX_SYSTEM}, {"role": "user", "content": json.dumps(listing, ensure_ascii=False)}],
-                      output_file_path="work/agent/film.plan.json")
-    answers, _ = parse_json_lines(msg.get("content") or "", require="id")
-    new = {a["id"]: a["sfx"] for a in answers if isinstance(a.get("sfx"), list)}
+    msgs = [{"role": "system", "content": SFX_SYSTEM}, {"role": "user", "content": json.dumps(listing, ensure_ascii=False)}]
+    for attempt in range(2):
+        msg = client.chat(stage="chronicle_sfx", effort="low", max_tokens=8000, messages=msgs, scene_id=f"try{attempt + 1}",
+                          output_file_path="work/agent/film.plan.json")
+        answers, _ = parse_json_lines(msg.get("content") or "", require="id")
+        new = {a["id"]: a["sfx"] for a in answers if isinstance(a.get("sfx"), list)}
+        early = sorted(k for k, cues in new.items() if any(int(c.get("beat", 0)) < 2 for c in cues))
+        if not early:
+            break
+        msgs += [msg, {"role": "user", "content": f"{early} still have a cue before beat 2, inside the transition's ring. "
+                       "Return those shots again with every cue at beat 2 or later (or dropped)."}]
     for sh in film["shots"]:
         if sh["id"] in new:
             sh["sfx"] = [{"beat": int(c["beat"]), "kind": c["kind"], "tier": c.get("tier", "normal")} for c in new[sh["id"]]
@@ -842,6 +853,64 @@ def fix_captions(project: Path, client: SandBaseClient, words_per_s: float = 2.6
     plan_path.write_text(json.dumps(film, ensure_ascii=False, indent=1))
     (project / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1))
     print(f"[captions] M3.1 shortened {sorted(new)}: " + "; ".join(f"{k}: {v['en']['text']!r}" for k, v in new.items()))
+    return sorted(new)
+
+
+VIEW_FIX_SYSTEM = """You are the director of a chronicle-ink 3D city film. A review measured empty views (frames with
+almost no buildings or streets) in some shots, and found effects that look wrong. For each listed shot, return a new
+camera view and, if needed, corrected effects. Captions, claims and years stay unchanged. Aim the camera so the frame
+is filled with today's 3D buildings: look at a place inside the building window (or "center"), with dist_km 2.4-4.2;
+places outside the window have no buildings. Keep the effects' meaning (morph, spread, focus, halo stay if they serve
+the caption). Never put words in effects.big that are not a figure from the shot's claims (drop big instead).
+Output JSON Lines, one per listed shot, nothing else:
+{"id": <shot id>, "view": {"at": <place or area id or "center">, "dist_km": <number>, "pitch": <30-80>}, "effects": {<full effects object>}}"""
+
+
+def fix_views(project: Path, client: SandBaseClient, review_notes: List[str]) -> List[str]:
+    """M3.1 re-aims shots whose frames measured empty (and fixes flagged effects); captions stay as they are."""
+    review = json.loads((project / "work/review.json").read_text())
+    tl = json.loads((project / "work/timeline.json").read_text())
+    empty: Dict[str, List[float]] = {}
+    for seg in review["segments"]:
+        for t in (seg["rounds"][-1].get("measurements") or {}).get("empty_view_at_s", []):
+            sh = next((x for x in tl["shots"] if x["start"] <= t < x["end"]), None)
+            if sh:
+                empty.setdefault(sh["id"], []).append(t)
+    flagged = {m.group(0) for n in review_notes for m in re.finditer(r"\bS\d\d\b", n)}
+    targets = sorted(set(empty) | flagged)
+    if not targets:
+        return []
+    plan_path = project / "work/agent/film.plan.json"
+    film = json.loads(plan_path.read_text())
+    basemap = json.loads((project / "geo/basemap.json").read_text())
+    window = building_window(project, basemap)
+    listing = [{"id": sh["id"], "caption": sh["caption"]["en"]["text"], "view": sh["view"], "effects": sh.get("effects", {}),
+                "empty_seconds": empty.get(sh["id"], [])} for sh in film["shots"] if sh["id"] in targets]
+    user = (f"Building window: {json.dumps(window, ensure_ascii=False)}\nAreas: "
+            f"{json.dumps([{k: a.get(k) for k in ('id', 'x', 'y', 'km2')} for a in basemap['areas']], ensure_ascii=False)}\n"
+            f"Review notes: {json.dumps(review_notes, ensure_ascii=False)}\nShots:\n{json.dumps(listing, ensure_ascii=False, indent=1)}")
+    msg = client.chat(stage="chronicle_view_fix", effort="high", max_tokens=16000,
+                      messages=[{"role": "system", "content": VIEW_FIX_SYSTEM}, {"role": "user", "content": user}],
+                      output_file_path="work/agent/film.plan.json")
+    answers, _ = parse_json_lines(msg.get("content") or "", require="id")
+    new = {a["id"]: a for a in answers if isinstance(a.get("view"), dict)}
+    for sh in film["shots"]:
+        if sh["id"] in new:
+            sh["view"] = new[sh["id"]]["view"]
+            if isinstance(new[sh["id"]].get("effects"), dict):
+                sh["effects"] = new[sh["id"]]["effects"]
+    errs = view_errors(film, window) + check_film_plan(film, json.loads((project / "work/script/plan.json").read_text()), basemap)
+    if errs:
+        raise RuntimeError(f"view fix left problems: {errs}")
+    plan_path.write_text(json.dumps(film, ensure_ascii=False, indent=1))
+    script = build_script(film, basemap, json.loads((project / "work/script/plan.json").read_text()))
+    old = {sh["id"]: sh for sh in json.loads((project / "script.json").read_text())["shots"]}
+    for sh in script["shots"]:  # keep every fixed caption, claim and cue exactly as they are now
+        for k in ("caption", "claims", "hedge", "sfx", "kind", "kp", "rehook"):
+            if k in old.get(sh["id"], {}):
+                sh[k] = old[sh["id"]][k]
+    (project / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1))
+    print(f"[views] M3.1 re-aimed {sorted(new)}: " + "; ".join(f"{k} → {v['view']}" for k, v in new.items()))
     return sorted(new)
 
 
@@ -939,6 +1008,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--resume", action="store_true", help="with --write-film: start from the last plan and gate errors")
     ap.add_argument("--fix-sfx", action="store_true", help="M3.1 revises only failed sound cues and over-long narrated captions; rerun the script gate")
     ap.add_argument("--caption-note", action="append", default=[], help="with --fix-sfx: SHOT=MAXWORDS=note")
+    ap.add_argument("--fix-views", action="append", default=None, metavar="NOTE",
+                    help="M3.1 re-aims shots the review measured empty (plus shots named in NOTE); rerun the script gate")
     ap.add_argument("--redo-claims", action="store_true", help="rebuild claims from cached chunks + pairs, rerun facts")
     args = ap.parse_args(argv)
     project = (ROOT / args.project).resolve()
@@ -948,6 +1019,14 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     if args.write_places:
         print(f"[chronicle_agent] wrote {write_places(project, client)}")
+        return 0
+    if args.fix_views is not None:
+        if fix_views(project, client, args.fix_views):
+            for _ in range(3):
+                step = awaiting(run_skill(project, "script"))
+                if step != "entailment":
+                    break
+                handle_entailment(project, client, False)
         return 0
     if args.fix_sfx:
         gate_path = project / "work/script/gate.json"
