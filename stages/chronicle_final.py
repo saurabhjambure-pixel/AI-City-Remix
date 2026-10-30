@@ -134,12 +134,10 @@ def make_cover(project: Path, film: Path, cover_shot: Optional[str], title: str,
     shots = timeline.get("shots") or []
     pick = next((s for s in shots if s.get("id") == cover_shot), None) or (shots[len(shots) // 2] if shots else None)
     t = (pick["start"] + pick["end"]) / 2 if pick else 60.0
-    font = next(iter(sorted((SKILL / "assets/fonts").glob("*Serif*"))), None) or next(iter(sorted((SKILL / "assets/fonts").glob("*.ttf"))), None)
-    safe = title.replace("\\", "").replace(":", "\\:").replace("'", "’")
-    draw = (f"drawbox=x=0:y=ih*0.70:w=iw:h=ih*0.30:color=black@0.55:t=fill,"
-            f"drawtext=text='{safe}':fontcolor=white:fontsize=96:x=(w-text_w)/2:y=h*0.78" + (f":fontfile='{font}'" if font else ""))
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", str(film), "-frames:v", "1", "-vf", draw,
-                    "-q:v", "3", str(out)], check=True)
+    frame = out.with_suffix(".frame.png")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.2f}", "-i", str(film), "-frames:v", "1", str(frame)], check=True)
+    subprocess.run(["node", str(ROOT / "scripts/cover.mjs"), str(frame), title, str(out)], cwd=ROOT, check=True)
+    frame.unlink()
     if out.stat().st_size > MAX_COVER:
         raise RuntimeError("cover over 5 MiB")
 

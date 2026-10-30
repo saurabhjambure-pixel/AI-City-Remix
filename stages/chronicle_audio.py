@@ -123,6 +123,12 @@ def make_music(project: Path) -> None:
     if not url:
         raise RuntimeError(f"no audio URL in {MUSIC_TOOL} result")
     download(url, mdir / "score.mp3")
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                str(mdir / "score.mp3")], capture_output=True, text=True, check=True).stdout.strip())
+    need = float(script["seconds"]) + 1
+    print(f"[music] track length {dur:.1f} s (film {script['seconds']} s)")
+    if dur < need:
+        raise RuntimeError(f"generated track is {dur:.1f} s, shorter than the film ({need:.0f} s); the Skill would pad silence")
     run_id = res.get("run_id") or res.get("id") if isinstance(res, dict) else None
     (mdir / "track.json").write_text(json.dumps({
         "file": "music/score.mp3", "start": 0, "fade_in": 1.5, "fade_out": 4, "title": spec.get("title") or "Pune score",
