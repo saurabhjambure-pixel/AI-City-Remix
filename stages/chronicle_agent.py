@@ -914,6 +914,35 @@ def fix_views(project: Path, client: SandBaseClient, review_notes: List[str]) ->
     return sorted(new)
 
 
+EVENTS_FIX_SYSTEM = """You are the director of a chronicle-ink 3D city film. The scene shows each chronology event's
+callout on its place from "year" to "until". A review finding says an event is visible where it should not be. Return
+the full corrected events list (same shape), changing only what the finding needs. "until" must be a year from the
+allowed list. Output ONLY JSON: {"events": [...]}"""
+
+
+def fix_events(project: Path, client: SandBaseClient, findings: List[str]) -> bool:
+    plan_path = project / "work/agent/film.plan.json"
+    film = json.loads(plan_path.read_text())
+    years = sorted(allowed_years(project))
+    msg = client.chat(stage="chronicle_events_fix", effort="medium", max_tokens=8000, output_file_path="work/agent/film.plan.json",
+                      messages=[{"role": "system", "content": EVENTS_FIX_SYSTEM},
+                                {"role": "user", "content": f"Findings: {json.dumps(findings, ensure_ascii=False)}\nAllowed years: {years}\n"
+                                 f"Shots by year: {json.dumps([(s['id'], s.get('year')) for s in film['shots']])}\n"
+                                 f"Events: {json.dumps(film['chronology']['events'], ensure_ascii=False)}"}])
+    events = parse_json(msg)["events"]
+    trial = dict(film, chronology=dict(film["chronology"], events=events))
+    errs = year_errors(trial, set(years))
+    if errs:
+        raise RuntimeError(f"events fix used unsourced years: {errs}")
+    before = {e["title"]["en"]: (e.get("year"), e.get("until")) for e in film["chronology"]["events"]}
+    after = {e["title"]["en"]: (e.get("year"), e.get("until")) for e in events}
+    film["chronology"]["events"] = events
+    plan_path.write_text(json.dumps(film, ensure_ascii=False, indent=1))
+    apply_areas(project, film)  # chronology → places.json and basemap.json (geo.mjs offline from the cache)
+    print("[events] " + "; ".join(f"{k}: {before.get(k)} → {v}" for k, v in after.items() if before.get(k) != v))
+    return True
+
+
 def prune_rewordings(project: Path) -> int:
     """Where a disputed instance has a cluster backed by a tier-1 publisher and a second publisher, drop the other
     clusters' Wikipedia-only claims: they restate the same fact in other words. Real conflicts with tier-1-only
@@ -1010,6 +1039,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--caption-note", action="append", default=[], help="with --fix-sfx: SHOT=MAXWORDS=note")
     ap.add_argument("--fix-views", action="append", default=None, metavar="NOTE",
                     help="M3.1 re-aims shots the review measured empty (plus shots named in NOTE); rerun the script gate")
+    ap.add_argument("--fix-events", action="append", default=None, metavar="FINDING", help="M3.1 corrects chronology events")
     ap.add_argument("--redo-claims", action="store_true", help="rebuild claims from cached chunks + pairs, rerun facts")
     args = ap.parse_args(argv)
     project = (ROOT / args.project).resolve()
@@ -1019,6 +1049,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     if args.write_places:
         print(f"[chronicle_agent] wrote {write_places(project, client)}")
+        return 0
+    if args.fix_events is not None:
+        fix_events(project, client, args.fix_events)
         return 0
     if args.fix_views is not None:
         if fix_views(project, client, args.fix_views):

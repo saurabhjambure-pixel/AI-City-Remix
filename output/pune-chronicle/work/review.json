@@ -63,6 +63,32 @@
      "findings": [],
      "fixes": [],
      "open_blocking": []
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s1",
+      "from_s": 0,
+      "to_s": 10.9,
+      "frames": 327,
+      "mean_luma": 106.8,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 5.76,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S01",
+       "S02"
+      ],
+      "captions": [
+       "The whole city glows on the live map",
+       "How did this city take shape?"
+      ]
+     },
+     "findings": [],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   },
@@ -151,6 +177,40 @@
      "open_blocking": [
       "Correct the unintended S04 year-slot text before the final render."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s2",
+      "from_s": 10.9,
+      "to_s": 43.63,
+      "frames": 983,
+      "mean_luma": 100.9,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 2.41,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S03",
+       "S04",
+       "S05",
+       "S06",
+       "S07",
+       "S08"
+      ],
+      "captions": [
+       "Pune sits where Mula and Mutha meet",
+       "The small outlined core glows clearly",
+       "What shaped this city’s early outline?",
+       "According to the account: Pune rose as Bhonsle capital",
+       "Records say Pune was capital from 1714.",
+       "The camera settles over the old centre"
+      ]
+     },
+     "findings": [],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   },
@@ -281,6 +341,42 @@
       "The measured 21.5% empty-view share is a blocking camera-void issue that must be brought to 10% or less before the final render.",
       "Include the pending S09 cue relocation in the rerender before final delivery."
      ]
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s3",
+      "from_s": 43.63,
+      "to_s": 76.37,
+      "frames": 981,
+      "mean_luma": 96.1,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 3.88,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 1.5,
+      "empty_view_at_s": [
+       54.5
+      ],
+      "shots": [
+       "S09",
+       "S10",
+       "S11",
+       "S12",
+       "S13",
+       "S14"
+      ],
+      "captions": [
+       "The lit footprint widens beyond the core",
+       "Pune served as the seasonal capital of Bombay Presidency",
+       "The British took Pune in 1817",
+       "Light reaches the map’s eastern edge",
+       "The camera glides along the expanded city edge",
+       "The University of Pune dates to 1948"
+      ]
+     },
+     "findings": [],
+     "fixes": [],
+     "open_blocking": []
     }
    ]
   },
@@ -364,6 +460,40 @@
      "findings": [
       "All six shots have captions; empty views and near-black frames are both 0%, with no flicker spikes detected."
      ],
+     "fixes": [],
+     "open_blocking": []
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s4",
+      "from_s": 76.37,
+      "to_s": 109.1,
+      "frames": 982,
+      "mean_luma": 113.9,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 4.78,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S15",
+       "S16",
+       "S17",
+       "S18",
+       "S19",
+       "S20"
+      ],
+      "captions": [
+       "What changes along the glowing map lines?",
+       "Panshet Dam collapsed in 1961, washing away much of old Pune.",
+       "The camera pauses over the old centre",
+       "Water threads through the lowest streets",
+       "What rises after the water recedes?",
+       "Pune hosts the southern command headquarters"
+      ]
+     },
+     "findings": [],
      "fixes": [],
      "open_blocking": []
     }
@@ -492,6 +622,48 @@
      ],
      "fixes": [],
      "open_blocking": []
+    },
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s5",
+      "from_s": 109.1,
+      "to_s": 150,
+      "frames": 1227,
+      "mean_luma": 109.7,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 0.76,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S21",
+       "S22",
+       "S23",
+       "S24",
+       "S25",
+       "S26",
+       "S27"
+      ],
+      "captions": [
+       "A bright local marker anchors today's map",
+       "Today’s streets fill every lit edge",
+       "The same rivers are visible",
+       "The map holds the whole present city",
+       "The whole city returns to the opening view",
+       "Old and new shapes share the same map",
+       "Putting down roots here, one brick at a time."
+      ]
+     },
+     "findings": [
+      "The contact sheet notes that the Panshet Dam collapse marker remains visible in the 2026 shots, incorrectly carrying the 1961 event into the present-day map."
+     ],
+     "fixes": [
+      "Remove the Panshet Dam collapse marker after its intended event window and re-check all present-day shots."
+     ],
+     "open_blocking": [
+      "The Panshet Dam collapse marker must not remain visible in the 2026 shots."
+     ]
     }
    ]
   }

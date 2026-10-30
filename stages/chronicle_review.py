@@ -128,14 +128,52 @@ def review(project: Path, client: SandBaseClient, notes: List[str], prior: Optio
     return path
 
 
+AMEND_SYSTEM = """You are the director completing a review round of a chronicle-ink film. In this round you listed
+blocking findings; the fixes below were then applied and the film re-rendered. From the new measurements and the
+notes, decide for each open finding whether it is resolved. Output JSON Lines, one per segment listed, nothing else:
+{"id": <segment id>, "fixes": [<fixes confirmed>], "open_blocking": [<findings still not resolved>]}"""
+
+
+def amend_last(project: Path, client: SandBaseClient, notes: List[str], fixed: List[str]) -> Path:
+    """Finish the last round of segments with open findings after their fix was rendered (no extra round)."""
+    path = project / "work/review.json"
+    doc = json.loads(path.read_text())
+    open_segs = [s for s in doc["segments"] if s["rounds"] and s["rounds"][-1]["open_blocking"]]
+    if not open_segs:
+        print("[review] nothing open")
+        return path
+    metrics = {m["id"]: m for m in segment_metrics(project, project / "out/film.mp4")}
+    listing = [{"id": s["id"], "open_blocking": s["rounds"][-1]["open_blocking"], "new_measurements": metrics.get(s["id"])} for s in open_segs]
+    msg = client.chat(stage="chronicle_review", effort="medium", max_tokens=8000, output_file_path="work/review.json",
+                      messages=[{"role": "system", "content": AMEND_SYSTEM},
+                                {"role": "user", "content": f"Fixes applied: {json.dumps(fixed, ensure_ascii=False)}\n"
+                                 f"Notes from the new contact sheet: {json.dumps(notes, ensure_ascii=False)}\n"
+                                 f"{json.dumps(listing, ensure_ascii=False, indent=1)}"}])
+    answers, _ = parse_json_lines(msg.get("content") or "", require="id")
+    for a in answers:
+        seg = next((s for s in open_segs if s["id"] == a["id"]), None)
+        if seg:
+            last = seg["rounds"][-1]
+            last["fixes"] = last.get("fixes", []) + a.get("fixes", [])
+            last["open_blocking"] = a.get("open_blocking", [])
+            last["re_rendered"] = {"measurements": metrics.get(seg["id"]), "notes": notes}
+            print(f"[review] {seg['id']}: round {len(seg['rounds'])} completed, open {last['open_blocking']}")
+    path.write_text(json.dumps(doc, ensure_ascii=False, indent=1))
+    return path
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--project", required=True)
     ap.add_argument("--note", action="append", default=[])
     ap.add_argument("--fixed", action="append", default=[], help="a fix applied since the last round")
     ap.add_argument("--film", help="film to measure (default out/film.mp4)")
+    ap.add_argument("--complete-round", action="store_true", help="finish the last round's open findings after a fix render")
     args = ap.parse_args(argv)
     project = (ROOT / args.project).resolve()
+    if args.complete_round:
+        amend_last(project, SandBaseClient(), args.note, args.fixed)
+        return 0
     review(project, SandBaseClient(), args.note, {"applied": args.fixed} if args.fixed else None,
            Path(args.film) if args.film else None)
     return 0
