@@ -17,3 +17,5 @@ output/pune-chronicle/sources/
 output/pune-chronicle/work/research/sources/
 output/pune-chronicle/work/agent/*.log
 output/pune-chronicle/work/agent/claims/*.failed*.txt
+
+output/pune-chronicle/geo/cache/
