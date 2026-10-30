@@ -9,7 +9,7 @@ Enforces MASTER_PLAN.md rules:
 - Explicit effort required per stage (no default).
 - Logs every model call to runs.jsonl: timestamp, stage, scene_id, reasoning_effort,
   max_tokens, HTTP status, latency, usage (including reasoning_tokens), output file path.
-- Retries twice on 429/5xx/timeout with backoff (10s, 40s). Does not retry 4xx other than 429.
+- Retries on 429/5xx/timeout with backoff (10s, 40s, 90s, 180s). Does not retry 4xx other than 429.
 - JSON schema validation with one repair turn on failure.
 - Full assistant message preserved (including reasoning_content and tool_calls).
 """
@@ -141,7 +141,7 @@ class SandBaseClient:
             "User-Agent": "city-remix-pipeline/1.0",
         }
 
-        retry_delays = [10, 40]
+        retry_delays = [10, 40, 90, 180]  # SandBase answers 503 "overloaded" at busy times
         attempts = 1 + len(retry_delays)
         last_error = None
         response_json: Dict[str, Any] = {}
