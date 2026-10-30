@@ -77,24 +77,38 @@ def make_voice(project: Path) -> None:
     script = json.loads((project / "script.json").read_text())
     vdir = project / "voice"
     vdir.mkdir(exist_ok=True)
+    timeline = project / "work/timeline.json"
+    room = {s["id"]: s["end"] - s["start"] - 0.25 - 0.15 for s in json.loads(timeline.read_text())["shots"]} if timeline.exists() else {}
     lines = []
     for sh in script["shots"]:
         text = caption_text(sh)
         mp3 = vdir / f"{sh['id']}.mp3"
         meta = vdir / f"{sh['id']}.run.json"
-        if not (mp3.exists() and meta.exists() and json.loads(meta.read_text()).get("text") == text):
-            res = sandbase_run(VOICE_TOOL, {"text": text, "voice_id": VOICE_ID, "speed": VOICE_SPEED, "english_normalization": True,
+        old = json.loads(meta.read_text()) if meta.exists() else {}
+        speed = old.get("speed", VOICE_SPEED) if old.get("text") == text else VOICE_SPEED
+        # voice.md: shorten the caption or raise the speed; raise it only as far as the clip needs, at most 1.2
+        if mp3.exists() and old.get("text") == text and sh["id"] in room:
+            d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp3)],
+                                     capture_output=True, text=True).stdout or 0)
+            if d > room[sh["id"]] and speed < 1.2:
+                speed = round(min(1.2, speed * d / room[sh["id"]] + 0.01), 2)
+                old = {}
+        if not (mp3.exists() and old.get("text") == text):
+            res = sandbase_run(VOICE_TOOL, {"text": text, "voice_id": VOICE_ID, "speed": speed, "english_normalization": True,
                                             "format": "mp3", "sample_rate": 44100, "channel": 1},
                                vdir / f"{sh['id']}.result.json", stage="chronicle_voice")
             url = find_audio_url(res)
             if not url:
                 raise RuntimeError(f"no audio URL in {VOICE_TOOL} result for {sh['id']}")
             download(url, mp3)
-            meta.write_text(json.dumps({"text": text, "url": url}))
+            meta.write_text(json.dumps({"text": text, "url": url, "speed": speed}))
+            print(f"[voice] {sh['id']} (speed {speed}): {text}")
         lines.append({"shot": sh["id"], "file": f"voice/{sh['id']}.mp3", "text": text, "offset": 0.25})
-        print(f"[voice] {sh['id']}: {text}")
+    faster = {l["shot"]: json.loads((vdir / f"{l['shot']}.run.json").read_text()).get("speed", VOICE_SPEED) for l in lines}
+    faster = {k: v for k, v in faster.items() if v != VOICE_SPEED}
     (vdir / "voice.json").write_text(json.dumps({
-        "generated": {"model": VOICE_MODEL, "via": "SandBase", "voice_id": VOICE_ID, "speed": VOICE_SPEED},
+        "generated": {"model": VOICE_MODEL, "via": "SandBase", "voice_id": VOICE_ID, "speed": VOICE_SPEED,
+                      **({"speed_per_line": faster} if faster else {})},
         "credit": {"en": "Narration: MiniMax Speech 2.8 HD (via SandBase)", "zh-CN": "旁白：MiniMax Speech 2.8 HD 合成（经 SandBase）"},
         "lines": lines}, ensure_ascii=False, indent=1))
 

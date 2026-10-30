@@ -1,0 +1,176 @@
+{
+ "generated": {
+  "model": "minimax/speech/2.8/hd",
+  "via": "SandBase",
+  "voice_id": "English_CaptivatingStoryteller",
+  "speed": 1.05
+ },
+ "credit": {
+  "en": "Narration: MiniMax Speech 2.8 HD (via SandBase)",
+  "zh-CN": "旁白：MiniMax Speech 2.8 HD 合成（经 SandBase）"
+ },
+ "lines": [
+  {
+   "shot": "S01",
+   "file": "voice/S01.mp3",
+   "text": "The whole city glows on the live map",
+   "offset": 0.25
+  },
+  {
+   "shot": "S02",
+   "file": "voice/S02.mp3",
+   "text": "How did this city take shape?",
+   "offset": 0.25
+  },
+  {
+   "shot": "S03",
+   "file": "voice/S03.mp3",
+   "text": "Pune sits where Mula and Mutha meet",
+   "offset": 0.25
+  },
+  {
+   "shot": "S04",
+   "file": "voice/S04.mp3",
+   "text": "The small outlined core glows clearly",
+   "offset": 0.25
+  },
+  {
+   "shot": "S05",
+   "file": "voice/S05.mp3",
+   "text": "What shaped this city’s early outline?",
+   "offset": 0.25
+  },
+  {
+   "shot": "S06",
+   "file": "voice/S06.mp3",
+   "text": "According to the account: Pune rose as Bhonsle capital",
+   "offset": 0.25
+  },
+  {
+   "shot": "S07",
+   "file": "voice/S07.mp3",
+   "text": "Records say Pune was capital from 1714.",
+   "offset": 0.25
+  },
+  {
+   "shot": "S08",
+   "file": "voice/S08.mp3",
+   "text": "The camera settles over the old centre",
+   "offset": 0.25
+  },
+  {
+   "shot": "S09",
+   "file": "voice/S09.mp3",
+   "text": "The lit footprint widens beyond the core",
+   "offset": 0.25
+  },
+  {
+   "shot": "S10",
+   "file": "voice/S10.mp3",
+   "text": "Pune served as the seasonal capital of Bombay Presidency",
+   "offset": 0.25
+  },
+  {
+   "shot": "S11",
+   "file": "voice/S11.mp3",
+   "text": "The British took Pune in 1817",
+   "offset": 0.25
+  },
+  {
+   "shot": "S12",
+   "file": "voice/S12.mp3",
+   "text": "Light reaches the map’s eastern edge",
+   "offset": 0.25
+  },
+  {
+   "shot": "S13",
+   "file": "voice/S13.mp3",
+   "text": "The camera glides along the expanded city edge",
+   "offset": 0.25
+  },
+  {
+   "shot": "S14",
+   "file": "voice/S14.mp3",
+   "text": "The University of Pune dates to 1948",
+   "offset": 0.25
+  },
+  {
+   "shot": "S15",
+   "file": "voice/S15.mp3",
+   "text": "What changes along the glowing map lines?",
+   "offset": 0.25
+  },
+  {
+   "shot": "S16",
+   "file": "voice/S16.mp3",
+   "text": "Panshet Dam collapsed in 1961, washing away much of old Pune.",
+   "offset": 0.25
+  },
+  {
+   "shot": "S17",
+   "file": "voice/S17.mp3",
+   "text": "The camera pauses over the old centre",
+   "offset": 0.25
+  },
+  {
+   "shot": "S18",
+   "file": "voice/S18.mp3",
+   "text": "Water threads through the lowest streets",
+   "offset": 0.25
+  },
+  {
+   "shot": "S19",
+   "file": "voice/S19.mp3",
+   "text": "What rises after the water recedes?",
+   "offset": 0.25
+  },
+  {
+   "shot": "S20",
+   "file": "voice/S20.mp3",
+   "text": "Pune hosts the southern command headquarters",
+   "offset": 0.25
+  },
+  {
+   "shot": "S21",
+   "file": "voice/S21.mp3",
+   "text": "A bright local marker anchors today's map",
+   "offset": 0.25
+  },
+  {
+   "shot": "S22",
+   "file": "voice/S22.mp3",
+   "text": "Today’s streets fill every lit edge",
+   "offset": 0.25
+  },
+  {
+   "shot": "S23",
+   "file": "voice/S23.mp3",
+   "text": "The same rivers are visible",
+   "offset": 0.25
+  },
+  {
+   "shot": "S24",
+   "file": "voice/S24.mp3",
+   "text": "The map holds the whole present city",
+   "offset": 0.25
+  },
+  {
+   "shot": "S25",
+   "file": "voice/S25.mp3",
+   "text": "The whole city returns to the opening view",
+   "offset": 0.25
+  },
+  {
+   "shot": "S26",
+   "file": "voice/S26.mp3",
+   "text": "Old and new shapes share the same map",
+   "offset": 0.25
+  },
+  {
+   "shot": "S27",
+   "file": "voice/S27.mp3",
+   "text": "Putting down roots here, one brick at a time.",
+   "offset": 0.25
+  }
+ ]
+}

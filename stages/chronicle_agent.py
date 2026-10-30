@@ -449,8 +449,9 @@ Hard rules (a gate checks them):
   Maratha capital, the British, the university, the 1961 flood and today. Never write number words ("two",
   "first") unless the bound claim states that number. Knowledge card value: exactly the claim's value (a year
   like "1817", or a name exactly as the claim's value label).
-- Shot sfx: beats >= 0.5 and inside the shot (beat 0 already carries the automatic transition sound, and two
-  sounds at one instant cannot be told apart by the sync check); one cue per key action.
+- Shot sfx: "beat" is a whole number from 1 to (4 x bars - 1), inside the shot (beat 0 already carries the
+  automatic transition sound, and two sounds at one instant cannot be told apart by the sync check); one cue
+  per key action. Effect beats (found, morph, spread, focus, halo) follow the same whole-beat rule.
 - Allowed years: 2026 and the years stated in VERIFIED claims or Britannica HEDGE claims. Every year in shot
   year ranges and in the chronology (eras, layers, places, events, modern) must be one of them; never a guessed
   year. Bridge captions describe only what the effect visibly does ("Light spreads out from the old core");
@@ -580,6 +581,10 @@ def check_film_plan(film: Dict[str, Any], plan: Dict[str, Any], basemap: Dict[st
         at = (sh.get("view") or {}).get("at")
         if at not in ids:
             errs.append(f"{sh.get('id')}: view.at {at!r} is not a place or area id")
+        for cue in sh.get("sfx") or []:
+            b = cue.get("beat")
+            if not isinstance(b, int) or isinstance(b, bool) or not 1 <= b <= 4 * int(sh.get("bars") or 1) - 1:
+                errs.append(f"{sh.get('id')}: sfx beat {b!r} must be a whole number from 1 to {4 * int(sh.get('bars') or 1) - 1}")
         for line in (sh.get("caption", {}).get("en", {}).get("text") or "").split("\n"):
             if len(line) > 42 or len(line.split()) > 9:
                 errs.append(f"{sh.get('id')}: caption line too long ({len(line)} chars, {len(line.split())} words)")
@@ -623,6 +628,18 @@ def allowed_years(project: Path) -> set:
                 years.add(d["y"])
             years |= {int(m) for m in re.findall(r"\b(1[0-9]{3}|20[0-2][0-9])\b", c["text"]["en"])}
     return years
+
+
+def kp_errors(project: Path, film: Dict[str, Any]) -> List[str]:
+    """Knowledge cards cannot carry a hedge, so they may bind verified claims only."""
+    status = {c["id"]: c["status"] for c in json.loads((project / "work/facts/facts.json").read_text())["claims"]}
+    errs = []
+    for kp in film.get("knowledge_points", []):
+        weak = [c for c in kp.get("claims", []) if status.get(c) != "verified"]
+        if weak or not kp.get("claims"):
+            errs.append(f"{kp.get('id')}: a knowledge card can bind VERIFIED claims only (cards cannot be hedged); "
+                        f"{weak or 'no claims'} are not verified. Use another verified fact, or drop the card (kp min is the plan's).")
+    return errs
 
 
 def year_errors(film: Dict[str, Any], years: set) -> List[str]:
@@ -701,7 +718,7 @@ def write_film(project: Path, client: SandBaseClient, feedback: Optional[List[st
             msgs += [msg, {"role": "user", "content": f"Invalid JSON ({e}). Return the full JSON object only."}]
             continue
         prev.write_text(json.dumps(film, ensure_ascii=False, indent=1))
-        errs = (check_film_plan(film, req["plan"], basemap) + year_errors(film, allowed_years(project))
+        errs = (check_film_plan(film, req["plan"], basemap) + year_errors(film, allowed_years(project)) + kp_errors(project, film)
                 + view_errors(film, building_window(project, basemap)))
         if not errs:
             break
@@ -716,6 +733,116 @@ def write_film(project: Path, client: SandBaseClient, feedback: Optional[List[st
     scenes.mkdir(exist_ok=True)
     (scenes / "city-3d.js").write_text((SKILL / "assets/styles/model/exemplars/city-3d.js").read_text())
     print(f"[film] wrote script.json ({len(script['shots'])} shots), chronology, scenes/city-3d.js")
+
+
+SFX_SYSTEM = """You are the sound designer of a chronicle-ink film. The Skill's check measures each scripted sound
+cue's onset on the SFX track and fails cues more than one frame from their action. The cues listed failed: the
+"route" and "count" sounds swell in slowly, so their measured onset lands late. For each listed shot, return its
+corrected sfx list: keep cues that passed, change a failed cue to a sharp-attack kind ("appear" or "reveal") that
+still fits its action, or drop it if the action needs no sound. Beats stay whole numbers inside the shot.
+Output JSON Lines, one per listed shot, nothing else: {"id": <shot id>, "sfx": [{"beat", "kind", "tier"}]}"""
+
+
+def fix_sfx(project: Path, client: SandBaseClient) -> List[str]:
+    """M3.1 changes only the sfx of shots whose cues failed sync; captions and pictures stay as they are."""
+    check = json.loads((project / "work/check.json").read_text())
+    bad = next(i for i in check["items"] if i["id"] == "sfx_sync")["details"].get("out_of_sync", [])
+    tl = json.loads((project / "work/timeline.json").read_text())
+    failed = [c for c in tl["sfx"] if c["id"] in bad and c.get("source") == "shot"]
+    shots = sorted({c["shot"] for c in failed})
+    if not shots:
+        return []
+    plan_path = project / "work/agent/film.plan.json"
+    film = json.loads(plan_path.read_text())
+    listing = [{"id": sh["id"], "bars": sh["bars"], "motion": sh.get("motion"), "sfx": sh.get("sfx", []),
+                "failed": [{"beat_index": c.get("step"), "kind": c["kind"]} for c in failed if c["shot"] == sh["id"]]}
+               for sh in film["shots"] if sh["id"] in shots]
+    msg = client.chat(stage="chronicle_sfx", effort="low", max_tokens=8000,
+                      messages=[{"role": "system", "content": SFX_SYSTEM}, {"role": "user", "content": json.dumps(listing, ensure_ascii=False)}],
+                      output_file_path="work/agent/film.plan.json")
+    answers, _ = parse_json_lines(msg.get("content") or "", require="id")
+    new = {a["id"]: a["sfx"] for a in answers if isinstance(a.get("sfx"), list)}
+    for sh in film["shots"]:
+        if sh["id"] in new:
+            sh["sfx"] = [{"beat": int(c["beat"]), "kind": c["kind"], "tier": c.get("tier", "normal")} for c in new[sh["id"]]
+                         if isinstance(c.get("beat"), (int, float)) and 1 <= int(c["beat"]) <= 4 * sh["bars"] - 1]
+    plan_path.write_text(json.dumps(film, ensure_ascii=False, indent=1))
+    script = json.loads((project / "script.json").read_text())
+    for sh in script["shots"]:
+        if sh["id"] in new:
+            sh["sfx"] = next(s["sfx"] for s in film["shots"] if s["id"] == sh["id"])
+    (project / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1))
+    print(f"[sfx] M3.1 revised the cues of {sorted(new)}")
+    return sorted(new)
+
+
+CAPTION_FIX_SYSTEM = """You are the scriptwriter of a chronicle-ink film. Each listed caption is either spoken too long
+for its shot or was failed by the fact gate (see gate_note: a bridge line without claims may only describe what the
+picture shows, never a fact). Rewrite ONLY those captions to at most the given number of words, saying the same
+thing from the same bound claims (keep the hedge phrase if the shot has a hedge, e.g. "Records say"); no new
+facts, numbers or names. Output JSON Lines, one per shot, nothing else:
+{"id": <shot id>, "caption": {"en": {"text": <text, "\\n" allowed for 2 lines>, "em": [<1-2 words from it>]},
+ "zh-CN": {"text": <...>, "em": [<...>]}}}"""
+
+
+def fix_captions(project: Path, client: SandBaseClient, words_per_s: float = 2.6, notes: Optional[Dict[str, str]] = None,
+                 limits: Optional[Dict[str, int]] = None) -> List[str]:
+    """M3.1 shortens captions whose narration clip runs past the shot (references/voice.md: shorten the caption)."""
+    tl = json.loads((project / "work/timeline.json").read_text())
+    room = {s["id"]: s["end"] - s["start"] for s in tl["shots"]}
+    voice = json.loads((project / "voice/voice.json").read_text())
+    durs = {}
+    for line in voice["lines"]:
+        durs[line["shot"]] = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                                   str(project / line["file"])], capture_output=True, text=True).stdout or 0)
+    # this voice's own speaking rate, measured on all clips (words per second)
+    rate = sum(len(l["text"].split()) for l in voice["lines"]) / max(1e-6, sum(durs.values()))
+    over = []
+    for line in voice["lines"]:
+        free = room[line["shot"]] - line.get("offset", 0.25) - 0.15
+        if durs[line["shot"]] > free:
+            over.append({"id": line["shot"], "seconds": round(durs[line["shot"]], 2), "room_s": round(free, 2),
+                         "max_words": max(4, int(free * rate))})
+    plan_path = project / "work/agent/film.plan.json"
+    film = json.loads(plan_path.read_text())
+    # shots the gate failed (unbound or not entailed) are rewritten too, within their current length
+    flagged = {k for k in (notes or {}) if k.startswith("S")} - {o["id"] for o in over}
+    for sh in film["shots"]:
+        if sh["id"] in flagged:
+            over.append({"id": sh["id"], "seconds": None, "room_s": None,
+                         "max_words": (limits or {}).get(sh["id"], len(sh["caption"]["en"]["text"].split()))})
+    if not over:
+        return []
+    texts = {c["id"]: c["text"]["en"] for c in json.loads((project / "work/facts/facts.json").read_text())["claims"]}
+    values = {c["id"]: c.get("value") for c in json.loads((project / "work/facts/facts.json").read_text())["claims"]}
+    listing = [dict(o, caption=sh["caption"], hedge=sh.get("hedge"), claims={c: texts.get(c) for c in sh.get("claims", [])},
+                    claim_values={c: values.get(c) for c in sh.get("claims", [])},
+                    gate_note=(notes or {}).get(o["id"], "names must match the claim value labels exactly (e.g. plural forms)"))
+               for o in over for sh in film["shots"] if sh["id"] == o["id"]]
+    limit = {o["id"]: o["max_words"] for o in over}
+    msgs = [{"role": "system", "content": CAPTION_FIX_SYSTEM}, {"role": "user", "content": json.dumps(listing, ensure_ascii=False)}]
+    new: Dict[str, Any] = {}
+    for attempt in range(3):
+        msg = client.chat(stage="chronicle_caption_fix", effort="medium", max_tokens=8000, messages=msgs,
+                          scene_id=f"try{attempt + 1}", output_file_path="work/agent/film.plan.json")
+        answers, _ = parse_json_lines(msg.get("content") or "", require="id")
+        new.update({a["id"]: a["caption"] for a in answers if isinstance(a.get("caption"), dict)})
+        long = {k: len(v["en"]["text"].split()) for k, v in new.items() if len(v["en"]["text"].split()) > limit.get(k, 99)}
+        if not long:
+            break
+        msgs += [msg, {"role": "user", "content": "Still too long for the narration: " + ", ".join(
+            f"{k} has {n} words, the limit is {limit[k]}" for k, n in long.items()) + ". Return those shots again, shorter."}]
+    else:
+        raise RuntimeError(f"captions still over their word limit: {long}")
+    script = json.loads((project / "script.json").read_text())
+    for doc in (film, script):
+        for sh in doc["shots"]:
+            if sh["id"] in new:
+                sh["caption"] = new[sh["id"]]
+    plan_path.write_text(json.dumps(film, ensure_ascii=False, indent=1))
+    (project / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1))
+    print(f"[captions] M3.1 shortened {sorted(new)}: " + "; ".join(f"{k}: {v['en']['text']!r}" for k, v in new.items()))
+    return sorted(new)
 
 
 def prune_rewordings(project: Path) -> int:
@@ -810,6 +937,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--write-film", action="store_true", help="M3.1 writes the film plan → script.json + chronology")
     ap.add_argument("--note", action="append", default=[], help="with --write-film --resume: a review finding to fix")
     ap.add_argument("--resume", action="store_true", help="with --write-film: start from the last plan and gate errors")
+    ap.add_argument("--fix-sfx", action="store_true", help="M3.1 revises only failed sound cues and over-long narrated captions; rerun the script gate")
+    ap.add_argument("--caption-note", action="append", default=[], help="with --fix-sfx: SHOT=MAXWORDS=note")
     ap.add_argument("--redo-claims", action="store_true", help="rebuild claims from cached chunks + pairs, rerun facts")
     args = ap.parse_args(argv)
     project = (ROOT / args.project).resolve()
@@ -819,6 +948,25 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 0
     if args.write_places:
         print(f"[chronicle_agent] wrote {write_places(project, client)}")
+        return 0
+    if args.fix_sfx:
+        gate_path = project / "work/script/gate.json"
+        gate = json.loads(gate_path.read_text()) if gate_path.exists() else {}
+        notes = {e["code"].split(":")[1].split(".")[0]: f"{e['code']}: {json.dumps(e.get('details'), ensure_ascii=False)}"
+                 for e in gate.get("errors", []) if ":" in e["code"]}
+        sfx_done = (project / "work/agent/sfx.done").exists()
+        limits = {}
+        for cn in args.caption_note:
+            shot, n, text = cn.split("=", 2)
+            notes[shot], limits[shot] = text, int(n)
+        changed = ([] if sfx_done else fix_sfx(project, client)) + fix_captions(project, client, notes=notes, limits=limits)
+        (project / "work/agent/sfx.done").write_text("sfx revised once\n")
+        if changed:
+            for _ in range(3):
+                step = awaiting(run_skill(project, "script"))  # stop after the gate: narration must be redone first
+                if step != "entailment":
+                    break
+                handle_entailment(project, client, False)
         return 0
     if args.write_film:
         gate_path = project / "work/script/gate.json"

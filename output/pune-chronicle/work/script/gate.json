@@ -1,0 +1,98 @@
+{
+  "schema": "chronicle-gate/2",
+  "script_sha256": "b706ac349e54f9cdb304f93611bf55b00dee219f9fcf8f7ba6aa87b9df4e7fff",
+  "status": "passed",
+  "exit": 0,
+  "entailment_by": "agent",
+  "lang": "en",
+  "entailment_ran": true,
+  "errors": [],
+  "warnings": [
+    "entailment_partial:title",
+    "entailment_partial:kp1"
+  ],
+  "budget": {
+    "unit": "words",
+    "total": 192,
+    "lines": {
+      "S01": 8,
+      "S02": 6,
+      "S03": 7,
+      "S04": 6,
+      "S05": 6,
+      "S06": 9,
+      "S07": 7,
+      "S08": 7,
+      "S09": 7,
+      "S10": 9,
+      "S11": 6,
+      "S12": 6,
+      "S13": 8,
+      "S14": 7,
+      "S15": 7,
+      "S16": 11,
+      "S17": 7,
+      "S18": 6,
+      "S19": 6,
+      "S20": 6,
+      "S21": 7,
+      "S22": 6,
+      "S23": 5,
+      "S24": 7,
+      "S25": 8,
+      "S26": 8,
+      "S27": 9
+    }
+  },
+  "rehooks": [
+    {
+      "i": 0,
+      "bar": 0,
+      "kind": "hook",
+      "section": "intro",
+      "t": 0,
+      "shot": "S01"
+    },
+    {
+      "i": 1,
+      "bar": 8,
+      "kind": "mid",
+      "section": "verse",
+      "t": 21.818,
+      "shot": "S05"
+    },
+    {
+      "i": 2,
+      "bar": 16,
+      "kind": "turn",
+      "section": "build",
+      "t": 43.636,
+      "shot": "S09"
+    },
+    {
+      "i": 3,
+      "bar": 28,
+      "kind": "turn",
+      "section": "breakdown",
+      "t": 76.364,
+      "shot": "S15"
+    },
+    {
+      "i": 4,
+      "bar": 36,
+      "kind": "turn",
+      "section": "build2",
+      "t": 98.182,
+      "shot": "S19"
+    },
+    {
+      "i": 5,
+      "bar": 48,
+      "kind": "final",
+      "section": "outro",
+      "t": 130.909,
+      "shot": "S25"
+    }
+  ],
+  "disputed_lines": []
+}

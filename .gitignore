@@ -19,3 +19,10 @@ output/pune-chronicle/work/agent/*.log
 output/pune-chronicle/work/agent/claims/*.failed*.txt
 
 output/pune-chronicle/geo/cache/
+output/pune-chronicle/voice/*.mp3
+output/pune-chronicle/music/*.mp3
+output/pune-chronicle/out/
+output/pune-chronicle/work/render/
+output/pune-chronicle/work/music/
+output/pune-chronicle/work/scenes/
+final/*.mp4

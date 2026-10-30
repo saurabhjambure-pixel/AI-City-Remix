@@ -1,0 +1,298 @@
+{
+ "schema": "chronicle-review/1",
+ "segments": [
+  {
+   "id": "s1",
+   "rounds": [
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s1",
+      "from_s": 0,
+      "to_s": 10.9,
+      "frames": 327,
+      "mean_luma": 100.0,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 3.52,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S01",
+       "S02"
+      ],
+      "captions": [
+       "Pune lies at the Mula–Mutha junction.",
+       "How did this city take shape?"
+      ]
+     },
+     "findings": [
+      "Shot captions are present for S01–S02; empty views are 0.0%, near-black frames are 0.0%, and no flicker spikes were detected.",
+      "Final render size is 614 MB, exceeding the 100 MiB contest limit."
+     ],
+     "fixes": [
+      "No segment-level visual or caption fix is required.",
+      "Re-encode or reduce the final asset to at most 100 MiB without exceeding the delivery-quality standard."
+     ],
+     "open_blocking": [
+      "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "rounds": [
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s2",
+      "from_s": 10.9,
+      "to_s": 43.63,
+      "frames": 983,
+      "mean_luma": 96.4,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 1.77,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S03",
+       "S04",
+       "S05",
+       "S06",
+       "S07",
+       "S08"
+      ],
+      "captions": [
+       "The Mula and Mutha rivers meet.",
+       "According to records, Pune means “City of Virtue.”",
+       "The old core gathers into focus.",
+       "According to records, Pune becomes an official capital.",
+       "The lit extent reaches beyond the core.",
+       "The city holds its river-shaped center."
+      ]
+     },
+     "findings": [
+      "Shot captions are present for S03–S08; empty views are 0.0%, near-black frames are 0.0%, and no flicker spikes were detected.",
+      "Final render size is 614 MB, exceeding the 100 MiB contest limit."
+     ],
+     "fixes": [
+      "No segment-level visual or caption fix is required.",
+      "Re-encode or reduce the final asset to at most 100 MiB without exceeding the delivery-quality standard."
+     ],
+     "open_blocking": [
+      "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "rounds": [
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s3",
+      "from_s": 43.63,
+      "to_s": 76.37,
+      "frames": 981,
+      "mean_luma": 86.9,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 2.17,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 36.9,
+      "empty_view_at_s": [
+       56.5,
+       57.0,
+       57.5,
+       58.0,
+       58.5,
+       59.0,
+       59.5,
+       60.0,
+       60.5,
+       61.0,
+       61.5,
+       62.0,
+       62.5,
+       63.0,
+       63.5,
+       64.0,
+       64.5,
+       65.0,
+       65.5,
+       66.0
+      ],
+      "shots": [
+       "S09",
+       "S10",
+       "S11",
+       "S12",
+       "S13",
+       "S14"
+      ],
+      "captions": [
+       "In 1817, Pune falls to the British.",
+       "Pune becomes Bombay Presidency's seasonal capital.",
+       "The outline shifts toward institutions.",
+       "Pune's university dates to 1948.",
+       "A campus landmark lights the northern map.",
+       "The city fills the institutional extent."
+      ]
+     },
+     "findings": [
+      "Empty views occupy 36.9% of the segment, exceeding the 10% threshold; the empty interval at 56.5–66.0 s matches the contact-sheet note about the University of Pune shot at 56–69 s.",
+      "Captions are present for all six shots, and no flicker spikes or near-black frames were detected.",
+      "Final render size is 614 MB, exceeding the 100 MiB contest limit."
+     ],
+     "fixes": [
+      "Reframe the University of Pune sequence so landmarks remain inside the 1.5 km building window and away from the approximately 5 km ground edge, or expand the populated window appropriately.",
+      "Re-encode or reduce the final asset to at most 100 MiB without exceeding the delivery-quality standard."
+     ],
+     "open_blocking": [
+      "Replace the sustained empty-camera view at 56.5–66.0 s; 36.9% exceeds the 10% void threshold.",
+      "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "rounds": [
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s4",
+      "from_s": 76.37,
+      "to_s": 109.1,
+      "frames": 982,
+      "mean_luma": 109.5,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 1.78,
+      "flicker_spikes_s": [],
+      "empty_view_pct": 0.0,
+      "empty_view_at_s": [],
+      "shots": [
+       "S15",
+       "S16",
+       "S17",
+       "S18",
+       "S19",
+       "S20"
+      ],
+      "captions": [
+       "In 1961, Panshet Dam collapses.",
+       "In 1961, the Panshet Dam collapse washed away a substantial part of Pune.",
+       "A dark break splits the old core.",
+       "The old core keeps the scar in view.",
+       "What returns beside the old core?",
+       "Light gathers along the same river."
+      ]
+     },
+     "findings": [
+      "The 1961 flood sequence at about 76–98 s uses a ring of flames and embers, which the contact sheet identifies as a fire rather than a flood.",
+      "Captions are present for S15–S20; empty views are 0.0%, near-black frames are 0.0%, and no flicker spikes were detected.",
+      "Final render size is 614 MB, exceeding the 100 MiB contest limit."
+     ],
+     "fixes": [
+      "Replace the flame-and-ember scar effect with a visually unambiguous flood treatment, such as inundation, displaced water, and flood debris.",
+      "Re-encode or reduce the final asset to at most 100 MiB without exceeding the delivery-quality standard."
+     ],
+     "open_blocking": [
+      "Correct the fire imagery in the flood shots before the final render.",
+      "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "rounds": [
+    {
+     "sheet": "out/sheet.jpg",
+     "measurements": {
+      "id": "s5",
+      "from_s": 109.1,
+      "to_s": 150,
+      "frames": 1227,
+      "mean_luma": 104.0,
+      "dark_frames_pct": 0.0,
+      "median_frame_diff": 0.76,
+      "flicker_spikes_s": [
+       116.53,
+       116.57,
+       116.6,
+       116.63,
+       116.67,
+       116.7,
+       116.73,
+       116.77,
+       116.8,
+       116.83,
+       116.87,
+       116.9
+      ],
+      "empty_view_pct": 25.9,
+      "empty_view_at_s": [
+       112.0,
+       112.5,
+       113.0,
+       113.5,
+       114.0,
+       114.5,
+       115.0,
+       115.5,
+       117.5,
+       118.0,
+       118.5,
+       119.0,
+       119.5,
+       120.0,
+       120.5,
+       121.0,
+       121.5,
+       122.0,
+       122.5,
+       123.0
+      ],
+      "shots": [
+       "S21",
+       "S22",
+       "S23",
+       "S24",
+       "S25",
+       "S26",
+       "S27"
+      ],
+      "captions": [
+       "Pune hosts the southern command headquarters.",
+       "Pune hosts the southern command headquarters.",
+       "The university dates its story to 1948.",
+       "Today's city surrounds the older cores.",
+       "Light follows rivers through today's city.",
+       "Earlier extents share one connected map.",
+       "Putting down roots here, one brick at a time."
+      ]
+     },
+     "findings": [
+      "Empty views occupy 25.9% of the segment, exceeding the 10% threshold; empty intervals at 112.0–115.5 s and 117.5–123.0 s align with the contact-sheet note that the Southern Command shot is beyond the 1.5 km building window and near the 5 km ground edge.",
+      "Frame-difference spikes occur repeatedly from 116.53–116.90 s outside a reported cut, indicating an effect visibly pops.",
+      "Captions are present for all seven shots, and near-black frames are 0.0%.",
+      "Final render size is 614 MB, exceeding the 100 MiB contest limit."
+     ],
+     "fixes": [
+      "Reframe the Southern Command sequence so the command landmark remains within the populated building window and away from the ground edge.",
+      "Smooth or remove the effect causing the 116.53–116.90 s spike burst.",
+      "Re-encode or reduce the final asset to at most 100 MiB without exceeding the delivery-quality standard."
+     ],
+     "open_blocking": [
+      "Replace the empty-camera intervals comprising 25.9% of the segment.",
+      "Remove or smooth the visible effect pop at 116.53–116.90 s.",
+      "Reduce the 614 MB final render to the 100 MiB contest limit."
+     ]
+    }
+   ]
+  }
+ ]
+}

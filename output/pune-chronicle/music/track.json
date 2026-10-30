@@ -1,0 +1,20 @@
+{
+ "file": "music/score.mp3",
+ "start": 0,
+ "fade_in": 1.5,
+ "fade_out": 4,
+ "title": "Rivers of Continuity",
+ "by": "MiniMax Music 2.6",
+ "licence": "generated",
+ "source": null,
+ "generated": {
+  "model": "minimax/music/2.6",
+  "via": "SandBase",
+  "run_id": null,
+  "prompt": "Instrumental documentary score for a city’s life story through glowing maps, rivers, colonial grids, institutional campuses, a visible scar, and a hopeful return. Begin spacious and quiet with soft synth pads, glassy tones, and a slow mallet pulse as the globe resolves into the map. Add restrained plucked textures and warm low strings as the river junction appears. Grow into measured rhythmic layers, muted percussion, and an upright-bass-like pulse through the colonial expansion, then broaden into a rich, confident orchestral-electronic peak for the institutional city. Create a sparse, tense breakdown with fractured timbres and low drones around the damaged river corridor. Let a single luminous motif rebuild along the banks, rising again into a fuller second theme with bright strings, soft synth arpeggios, and calm percussion. End gently, leaving space for narration, with the rivers shimmering and the final city holding."
+ },
+ "credit": {
+  "en": "Music: instrumental generated with MiniMax Music 2.6 (via SandBase)",
+  "zh-CN": "音乐：MiniMax Music 2.6 生成的器乐（经 SandBase）"
+ }
+}

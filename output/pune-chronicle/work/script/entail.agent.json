@@ -1,0 +1,216 @@
+{
+ "schema": "chronicle-entail/1",
+ "script_sha256": "b706ac349e54f9cdb304f93611bf55b00dee219f9fcf8f7ba6aa87b9df4e7fff",
+ "answers": [
+  {
+   "id": "title",
+   "entailed": "partial",
+   "extra_facts": "no",
+   "note": "Names Pune and both rivers but does not state that the city lies at their junction."
+  },
+  {
+   "id": "S01",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive line about the live map; no factual claim is bound."
+  },
+  {
+   "id": "S02",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Question line with no bound factual claim."
+  },
+  {
+   "id": "S03",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that Pune sits at the junction of the Mula and Mutha rivers."
+  },
+  {
+   "id": "S04",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive line about the outlined core; no factual claim is bound."
+  },
+  {
+   "id": "S05",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Question line with no bound factual claim."
+  },
+  {
+   "id": "S06",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The claim supports Pune's rise in importance as the Bhonsle Maratha capital; the century is omitted."
+  },
+  {
+   "id": "S07",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported that Pune served as the official Maratha capital beginning in 1714."
+  },
+  {
+   "id": "S08",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive camera line with no bound factual claim."
+  },
+  {
+   "id": "S09",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S10",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states that Pune served as the seasonal capital of Bombay Presidency."
+  },
+  {
+   "id": "S11",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Equivalent to the claim that Pune fell to the British in 1817."
+  },
+  {
+   "id": "S12",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S13",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive camera line with no bound factual claim."
+  },
+  {
+   "id": "S14",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that the University of Pune dates to 1948."
+  },
+  {
+   "id": "S15",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Question line with no bound factual claim."
+  },
+  {
+   "id": "S16",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states the 1961 Panshet Dam collapse and that it washed away much of old Pune."
+  },
+  {
+   "id": "S17",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive camera line with no bound factual claim."
+  },
+  {
+   "id": "S18",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive picture line with no bound factual claim."
+  },
+  {
+   "id": "S19",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Question line with no bound factual claim."
+  },
+  {
+   "id": "S20",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported that Pune hosts the Southern Command headquarters; the claim identifies it as part of the Indian Army."
+  },
+  {
+   "id": "S21",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S22",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S23",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive reference to visible rivers with no bound factual claim."
+  },
+  {
+   "id": "S24",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S25",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive camera line with no bound factual claim."
+  },
+  {
+   "id": "S26",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Descriptive map line with no bound factual claim."
+  },
+  {
+   "id": "S27",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Owner's personal closing statement, not a factual claim about the city."
+  },
+  {
+   "id": "kp1",
+   "entailed": "partial",
+   "extra_facts": "no",
+   "note": "Mentions a junction and the Mula River but omits the Mutha River, so it incompletely expresses the claim."
+  },
+  {
+   "id": "kp2",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates Pune's status as the seasonal capital of Bombay Presidency."
+  },
+  {
+   "id": "kp3",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that Pune is the Southern Command headquarters of the Indian Army."
+  },
+  {
+   "id": "kp4",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the claim that Pune fell to the British in 1817."
+  },
+  {
+   "id": "kp5",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that the University of Pune dates to 1948."
+  },
+  {
+   "id": "kp6",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates the Panshet Dam collapse in 1961."
+  },
+  {
+   "id": "end_card",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "Owner's personal closing statement, not a factual claim about the city."
+  }
+ ]
+}

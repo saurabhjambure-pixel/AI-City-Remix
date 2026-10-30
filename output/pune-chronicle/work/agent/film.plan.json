@@ -1,0 +1,2073 @@
+{
+ "title": {
+  "en": "Pune: Mula River and Mutha River",
+  "zh-CN": "浦那：穆拉河与穆塔河"
+ },
+ "title_claims": [
+  "agent.002",
+  "agent.003"
+ ],
+ "areas": [
+  {
+   "id": "early_settlement_core",
+   "label": {
+    "en": "Early settlement",
+    "zh-CN": "早期聚落"
+   },
+   "polygon_km": [
+    [
+     -0.48,
+     -0.58
+    ],
+    [
+     0.18,
+     -0.62
+    ],
+    [
+     0.42,
+     -0.38
+    ],
+    [
+     0.36,
+     0.1
+    ],
+    [
+     0.05,
+     0.32
+    ],
+    [
+     -0.34,
+     0.24
+    ],
+    [
+     -0.52,
+     -0.1
+    ],
+    [
+     -0.45,
+     -0.38
+    ]
+   ]
+  },
+  {
+   "id": "likely_maratha_capital",
+   "label": {
+    "en": "Maratha capital extent",
+    "zh-CN": "马拉塔都城范围"
+   },
+   "polygon_km": [
+    [
+     -0.78,
+     -0.9
+    ],
+    [
+     0.52,
+     -0.92
+    ],
+    [
+     0.82,
+     -0.58
+    ],
+    [
+     0.78,
+     0.12
+    ],
+    [
+     0.46,
+     0.52
+    ],
+    [
+     -0.06,
+     0.64
+    ],
+    [
+     -0.62,
+     0.42
+    ],
+    [
+     -0.86,
+     -0.02
+    ],
+    [
+     -0.72,
+     -0.48
+    ]
+   ]
+  },
+  {
+   "id": "colonial_city",
+   "label": {
+    "en": "Colonial urban extent",
+    "zh-CN": "殖民时期城区范围"
+   },
+   "polygon_km": [
+    [
+     -1.45,
+     -1.32
+    ],
+    [
+     1.1,
+     -1.45
+    ],
+    [
+     3.35,
+     -1.3
+    ],
+    [
+     3.82,
+     -0.7
+    ],
+    [
+     3.72,
+     0.25
+    ],
+    [
+     2.85,
+     0.92
+    ],
+    [
+     1.75,
+     1.35
+    ],
+    [
+     0.52,
+     1.24
+    ],
+    [
+     0.04,
+     0.82
+    ],
+    [
+     -1.2,
+     0.62
+    ],
+    [
+     -1.62,
+     -0.18
+    ]
+   ]
+  },
+  {
+   "id": "post_1940_institutional_city",
+   "label": {
+    "en": "Institutional urban extent",
+    "zh-CN": "机构城区范围"
+   },
+   "polygon_km": [
+    [
+     -3.85,
+     -1.6
+    ],
+    [
+     0.2,
+     -1.95
+    ],
+    [
+     4.45,
+     -1.62
+    ],
+    [
+     4.8,
+     -0.35
+    ],
+    [
+     4.12,
+     2.05
+    ],
+    [
+     2.65,
+     3.6
+    ],
+    [
+     0.15,
+     4.15
+    ],
+    [
+     -2.3,
+     4.3
+    ],
+    [
+     -3.82,
+     2.85
+    ],
+    [
+     -4.25,
+     0.55
+    ],
+    [
+     -4.15,
+     -0.8
+    ]
+   ]
+  }
+ ],
+ "chronology": {
+  "city": {
+   "en": "Pune",
+   "zh-CN": "浦那"
+  },
+  "coords": "18.52° N · 73.86° E",
+  "hud": [
+   {
+    "en": "Pune · Maharashtra",
+    "zh-CN": "浦那 · 马哈拉施特拉邦"
+   }
+  ],
+  "river": "Mula-Mutha",
+  "eras": [
+   {
+    "code": "01",
+    "from": 1714,
+    "label": {
+     "en": "River city and capital",
+     "zh-CN": "河流城市与都城"
+    }
+   },
+   {
+    "code": "02",
+    "from": 1817,
+    "label": {
+     "en": "British-era city",
+     "zh-CN": "英国时期城市"
+    }
+   },
+   {
+    "code": "03",
+    "from": 1948,
+    "label": {
+     "en": "Institutional city",
+     "zh-CN": "机构城市"
+    }
+   },
+   {
+    "code": "04",
+    "from": 1961,
+    "label": {
+     "en": "Flood and later city",
+     "zh-CN": "洪水与后来的城市"
+    }
+   }
+  ],
+  "layers": [
+   {
+    "area": "early_settlement_core",
+    "from": 1714,
+    "to": 1714,
+    "color": "#D6B46A",
+    "morph": false
+   },
+   {
+    "area": "likely_maratha_capital",
+    "from": 1714,
+    "to": 1817,
+    "color": "#C9854B",
+    "morph": true
+   },
+   {
+    "area": "colonial_city",
+    "from": 1817,
+    "to": 1948,
+    "color": "#718C9E",
+    "morph": true
+   },
+   {
+    "area": "post_1940_institutional_city",
+    "from": 1948,
+    "to": 2026,
+    "color": "#78A89F",
+    "morph": true
+   }
+  ],
+  "places": [
+   {
+    "id": "pune_cantonment",
+    "from": 1817,
+    "mark_built": false
+   },
+   {
+    "id": "savitribai_phule_pune_university",
+    "from": 1948,
+    "mark_built": false
+   }
+  ],
+  "events": [
+   {
+    "year": 1714,
+    "until": 1817,
+    "title": {
+     "en": "Official Maratha capital",
+     "zh-CN": "正式马拉塔都城"
+    },
+    "sub": {
+     "en": "Pune serves as the capital",
+     "zh-CN": "浦那成为都城"
+    },
+    "place": "shaniwar_wada",
+    "kind": "event"
+   },
+   {
+    "year": 1817,
+    "until": 1948,
+    "title": {
+     "en": "British arrival",
+     "zh-CN": "英国人到来"
+    },
+    "sub": {
+     "en": "Pune falls to the British",
+     "zh-CN": "浦那落入英国人手中"
+    },
+    "place": "pune_cantonment",
+    "kind": "event"
+   },
+   {
+    "year": 1948,
+    "until": 1961,
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "The university dates to 1948",
+     "zh-CN": "大学可追溯至1948年"
+    },
+    "place": "savitribai_phule_pune_university",
+    "kind": "event"
+   },
+   {
+    "year": 1961,
+    "until": 2026,
+    "title": {
+     "en": "Panshet Dam collapse",
+     "zh-CN": "潘谢特水坝崩塌"
+    },
+    "sub": {
+     "en": "A substantial part of Pune's old town is washed away",
+     "zh-CN": "浦那旧城很大一部分被冲走"
+    },
+    "place": "shaniwar_wada",
+    "kind": "event"
+   }
+  ],
+  "focus": {
+   "river_junction": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Mula–Mutha junction",
+     "zh-CN": "穆拉—穆塔交汇处"
+    },
+    "sub": {
+     "en": "The city's river setting",
+     "zh-CN": "浦那的河流环境"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "capital": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Historic capital",
+     "zh-CN": "历史都城"
+    },
+    "sub": null,
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "british_cantonment": {
+    "place": "pune_cantonment",
+    "title": {
+     "en": "British arrival",
+     "zh-CN": "英国人到来"
+    },
+    "sub": {
+     "en": "1817",
+     "zh-CN": "1817"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "university": {
+    "place": "savitribai_phule_pune_university",
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "1948",
+     "zh-CN": "1948"
+    },
+    "kind": null,
+    "r_km": 0.3,
+    "show_built": false
+   },
+   "flood": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Old town flood",
+     "zh-CN": "旧城洪水"
+    },
+    "sub": {
+     "en": "1961",
+     "zh-CN": "1961"
+    },
+    "kind": null,
+    "r_km": 0.3,
+    "show_built": false
+   },
+   "army": {
+    "place": "pune_cantonment",
+    "title": {
+     "en": "Southern command",
+     "zh-CN": "南方司令部"
+    },
+    "sub": null,
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   }
+  },
+  "modern": {
+   "from": 1948,
+   "to": 2026,
+   "outside": []
+  }
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "section": "intro",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "The whole city glows on the live map",
+     "em": [
+      "city",
+      "map"
+     ]
+    },
+    "zh-CN": {
+     "text": "整座城市在实时地图上发光",
+     "em": [
+      "城市",
+      "地图"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "A globe eases into the live city model, with Pune's real buildings spread across the frame.",
+   "motion": "The globe rotates gently; the city settles at the center by beat 1.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.5,
+    "pitch": 65
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "globe": true,
+    "clean": true,
+    "grow": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "S02",
+   "section": "intro",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "How did this city take shape?",
+     "em": [
+      "city",
+      "shape"
+     ]
+    },
+    "zh-CN": {
+     "text": "这座城市如何成形？",
+     "em": [
+      "城市",
+      "成形"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The camera pulls away from the compact core until the full urban map is visible.",
+   "motion": "The viewpoint retreats smoothly and exposes more of the surrounding city.",
+   "sfx": [],
+   "view": {
+    "at": "center",
+    "dist_km": 5.4,
+    "pitch": 62
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S03",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": "kp1",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune sits where Mula and Mutha meet",
+     "em": [
+      "Mula",
+      "Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那位于穆拉河与穆塔河交汇处",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The present buildings recede as the Mula and Mutha river lines brighten around the early core.",
+   "motion": "The map rewinds from the present; blue river light runs toward the junction and a site marker settles over it.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "normal"
+    },
+    {
+     "beat": 2,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2.4,
+    "pitch": 58
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "clean": true,
+    "grow": [
+     0,
+     1
+    ],
+    "rewind": [
+     2026,
+     1714
+    ],
+    "dim": [
+     0,
+     0.3
+    ],
+    "river": true,
+    "found": {
+     "place": "shaniwar_wada",
+     "beat": 1
+    },
+    "focus": [
+     {
+      "id": "river_junction",
+      "beat": 2
+     }
+    ],
+    "era_label": true
+   }
+  },
+  {
+   "id": "S04",
+   "section": "verse",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The small outlined core glows clearly",
+     "em": [
+      "outlined core",
+      "glows"
+     ]
+    },
+    "zh-CN": {
+     "text": "小型核心边界清晰发光",
+     "em": [
+      "核心边界",
+      "发光"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "A small polygon marks the approximate early settlement around the real river lines and landmark positions.",
+   "motion": "The boundary sharpens around the core while an AI illustration label appears above it.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2,
+    "pitch": 60
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "big": {
+     "text": {
+      "en": "AI illustration",
+      "zh-CN": "AI 示意图"
+     }
+    },
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S05",
+   "section": "verse",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "What shaped this city’s early outline?",
+     "em": [
+      "early outline",
+      "city"
+     ]
+    },
+    "zh-CN": {
+     "text": "什么塑造了早期城市轮廓？",
+     "em": [
+      "城市轮廓",
+      "早期"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The view rises from the junction to reveal the river-shaped ground around the compact core.",
+   "motion": "The camera rises while a soft ring holds attention on the early outline.",
+   "sfx": [],
+   "view": {
+    "at": "early_settlement_core",
+    "dist_km": 4.8,
+    "pitch": 64
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S06",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.005",
+    "agent.007"
+   ],
+   "hedge": "attributed",
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "According to the account:\nPune rose as Bhonsle capital",
+     "em": [
+      "Bhonsle",
+      "capital"
+     ]
+    },
+    "zh-CN": {
+     "text": "据所引记载，浦那成为\n博恩斯勒的都城",
+     "em": [
+      "博恩斯勒",
+      "都城"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The compact core fills the frame as an attributed historical layer appears over the old centre.",
+   "motion": "The early-capital area brightens while the historic footprint expands beyond the small core.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 1.7,
+    "pitch": 52
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "capital",
+      "beat": 1
+     }
+    ],
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 2
+    }
+   }
+  },
+  {
+   "id": "S07",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.007"
+   ],
+   "hedge": "attributed",
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Records say Pune was capital from 1714.",
+     "em": [
+      "Records say",
+      "1714"
+     ]
+    },
+    "zh-CN": {
+     "text": "据所引记载，浦那自1714年起成为都城。",
+     "em": [
+      "据所引记载",
+      "1714"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "The capital layer consolidates over the old centre and the surrounding river bend.",
+   "motion": "The highlighted footprint steadies while the river bend remains visible behind it.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2.1,
+    "pitch": 56
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "capital",
+      "beat": 1
+     }
+    ],
+    "halo": {
+     "area": "likely_maratha_capital",
+     "beat": 2
+    }
+   }
+  },
+  {
+   "id": "S08",
+   "section": "verse",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The camera settles over the old centre",
+     "em": [
+      "camera",
+      "old centre"
+     ]
+    },
+    "zh-CN": {
+     "text": "镜头沉入旧城中心",
+     "em": [
+      "镜头",
+      "旧城中心"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "A close local view follows the river bend and the compact group of landmarks around the old centre.",
+   "motion": "The camera pans left across the outlined capital extent without changing the historical layer.",
+   "sfx": [],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2.3,
+    "pitch": 58
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "halo": {
+     "area": "likely_maratha_capital",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S09",
+   "section": "build",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "The lit footprint widens beyond the core",
+     "em": [
+      "lit footprint",
+      "core"
+     ]
+    },
+    "zh-CN": {
+     "text": "发光边界越过核心向外扩展",
+     "em": [
+      "边界",
+      "核心"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The small core transforms into the larger Maratha capital extent while the real river lines remain visible.",
+   "motion": "The outline morphs outward and a blue route spreads from the old centre across the larger extent.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "normal"
+    },
+    {
+     "beat": 2,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "likely_maratha_capital",
+    "dist_km": 4.6,
+    "pitch": 64
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "morph": {
+     "from": "early_settlement_core",
+     "to": "likely_maratha_capital",
+     "beat": 1
+    },
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "likely_maratha_capital",
+      "r_km": 1.1,
+      "beat": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "S10",
+   "section": "build",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.009"
+   ],
+   "hedge": null,
+   "kp": "kp2",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune served as the seasonal capital\nof Bombay Presidency",
+     "em": [
+      "seasonal capital",
+      "Bombay Presidency"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那曾是孟买总督辖区的\n季节性首府",
+     "em": [
+      "孟买总督辖区",
+      "季节性首府"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The capital extent remains highlighted in a broad view of the river-defined city.",
+   "motion": "A calm title glows over the capital area while the surrounding map stays still.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "likely_maratha_capital",
+    "dist_km": 4.8,
+    "pitch": 60
+   },
+   "year": [
+    1714,
+    1817
+   ],
+   "effects": {
+    "halo": {
+     "area": "likely_maratha_capital",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S11",
+   "section": "drop",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.008"
+   ],
+   "hedge": null,
+   "kp": "kp4",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The British took Pune in 1817",
+     "em": [
+      "British",
+      "1817"
+     ]
+    },
+    "zh-CN": {
+     "text": "1817年，浦那落入英国人手中",
+     "em": [
+      "1817",
+      "英国人"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The capital extent changes into a wider colonial city, with the eastern cantonment singled out.",
+   "motion": "The footprint expands toward the cantonment and the year card locks onto the new city layer.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "emphasis"
+    },
+    {
+     "beat": 2,
+     "kind": "reveal",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "pune_cantonment",
+    "dist_km": 5.2,
+    "pitch": 57
+   },
+   "year": [
+    1817,
+    1817
+   ],
+   "effects": {
+    "morph": {
+     "from": "likely_maratha_capital",
+     "to": "colonial_city",
+     "beat": 1
+    },
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "colonial_city",
+      "r_km": 2.4,
+      "beat": 2
+     }
+    ],
+    "focus": [
+     {
+      "id": "british_cantonment",
+      "beat": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "S12",
+   "section": "drop",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Light reaches the map’s eastern edge",
+     "em": [
+      "map",
+      "eastern edge"
+     ]
+    },
+    "zh-CN": {
+     "text": "光抵达地图东侧边缘",
+     "em": [
+      "地图",
+      "东侧边缘"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "The camera travels across the broad colonial-era extent toward its eastern margin.",
+   "motion": "The lit city edge enters from the left and the map pans steadily eastward.",
+   "sfx": [],
+   "view": {
+    "at": "colonial_city",
+    "dist_km": 5.6,
+    "pitch": 62
+   },
+   "year": [
+    1817,
+    1817
+   ],
+   "effects": {
+    "halo": {
+     "area": "colonial_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S13",
+   "section": "drop",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The camera glides along\nthe expanded city edge",
+     "em": [
+      "camera",
+      "expanded city edge"
+     ]
+    },
+    "zh-CN": {
+     "text": "镜头掠过扩展后的城市边缘",
+     "em": [
+      "镜头",
+      "城市边缘"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "A moving wide shot contrasts the compact centre with the newer outer city footprint.",
+   "motion": "The camera glides back along the irregular colonial boundary while the river remains central.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "colonial_city",
+    "dist_km": 5.2,
+    "pitch": 60
+   },
+   "year": [
+    1817,
+    1948
+   ],
+   "effects": {
+    "halo": {
+     "area": "colonial_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S14",
+   "section": "drop",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": "kp5",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The University of Pune dates to 1948",
+     "em": [
+      "University of Pune",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学可追溯至1948年",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The university site appears as the institutional urban extent expands around it.",
+   "motion": "The colonial outline grows into the institutional extent while a ring identifies the university site.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "emphasis"
+    },
+    {
+     "beat": 2,
+     "kind": "reveal",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "savitribai_phule_pune_university",
+    "dist_km": 5.8,
+    "pitch": 64
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "morph": {
+     "from": "colonial_city",
+     "to": "post_1940_institutional_city",
+     "beat": 1
+    },
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "post_1940_institutional_city",
+      "r_km": 3.3,
+      "beat": 2
+     }
+    ],
+    "focus": [
+     {
+      "id": "university",
+      "beat": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "S15",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "What changes along the glowing map lines?",
+     "em": [
+      "glowing map lines",
+      "changes"
+     ]
+    },
+    "zh-CN": {
+     "text": "发光地图线旁会变什么？",
+     "em": [
+      "发光地图线",
+      "变"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The view returns toward the old centre, where the river lines converge beneath the larger city.",
+   "motion": "The camera settles and the early core receives a restrained halo.",
+   "sfx": [],
+   "view": {
+    "at": "center",
+    "dist_km": 4.9,
+    "pitch": 61
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S16",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.020"
+   ],
+   "hedge": null,
+   "kp": "kp6",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Panshet Dam collapsed in 1961, washing away much of old Pune.",
+     "em": [
+      "Panshet Dam",
+      "1961"
+     ]
+    },
+    "zh-CN": {
+     "text": "1961年潘谢特水坝崩塌，冲走了浦那旧城的大部分。",
+     "em": [
+      "潘谢特水坝",
+      "1961"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "Blue water runs through the streets of the old centre, following the real river direction into the core.",
+   "motion": "The river brightens, a blue flood spreads street by street, and the 1961 card appears over the affected core.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    },
+    {
+     "beat": 2,
+     "kind": "reveal",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2.4,
+    "pitch": 54
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "early_settlement_core",
+      "r_km": 0.75,
+      "color": "#5AA9E6",
+      "beat": 1
+     }
+    ],
+    "focus": [
+     {
+      "id": "flood",
+      "beat": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "S17",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The camera pauses over the old centre",
+     "em": [
+      "camera",
+      "old centre"
+     ]
+    },
+    "zh-CN": {
+     "text": "镜头停留在旧城中心",
+     "em": [
+      "镜头",
+      "旧城中心"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The old centre darkens beneath the surrounding real building outlines after the flood passage.",
+   "motion": "The map dims gradually while the camera remains fixed over the core.",
+   "sfx": [],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 2.2,
+    "pitch": 58
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "dim": [
+     0,
+     0.4
+    ]
+   }
+  },
+  {
+   "id": "S18",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Water threads through the lowest streets",
+     "em": [
+      "Water",
+      "lowest streets"
+     ]
+    },
+    "zh-CN": {
+     "text": "水流穿过低处街巷",
+     "em": [
+      "水流",
+      "低处街巷"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The camera leaves the close flood passage and follows the water back toward the river junction.",
+   "motion": "Blue movement retreats into the river while the viewpoint pulls away from the old centre.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.6,
+    "pitch": 61
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true
+   }
+  },
+  {
+   "id": "S19",
+   "section": "build2",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "What rises after the water recedes?",
+     "em": [
+      "water",
+      "rises"
+     ]
+    },
+    "zh-CN": {
+     "text": "水退之后，什么会再次升起？",
+     "em": [
+      "水退",
+      "升起"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The camera rises above the river junction and reveals the larger city waiting beyond it.",
+   "motion": "The viewpoint climbs while the old core glows beneath the widening institutional map.",
+   "sfx": [],
+   "view": {
+    "at": "center",
+    "dist_km": 5,
+    "pitch": 64
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "halo": {
+     "area": "early_settlement_core",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S20",
+   "section": "build2",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.016"
+   ],
+   "hedge": null,
+   "kp": "kp3",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune hosts the southern command\nheadquarters",
+     "em": [
+      "Pune",
+      "southern command"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那驻有南方司令部",
+     "em": [
+      "浦那",
+      "南方司令部"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "A wide view links the eastern cantonment with the institutions distributed across the modern city.",
+   "motion": "The camera pans toward the cantonment as its ring and callout settle into place.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "pune_cantonment",
+    "dist_km": 5.4,
+    "pitch": 59
+   },
+   "year": [
+    1961,
+    2026
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "army",
+      "beat": 1
+     }
+    ],
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 2
+    }
+   }
+  },
+  {
+   "id": "S21",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "A bright local marker anchors today's map",
+     "em": [
+      "local marker",
+      "map"
+     ]
+    },
+    "zh-CN": {
+     "text": "光点地标锚定今日地图",
+     "em": [
+      "地标",
+      "今日地图"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "A bright marker appears within the present-day building model as the modern street pattern fills the frame.",
+   "motion": "The marker brightens while the complete building model returns around it.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 5.6,
+    "pitch": 62
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S22",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Today’s streets fill every lit edge",
+     "em": [
+      "Today’s streets",
+      "lit edge"
+     ]
+    },
+    "zh-CN": {
+     "text": "今日街巷填满每道光边",
+     "em": [
+      "今日街巷",
+      "光边"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The present-day building model expands across the frame, contrasting with the earlier compact core.",
+   "motion": "The city footprint grows outward while the camera withdraws to show the whole map.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 6.1,
+    "pitch": 64
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "grow": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "id": "S23",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The same rivers are visible",
+     "em": [
+      "rivers",
+      "visible"
+     ]
+    },
+    "zh-CN": {
+     "text": "同一河流在更广城区可见",
+     "em": [
+      "河流",
+      "可见"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "The camera crosses the full city and follows the Mula-Mutha course through today's urban extent.",
+   "motion": "River light travels downstream as the camera pans across the wider city.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 6.5,
+    "pitch": 60
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "river": true
+   }
+  },
+  {
+   "id": "S24",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The map holds the whole present city",
+     "em": [
+      "map",
+      "present city"
+     ]
+    },
+    "zh-CN": {
+     "text": "一张地图容纳今日全城",
+     "em": [
+      "地图",
+      "今日全城"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The camera reaches a high view in which the whole modern city, rivers, and institutional sites share one frame.",
+   "motion": "The camera rises to its widest present-day view and the building field settles.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 6.8,
+    "pitch": 66
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S25",
+   "section": "outro",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "The whole city returns to the opening view",
+     "em": [
+      "whole city",
+      "opening view"
+     ]
+    },
+    "zh-CN": {
+     "text": "整座城市回到开场视角",
+     "em": [
+      "整座城市",
+      "开场视角"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The viewpoint returns to the opening framing, restoring the complete live city model.",
+   "motion": "The camera locks into its opening position while one soft ring forms around the city.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.5,
+    "pitch": 65
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "clean": true,
+    "grow": [
+     0,
+     1
+    ],
+    "rings": true
+   }
+  },
+  {
+   "id": "S26",
+   "section": "outro",
+   "bars": 3,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Old and new shapes share the same map",
+     "em": [
+      "Old",
+      "new shapes"
+     ]
+    },
+    "zh-CN": {
+     "text": "新旧轮廓共享同一张地图",
+     "em": [
+      "新旧",
+      "地图"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "Historic extent polygons and today's buildings overlap across the same real-world map.",
+   "motion": "The camera moves gently inward while the old extent remains nested inside the modern footprint.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 5,
+    "pitch": 61
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S27",
+   "section": "outro",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Putting down roots here,\none brick at a time.",
+     "em": [
+      "roots",
+      "brick"
+     ]
+    },
+    "zh-CN": {
+     "text": "在这里扎根，一砖一砖筑起未来。",
+     "em": [
+      "扎根",
+      "一砖"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "Concentric rings settle over the complete city as the view holds at the opening position.",
+   "motion": "The rings complete one slow circuit; the city remains still beneath the final line.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.5,
+    "pitch": 65
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "rings": true
+   }
+  }
+ ],
+ "knowledge_points": [
+  {
+   "id": "kp1",
+   "claims": [
+    "agent.002"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Junction river",
+     "value": "Mula River"
+    },
+    "zh-CN": {
+     "title": "交汇处河流",
+     "value": "穆拉河"
+    }
+   }
+  },
+  {
+   "id": "kp2",
+   "claims": [
+    "agent.009"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Seasonal capital",
+     "value": "Bombay Presidency"
+    },
+    "zh-CN": {
+     "title": "季节性首府",
+     "value": "孟买总督辖区"
+    }
+   }
+  },
+  {
+   "id": "kp3",
+   "claims": [
+    "agent.016"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Army headquarters",
+     "value": "Southern Command of the Indian Army"
+    },
+    "zh-CN": {
+     "title": "军队司令部",
+     "value": "印度军队南方司令部"
+    }
+   }
+  },
+  {
+   "id": "kp4",
+   "claims": [
+    "agent.008"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "British arrival",
+     "value": "1817"
+    },
+    "zh-CN": {
+     "title": "英国人到来",
+     "value": "1817"
+    }
+   }
+  },
+  {
+   "id": "kp5",
+   "claims": [
+    "agent.013"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "University",
+     "value": "1948"
+    },
+    "zh-CN": {
+     "title": "大学",
+     "value": "1948"
+    }
+   }
+  },
+  {
+   "id": "kp6",
+   "claims": [
+    "agent.020"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Panshet Dam collapse",
+     "value": "1961"
+    },
+    "zh-CN": {
+     "title": "潘谢特水坝崩塌",
+     "value": "1961"
+    }
+   }
+  }
+ ],
+ "end_card": {
+  "line": {
+   "en": "Putting down roots here,\none brick at a time.",
+   "zh-CN": "在这里扎根，一砖一砖筑起未来。"
+  },
+  "claims": []
+ }
+}

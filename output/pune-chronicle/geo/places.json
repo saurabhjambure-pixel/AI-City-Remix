@@ -64,45 +64,435 @@
  "areas": [
   {
    "id": "early_settlement_core",
-   "around": "shaniwar_wada",
-   "radius_km": 0.35,
    "label": {
-    "en": "early settlement core",
-    "zh-CN": "早期聚落核心"
-   }
+    "en": "Early settlement",
+    "zh-CN": "早期聚落"
+   },
+   "polygon": [
+    [
+     18.515855,
+     73.850753
+    ],
+    [
+     18.515493,
+     73.857005
+    ],
+    [
+     18.517663,
+     73.859279
+    ],
+    [
+     18.522004,
+     73.858711
+    ],
+    [
+     18.523994,
+     73.855774
+    ],
+    [
+     18.52327,
+     73.852079
+    ],
+    [
+     18.520196,
+     73.850374
+    ],
+    [
+     18.517663,
+     73.851037
+    ]
+   ]
   },
   {
    "id": "likely_maratha_capital",
-   "around": "shaniwar_wada",
-   "radius_km": 0.8,
    "label": {
-    "en": "likely Maratha capital",
-    "zh-CN": "可能的马拉塔都城"
-   }
+    "en": "Maratha capital extent",
+    "zh-CN": "马拉塔都城范围"
+   },
+   "polygon": [
+    [
+     18.512961,
+     73.84791
+    ],
+    [
+     18.51278,
+     73.860226
+    ],
+    [
+     18.515855,
+     73.863069
+    ],
+    [
+     18.522185,
+     73.86269
+    ],
+    [
+     18.525803,
+     73.859658
+    ],
+    [
+     18.526888,
+     73.854732
+    ],
+    [
+     18.524898,
+     73.849426
+    ],
+    [
+     18.520919,
+     73.847153
+    ],
+    [
+     18.516759,
+     73.848479
+    ]
+   ]
   },
   {
    "id": "colonial_city",
-   "around": "shaniwar_wada",
-   "radius_km": 1.6,
    "label": {
-    "en": "colonial-era city",
-    "zh-CN": "殖民时期城区"
-   }
+    "en": "Colonial urban extent",
+    "zh-CN": "殖民时期城区范围"
+   },
+   "polygon": [
+    [
+     18.509162,
+     73.841563
+    ],
+    [
+     18.507987,
+     73.865721
+    ],
+    [
+     18.509343,
+     73.887037
+    ],
+    [
+     18.514769,
+     73.89149
+    ],
+    [
+     18.523361,
+     73.890542
+    ],
+    [
+     18.52942,
+     73.8823
+    ],
+    [
+     18.533309,
+     73.871879
+    ],
+    [
+     18.532314,
+     73.860226
+    ],
+    [
+     18.528516,
+     73.855679
+    ],
+    [
+     18.526707,
+     73.843931
+    ],
+    [
+     18.519472,
+     73.839952
+    ]
+   ]
   },
   {
    "id": "post_1940_institutional_city",
-   "around": "shaniwar_wada",
-   "radius_km": 3.4,
    "label": {
-    "en": "post-1940 institutional city",
-    "zh-CN": "战后机构城区"
-   }
+    "en": "Institutional urban extent",
+    "zh-CN": "机构城区范围"
+   },
+   "polygon": [
+    [
+     18.50663,
+     73.818826
+    ],
+    [
+     18.503465,
+     73.857195
+    ],
+    [
+     18.506449,
+     73.897458
+    ],
+    [
+     18.517935,
+     73.900774
+    ],
+    [
+     18.53964,
+     73.894332
+    ],
+    [
+     18.553657,
+     73.880406
+    ],
+    [
+     18.558631,
+     73.856721
+    ],
+    [
+     18.559988,
+     73.83351
+    ],
+    [
+     18.546875,
+     73.81911
+    ],
+    [
+     18.526074,
+     73.815036
+    ],
+    [
+     18.513865,
+     73.815984
+    ]
+   ]
   }
  ],
  "fabric": {
   "focus": "shaniwar_wada",
-  "streets_km": 2.4,
-  "buildings_km": 1.5,
+  "streets_km": 4.0,
+  "buildings_km": 3.0,
   "builtup_km": 8
+ },
+ "chronology": {
+  "city": {
+   "en": "Pune",
+   "zh-CN": "浦那"
+  },
+  "coords": "18.52° N · 73.86° E",
+  "hud": [
+   {
+    "en": "Pune · Maharashtra",
+    "zh-CN": "浦那 · 马哈拉施特拉邦"
+   }
+  ],
+  "river": "Mula-Mutha",
+  "eras": [
+   {
+    "code": "01",
+    "from": 1714,
+    "label": {
+     "en": "River city and capital",
+     "zh-CN": "河流城市与都城"
+    }
+   },
+   {
+    "code": "02",
+    "from": 1817,
+    "label": {
+     "en": "British-era city",
+     "zh-CN": "英国时期城市"
+    }
+   },
+   {
+    "code": "03",
+    "from": 1948,
+    "label": {
+     "en": "Institutional city",
+     "zh-CN": "机构城市"
+    }
+   },
+   {
+    "code": "04",
+    "from": 1961,
+    "label": {
+     "en": "Flood and later city",
+     "zh-CN": "洪水与后来的城市"
+    }
+   }
+  ],
+  "layers": [
+   {
+    "area": "early_settlement_core",
+    "from": 1714,
+    "to": 1714,
+    "color": "#D6B46A",
+    "morph": false
+   },
+   {
+    "area": "likely_maratha_capital",
+    "from": 1714,
+    "to": 1817,
+    "color": "#C9854B",
+    "morph": true
+   },
+   {
+    "area": "colonial_city",
+    "from": 1817,
+    "to": 1948,
+    "color": "#718C9E",
+    "morph": true
+   },
+   {
+    "area": "post_1940_institutional_city",
+    "from": 1948,
+    "to": 2026,
+    "color": "#78A89F",
+    "morph": true
+   }
+  ],
+  "places": [
+   {
+    "id": "pune_cantonment",
+    "from": 1817,
+    "mark_built": false
+   },
+   {
+    "id": "savitribai_phule_pune_university",
+    "from": 1948,
+    "mark_built": false
+   }
+  ],
+  "events": [
+   {
+    "year": 1714,
+    "until": 1817,
+    "title": {
+     "en": "Official Maratha capital",
+     "zh-CN": "正式马拉塔都城"
+    },
+    "sub": {
+     "en": "Pune serves as the capital",
+     "zh-CN": "浦那成为都城"
+    },
+    "place": "shaniwar_wada",
+    "kind": "event"
+   },
+   {
+    "year": 1817,
+    "until": 1948,
+    "title": {
+     "en": "British arrival",
+     "zh-CN": "英国人到来"
+    },
+    "sub": {
+     "en": "Pune falls to the British",
+     "zh-CN": "浦那落入英国人手中"
+    },
+    "place": "pune_cantonment",
+    "kind": "event"
+   },
+   {
+    "year": 1948,
+    "until": 1961,
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "The university dates to 1948",
+     "zh-CN": "大学可追溯至1948年"
+    },
+    "place": "savitribai_phule_pune_university",
+    "kind": "event"
+   },
+   {
+    "year": 1961,
+    "until": 2026,
+    "title": {
+     "en": "Panshet Dam collapse",
+     "zh-CN": "潘谢特水坝崩塌"
+    },
+    "sub": {
+     "en": "A substantial part of Pune's old town is washed away",
+     "zh-CN": "浦那旧城很大一部分被冲走"
+    },
+    "place": "shaniwar_wada",
+    "kind": "event"
+   }
+  ],
+  "focus": {
+   "river_junction": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Mula–Mutha junction",
+     "zh-CN": "穆拉—穆塔交汇处"
+    },
+    "sub": {
+     "en": "The city's river setting",
+     "zh-CN": "浦那的河流环境"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "capital": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Historic capital",
+     "zh-CN": "历史都城"
+    },
+    "sub": null,
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "british_cantonment": {
+    "place": "pune_cantonment",
+    "title": {
+     "en": "British arrival",
+     "zh-CN": "英国人到来"
+    },
+    "sub": {
+     "en": "1817",
+     "zh-CN": "1817"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "university": {
+    "place": "savitribai_phule_pune_university",
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "1948",
+     "zh-CN": "1948"
+    },
+    "kind": null,
+    "r_km": 0.3,
+    "show_built": false
+   },
+   "flood": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Old town flood",
+     "zh-CN": "旧城洪水"
+    },
+    "sub": {
+     "en": "1961",
+     "zh-CN": "1961"
+    },
+    "kind": null,
+    "r_km": 0.3,
+    "show_built": false
+   },
+   "army": {
+    "place": "pune_cantonment",
+    "title": {
+     "en": "Southern command",
+     "zh-CN": "南方司令部"
+    },
+    "sub": null,
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   }
+  },
+  "modern": {
+   "from": 1948,
+   "to": 2026,
+   "outside": []
+  },
+  "ground_km": 12.6
  }
 }
