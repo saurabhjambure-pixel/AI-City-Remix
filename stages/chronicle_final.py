@@ -51,6 +51,21 @@ def check_film(film: Path) -> Dict[str, Any]:
     return res
 
 
+def fit_size(src: Path, dst: Path, target_mib: float = 88.0) -> None:
+    """Two-pass H.264 to fit the contest's 100 MiB limit; audio copied, metadata (AIGC tags) kept."""
+    dur = float(probe(src)["format"]["duration"])
+    audio_bps = next(int(s.get("bit_rate", 192000)) for s in probe(src)["streams"] if s["codec_type"] == "audio")
+    v_kbps = int((target_mib * 1024 * 1024 * 8 / dur - audio_bps) / 1000 * 0.98)
+    log = dst.with_suffix("")
+    common = ["-c:v", "libx264", "-preset", "slow", "-b:v", f"{v_kbps}k", "-pix_fmt", "yuv420p", "-profile:v", "high"]
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), *common, "-pass", "1", "-passlogfile", str(log), "-an", "-f", "mp4", "/dev/null"], check=True)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), *common, "-pass", "2", "-passlogfile", str(log), "-c:a", "copy",
+                    "-map_metadata", "0", "-movflags", "+faststart+use_metadata_tags", str(dst)], check=True)
+    for f in dst.parent.glob(log.name + "*.log*"):
+        f.unlink()
+    print(f"[final] {dst.name}: {dst.stat().st_size / 1048576:.1f} MiB at {v_kbps} kb/s video")
+
+
 def bound_claims(project: Path, script: Dict[str, Any]) -> List[Dict[str, Any]]:
     ids = set(script.get("title_claims", [])) | set(script.get("end_card", {}).get("claims", []))
     for sh in script["shots"]:
@@ -147,9 +162,10 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--project", required=True)
     args = ap.parse_args(argv)
     project = (ROOT / args.project).resolve()
-    film = project / "out/film.mp4"
     final = ROOT / "final"
     final.mkdir(exist_ok=True)
+    film = final / "film.mp4"
+    fit_size(project / "out/film.mp4", film)
     fc = check_film(film)
     print(json.dumps(fc, indent=1))
     if not fc["ok"]:

@@ -417,6 +417,13 @@ Output ONLY one JSON object:
                        "card": {"en": {"title", "value"}, "zh-CN": {"title", "value"}}}],
  "end_card": {"line": {"en", "zh-CN"}, "claims": []}}
 
+Effects, as they look on screen (choose by meaning): focus kind "scar" draws a ring of FLAMES with embers and
+chars the buildings inside: only for a fire or a sack. A FLOOD is never a scar: show it with river true (the
+river brightens and light runs downstream), spread [{from: <riverside place>, area: <old-core area id>, r_km,
+color: "#5AA9E6"}] (blue water running street by street) and a focus callout without kind. Close views
+(dist_km < 4) only at places inside the building window (see map.building_window); places outside it have
+no 3D buildings, so show them only in wide views (dist_km >= 4.5).
+
 Era areas: 3-5 extents, each a simple polygon of 8-20 points in map km (x east, y north, origin at the map
 centre), drawn from the real river lines and landmark positions given: the historic core first, then each
 larger extent containing the previous one. They are approximations the film labels "AI illustration"; follow
@@ -442,6 +449,8 @@ Hard rules (a gate checks them):
   Maratha capital, the British, the university, the 1961 flood and today. Never write number words ("two",
   "first") unless the bound claim states that number. Knowledge card value: exactly the claim's value (a year
   like "1817", or a name exactly as the claim's value label).
+- Shot sfx: beats >= 0.5 and inside the shot (beat 0 already carries the automatic transition sound, and two
+  sounds at one instant cannot be told apart by the sync check); one cue per key action.
 - Allowed years: 2026 and the years stated in VERIFIED claims or Britannica HEDGE claims. Every year in shot
   year ranges and in the chronology (eras, layers, places, events, modern) must be one of them; never a guessed
   year. Bridge captions describe only what the effect visibly does ("Light spreads out from the old core");
@@ -495,6 +504,9 @@ def apply_areas(project: Path, film: Dict[str, Any]) -> Dict[str, Any]:
                       "polygon": [[round(LAT0 + y / ky, 6), round(LON0 + x / kx, 6)] for x, y in a["polygon_km"]]}
                      for a in film["areas"]]
     spec["chronology"] = film["chronology"]
+    # rendering bound, not content: the painted ground must reach past every place the camera visits
+    far = max([math.hypot(p.get("x", 0), p.get("y", 0)) for p in json.loads((project / "geo/basemap.json").read_text())["places"]] + [0])
+    spec["chronology"]["ground_km"] = round(min(float(spec.get("radius_km", 15)), max(6.0, far + 3)), 1)
     (project / "geo/places.json").write_text(json.dumps(spec, ensure_ascii=False, indent=1))
     proc = subprocess.run(["node", str(ROOT / "tools/geo_cached.mjs"), "--project", str(project), "--offline"],
                           cwd=ROOT, capture_output=True, text=True, timeout=900)
@@ -569,6 +581,33 @@ def check_film_plan(film: Dict[str, Any], plan: Dict[str, Any], basemap: Dict[st
     return errs
 
 
+def building_window(project: Path, basemap: Dict[str, Any]) -> Dict[str, Any]:
+    """Where 3D buildings exist: fabric.buildings_km around fabric.focus; each place's distance from it."""
+    import math
+    fab = json.loads((project / "geo/places.json").read_text()).get("fabric", {})
+    pos = {p["id"]: (p["x"], p["y"]) for p in basemap["places"]}
+    fx, fy = pos.get(fab.get("focus"), (0.0, 0.0))
+    r = float(fab.get("buildings_km", 1.8))
+    return {"focus": fab.get("focus"), "radius_km": r,
+            "places": {k: {"km_from_focus": round(math.hypot(x - fx, y - fy), 2), "inside": math.hypot(x - fx, y - fy) <= r}
+                       for k, (x, y) in pos.items()}}
+
+
+def view_errors(film: Dict[str, Any], window: Dict[str, Any]) -> List[str]:
+    errs = []
+    for sh in film.get("shots", []):
+        v = sh.get("view") or {}
+        info = window["places"].get(v.get("at"))
+        if info and not info["inside"] and float(v.get("dist_km", 4)) < 4.5:
+            errs.append(f"{sh.get('id')}: {v.get('at')} is {info['km_from_focus']} km from the building window centre "
+                        f"(radius {window['radius_km']} km), so it has no 3D buildings; use dist_km >= 4.5 or another place")
+        for f in (sh.get("effects") or {}).get("focus") or []:
+            F = ((film.get("chronology") or {}).get("focus") or {}).get(f.get("id"), {})
+            if F.get("kind") == "scar" and "flood" in json.dumps(sh, ensure_ascii=False).lower():
+                errs.append(f"{sh.get('id')}: a flood shot uses a scar (drawn as fire); use river + blue spread + a plain focus callout")
+    return errs
+
+
 def allowed_years(project: Path) -> set:
     facts = json.loads((project / "work/facts/facts.json").read_text())
     years = {2026}
@@ -637,6 +676,7 @@ def write_film(project: Path, client: SandBaseClient, feedback: Optional[List[st
                "areas": [{k: a.get(k) for k in ("id", "label", "x", "y", "km2", "radius_km")} for a in basemap["areas"]],
                "rivers": sorted({r.get("name") for r in basemap.get("rivers", []) if r.get("name")})[:20],
                "heights_share": basemap.get("heights_share"),
+               "building_window": building_window(project, basemap),
                "river_lines_km": river_lines(basemap, ("Mula", "Mutha", "Mula-Mutha", "Ramnadi"), within_km=7)}
     user = (f"Plan: {json.dumps(req['plan'], ensure_ascii=False)}\nSection roles: {json.dumps(req['roles'], ensure_ascii=False)}\n"
             f"Rules: {json.dumps(req['rules'], ensure_ascii=False)}\nMap: {json.dumps(mapinfo, ensure_ascii=False)}\n\n"
@@ -656,7 +696,8 @@ def write_film(project: Path, client: SandBaseClient, feedback: Optional[List[st
             msgs += [msg, {"role": "user", "content": f"Invalid JSON ({e}). Return the full JSON object only."}]
             continue
         prev.write_text(json.dumps(film, ensure_ascii=False, indent=1))
-        errs = check_film_plan(film, req["plan"], basemap) + year_errors(film, allowed_years(project))
+        errs = (check_film_plan(film, req["plan"], basemap) + year_errors(film, allowed_years(project))
+                + view_errors(film, building_window(project, basemap)))
         if not errs:
             break
         print(f"[film] try {attempt + 1}: {len(errs)} structural problems; sending back")
@@ -757,6 +798,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--plan-sources", action="store_true", help="M3.1 picks further Britannica/Wikipedia topics")
     ap.add_argument("--write-places", action="store_true", help="M3.1 writes geo/places.json (QIDs resolved by code)")
     ap.add_argument("--write-film", action="store_true", help="M3.1 writes the film plan → script.json + chronology")
+    ap.add_argument("--note", action="append", default=[], help="with --write-film --resume: a review finding to fix")
     ap.add_argument("--resume", action="store_true", help="with --write-film: start from the last plan and gate errors")
     ap.add_argument("--redo-claims", action="store_true", help="rebuild claims from cached chunks + pairs, rerun facts")
     args = ap.parse_args(argv)
@@ -774,7 +816,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         if args.resume and gate_path.exists() and (project / "work/agent/film.plan.json").exists():
             gate = json.loads(gate_path.read_text())
             feedback = ([f"{e['code']}: {json.dumps(e.get('details'), ensure_ascii=False)}" for e in gate.get("errors", [])]
-                        + entail_notes(project)) or None
+                        + entail_notes(project) + [f"review finding: {n}" for n in args.note]) or None
         for rnd in range(3):
             write_film(project, client, feedback)
             proc = subprocess.run(["node", str(CHRONICLE), "all", "--project", str(project)], cwd=ROOT,
