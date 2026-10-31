@@ -1,0 +1,1 @@
+{"predicate":"ruled_by","subject_qid":"Q1538","value":{"object":{"label":{"en":"Rashtrakuta dynasty","zh-CN":"拉什特拉库塔王朝"}},"scope":null,"text":{"en":"Pune was ruled by the Rashtrakuta dynasty.","zh-CN":"浦那曾由拉什特拉库塔王朝统治。"},"excerpt":"The plates indicate that this region was ruled by the Rashtrakuta dynasty."}

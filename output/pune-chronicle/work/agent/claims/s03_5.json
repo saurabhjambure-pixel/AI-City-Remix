@@ -1,0 +1,1350 @@
+{
+ "raw": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a well-known manufacturing and industrial center of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a well-known manufacturing and industrial center of India.",
+    "zh-CN": "浦那是印度著名的制造业和工业中心。"
+   },
+   "excerpt": "Pune is a well known manufacturing and industrial center of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20.",
+    "zh-CN": "浦那区2019—20财年的人均GDP为316,848卢比。"
+   },
+   "excerpt": "GDP per capita of Pune District in 2019–20 was Rs. 3,16,848.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "largest",
+    "category": {
+     "en": "metropolitan economy",
+     "zh-CN": "大都市经济体"
+    },
+    "as_of": 2020
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has India's fifth largest metropolitan economy.",
+    "zh-CN": "浦那拥有印度第五大的大都市经济体。"
+   },
+   "excerpt": "GDP per capita of Pune District in 2019–20 was Rs. 3,16,848. Pune has the fifth largest metropolitan economy",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "highest",
+    "category": {
+     "en": "per capita income",
+     "zh-CN": "人均收入"
+    },
+    "as_of": 2020
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has India's sixth highest per capita income.",
+    "zh-CN": "浦那的人均收入在印度排名第六。"
+   },
+   "excerpt": "GDP per capita of Pune District in 2019–20 was Rs. 3,16,848. Pune has the fifth largest metropolitan economy and the sixth highest per capita income in the country.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its automotive industry."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its automotive industry.",
+    "zh-CN": "浦那以其汽车产业而闻名。"
+   },
+   "excerpt": "The city is known for its automotive industry.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan."
+   },
+   "scope": null,
+   "text": {
+    "en": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan.",
+    "zh-CN": "通用汽车、兰博基尼、捷豹、雷诺、大众和菲亚特在查坎设有制造厂。"
+   },
+   "excerpt": "General Motors, Land Rover, Jaguar, Renault, Volkswagen, and Fiat have there manufacturing plants in Chakan.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Kirloskar Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Kirloskar Group is headquartered in Pune.",
+    "zh-CN": "Kir loskar集团总部设在浦那。"
+   },
+   "excerpt": "The Kirloskar Group, one of India's largest manufacturers and exporters of pumps and the largest infrastructure pumping project contractor in Asia, is headquartered in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Kalyani Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Kalyani Group is headquartered in Pune.",
+    "zh-CN": "Kalyani集团总部设在浦那。"
+   },
+   "excerpt": "Kalyani Group headquartered in Pune owns Bharat Forge",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bharat Forge operates the world's largest single-location forging facility in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bharat Forge operates the world's largest single-location forging facility in Pune.",
+    "zh-CN": "Bharat Forge在浦那运营着全球最大的单地点锻造设施。"
+   },
+   "excerpt": "Bharat Forge which operates world's largest single location forging facility",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India.",
+    "zh-CN": "截至2023年8月，特斯拉已在浦那租下场地，作为在印度建立业务存在的第一步。"
+   },
+   "excerpt": "As of August 2023, Tesla, Inc. has leased a space in Pune, marking its initial step towards establishing a presence in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation.",
+    "zh-CN": "位于欣贾瓦迪的拉吉夫·甘地信息科技园是马哈拉施特拉邦工业发展公司投资600亿卢比的项目。"
+   },
+   "excerpt": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹ 60,000 crore (US$8.9 billion) project by the Maharashtra Industrial Development Corporation (MIDC).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres.",
+    "zh-CN": "拉吉夫·甘地信息科技园占地约2,800英亩。"
+   },
+   "excerpt": "The IT Park encompasses an area of about 2,800 acres (11 km2)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies.",
+    "zh-CN": "拉吉夫·甘地信息科技园内有800多家信息技术公司。"
+   },
+   "excerpt": "and is home to over 800 IT companies.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's IT sector employed more than 300,000 people as of 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's IT sector employed more than 300,000 people as of 2017.",
+    "zh-CN": "截至2017年，浦那信息技术行业雇用了超过30万人。"
+   },
+   "excerpt": "As of 2017, the IT sector employed more than 300,000 people.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has emerged as a new hub for technology startups in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has emerged as a new hub for technology startups in India.",
+    "zh-CN": "浦那已成为印度新兴的科技初创企业中心。"
+   },
+   "excerpt": "Pune has also emerged as a new hub for tech startups in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Food Cluster development project is an initiative funded by the World Bank."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Food Cluster development project is an initiative funded by the World Bank.",
+    "zh-CN": "浦那食品集群开发项目是一项由世界银行资助的倡议。"
+   },
+   "excerpt": "Pune Food Cluster development project is an initiative funded by the World Bank.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune.",
+    "zh-CN": "包括育碧浦那、Zensar Technologies和KPIT Technologies在内的多家大型科技公司总部设在浦那。"
+   },
+   "excerpt": "Major technology companies Ubisoft Pune, Zensar Technologies, Patni Computer Systems, Persistent Systems, Indiacom, Harbinger Knowledge Products, Seniority, Monjin, Mylab Discovery Solutions, Quick Heal and KPIT Technologies are headquartered in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Infosys was founded in Pune and has a large campus in the city."
+   },
+   "scope": null,
+   "text": {
+    "en": "Infosys was founded in Pune and has a large campus in the city.",
+    "zh-CN": "Infosys创立于浦那，并在该市拥有一座大型园区。"
+   },
+   "excerpt": "Indian tech giant Infosys was founded in Pune who have a mega campus in city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is an emerging center for visual effects services."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is an emerging center for visual effects services.",
+    "zh-CN": "浦那正成为视觉特效服务的新兴中心。"
+   },
+   "excerpt": "Pune is an emerging centre for VFX services",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Exhibition and Convention Centre (PIECC)",
+      "zh-CN": "浦那国际展览与会议中心（PIECC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2017",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Exhibition and Convention Centre opened in 2017.",
+    "zh-CN": "浦那国际展览与会议中心于2017年开幕。"
+   },
+   "excerpt": "The Pune International Exhibition and Convention Centre (PIECC) opened in 2017.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC covers 97 hectares."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC covers 97 hectares.",
+    "zh-CN": "浦那国际展览与会议中心占地97公顷。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC has a seating capacity of 20,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC has a seating capacity of 20,000.",
+    "zh-CN": "浦那国际展览与会议中心的座席容量为20,000。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "World Trade Center Pune",
+      "zh-CN": "浦那世界贸易中心"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The World Trade Center in Pune is a complex built to foster international trade.",
+    "zh-CN": "浦那世界贸易中心是为促进国际贸易而建的综合体。"
+   },
+   "excerpt": "World Trade Center (WTC) Pune is a 1.6 million sq. ft. complex built to foster international trade.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves temple",
+      "zh-CN": "帕塔莱什瓦尔石窟寺"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "8th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The rock-cut Pataleshwar Caves temple dates to the 8th century.",
+    "zh-CN": "石凿的帕塔莱什瓦尔石窟寺可追溯至8世纪。"
+   },
+   "excerpt": "the 8th century rock-cut Pataleshwar Caves temple",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada",
+      "zh-CN": "沙尼瓦尔瓦达"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada dates to the 18th century.",
+    "zh-CN": "沙尼瓦尔瓦达可追溯至18世纪。"
+   },
+   "excerpt": "the 18th century Shaniwar Wada",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿伽汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Aga Khan Palace dates to the 19th century.",
+    "zh-CN": "阿伽汗宫可追溯至19世纪。"
+   },
+   "excerpt": "the 19th century Aga Khan Palace",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde."
+   },
+   "scope": null,
+   "text": {
+    "en": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde.",
+    "zh-CN": "位于瓦诺夫里的辛德查特里是为马拉塔将军马哈达吉·辛德设立的纪念建筑。"
+   },
+   "excerpt": "Shinde Chhatri, located at Wanowrie, is a memorial dedicated to the Maratha general Mahadaji Shinde (Scindia).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation.",
+    "zh-CN": "维什兰包格瓦达是佩什瓦最后一座住宅宫殿，目前正由市公司翻新。"
+   },
+   "excerpt": "A renowned wada in Pune is the last residential palace of the Peshwa called Vishrambaug Wada which is currently being renovated by the city corporation.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment.",
+    "zh-CN": "浦那以英属印度时期的平房建筑以及军营区20世纪初的花园城市运动布局而闻名。"
+   },
+   "excerpt": "The city is also known for its British Raj bungalow architecture and the Garden Cities Movement layout of the Cantonment from the early 20th century.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden."
+   },
+   "scope": null,
+   "text": {
+    "en": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden.",
+    "zh-CN": "浦那的公园和绿地包括卡马拉·尼赫鲁公园、桑巴吉公园、沙胡乌迪亚、佩什韦公园、萨拉斯包格、皇后花园和 bund garden。"
+   },
+   "excerpt": "Parks and green spaces in the city include the Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens, and Bund Garden.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits.",
+    "zh-CN": "哈奴曼山、韦塔尔山和塔尔贾伊山是浦那市界内的自然保护区。"
+   },
+   "excerpt": "The Hanuman hill, Vetal hill, and Taljai Hills are protected nature reserves on hills within the city limits.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999."
+   },
+   "scope": null,
+   "text": {
+    "en": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999.",
+    "zh-CN": "原位于佩什韦公园的动物园于1999年与卡特拉杰的爬行动物园合并。"
+   },
+   "excerpt": "The zoo, earlier located at Peshwe Park, was merged with the reptile park at Katraj in 1999.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's riverfront development is situated along the banks of the Mula-Mutha River.",
+    "zh-CN": "浦那河滨开发项目位于穆拉－穆塔河沿岸。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River.",
+    "zh-CN": "浦那河滨项目当时仍在建设，由浦那市政公司沿穆拉－穆塔河开发。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "excerpt": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha, and Sudarshan Rangmanch are prominent theatres in the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000.",
+    "zh-CN": "甘内什卡拉克里达兰加曼奇是浦那最大的室内剧院，座席容量约为45,000。"
+   },
+   "excerpt": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in the city, with a seating capacity of approximately 45,000.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December.",
+    "zh-CN": "萨瓦伊·甘达瓦音乐节每年12月在浦那举行。"
+   },
+   "excerpt": "The Sawai Gandharva Sangeet Mahotsav, one of the most prominent and sought-after Indian classical music festivals in India, is held in Pune every year in December.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali."
+   },
+   "scope": null,
+   "text": {
+    "en": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali.",
+    "zh-CN": "“排灯节清晨”这一音乐节概念起源于浦那。"
+   },
+   "excerpt": "The concept of Diwāḷī Pahāṭ (lit. Diwali dawn) originated in Pune as a music festival on the morning of the festival of Diwali.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Lokamanya Bal Gangadhar Tilak started the public celebration of Ganesh Chaturthi in Pune in 1892."
+   },
+   "scope": null,
+   "text": {
+    "en": "Lokamanya Bal Gangadhar Tilak started the public celebration of Ganesh Chaturthi in Pune in 1892.",
+    "zh-CN": "洛卡曼亚巴尔·甘加达尔·蒂拉克于1892年在浦那发起对象头神节的公开庆祝。"
+   },
+   "excerpt": "Lokamanya Bal Gangadhar Tilak started the public celebration of the festival as a means to circumvent the colonial British government ban on Hindu gatherings through its anti-public assembly legislation in 1892.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "More than 150 Dhol-Tasha pathak groups operate in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "More than 150 Dhol-Tasha pathak groups operate in and around Pune.",
+    "zh-CN": "浦那及其周边运营着150多个鼓乐团。"
+   },
+   "excerpt": "with there being over 150 such groups operating in and around Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The main cuisine of Pune is Maharashtrian cuisine."
+   },
+   "scope": null,
+   "text": {
+    "en": "The main cuisine of Pune is Maharashtrian cuisine.",
+    "zh-CN": "浦那的主要菜系是马哈拉施特拉菜。"
+   },
+   "excerpt": "The main cuisine of Pune is Maharashtrian cuisine.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s.",
+    "zh-CN": "Bakarwadi是浦那一种流行小吃，始于20世纪60年代初。"
+   },
+   "excerpt": "Bakarwadi is a popular snack from Pune introduced in the early 1960s.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is operated by the Airports Authority of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is operated by the Airports Authority of India.",
+    "zh-CN": "浦那国际机场由印度机场管理局运营。"
+   },
+   "excerpt": "The airport is operated by the Airports Authority of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018.",
+    "zh-CN": "2018年，浦那国际机场在年客流量500万至1,500万人类别中获机场服务质量第三名。"
+   },
+   "excerpt": "Pune International Airport at Lohegaon was ranked third best in the category of 5–15 million passengers by Airport Service Quality in 2018.",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a well-known manufacturing and industrial center of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a well-known manufacturing and industrial center of India.",
+    "zh-CN": "浦那是印度著名的制造业和工业中心。"
+   },
+   "excerpt": "Pune is a well known manufacturing and industrial center of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune District's GDP per capita was Rs. 3,16,848 in 2019–20.",
+    "zh-CN": "浦那区2019—20财年的人均GDP为316,848卢比。"
+   },
+   "excerpt": "GDP per capita of Pune District in 2019–20 was Rs. 3,16,848.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its automotive industry."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its automotive industry.",
+    "zh-CN": "浦那以其汽车产业而闻名。"
+   },
+   "excerpt": "The city is known for its automotive industry.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan."
+   },
+   "scope": null,
+   "text": {
+    "en": "General Motors, Land Rover, Jaguar, Renault, Volkswagen and Fiat have manufacturing plants in Chakan.",
+    "zh-CN": "通用汽车、兰博基尼、捷豹、雷诺、大众和菲亚特在查坎设有制造厂。"
+   },
+   "excerpt": "General Motors, Land Rover, Jaguar, Renault, Volkswagen, and Fiat have there manufacturing plants in Chakan.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Kirloskar Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Kirloskar Group is headquartered in Pune.",
+    "zh-CN": "Kir loskar集团总部设在浦那。"
+   },
+   "excerpt": "The Kirloskar Group, one of India's largest manufacturers and exporters of pumps and the largest infrastructure pumping project contractor in Asia, is headquartered in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Kalyani Group is headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Kalyani Group is headquartered in Pune.",
+    "zh-CN": "Kalyani集团总部设在浦那。"
+   },
+   "excerpt": "Kalyani Group headquartered in Pune owns Bharat Forge",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bharat Forge operates the world's largest single-location forging facility in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bharat Forge operates the world's largest single-location forging facility in Pune.",
+    "zh-CN": "Bharat Forge在浦那运营着全球最大的单地点锻造设施。"
+   },
+   "excerpt": "Bharat Forge which operates world's largest single location forging facility",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of August 2023, Tesla had leased space in Pune as its initial step toward establishing a presence in India.",
+    "zh-CN": "截至2023年8月，特斯拉已在浦那租下场地，作为在印度建立业务存在的第一步。"
+   },
+   "excerpt": "As of August 2023, Tesla, Inc. has leased a space in Pune, marking its initial step towards establishing a presence in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹60,000 crore project by the Maharashtra Industrial Development Corporation.",
+    "zh-CN": "位于欣贾瓦迪的拉吉夫·甘地信息科技园是马哈拉施特拉邦工业发展公司投资600亿卢比的项目。"
+   },
+   "excerpt": "The Rajiv Gandhi Infotech Park in Hinjawadi is a ₹ 60,000 crore (US$8.9 billion) project by the Maharashtra Industrial Development Corporation (MIDC).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park encompasses about 2,800 acres.",
+    "zh-CN": "拉吉夫·甘地信息科技园占地约2,800英亩。"
+   },
+   "excerpt": "The IT Park encompasses an area of about 2,800 acres (11 km2)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rajiv Gandhi Infotech Park is home to over 800 IT companies.",
+    "zh-CN": "拉吉夫·甘地信息科技园内有800多家信息技术公司。"
+   },
+   "excerpt": "and is home to over 800 IT companies.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's IT sector employed more than 300,000 people as of 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's IT sector employed more than 300,000 people as of 2017.",
+    "zh-CN": "截至2017年，浦那信息技术行业雇用了超过30万人。"
+   },
+   "excerpt": "As of 2017, the IT sector employed more than 300,000 people.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has emerged as a new hub for technology startups in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has emerged as a new hub for technology startups in India.",
+    "zh-CN": "浦那已成为印度新兴的科技初创企业中心。"
+   },
+   "excerpt": "Pune has also emerged as a new hub for tech startups in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Food Cluster development project is an initiative funded by the World Bank."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Food Cluster development project is an initiative funded by the World Bank.",
+    "zh-CN": "浦那食品集群开发项目是一项由世界银行资助的倡议。"
+   },
+   "excerpt": "Pune Food Cluster development project is an initiative funded by the World Bank.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Major technology companies including Ubisoft Pune, Zensar Technologies and KPIT Technologies are headquartered in Pune.",
+    "zh-CN": "包括育碧浦那、Zensar Technologies和KPIT Technologies在内的多家大型科技公司总部设在浦那。"
+   },
+   "excerpt": "Major technology companies Ubisoft Pune, Zensar Technologies, Patni Computer Systems, Persistent Systems, Indiacom, Harbinger Knowledge Products, Seniority, Monjin, Mylab Discovery Solutions, Quick Heal and KPIT Technologies are headquartered in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Infosys was founded in Pune and has a large campus in the city."
+   },
+   "scope": null,
+   "text": {
+    "en": "Infosys was founded in Pune and has a large campus in the city.",
+    "zh-CN": "Infosys创立于浦那，并在该市拥有一座大型园区。"
+   },
+   "excerpt": "Indian tech giant Infosys was founded in Pune who have a mega campus in city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is an emerging center for visual effects services."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is an emerging center for visual effects services.",
+    "zh-CN": "浦那正成为视觉特效服务的新兴中心。"
+   },
+   "excerpt": "Pune is an emerging centre for VFX services",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Exhibition and Convention Centre (PIECC)",
+      "zh-CN": "浦那国际展览与会议中心（PIECC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2017",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Exhibition and Convention Centre opened in 2017.",
+    "zh-CN": "浦那国际展览与会议中心于2017年开幕。"
+   },
+   "excerpt": "The Pune International Exhibition and Convention Centre (PIECC) opened in 2017.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC covers 97 hectares."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC covers 97 hectares.",
+    "zh-CN": "浦那国际展览与会议中心占地97公顷。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PIECC has a seating capacity of 20,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PIECC has a seating capacity of 20,000.",
+    "zh-CN": "浦那国际展览与会议中心的座席容量为20,000。"
+   },
+   "excerpt": "The 97-hectare PIECC has a seating capacity of 20,000",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "World Trade Center Pune",
+      "zh-CN": "浦那世界贸易中心"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The World Trade Center in Pune is a complex built to foster international trade.",
+    "zh-CN": "浦那世界贸易中心是为促进国际贸易而建的综合体。"
+   },
+   "excerpt": "World Trade Center (WTC) Pune is a 1.6 million sq. ft. complex built to foster international trade.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves temple",
+      "zh-CN": "帕塔莱什瓦尔石窟寺"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "8th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The rock-cut Pataleshwar Caves temple dates to the 8th century.",
+    "zh-CN": "石凿的帕塔莱什瓦尔石窟寺可追溯至8世纪。"
+   },
+   "excerpt": "the 8th century rock-cut Pataleshwar Caves temple",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada",
+      "zh-CN": "沙尼瓦尔瓦达"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada dates to the 18th century.",
+    "zh-CN": "沙尼瓦尔瓦达可追溯至18世纪。"
+   },
+   "excerpt": "the 18th century Shaniwar Wada",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿伽汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Aga Khan Palace dates to the 19th century.",
+    "zh-CN": "阿伽汗宫可追溯至19世纪。"
+   },
+   "excerpt": "the 19th century Aga Khan Palace",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde."
+   },
+   "scope": null,
+   "text": {
+    "en": "Shinde Chhatri in Wanowrie is a memorial dedicated to the Maratha general Mahadaji Shinde.",
+    "zh-CN": "位于瓦诺夫里的辛德查特里是为马拉塔将军马哈达吉·辛德设立的纪念建筑。"
+   },
+   "excerpt": "Shinde Chhatri, located at Wanowrie, is a memorial dedicated to the Maratha general Mahadaji Shinde (Scindia).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Vishrambaug Wada is the last residential palace of the Peshwa and is being renovated by the city corporation.",
+    "zh-CN": "维什兰包格瓦达是佩什瓦最后一座住宅宫殿，目前正由市公司翻新。"
+   },
+   "excerpt": "A renowned wada in Pune is the last residential palace of the Peshwa called Vishrambaug Wada which is currently being renovated by the city corporation.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is known for its British Raj bungalow architecture and the early-20th-century Garden Cities Movement layout of the Cantonment.",
+    "zh-CN": "浦那以英属印度时期的平房建筑以及军营区20世纪初的花园城市运动布局而闻名。"
+   },
+   "excerpt": "The city is also known for its British Raj bungalow architecture and the Garden Cities Movement layout of the Cantonment from the early 20th century.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden."
+   },
+   "scope": null,
+   "text": {
+    "en": "Parks and green spaces in Pune include Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens and Bund Garden.",
+    "zh-CN": "浦那的公园和绿地包括卡马拉·尼赫鲁公园、桑巴吉公园、沙胡乌迪亚、佩什韦公园、萨拉斯包格、皇后花园和 bund garden。"
+   },
+   "excerpt": "Parks and green spaces in the city include the Kamala Nehru Park, Sambhaji Park, Shahu Udyan, Peshwe Park, Saras Baug, Empress Gardens, and Bund Garden.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hanuman hill, Vetal hill and Taljai Hills are protected nature reserves within Pune's city limits.",
+    "zh-CN": "哈奴曼山、韦塔尔山和塔尔贾伊山是浦那市界内的自然保护区。"
+   },
+   "excerpt": "The Hanuman hill, Vetal hill, and Taljai Hills are protected nature reserves on hills within the city limits.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999."
+   },
+   "scope": null,
+   "text": {
+    "en": "The zoo formerly at Peshwe Park was merged with the reptile park at Katraj in 1999.",
+    "zh-CN": "原位于佩什韦公园的动物园于1999年与卡特拉杰的爬行动物园合并。"
+   },
+   "excerpt": "The zoo, earlier located at Peshwe Park, was merged with the reptile park at Katraj in 1999.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's riverfront development is situated along the banks of the Mula-Mutha River.",
+    "zh-CN": "浦那河滨开发项目位于穆拉－穆塔河沿岸。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Riverfront was under construction and was being developed by the Pune Municipal Corporation along the Mula-Mutha River.",
+    "zh-CN": "浦那河滨项目当时仍在建设，由浦那市政公司沿穆拉－穆塔河开发。"
+   },
+   "excerpt": "Pune Riverfront is under-construction being developed by Pune Municipal Corporation along the banks of Mula-Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha and Sudarshan Rangmanch are prominent theatres in Pune.",
+    "zh-CN": "提拉克斯马拉克兰加曼迪尔、巴尔·甘达瓦·兰加曼迪尔、巴拉特纳蒂亚曼迪尔、亚希万特拉奥·查万纳蒂亚格鲁哈和苏达尚朗曼奇是浦那著名的剧院。"
+   },
+   "excerpt": "The Tilak Smarak Ranga Mandir, Bal Gandharva Ranga Mandir, Bharat Natya Mandir, Yashwantrao Chavan Natya Gruha, and Sudarshan Rangmanch are prominent theatres in the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000."
+   },
+   "scope": null,
+   "text": {
+    "en": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in Pune and has a seating capacity of approximately 45,000.",
+    "zh-CN": "甘内什卡拉克里达兰加曼奇是浦那最大的室内剧院，座席容量约为45,000。"
+   },
+   "excerpt": "Ganesh Kala Krida Rangamanch is the largest indoor theatre in the city, with a seating capacity of approximately 45,000.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Sawai Gandharva Sangeet Mahotsav is held in Pune every year in December.",
+    "zh-CN": "萨瓦伊·甘达瓦音乐节每年12月在浦那举行。"
+   },
+   "excerpt": "The Sawai Gandharva Sangeet Mahotsav, one of the most prominent and sought-after Indian classical music festivals in India, is held in Pune every year in December.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali."
+   },
+   "scope": null,
+   "text": {
+    "en": "The concept of Diwāḷī Pahāṭ originated in Pune as a music festival on the morning of Diwali.",
+    "zh-CN": "“排灯节清晨”这一音乐节概念起源于浦那。"
+   },
+   "excerpt": "The concept of Diwāḷī Pahāṭ (lit. Diwali dawn) originated in Pune as a music festival on the morning of the festival of Diwali.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "More than 150 Dhol-Tasha pathak groups operate in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "More than 150 Dhol-Tasha pathak groups operate in and around Pune.",
+    "zh-CN": "浦那及其周边运营着150多个鼓乐团。"
+   },
+   "excerpt": "with there being over 150 such groups operating in and around Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The main cuisine of Pune is Maharashtrian cuisine."
+   },
+   "scope": null,
+   "text": {
+    "en": "The main cuisine of Pune is Maharashtrian cuisine.",
+    "zh-CN": "浦那的主要菜系是马哈拉施特拉菜。"
+   },
+   "excerpt": "The main cuisine of Pune is Maharashtrian cuisine.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bakarwadi is a popular snack from Pune that was introduced in the early 1960s.",
+    "zh-CN": "Bakarwadi是浦那一种流行小吃，始于20世纪60年代初。"
+   },
+   "excerpt": "Bakarwadi is a popular snack from Pune introduced in the early 1960s.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is operated by the Airports Authority of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is operated by the Airports Authority of India.",
+    "zh-CN": "浦那国际机场由印度机场管理局运营。"
+   },
+   "excerpt": "The airport is operated by the Airports Authority of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport ranked third best in the 5–15 million passenger category by Airport Service Quality in 2018.",
+    "zh-CN": "2018年，浦那国际机场在年客流量500万至1,500万人类别中获机场服务质量第三名。"
+   },
+   "excerpt": "Pune International Airport at Lohegaon was ranked third best in the category of 5–15 million passengers by Airport Service Quality in 2018.",
+   "source_id": "s03"
+  }
+ ]
+}

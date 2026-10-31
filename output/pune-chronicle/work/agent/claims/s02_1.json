@@ -1,0 +1,1338 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "国家 印度",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "邦马哈拉施特拉邦",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pune district",
+     "zh-CN": "浦那县"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Pune district.",
+    "zh-CN": "浦那位于浦那县。"
+   },
+   "excerpt": "县浦那县",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "450.69平方公里（174.01平方英里）"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a total area of 450.69 square kilometres (174.01 square miles).",
+    "zh-CN": "浦那的总面积为450.69平方公里（174.01平方英里）。"
+   },
+   "excerpt": "450.69平方公里（174.01平方英里）",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431人"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had a population of 3,115,431 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,115,431人。"
+   },
+   "excerpt": "人口\n（2011年）\n• 总计3,115,431人",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "western Deccan Plateau",
+     "zh-CN": "德干高原西部"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies in the western part of the Deccan Plateau.",
+    "zh-CN": "浦那位于德干高原西部。"
+   },
+   "excerpt": "浦那位于德干高原西部",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Muta River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha Empire",
+      "zh-CN": "马拉地帝国"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "近代以前"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly the capital of the Maratha Empire.",
+    "zh-CN": "浦那在近代以前曾为马拉地帝国的首都。"
+   },
+   "excerpt": "浦城在近代以前，曾为马拉地帝国首都。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那至少从937年起即有记录。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been recorded since at least 937.",
+    "zh-CN": "浦那至少从937年起即有记录。"
+   },
+   "excerpt": "浦那至少从937年起即有记录",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was originally known as Punawadi.",
+    "zh-CN": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "excerpt": "原名为浦那瓦迪（Punawadi）",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "named_after",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Puṇyanagara",
+     "zh-CN": "Puṇyanagara（美德之城）"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The name Pune is derived from the Sanskrit Puṇyanagara, meaning “City of Virtue.”",
+    "zh-CN": "浦那之名引自梵语中的Puṇyanagara（美德之城）。"
+   },
+   "excerpt": "浦那之名引自梵语中的Puṇyanagara（美德之城）。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1976年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The modern English spelling of Pune was settled in 1976, while Poona was common in British-era documents.",
+    "zh-CN": "今天的浦那英语写法于1976年确定，而英国统治时期的英文文书中常写作Poona。"
+   },
+   "excerpt": "在英属印度，浦那在英语文书里常写为Poona，今天的英语写法则订于1976年。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Adil Shahi dynasty",
+      "zh-CN": "阿迪勒·沙阿王朝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1630年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was sacked and destroyed by the Adil Shahi dynasty in 1630.",
+    "zh-CN": "1630年，浦那遭阿迪勒·沙阿王朝洗劫与摧毁。"
+   },
+   "excerpt": "1630年，本城为阿迪勒·沙阿王朝洗劫与摧毁",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "rebuilt",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636年至1647年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was rebuilt from 1636 to 1647 after its destruction in 1630.",
+    "zh-CN": "浦那在1630年遭到摧毁后，于1636年至1647年再次重建。"
+   },
+   "excerpt": "从1636年至1647年再次重建起来",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Water Palace",
+      "zh-CN": "水之宫殿"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Water Palace in Pune was completed in 1640.",
+    "zh-CN": "浦那的水之宫殿于1640年完工。"
+   },
+   "excerpt": "建造了水之宫殿。这座王宫于1640年完工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada Castle",
+      "zh-CN": "沙尼瓦瓦达城堡"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1730年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada Castle in Pune was completed in 1730.",
+    "zh-CN": "浦那的沙尼瓦瓦达城堡于1730年完工。"
+   },
+   "excerpt": "在穆塔河畔建造沙尼瓦瓦达城堡。城堡于1730年完工",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British India",
+      "zh-CN": "英属印度"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "British India occupied Pune in 1817.",
+    "zh-CN": "1817年，英属印度占领浦那。"
+   },
+   "excerpt": "1817年，英属印度诸省占领浦那",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1858年",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established as a municipality in 1858.",
+    "zh-CN": "浦那于1858年设市。"
+   },
+   "excerpt": "浦那于1858年设市。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "bubonic plague outbreak",
+      "zh-CN": "腺鼠疫传染"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1896年末"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bubonic plague outbreak occurred in Pune at the end of 1896.",
+    "zh-CN": "1896年末，浦那发生腺鼠疫传染。"
+   },
+   "excerpt": "1896年末浦那发生腺鼠疫传染。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam and Hadakwasla Dam failures and flooding",
+      "zh-CN": "潘赛特大坝和哈达夸斯拉大坝崩裂并引发洪水"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961年7月"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "In July 1961, the Panshet and Hadakwasla dams burst, and their stored water flooded much of Pune's old city.",
+    "zh-CN": "1961年7月，潘赛特大坝和哈达夸斯拉大坝崩裂，蓄水淹没浦那并摧毁老城大部分地区。"
+   },
+   "excerpt": "1961年7月潘赛特大坝和哈达夸斯拉大坝崩裂，它们的蓄水淹没浦那，摧毁了老城的大部分地区。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001 after construction began in 1998.",
+    "zh-CN": "六股道的孟买浦那高速公路于1998年开工，并于2001年竣工。"
+   },
+   "excerpt": "1998年六股道的孟买浦那高速公路开工，2001年竣工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "German Bakery bombing",
+      "zh-CN": "德国面包店炸弹爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Koregaon Park, Pune",
+      "zh-CN": "浦那东部柯立根公园"
+     }
+    },
+    "date": {
+     "raw": "2010年2月13日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred at the German Bakery in Koregaon Park in eastern Pune on 13 February 2010.",
+    "zh-CN": "2010年2月13日，浦那东部柯立根公园的德国面包店发生炸弹爆炸事件。"
+   },
+   "excerpt": "2010年2月13日在浦那东部的柯立根公园的德国面包店发生了一起炸弹爆炸事件",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "new cricket stadium on the Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路上的新球场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2012年4月1日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A new cricket stadium on the Mumbai–Pune Expressway in Pune began to be used on 1 April 2012.",
+    "zh-CN": "浦那孟买浦那高速公路上的新球场于2012年4月1日开始使用。"
+   },
+   "excerpt": "2012年4月1日开始使用的一座位于孟买浦那高速公路上的新球场",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是印度第九大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the ninth-largest city in India.",
+    "zh-CN": "浦那是印度第九大城。"
+   },
+   "excerpt": "是印度第九大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the second-largest city in Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都与第二大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是西高止山脉上的第一大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest city on the Western Ghats.",
+    "zh-CN": "浦那是西高止山脉上的第一大城。"
+   },
+   "excerpt": "西高止山脉上的第一大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是第3级世界都市。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is currently classified as a Level 3 global city.",
+    "zh-CN": "浦那现为第3级世界都市。"
+   },
+   "excerpt": "浦那现为第3级世界都市。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那有七万名信息技术职工。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has 70,000 information-technology employees.",
+    "zh-CN": "浦那有七万名信息技术职工。"
+   },
+   "excerpt": "今天浦那在信息技术方面有七万职工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "225个德国公司在浦那设有据点。"
+   },
+   "scope": null,
+   "text": {
+    "en": "225 German companies have bases in Pune.",
+    "zh-CN": "225个德国公司在浦那设有据点。"
+   },
+   "excerpt": "225个德国公司在浦那设有据点。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被称为印度的“汽车之城”。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been called India's “Automobile City.”",
+    "zh-CN": "浦那被称为印度的“汽车之城”。"
+   },
+   "excerpt": "《独立报》因此称浦那为印度的“汽车之城”。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那市议会由149名直接选举产生的议员组成。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's municipal council consists of 149 directly elected councillors.",
+    "zh-CN": "浦那市议会由149名通过直接选举产生的议员组成。"
+   },
+   "excerpt": "浦那市议会由149名通过直接选举产生的议员组成。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is regarded as the cultural center of Maharashtra.",
+    "zh-CN": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "excerpt": "浦那被看作是马哈拉施特拉邦的文化中心。",
+   "source_id": "s02"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "国家 印度",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "邦马哈拉施特拉邦",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pune district",
+     "zh-CN": "浦那县"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Pune district.",
+    "zh-CN": "浦那位于浦那县。"
+   },
+   "excerpt": "县浦那县",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "450.69平方公里（174.01平方英里）"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a total area of 450.69 square kilometres (174.01 square miles).",
+    "zh-CN": "浦那的总面积为450.69平方公里（174.01平方英里）。"
+   },
+   "excerpt": "450.69平方公里（174.01平方英里）",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431人"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had a population of 3,115,431 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,115,431人。"
+   },
+   "excerpt": "人口\n（2011年）\n• 总计3,115,431人",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "western Deccan Plateau",
+     "zh-CN": "德干高原西部"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies in the western part of the Deccan Plateau.",
+    "zh-CN": "浦那位于德干高原西部。"
+   },
+   "excerpt": "浦那位于德干高原西部",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Muta River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies at the confluence of the Mula River and the Muta River.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的汇流处。"
+   },
+   "excerpt": "位于穆拉河与穆塔河的汇流处。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha Empire",
+      "zh-CN": "马拉地帝国"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "近代以前"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly the capital of the Maratha Empire.",
+    "zh-CN": "浦那在近代以前曾为马拉地帝国的首都。"
+   },
+   "excerpt": "浦城在近代以前，曾为马拉地帝国首都。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那至少从937年起即有记录。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been recorded since at least 937.",
+    "zh-CN": "浦那至少从937年起即有记录。"
+   },
+   "excerpt": "浦那至少从937年起即有记录",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was originally known as Punawadi.",
+    "zh-CN": "浦那原名为浦那瓦迪（Punawadi）。"
+   },
+   "excerpt": "原名为浦那瓦迪（Punawadi）",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "named_after",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Puṇyanagara",
+     "zh-CN": "Puṇyanagara（美德之城）"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The name Pune is derived from the Sanskrit Puṇyanagara, meaning “City of Virtue.”",
+    "zh-CN": "浦那之名引自梵语中的Puṇyanagara（美德之城）。"
+   },
+   "excerpt": "浦那之名引自梵语中的Puṇyanagara（美德之城）。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1976年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The modern English spelling of Pune was settled in 1976, while Poona was common in British-era documents.",
+    "zh-CN": "今天的浦那英语写法于1976年确定，而英国统治时期的英文文书中常写作Poona。"
+   },
+   "excerpt": "在英属印度，浦那在英语文书里常写为Poona，今天的英语写法则订于1976年。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Adil Shahi dynasty",
+      "zh-CN": "阿迪勒·沙阿王朝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1630年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was sacked and destroyed by the Adil Shahi dynasty in 1630.",
+    "zh-CN": "1630年，浦那遭阿迪勒·沙阿王朝洗劫与摧毁。"
+   },
+   "excerpt": "1630年，本城为阿迪勒·沙阿王朝洗劫与摧毁",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "rebuilt",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636年至1647年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was rebuilt from 1636 to 1647 after its destruction in 1630.",
+    "zh-CN": "浦那在1630年遭到摧毁后，于1636年至1647年再次重建。"
+   },
+   "excerpt": "从1636年至1647年再次重建起来",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Water Palace",
+      "zh-CN": "水之宫殿"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Water Palace in Pune was completed in 1640.",
+    "zh-CN": "浦那的水之宫殿于1640年完工。"
+   },
+   "excerpt": "建造了水之宫殿。这座王宫于1640年完工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada Castle",
+      "zh-CN": "沙尼瓦瓦达城堡"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1730年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Shaniwar Wada Castle in Pune was completed in 1730.",
+    "zh-CN": "浦那的沙尼瓦瓦达城堡于1730年完工。"
+   },
+   "excerpt": "在穆塔河畔建造沙尼瓦瓦达城堡。城堡于1730年完工",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British India",
+      "zh-CN": "英属印度"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "British India occupied Pune in 1817.",
+    "zh-CN": "1817年，英属印度占领浦那。"
+   },
+   "excerpt": "1817年，英属印度诸省占领浦那",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1858年",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established as a municipality in 1858.",
+    "zh-CN": "浦那于1858年设市。"
+   },
+   "excerpt": "浦那于1858年设市。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "bubonic plague outbreak",
+      "zh-CN": "腺鼠疫传染"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1896年末"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bubonic plague outbreak occurred in Pune at the end of 1896.",
+    "zh-CN": "1896年末，浦那发生腺鼠疫传染。"
+   },
+   "excerpt": "1896年末浦那发生腺鼠疫传染。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam and Hadakwasla Dam failures and flooding",
+      "zh-CN": "潘赛特大坝和哈达夸斯拉大坝崩裂并引发洪水"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961年7月"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "In July 1961, the Panshet and Hadakwasla dams burst, and their stored water flooded much of Pune's old city.",
+    "zh-CN": "1961年7月，潘赛特大坝和哈达夸斯拉大坝崩裂，蓄水淹没浦那并摧毁老城大部分地区。"
+   },
+   "excerpt": "1961年7月潘赛特大坝和哈达夸斯拉大坝崩裂，它们的蓄水淹没浦那，摧毁了老城的大部分地区。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001年"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001 after construction began in 1998.",
+    "zh-CN": "六股道的孟买浦那高速公路于1998年开工，并于2001年竣工。"
+   },
+   "excerpt": "1998年六股道的孟买浦那高速公路开工，2001年竣工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "German Bakery bombing",
+      "zh-CN": "德国面包店炸弹爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Koregaon Park, Pune",
+      "zh-CN": "浦那东部柯立根公园"
+     }
+    },
+    "date": {
+     "raw": "2010年2月13日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred at the German Bakery in Koregaon Park in eastern Pune on 13 February 2010.",
+    "zh-CN": "2010年2月13日，浦那东部柯立根公园的德国面包店发生炸弹爆炸事件。"
+   },
+   "excerpt": "2010年2月13日在浦那东部的柯立根公园的德国面包店发生了一起炸弹爆炸事件",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "new cricket stadium on the Mumbai–Pune Expressway",
+      "zh-CN": "孟买浦那高速公路上的新球场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2012年4月1日"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A new cricket stadium on the Mumbai–Pune Expressway in Pune began to be used on 1 April 2012.",
+    "zh-CN": "浦那孟买浦那高速公路上的新球场于2012年4月1日开始使用。"
+   },
+   "excerpt": "2012年4月1日开始使用的一座位于孟买浦那高速公路上的新球场",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是印度第九大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the ninth-largest city in India.",
+    "zh-CN": "浦那是印度第九大城。"
+   },
+   "excerpt": "是印度第九大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化首都。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the second-largest city in Maharashtra.",
+    "zh-CN": "浦那是马哈拉施特拉邦的第二大城。"
+   },
+   "excerpt": "马哈拉施特拉邦的文化首都与第二大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是西高止山脉上的第一大城。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest city on the Western Ghats.",
+    "zh-CN": "浦那是西高止山脉上的第一大城。"
+   },
+   "excerpt": "西高止山脉上的第一大城",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那是第3级世界都市。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is currently classified as a Level 3 global city.",
+    "zh-CN": "浦那现为第3级世界都市。"
+   },
+   "excerpt": "浦那现为第3级世界都市。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那有七万名信息技术职工。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has 70,000 information-technology employees.",
+    "zh-CN": "浦那有七万名信息技术职工。"
+   },
+   "excerpt": "今天浦那在信息技术方面有七万职工。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "225个德国公司在浦那设有据点。"
+   },
+   "scope": null,
+   "text": {
+    "en": "225 German companies have bases in Pune.",
+    "zh-CN": "225个德国公司在浦那设有据点。"
+   },
+   "excerpt": "225个德国公司在浦那设有据点。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被称为印度的“汽车之城”。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been called India's “Automobile City.”",
+    "zh-CN": "浦那被称为印度的“汽车之城”。"
+   },
+   "excerpt": "《独立报》因此称浦那为印度的“汽车之城”。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那市议会由149名直接选举产生的议员组成。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's municipal council consists of 149 directly elected councillors.",
+    "zh-CN": "浦那市议会由149名通过直接选举产生的议员组成。"
+   },
+   "excerpt": "浦那市议会由149名通过直接选举产生的议员组成。",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is regarded as the cultural center of Maharashtra.",
+    "zh-CN": "浦那被看作是马哈拉施特拉邦的文化中心。"
+   },
+   "excerpt": "浦那被看作是马哈拉施特拉邦的文化中心。",
+   "source_id": "s02"
+  }
+ ]
+}

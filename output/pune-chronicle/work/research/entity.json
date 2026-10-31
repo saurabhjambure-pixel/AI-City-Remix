@@ -1,0 +1,42 @@
+{
+  "schema": "chronicle-entity/1",
+  "qid": "Q1538",
+  "subject": "city",
+  "label": {
+    "en": "Pune",
+    "zh-CN": "浦那"
+  },
+  "labels": {
+    "zh-hans": "浦那",
+    "zh-hant": "浦納",
+    "zh": "浦那",
+    "en": "Pune"
+  },
+  "aliases": {
+    "zh": [
+      "普纳"
+    ],
+    "en": [
+      "Poona",
+      "Queen of the Deccan",
+      "Oxford of the East",
+      "Pune, India",
+      "Poonah"
+    ]
+  },
+  "native_names": [],
+  "description": {
+    "en": "metropolis in Maharashtra, India",
+    "zh-CN": "印度马哈拉施特拉邦的大都市"
+  },
+  "sitelinks": 130,
+  "lock_rule": "qid",
+  "alternatives": [],
+  "living": false,
+  "portrait_policy": "allowed",
+  "born": null,
+  "died": null,
+  "external_ids": {
+    "P1417": "place/Pune"
+  }
+}

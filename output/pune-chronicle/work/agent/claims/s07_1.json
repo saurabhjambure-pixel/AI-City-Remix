@@ -1,0 +1,58 @@
+{
+ "raw": [
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Residency at Pune"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune"
+     }
+    },
+    "date": {
+     "raw": "November 1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The residency at Pune was burned in November 1817.",
+    "zh-CN": "1817年11月，浦那的驻官邸邸被焚毁。"
+   },
+   "excerpt": "Battle of Kirkee (November 1817), though the residency at Pune and Elphinstone’s notes for future literary works were burned.",
+   "source_id": "s07"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Residency at Pune"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune"
+     }
+    },
+    "date": {
+     "raw": "November 1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The residency at Pune was burned in November 1817.",
+    "zh-CN": "1817年11月，浦那的驻官邸邸被焚毁。"
+   },
+   "excerpt": "Battle of Kirkee (November 1817), though the residency at Pune and Elphinstone’s notes for future literary works were burned.",
+   "source_id": "s07"
+  }
+ ]
+}

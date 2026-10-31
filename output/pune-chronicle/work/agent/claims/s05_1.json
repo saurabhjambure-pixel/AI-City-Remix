@@ -1,0 +1,90 @@
+{
+ "raw": [
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly known as Poona.",
+    "zh-CN": "浦那旧称 Poona。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "Poona"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was formerly known as Poona.",
+    "zh-CN": "浦那旧称 Poona。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Shivner, Poona [now Pune], India",
+   "source_id": "s05"
+  }
+ ]
+}

@@ -1,0 +1,1316 @@
+{
+ "raw": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+    "zh-CN": "浦那位于科伊纳大坝周边地震活跃区以北100公里（62英里）。"
+   },
+   "excerpt": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5."
+   },
+   "scope": null,
+   "text": {
+    "en": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5.",
+    "zh-CN": "印度气象局将浦那评为2至5级地震分区中的3区。"
+   },
+   "excerpt": "The India Meteorological Department has assessed this area as being in Zone 3, on a scale of 2 to 5, with 5 being the most prone to earthquakes.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "earthquakes",
+      "zh-CN": "地震"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has experienced moderate- and low-intensity earthquakes in its history.",
+    "zh-CN": "浦那历史上曾经历中等强度和多次低强度地震。"
+   },
+   "excerpt": "Pune has experienced some moderate – and many low – intensity earthquakes in its history.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "73,000"
+   },
+   "scope": "1851",
+   "text": {
+    "en": "Pune had a population of 73,000 in 1851.",
+    "zh-CN": "1851年，浦那的人口为73,000。"
+   },
+   "excerpt": "1851 73,000—",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "118,790"
+   },
+   "scope": "1891",
+   "text": {
+    "en": "Pune had a population of 118,790 in 1891.",
+    "zh-CN": "1891年，浦那的人口为118,790。"
+   },
+   "excerpt": "1891 118,790+62.7%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "153,320"
+   },
+   "scope": "1901",
+   "text": {
+    "en": "Pune had a population of 153,320 in 1901.",
+    "zh-CN": "1901年，浦那的人口为153,320。"
+   },
+   "excerpt": "1901 153,320+29.1%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "158,856"
+   },
+   "scope": "1911",
+   "text": {
+    "en": "Pune had a population of 158,856 in 1911.",
+    "zh-CN": "1911年，浦那的人口为158,856。"
+   },
+   "excerpt": "1911 158,856+3.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,523"
+   },
+   "scope": "1921",
+   "text": {
+    "en": "Pune had a population of 198,523 in 1921.",
+    "zh-CN": "1921年，浦那的人口为198,523。"
+   },
+   "excerpt": "1921 198,523+25.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,078"
+   },
+   "scope": "1931",
+   "text": {
+    "en": "Pune had a population of 198,078 in 1931.",
+    "zh-CN": "1931年，浦那的人口为198,078。"
+   },
+   "excerpt": "1931 198,078−0.2%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "257,554"
+   },
+   "scope": "1941",
+   "text": {
+    "en": "Pune had a population of 257,554 in 1941.",
+    "zh-CN": "1941年，浦那的人口为257,554。"
+   },
+   "excerpt": "1941 257,554+30.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "488,419"
+   },
+   "scope": "1951",
+   "text": {
+    "en": "Pune had a population of 488,419 in 1951.",
+    "zh-CN": "1951年，浦那的人口为488,419。"
+   },
+   "excerpt": "1951 488,419+89.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "856,105"
+   },
+   "scope": "1971",
+   "text": {
+    "en": "Pune had a population of 856,105 in 1971.",
+    "zh-CN": "1971年，浦那的人口为856,105。"
+   },
+   "excerpt": "1971 856,105+75.3%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,203,351"
+   },
+   "scope": "1981",
+   "text": {
+    "en": "Pune had a population of 1,203,351 in 1981.",
+    "zh-CN": "1981年，浦那的人口为1,203,351。"
+   },
+   "excerpt": "1981 1,203,351+40.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,566,651"
+   },
+   "scope": "1991",
+   "text": {
+    "en": "Pune had a population of 1,566,651 in 1991.",
+    "zh-CN": "1991年，浦那的人口为1,566,651。"
+   },
+   "excerpt": "1991 1,566,651+30.2%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,540,069"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "Pune had a population of 2,540,069 in 2001.",
+    "zh-CN": "2001年，浦那的人口为2,540,069。"
+   },
+   "excerpt": "2001 2,540,069+62.1%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,124,458"
+   },
+   "scope": "2011",
+   "text": {
+    "en": "Pune had a population of 3,124,458 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,124,458。"
+   },
+   "excerpt": "2011 3,124,458+23.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a major industrial metropolis that has attracted migrants from all parts of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a major industrial metropolis that has attracted migrants from all parts of India.",
+    "zh-CN": "浦那是一座吸引印度各地移民的主要工业都市。"
+   },
+   "excerpt": "Since Pune is a major industrial metropolis, it has attracted migrants from all parts of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "43,900"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "The number of people migrating to Pune was 43,900 in 2001.",
+    "zh-CN": "2001年，迁入浦那的人数为43,900。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "88,200"
+   },
+   "scope": "2005",
+   "text": {
+    "en": "The number of people migrating to Pune was 88,200 in 2005.",
+    "zh-CN": "2005年，迁入浦那的人数为88,200。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001.",
+    "zh-CN": "1991年至2001年间，浦那吸纳了38个外围村庄。"
+   },
+   "excerpt": "The sharp increase in population during the decade 1991–2001 led to the absorption of 38 fringe villages into the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth."
+   },
+   "scope": null,
+   "text": {
+    "en": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth.",
+    "zh-CN": "来自原农村地区的人口迁入占浦那人口增长的70%。"
+   },
+   "excerpt": "As agriculture has dwindled in recent decades, immigration of the erstwhile rural peoples now accounts for 70 per cent of the population growth.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 86.15% in 2011."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 86.15% in 2011.",
+    "zh-CN": "2011年，浦那的平均识字率为86.15%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 80.45% in 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 80.45% in 2001.",
+    "zh-CN": "2001年，浦那的平均识字率为80.45%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hinduism is the major religion in Pune, practised by a little under 80% of the population."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hinduism is the major religion in Pune, practised by a little under 80% of the population.",
+    "zh-CN": "印度教是浦那的主要宗教，信徒略少于总人口的80%。"
+   },
+   "excerpt": "Hinduism is the major religion, practised by a little under 80% of people in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Parvati temple complex",
+      "zh-CN": "帕尔瓦蒂寺群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Parvati temple complex on Parvati Hill dates back to the 18th century.",
+    "zh-CN": "帕尔瓦蒂山上的帕尔瓦蒂寺群可追溯至18世纪。"
+   },
+   "excerpt": "Of the many Hindu temples in the city, the Parvati temple complex on Parvati Hill and at least 250 others date back to the 18th century.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+    "zh-CN": "达加杜塞特·哈尔瓦伊·象头神庙是浦那最富有的象头神庙。"
+   },
+   "excerpt": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Meher Baba was born in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Meher Baba was born in Pune.",
+    "zh-CN": "梅赫·巴巴出生于浦那。"
+   },
+   "excerpt": "Pune is also the birthplace of Meher Baba, although his followers usually travel to Meherabad to visit his tomb.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "St. Patrick's Cathedral",
+      "zh-CN": "圣帕特里克大教堂"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1850"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "St. Patrick's Cathedral was built in 1850.",
+    "zh-CN": "圣帕特里克大教堂建于1850年。"
+   },
+   "excerpt": "St. Patrick's Cathedral built in 1850 is the seat of the bishop of the Roman Catholic Diocese of Poona.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Ohel David Synagogue",
+      "zh-CN": "欧海尔·大卫会堂"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ohel David Synagogue, locally known as Lal Deval, dates to the 19th century.",
+    "zh-CN": "当地称为“红色会堂”的欧海尔·大卫会堂可追溯至19世纪。"
+   },
+   "excerpt": "The 19th-century Ohel David Synagogue, known locally as Lal Deval, is said to be one of the largest synagogues in Asia outside Israel.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Osho lived and taught in Pune for much of the 1970s and 1980s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Osho lived and taught in Pune for much of the 1970s and 1980s.",
+    "zh-CN": "奥修在20世纪70年代和80年代的大部分时间里居住并讲学于浦那。"
+   },
+   "excerpt": "The controversial Guru Rajneesh, also known as Osho, lived and taught in Pune for much of the 1970s and 1980s.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Osho International Meditation Resort is located in Koregaon Park in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Osho International Meditation Resort is located in Koregaon Park in Pune.",
+    "zh-CN": "奥修国际冥想度假村位于浦那的科里冈公园。"
+   },
+   "excerpt": "The Osho International Meditation Resort, one of the world's largest spiritual centres, is located in Koregaon Park and attracts visitors from over a hundred countries.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the most-spoken language in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the most-spoken language in Pune.",
+    "zh-CN": "马拉地语是浦那使用最广泛的语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化之都，也是马拉地文学中心。"
+   },
+   "excerpt": "Pune, being the cultural capital of Maharashtra, is a centre for Marathi literature and its dialect forms the basis for the written standard of Marathi.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government.",
+    "zh-CN": "浦那市政公司和皮姆普里-钦奇瓦德市政公司负责地方治理。"
+   },
+   "excerpt": "Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are the civic bodies responsible for local government.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune City Police Department is the law-enforcement agency for Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune City Police Department is the law-enforcement agency for Pune.",
+    "zh-CN": "浦那城市警察局是浦那的执法机构。"
+   },
+   "excerpt": "The Pune City Police Department is the law enforcement agency for the city of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River in Pune contains only sewage outside the monsoon months.",
+    "zh-CN": "浦那的穆塔河在季风月份以外只含污水。"
+   },
+   "excerpt": "The city lacks the capacity to treat all the sewage it generates, which leads to the Mutha river containing only sewage outside the monsoon months.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Unplanned and haphazard development has turned the Mula-Mutha River into a dead river.",
+    "zh-CN": "无计划且杂乱无章的开发已使穆拉-穆塔河成为一条死河。"
+   },
+   "excerpt": "According to Anwesha Borthakur and Pardeep Singh, unplanned and haphazard development has turned the Mula-Mutha river into a dead river.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers.",
+    "zh-CN": "2009年，浦那产生的污水只有65%在排入河流前得到处理。"
+   },
+   "excerpt": "In 2009 only 65% of sewage generated was treated before being discharged into the rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers.",
+    "zh-CN": "浦那市政公司已制定恢复河流生机的计划。"
+   },
+   "excerpt": "The Pune municipal corporation has undertaken plans to restore life into the rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir.",
+    "zh-CN": "浦那市政公司供应的饮用水取自卡达克瓦斯拉水库。"
+   },
+   "excerpt": "The PMC supplies the city with potable water that is sourced from the Khadakwasla Reservoir.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Around 1,600 tons of solid waste is generated in Pune each day."
+   },
+   "scope": null,
+   "text": {
+    "en": "Around 1,600 tons of solid waste is generated in Pune each day.",
+    "zh-CN": "浦那每天产生约1,600吨固体废物。"
+   },
+   "excerpt": "Around 1,600 tons of solid waste is generated in Pune each day.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material.",
+    "zh-CN": "浦那的固体废物由53%的有机可堆肥材料和47%的无机材料组成。"
+   },
+   "excerpt": "The waste consists of 53% organic, compostable material; and 47% inorganic material, of which around half is recyclable.",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+    "zh-CN": "浦那位于科伊纳大坝周边地震活跃区以北100公里（62英里）。"
+   },
+   "excerpt": "Pune is 100 km (62 mi) north of the seismically active zone around Koyna Dam.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5."
+   },
+   "scope": null,
+   "text": {
+    "en": "The India Meteorological Department assessed Pune as being in seismic Zone 3 on a scale of 2 to 5.",
+    "zh-CN": "印度气象局将浦那评为2至5级地震分区中的3区。"
+   },
+   "excerpt": "The India Meteorological Department has assessed this area as being in Zone 3, on a scale of 2 to 5, with 5 being the most prone to earthquakes.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "earthquakes",
+      "zh-CN": "地震"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has experienced moderate- and low-intensity earthquakes in its history.",
+    "zh-CN": "浦那历史上曾经历中等强度和多次低强度地震。"
+   },
+   "excerpt": "Pune has experienced some moderate – and many low – intensity earthquakes in its history.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "73,000"
+   },
+   "scope": "1851",
+   "text": {
+    "en": "Pune had a population of 73,000 in 1851.",
+    "zh-CN": "1851年，浦那的人口为73,000。"
+   },
+   "excerpt": "1851 73,000—",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "118,790"
+   },
+   "scope": "1891",
+   "text": {
+    "en": "Pune had a population of 118,790 in 1891.",
+    "zh-CN": "1891年，浦那的人口为118,790。"
+   },
+   "excerpt": "1891 118,790+62.7%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "153,320"
+   },
+   "scope": "1901",
+   "text": {
+    "en": "Pune had a population of 153,320 in 1901.",
+    "zh-CN": "1901年，浦那的人口为153,320。"
+   },
+   "excerpt": "1901 153,320+29.1%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "158,856"
+   },
+   "scope": "1911",
+   "text": {
+    "en": "Pune had a population of 158,856 in 1911.",
+    "zh-CN": "1911年，浦那的人口为158,856。"
+   },
+   "excerpt": "1911 158,856+3.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,523"
+   },
+   "scope": "1921",
+   "text": {
+    "en": "Pune had a population of 198,523 in 1921.",
+    "zh-CN": "1921年，浦那的人口为198,523。"
+   },
+   "excerpt": "1921 198,523+25.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "198,078"
+   },
+   "scope": "1931",
+   "text": {
+    "en": "Pune had a population of 198,078 in 1931.",
+    "zh-CN": "1931年，浦那的人口为198,078。"
+   },
+   "excerpt": "1931 198,078−0.2%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "257,554"
+   },
+   "scope": "1941",
+   "text": {
+    "en": "Pune had a population of 257,554 in 1941.",
+    "zh-CN": "1941年，浦那的人口为257,554。"
+   },
+   "excerpt": "1941 257,554+30.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "488,419"
+   },
+   "scope": "1951",
+   "text": {
+    "en": "Pune had a population of 488,419 in 1951.",
+    "zh-CN": "1951年，浦那的人口为488,419。"
+   },
+   "excerpt": "1951 488,419+89.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "856,105"
+   },
+   "scope": "1971",
+   "text": {
+    "en": "Pune had a population of 856,105 in 1971.",
+    "zh-CN": "1971年，浦那的人口为856,105。"
+   },
+   "excerpt": "1971 856,105+75.3%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,203,351"
+   },
+   "scope": "1981",
+   "text": {
+    "en": "Pune had a population of 1,203,351 in 1981.",
+    "zh-CN": "1981年，浦那的人口为1,203,351。"
+   },
+   "excerpt": "1981 1,203,351+40.6%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "1,566,651"
+   },
+   "scope": "1991",
+   "text": {
+    "en": "Pune had a population of 1,566,651 in 1991.",
+    "zh-CN": "1991年，浦那的人口为1,566,651。"
+   },
+   "excerpt": "1991 1,566,651+30.2%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,540,069"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "Pune had a population of 2,540,069 in 2001.",
+    "zh-CN": "2001年，浦那的人口为2,540,069。"
+   },
+   "excerpt": "2001 2,540,069+62.1%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,124,458"
+   },
+   "scope": "2011",
+   "text": {
+    "en": "Pune had a population of 3,124,458 in 2011.",
+    "zh-CN": "2011年，浦那的人口为3,124,458。"
+   },
+   "excerpt": "2011 3,124,458+23.0%",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a major industrial metropolis that has attracted migrants from all parts of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a major industrial metropolis that has attracted migrants from all parts of India.",
+    "zh-CN": "浦那是一座吸引印度各地移民的主要工业都市。"
+   },
+   "excerpt": "Since Pune is a major industrial metropolis, it has attracted migrants from all parts of India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "43,900"
+   },
+   "scope": "2001",
+   "text": {
+    "en": "The number of people migrating to Pune was 43,900 in 2001.",
+    "zh-CN": "2001年，迁入浦那的人数为43,900。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "88,200"
+   },
+   "scope": "2005",
+   "text": {
+    "en": "The number of people migrating to Pune was 88,200 in 2005.",
+    "zh-CN": "2005年，迁入浦那的人数为88,200。"
+   },
+   "excerpt": "The number of people migrating to Pune rose from 43,900 in 2001 to 88,200 in 2005.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Thirty-eight fringe villages were absorbed into Pune during the decade from 1991 to 2001.",
+    "zh-CN": "1991年至2001年间，浦那吸纳了38个外围村庄。"
+   },
+   "excerpt": "The sharp increase in population during the decade 1991–2001 led to the absorption of 38 fringe villages into the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth."
+   },
+   "scope": null,
+   "text": {
+    "en": "Immigration from former rural areas accounted for 70 per cent of Pune's population growth.",
+    "zh-CN": "来自原农村地区的人口迁入占浦那人口增长的70%。"
+   },
+   "excerpt": "As agriculture has dwindled in recent decades, immigration of the erstwhile rural peoples now accounts for 70 per cent of the population growth.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 86.15% in 2011."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 86.15% in 2011.",
+    "zh-CN": "2011年，浦那的平均识字率为86.15%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's average literacy rate was 80.45% in 2001."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's average literacy rate was 80.45% in 2001.",
+    "zh-CN": "2001年，浦那的平均识字率为80.45%。"
+   },
+   "excerpt": "The average literacy rate of Pune was 86.15% in 2011 compared to 80.45% in 2001.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Hinduism is the major religion in Pune, practised by a little under 80% of the population."
+   },
+   "scope": null,
+   "text": {
+    "en": "Hinduism is the major religion in Pune, practised by a little under 80% of the population.",
+    "zh-CN": "印度教是浦那的主要宗教，信徒略少于总人口的80%。"
+   },
+   "excerpt": "Hinduism is the major religion, practised by a little under 80% of people in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Parvati temple complex",
+      "zh-CN": "帕尔瓦蒂寺群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "18th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Parvati temple complex on Parvati Hill dates back to the 18th century.",
+    "zh-CN": "帕尔瓦蒂山上的帕尔瓦蒂寺群可追溯至18世纪。"
+   },
+   "excerpt": "Of the many Hindu temples in the city, the Parvati temple complex on Parvati Hill and at least 250 others date back to the 18th century.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+    "zh-CN": "达加杜塞特·哈尔瓦伊·象头神庙是浦那最富有的象头神庙。"
+   },
+   "excerpt": "Dagadusheth Halwai Ganapati Temple is the richest Ganesh temple in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Meher Baba was born in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Meher Baba was born in Pune.",
+    "zh-CN": "梅赫·巴巴出生于浦那。"
+   },
+   "excerpt": "Pune is also the birthplace of Meher Baba, although his followers usually travel to Meherabad to visit his tomb.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "St. Patrick's Cathedral",
+      "zh-CN": "圣帕特里克大教堂"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1850"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "St. Patrick's Cathedral was built in 1850.",
+    "zh-CN": "圣帕特里克大教堂建于1850年。"
+   },
+   "excerpt": "St. Patrick's Cathedral built in 1850 is the seat of the bishop of the Roman Catholic Diocese of Poona.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Ohel David Synagogue",
+      "zh-CN": "欧海尔·大卫会堂"
+     }
+    },
+    "date": {
+     "raw": "19th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ohel David Synagogue, locally known as Lal Deval, dates to the 19th century.",
+    "zh-CN": "当地称为“红色会堂”的欧海尔·大卫会堂可追溯至19世纪。"
+   },
+   "excerpt": "The 19th-century Ohel David Synagogue, known locally as Lal Deval, is said to be one of the largest synagogues in Asia outside Israel.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Osho lived and taught in Pune for much of the 1970s and 1980s."
+   },
+   "scope": null,
+   "text": {
+    "en": "Osho lived and taught in Pune for much of the 1970s and 1980s.",
+    "zh-CN": "奥修在20世纪70年代和80年代的大部分时间里居住并讲学于浦那。"
+   },
+   "excerpt": "The controversial Guru Rajneesh, also known as Osho, lived and taught in Pune for much of the 1970s and 1980s.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Osho International Meditation Resort is located in Koregaon Park in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Osho International Meditation Resort is located in Koregaon Park in Pune.",
+    "zh-CN": "奥修国际冥想度假村位于浦那的科里冈公园。"
+   },
+   "excerpt": "The Osho International Meditation Resort, one of the world's largest spiritual centres, is located in Koregaon Park and attracts visitors from over a hundred countries.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the most-spoken language in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the most-spoken language in Pune.",
+    "zh-CN": "马拉地语是浦那使用最广泛的语言。"
+   },
+   "excerpt": "Marathi is the official and most-spoken language.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of Maharashtra and a centre for Marathi literature.",
+    "zh-CN": "浦那是马哈拉施特拉邦的文化之都，也是马拉地文学中心。"
+   },
+   "excerpt": "Pune, being the cultural capital of Maharashtra, is a centre for Marathi literature and its dialect forms the basis for the written standard of Marathi.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are responsible for local government.",
+    "zh-CN": "浦那市政公司和皮姆普里-钦奇瓦德市政公司负责地方治理。"
+   },
+   "excerpt": "Pune Municipal Corporation and Pimpri-Chinchwad Municipal Corporation are the civic bodies responsible for local government.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune City Police Department is the law-enforcement agency for Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune City Police Department is the law-enforcement agency for Pune.",
+    "zh-CN": "浦那城市警察局是浦那的执法机构。"
+   },
+   "excerpt": "The Pune City Police Department is the law enforcement agency for the city of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River in Pune contains only sewage outside the monsoon months.",
+    "zh-CN": "浦那的穆塔河在季风月份以外只含污水。"
+   },
+   "excerpt": "The city lacks the capacity to treat all the sewage it generates, which leads to the Mutha river containing only sewage outside the monsoon months.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Unplanned and haphazard development has turned the Mula-Mutha River into a dead river.",
+    "zh-CN": "无计划且杂乱无章的开发已使穆拉-穆塔河成为一条死河。"
+   },
+   "excerpt": "According to Anwesha Borthakur and Pardeep Singh, unplanned and haphazard development has turned the Mula-Mutha river into a dead river.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only 65% of the sewage generated in Pune was treated in 2009 before discharge into rivers.",
+    "zh-CN": "2009年，浦那产生的污水只有65%在排入河流前得到处理。"
+   },
+   "excerpt": "In 2009 only 65% of sewage generated was treated before being discharged into the rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation has undertaken plans to restore life to the rivers.",
+    "zh-CN": "浦那市政公司已制定恢复河流生机的计划。"
+   },
+   "excerpt": "The Pune municipal corporation has undertaken plans to restore life into the rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Municipal Corporation supplies potable water sourced from the Khadakwasla Reservoir.",
+    "zh-CN": "浦那市政公司供应的饮用水取自卡达克瓦斯拉水库。"
+   },
+   "excerpt": "The PMC supplies the city with potable water that is sourced from the Khadakwasla Reservoir.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Around 1,600 tons of solid waste is generated in Pune each day."
+   },
+   "scope": null,
+   "text": {
+    "en": "Around 1,600 tons of solid waste is generated in Pune each day.",
+    "zh-CN": "浦那每天产生约1,600吨固体废物。"
+   },
+   "excerpt": "Around 1,600 tons of solid waste is generated in Pune each day.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's solid waste consists of 53% organic compostable material and 47% inorganic material.",
+    "zh-CN": "浦那的固体废物由53%的有机可堆肥材料和47%的无机材料组成。"
+   },
+   "excerpt": "The waste consists of 53% organic, compostable material; and 47% inorganic material, of which around half is recyclable.",
+   "source_id": "s03"
+  }
+ ]
+}

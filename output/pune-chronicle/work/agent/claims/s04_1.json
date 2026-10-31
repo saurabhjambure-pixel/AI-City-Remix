@@ -1,0 +1,940 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in west-central Maharashtra state in western India.",
+    "zh-CN": "浦那位于印度西部马哈拉施特拉邦中西部。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha peoples",
+      "zh-CN": "马拉塔人"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of the Maratha peoples.",
+    "zh-CN": "浦那是马拉塔人的文化之都。"
+   },
+   "excerpt": "Called “Queen of the Deccan,” Pune is the cultural capital of the Maratha peoples.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhonsle Marathas",
+      "zh-CN": "博恩斯勒马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "17th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+    "zh-CN": "浦那在17世纪首次作为博恩斯勒马拉塔人的首都而important起来。"
+   },
+   "excerpt": "The city first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mughals",
+      "zh-CN": "莫卧儿人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was temporarily captured by the Mughals.",
+    "zh-CN": "浦那曾一度被莫卧儿人占领。"
+   },
+   "excerpt": "It was temporarily captured by the Mughals",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1714"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune served as the official Maratha capital from 1714.",
+    "zh-CN": "浦那自1714年起担任马拉塔人的正式首都。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune fell to the British in 1817.",
+    "zh-CN": "浦那于1817年落入英国人手中。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bombay Presidency",
+      "zh-CN": "孟买总督辖区"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was the seasonal capital of the Bombay Presidency.",
+    "zh-CN": "浦那曾是孟买总督辖区的季节性首府。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+    "zh-CN": "浦那是一个颇受欢迎的旅游度假地，拥有凉爽的天气、历史与宗教纪念物、博物馆、公园、酒店和文化景点。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "“Oxford and Cambridge of India.”"
+   },
+   "scope": null,
+   "text": {
+    "en": "Jawaharlal Nehru referred to Pune as the “Oxford and Cambridge of India.”",
+    "zh-CN": "贾瓦哈拉尔·尼赫鲁称浦那为“印度的牛津和剑桥”。"
+   },
+   "excerpt": "former prime minister Jawaharlal Nehru referred to it as the “Oxford and Cambridge of India.”",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune houses some 30 constituent and affiliated colleges of the University of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune houses some 30 constituent and affiliated colleges of the University of Pune.",
+    "zh-CN": "浦那拥有浦那大学的约30所直属及附属学院。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune",
+      "zh-CN": "浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1948"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune dates to 1948.",
+    "zh-CN": "浦那大学始于1948年。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhandarkar Oriental Research Institute",
+      "zh-CN": "班达卡尔东方研究所"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1917"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute dates to 1917.",
+    "zh-CN": "班达卡尔东方研究所始于1917年。"
+   },
+   "excerpt": "the Bhandarkar Oriental Research Institute (1917) is renowned for research and instruction in the Sanskrit and Prakrit languages",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts.",
+    "zh-CN": "班达卡尔东方研究所收藏有超过20,000份古代手稿。"
+   },
+   "excerpt": "and has more than 20,000 ancient manuscripts.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Southern Command of the Indian Army",
+      "zh-CN": "印度军队南方司令部"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the headquarters of the southern command of the Indian Army.",
+    "zh-CN": "浦那是印度军队南方司令部的所在地。"
+   },
+   "excerpt": "Pune is also the headquarters of the southern command of the Indian army, with the Khadakwasla Academy located nearby.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A sprawling complex of industrial suburbs has developed around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "A sprawling complex of industrial suburbs has developed around Pune.",
+    "zh-CN": "浦那周围已形成一片庞大的工业郊区。"
+   },
+   "excerpt": "A sprawling complex of industrial suburbs has developed around the city.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is largely residential and commercial."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is largely residential and commercial.",
+    "zh-CN": "浦那老城 largely 以住宅和商业用途为主。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is served by large-scale commuter transport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is served by large-scale commuter transport.",
+    "zh-CN": "浦那老城拥有大规模通勤交通服务。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam",
+      "zh-CN": "潘谢特水坝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The collapse of the Panshet Dam in 1961 washed away a substantial part of Pune's old town.",
+    "zh-CN": "潘谢特水坝于1961年坍塌，冲毁了浦那老城的一大部分。"
+   },
+   "excerpt": "In 1961 the Panshet Dam collapsed, washing away a substantial part of the old town.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,538,473"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's city population was 2,538,473 in 2001.",
+    "zh-CN": "2001年浦那市区人口为2,538,473。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,760,636"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's urban agglomeration population was 3,760,636 in 2001.",
+    "zh-CN": "2001年浦那城市集聚区人口为3,760,636。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary city population was 3,115,431 in 2011.",
+    "zh-CN": "2011年浦那市区初步人口为3,115,431。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "5,049,968"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary urban agglomeration population was 5,049,968 in 2011.",
+    "zh-CN": "2011年浦那城市集聚区初步人口为5,049,968。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in west-central Maharashtra state in western India.",
+    "zh-CN": "浦那位于印度西部马哈拉施特拉邦中西部。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is situated at the junction of the Mula and Mutha rivers.",
+    "zh-CN": "浦那位于穆拉河与穆塔河的交汇处。"
+   },
+   "excerpt": "Pune, city, west-central Maharashtra state, western India, at the junction of the Mula and Mutha rivers.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maratha peoples",
+      "zh-CN": "马拉塔人"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the cultural capital of the Maratha peoples.",
+    "zh-CN": "浦那是马拉塔人的文化之都。"
+   },
+   "excerpt": "Called “Queen of the Deccan,” Pune is the cultural capital of the Maratha peoples.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhonsle Marathas",
+      "zh-CN": "博恩斯勒马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "17th century"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+    "zh-CN": "浦那在17世纪首次作为博恩斯勒马拉塔人的首都而important起来。"
+   },
+   "excerpt": "The city first gained importance as the capital of the Bhonsle Marathas in the 17th century.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mughals",
+      "zh-CN": "莫卧儿人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was temporarily captured by the Mughals.",
+    "zh-CN": "浦那曾一度被莫卧儿人占领。"
+   },
+   "excerpt": "It was temporarily captured by the Mughals",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1714"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune served as the official Maratha capital from 1714.",
+    "zh-CN": "浦那自1714年起担任马拉塔人的正式首都。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1817"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune fell to the British in 1817.",
+    "zh-CN": "浦那于1817年落入英国人手中。"
+   },
+   "excerpt": "again served as the official Maratha capital from 1714 until its fall to the British in 1817.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bombay Presidency",
+      "zh-CN": "孟买总督辖区"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was the seasonal capital of the Bombay Presidency.",
+    "zh-CN": "浦那曾是孟买总督辖区的季节性首府。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is a popular tourist resort offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+    "zh-CN": "浦那是一个颇受欢迎的旅游度假地，拥有凉爽的天气、历史与宗教纪念物、博物馆、公园、酒店和文化景点。"
+   },
+   "excerpt": "It was the seasonal capital of the Bombay Presidency and is now a popular tourist resort, offering cool weather, historic and religious monuments, museums, parks, hotels, and cultural attractions.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "“Oxford and Cambridge of India.”"
+   },
+   "scope": null,
+   "text": {
+    "en": "Jawaharlal Nehru referred to Pune as the “Oxford and Cambridge of India.”",
+    "zh-CN": "贾瓦哈拉尔·尼赫鲁称浦那为“印度的牛津和剑桥”。"
+   },
+   "excerpt": "former prime minister Jawaharlal Nehru referred to it as the “Oxford and Cambridge of India.”",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune houses some 30 constituent and affiliated colleges of the University of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune houses some 30 constituent and affiliated colleges of the University of Pune.",
+    "zh-CN": "浦那拥有浦那大学的约30所直属及附属学院。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune",
+      "zh-CN": "浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1948"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune dates to 1948.",
+    "zh-CN": "浦那大学始于1948年。"
+   },
+   "excerpt": "The city houses some 30 constituent and affiliated colleges of the University of Pune (1948);",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bhandarkar Oriental Research Institute",
+      "zh-CN": "班达卡尔东方研究所"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1917"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute dates to 1917.",
+    "zh-CN": "班达卡尔东方研究所始于1917年。"
+   },
+   "excerpt": "the Bhandarkar Oriental Research Institute (1917) is renowned for research and instruction in the Sanskrit and Prakrit languages",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhandarkar Oriental Research Institute holds more than 20,000 ancient manuscripts.",
+    "zh-CN": "班达卡尔东方研究所收藏有超过20,000份古代手稿。"
+   },
+   "excerpt": "and has more than 20,000 ancient manuscripts.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "capital_of",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Southern Command of the Indian Army",
+      "zh-CN": "印度军队南方司令部"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the headquarters of the southern command of the Indian Army.",
+    "zh-CN": "浦那是印度军队南方司令部的所在地。"
+   },
+   "excerpt": "Pune is also the headquarters of the southern command of the Indian army, with the Khadakwasla Academy located nearby.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A sprawling complex of industrial suburbs has developed around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "A sprawling complex of industrial suburbs has developed around Pune.",
+    "zh-CN": "浦那周围已形成一片庞大的工业郊区。"
+   },
+   "excerpt": "A sprawling complex of industrial suburbs has developed around the city.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is largely residential and commercial."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is largely residential and commercial.",
+    "zh-CN": "浦那老城 largely 以住宅和商业用途为主。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's old city is served by large-scale commuter transport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's old city is served by large-scale commuter transport.",
+    "zh-CN": "浦那老城拥有大规模通勤交通服务。"
+   },
+   "excerpt": "The old city is largely residential and commercial and is served by large-scale commuter transport.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet Dam",
+      "zh-CN": "潘谢特水坝"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The collapse of the Panshet Dam in 1961 washed away a substantial part of Pune's old town.",
+    "zh-CN": "潘谢特水坝于1961年坍塌，冲毁了浦那老城的一大部分。"
+   },
+   "excerpt": "In 1961 the Panshet Dam collapsed, washing away a substantial part of the old town.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "2,538,473"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's city population was 2,538,473 in 2001.",
+    "zh-CN": "2001年浦那市区人口为2,538,473。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,760,636"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's urban agglomeration population was 3,760,636 in 2001.",
+    "zh-CN": "2001年浦那城市集聚区人口为3,760,636。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary city population was 3,115,431 in 2011.",
+    "zh-CN": "2011年浦那市区初步人口为3,115,431。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "5,049,968"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's preliminary urban agglomeration population was 5,049,968 in 2011.",
+    "zh-CN": "2011年浦那城市集聚区初步人口为5,049,968。"
+   },
+   "excerpt": "Pop. (2001) city, 2,538,473; urban agglom., 3,760,636; (2011 prelim.) city, 3,115,431; urban agglom., 5,049,968.",
+   "source_id": "s04"
+  }
+ ]
+}

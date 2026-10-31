@@ -1,0 +1,686 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State of Maharashtra Capital: Mumbai Second capital: Nagpur History Aurangabad Mumbai Nagpur Nashik Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Bhima River",
+     "zh-CN": "比马河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhima River is among Pune's geographical water bodies.",
+    "zh-CN": "比马河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Bhima River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River is among Pune's geographical water bodies.",
+    "zh-CN": "因德拉亚尼河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Indrayani River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉－穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula-Mutha River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mutha River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Nira River",
+     "zh-CN": "尼拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nira River is among Pune's geographical water bodies.",
+    "zh-CN": "尼拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Nira River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River is among Pune's geographical water bodies.",
+    "zh-CN": "帕瓦纳河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Pavana River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿迦汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aga Khan Palace is a landmark in Pune.",
+    "zh-CN": "阿迦汗宫是浦那的一处地标。"
+   },
+   "excerpt": "Aga Khan Palace",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal is a landmark in Pune.",
+    "zh-CN": "拉尔宫是浦那的一处地标。"
+   },
+   "excerpt": "Lal Mahal",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Sinhagad",
+      "zh-CN": "辛哈加德"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Sinhagad is a landmark in Pune.",
+    "zh-CN": "辛哈加德是浦那的一处地标。"
+   },
+   "excerpt": "Sinhagad",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Dashabhuja Ganapati Temple",
+      "zh-CN": "达沙布贾象头神庙"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Dashabhuja Ganapati Temple is a temple in Pune.",
+    "zh-CN": "达沙布贾象头神庙是浦那的一座寺庙。"
+   },
+   "excerpt": "Dashabhuja Ganapati Temple, Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Nehru Stadium",
+      "zh-CN": "尼赫鲁体育场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nehru Stadium is a stadium in Pune.",
+    "zh-CN": "尼赫鲁体育场是浦那的一座体育场。"
+   },
+   "excerpt": "Nehru Stadium, Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Airport",
+      "zh-CN": "浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Airport is an airport in Pune.",
+    "zh-CN": "浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "Pune Airport",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "New Pune Airport",
+      "zh-CN": "新浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "New Pune Airport is an airport in Pune.",
+    "zh-CN": "新浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "New Pune Airport",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "2010 Pune bombing",
+      "zh-CN": "2010年浦那爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred in Pune in 2010.",
+    "zh-CN": "2010年浦那发生了一起爆炸事件。"
+   },
+   "excerpt": "2010 Pune bombing",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State of Maharashtra Capital: Mumbai Second capital: Nagpur History Aurangabad Mumbai Nagpur Nashik Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Bhima River",
+     "zh-CN": "比马河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Bhima River is among Pune's geographical water bodies.",
+    "zh-CN": "比马河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Bhima River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River is among Pune's geographical water bodies.",
+    "zh-CN": "因德拉亚尼河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Indrayani River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉－穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆拉－穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mula-Mutha River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River is among Pune's geographical water bodies.",
+    "zh-CN": "穆塔河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Mutha River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Nira River",
+     "zh-CN": "尼拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nira River is among Pune's geographical water bodies.",
+    "zh-CN": "尼拉河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Nira River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River is among Pune's geographical water bodies.",
+    "zh-CN": "帕瓦纳河是浦那地理范围内的水体之一。"
+   },
+   "excerpt": "Pavana River",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aga Khan Palace",
+      "zh-CN": "阿迦汗宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aga Khan Palace is a landmark in Pune.",
+    "zh-CN": "阿迦汗宫是浦那的一处地标。"
+   },
+   "excerpt": "Aga Khan Palace",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal is a landmark in Pune.",
+    "zh-CN": "拉尔宫是浦那的一处地标。"
+   },
+   "excerpt": "Lal Mahal",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Sinhagad",
+      "zh-CN": "辛哈加德"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Sinhagad is a landmark in Pune.",
+    "zh-CN": "辛哈加德是浦那的一处地标。"
+   },
+   "excerpt": "Sinhagad",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Dashabhuja Ganapati Temple",
+      "zh-CN": "达沙布贾象头神庙"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Dashabhuja Ganapati Temple is a temple in Pune.",
+    "zh-CN": "达沙布贾象头神庙是浦那的一座寺庙。"
+   },
+   "excerpt": "Dashabhuja Ganapati Temple, Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Nehru Stadium",
+      "zh-CN": "尼赫鲁体育场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Nehru Stadium is a stadium in Pune.",
+    "zh-CN": "尼赫鲁体育场是浦那的一座体育场。"
+   },
+   "excerpt": "Nehru Stadium, Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Airport",
+      "zh-CN": "浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Airport is an airport in Pune.",
+    "zh-CN": "浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "Pune Airport",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "New Pune Airport",
+      "zh-CN": "新浦那机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "New Pune Airport is an airport in Pune.",
+    "zh-CN": "新浦那机场是浦那的一座机场。"
+   },
+   "excerpt": "New Pune Airport",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "2010 Pune bombing",
+      "zh-CN": "2010年浦那爆炸事件"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bombing occurred in Pune in 2010.",
+    "zh-CN": "2010年浦那发生了一起爆炸事件。"
+   },
+   "excerpt": "2010 Pune bombing",
+   "source_id": "s03"
+  }
+ ]
+}

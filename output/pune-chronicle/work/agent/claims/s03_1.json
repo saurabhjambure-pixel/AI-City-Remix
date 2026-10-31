@@ -1,0 +1,609 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "western part of India",
+     "zh-CN": "印度西部"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in the western part of India.",
+    "zh-CN": "浦那位于印度西部。"
+   },
+   "excerpt": "Pune is in the western part of India, in the northwest of Maharashtra State.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "758 CE"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established in 758 CE.",
+    "zh-CN": "浦那于公元758年建立。"
+   },
+   "excerpt": "established_date\":{\"wt\":\"758 CE\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18",
+    "unit": "km²"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation covers 516.18 km².",
+    "zh-CN": "浦那市政公司辖区面积为516.18平方公里。"
+   },
+   "excerpt": "area_blank1_km2\":{\"wt\":\"516.18\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256.46",
+    "unit": "km²"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region covers 7,256.46 km².",
+    "zh-CN": "浦那都会区面积为7,256.46平方公里。"
+   },
+   "excerpt": "area_blank2_km2\":{\"wt\":\"7,256.46\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "6,200,000"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation has a population of 6,200,000.",
+    "zh-CN": "浦那市政公司辖区人口为620万。"
+   },
+   "excerpt": "population_blank1\":{\"wt\":\"6,200,000\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "7,276,000"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region has a population of 7,276,000.",
+    "zh-CN": "浦那都会区人口为727.6万。"
+   },
+   "excerpt": "population_blank2\":{\"wt\":\"7,276,000\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River runs through Pune.",
+    "zh-CN": "穆拉-穆塔河流经浦那。"
+   },
+   "excerpt": "Pune Metro alongside [[Mula-Mutha River]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "largest",
+    "category": {
+     "label": {
+      "en": "city in Maharashtra by geographical area",
+      "zh-CN": "马哈拉施特拉邦按地理面积计算的城市"
+     }
+    },
+    "as_of": 2021
+   },
+   "scope": null,
+   "text": {
+    "en": "In 2021, Pune was described as Maharashtra's largest city by geographical area.",
+    "zh-CN": "2021年，浦那被称为马哈拉施特拉邦按地理面积计算的最大城市。"
+   },
+   "excerpt": "date=1 July 2021 |title=Pune pips Mumbai as Maharashtra's largest city in terms of geographical area",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is also known as Poona."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is also known as Poona.",
+    "zh-CN": "浦那也被称为Poona。"
+   },
+   "excerpt": "other_name\":{\"wt\":\"Poona\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East.",
+    "zh-CN": "浦那的别称包括“东方牛津”“德干女王”和“东方底特律”。"
+   },
+   "excerpt": "Nicknames:\nOxford of the East, The Queen of Deccan, Detroit of the East",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is governed as a municipal corporation by the Pune Municipal Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is governed as a municipal corporation by the Pune Municipal Corporation.",
+    "zh-CN": "浦那实行市政公司治理，治理机构为浦那市政公司。"
+   },
+   "excerpt": "government_type\":{\"wt\":\"[[Municipal Corporations in India|Municipal Corporation]]\"},\"governing_body\":{\"wt\":\"[[Pune Municipal Corporation]]\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The mayor of Pune is Manjusha Nagpure."
+   },
+   "scope": null,
+   "text": {
+    "en": "The mayor of Pune is Manjusha Nagpure.",
+    "zh-CN": "浦那市长是Manjusha Nagpure。"
+   },
+   "excerpt": "leader_name\":{\"wt\":\"Manjusha Nagpure\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's elevation is 570.62 metres."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's elevation is 570.62 metres.",
+    "zh-CN": "浦那海拔为570.62米。"
+   },
+   "excerpt": "elevation_m\":{\"wt\":\"570.62\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "custom_label1_sec1\":{\"wt\":\"[[Official language]]\"},\"custom_data1_sec1\":{\"wt\":\"[[Marathi language|Marathi]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is the city's international airport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is the city's international airport.",
+    "zh-CN": "浦那国际机场是该市的国际机场。"
+   },
+   "excerpt": "custom_label2_sec1\":{\"wt\":\"[[International airport]]s\"},\"custom_data2_sec1\":{\"wt\":\"[[Pune International Airport]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's rapid transit system is Pune Metro."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's rapid transit system is Pune Metro.",
+    "zh-CN": "浦那的快速交通系统是浦那地铁。"
+   },
+   "excerpt": "custom_label3_sec1\":{\"wt\":\"[[Transit system|Transit]]\"},\"custom_data3_sec1\":{\"wt\":\"'''[[Rapid Transit]]''': [[Pune Metro]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's commuter rail system is Pune Suburban Railway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's commuter rail system is Pune Suburban Railway.",
+    "zh-CN": "浦那的通勤铁路系统是浦那郊区铁路。"
+   },
+   "excerpt": "'''[[Commuter rail]]''': [[Pune Suburban Railway]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority."
+   },
+   "scope": null,
+   "text": {
+    "en": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority.",
+    "zh-CN": "浦那的城市规划机构是浦那都会区发展局。"
+   },
+   "excerpt": "custom_label4_sec1\":{\"wt\":\"Urban Planning Authority\"},\"custom_data4_sec1\":{\"wt\":\"[[Pune Metropolitan Region Development Authority]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's GDP is $78 billion."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's GDP is $78 billion.",
+    "zh-CN": "浦那的国内生产总值为780亿美元。"
+   },
+   "excerpt": "custom_data5_sec1\":{\"wt\":\"$78 billion",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "City in Maharashtra, India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "western part of India",
+     "zh-CN": "印度西部"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is in the western part of India.",
+    "zh-CN": "浦那位于印度西部。"
+   },
+   "excerpt": "Pune is in the western part of India, in the northwest of Maharashtra State.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18",
+    "unit": "km²"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation covers 516.18 km².",
+    "zh-CN": "浦那市政公司辖区面积为516.18平方公里。"
+   },
+   "excerpt": "area_blank1_km2\":{\"wt\":\"516.18\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256.46",
+    "unit": "km²"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region covers 7,256.46 km².",
+    "zh-CN": "浦那都会区面积为7,256.46平方公里。"
+   },
+   "excerpt": "area_blank2_km2\":{\"wt\":\"7,256.46\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "6,200,000"
+   },
+   "scope": "Pune Municipal Corporation",
+   "text": {
+    "en": "The Pune Municipal Corporation has a population of 6,200,000.",
+    "zh-CN": "浦那市政公司辖区人口为620万。"
+   },
+   "excerpt": "population_blank1\":{\"wt\":\"6,200,000\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "date": null,
+    "raw": "7,276,000"
+   },
+   "scope": "Pune Metropolitan Region",
+   "text": {
+    "en": "The Pune Metropolitan Region has a population of 7,276,000.",
+    "zh-CN": "浦那都会区人口为727.6万。"
+   },
+   "excerpt": "population_blank2\":{\"wt\":\"7,276,000\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "largest",
+    "category": {
+     "label": {
+      "en": "city in Maharashtra by geographical area",
+      "zh-CN": "马哈拉施特拉邦按地理面积计算的城市"
+     }
+    },
+    "as_of": 2021
+   },
+   "scope": null,
+   "text": {
+    "en": "In 2021, Pune was described as Maharashtra's largest city by geographical area.",
+    "zh-CN": "2021年，浦那被称为马哈拉施特拉邦按地理面积计算的最大城市。"
+   },
+   "excerpt": "date=1 July 2021 |title=Pune pips Mumbai as Maharashtra's largest city in terms of geographical area",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is also known as Poona."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is also known as Poona.",
+    "zh-CN": "浦那也被称为Poona。"
+   },
+   "excerpt": "other_name\":{\"wt\":\"Poona\"}",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is nicknamed the Oxford of the East, the Queen of Deccan, and the Detroit of the East.",
+    "zh-CN": "浦那的别称包括“东方牛津”“德干女王”和“东方底特律”。"
+   },
+   "excerpt": "Nicknames:\nOxford of the East, The Queen of Deccan, Detroit of the East",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is governed as a municipal corporation by the Pune Municipal Corporation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is governed as a municipal corporation by the Pune Municipal Corporation.",
+    "zh-CN": "浦那实行市政公司治理，治理机构为浦那市政公司。"
+   },
+   "excerpt": "government_type\":{\"wt\":\"[[Municipal Corporations in India|Municipal Corporation]]\"},\"governing_body\":{\"wt\":\"[[Pune Municipal Corporation]]\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The mayor of Pune is Manjusha Nagpure."
+   },
+   "scope": null,
+   "text": {
+    "en": "The mayor of Pune is Manjusha Nagpure.",
+    "zh-CN": "浦那市长是Manjusha Nagpure。"
+   },
+   "excerpt": "leader_name\":{\"wt\":\"Manjusha Nagpure\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's elevation is 570.62 metres."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's elevation is 570.62 metres.",
+    "zh-CN": "浦那海拔为570.62米。"
+   },
+   "excerpt": "elevation_m\":{\"wt\":\"570.62\"",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Marathi is the official language of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Marathi is the official language of Pune.",
+    "zh-CN": "马拉地语是浦那的官方语言。"
+   },
+   "excerpt": "custom_label1_sec1\":{\"wt\":\"[[Official language]]\"},\"custom_data1_sec1\":{\"wt\":\"[[Marathi language|Marathi]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune International Airport is the city's international airport."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is the city's international airport.",
+    "zh-CN": "浦那国际机场是该市的国际机场。"
+   },
+   "excerpt": "custom_label2_sec1\":{\"wt\":\"[[International airport]]s\"},\"custom_data2_sec1\":{\"wt\":\"[[Pune International Airport]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's rapid transit system is Pune Metro."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's rapid transit system is Pune Metro.",
+    "zh-CN": "浦那的快速交通系统是浦那地铁。"
+   },
+   "excerpt": "custom_label3_sec1\":{\"wt\":\"[[Transit system|Transit]]\"},\"custom_data3_sec1\":{\"wt\":\"'''[[Rapid Transit]]''': [[Pune Metro]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's commuter rail system is Pune Suburban Railway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's commuter rail system is Pune Suburban Railway.",
+    "zh-CN": "浦那的通勤铁路系统是浦那郊区铁路。"
+   },
+   "excerpt": "'''[[Commuter rail]]''': [[Pune Suburban Railway]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority."
+   },
+   "scope": null,
+   "text": {
+    "en": "The urban planning authority for Pune is the Pune Metropolitan Region Development Authority.",
+    "zh-CN": "浦那的城市规划机构是浦那都会区发展局。"
+   },
+   "excerpt": "custom_label4_sec1\":{\"wt\":\"Urban Planning Authority\"},\"custom_data4_sec1\":{\"wt\":\"[[Pune Metropolitan Region Development Authority]]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's GDP is $78 billion."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's GDP is $78 billion.",
+    "zh-CN": "浦那的国内生产总值为780亿美元。"
+   },
+   "excerpt": "custom_data5_sec1\":{\"wt\":\"$78 billion",
+   "source_id": "s03"
+  }
+ ]
+}

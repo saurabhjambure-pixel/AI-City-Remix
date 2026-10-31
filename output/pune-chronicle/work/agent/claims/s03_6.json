@@ -1,0 +1,2362 @@
+{
+ "raw": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity."
+   },
+   "scope": null,
+   "text": {
+    "en": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity.",
+    "zh-CN": "由于现有机场容量有限，提议新建恰特拉帕蒂·桑巴吉·马哈拉吉国际机场。"
+   },
+   "excerpt": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport has been proposed, due to the limited capacity of the existing airport.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Non-availability of land delayed the proposed airport project for over a decade."
+   },
+   "scope": null,
+   "text": {
+    "en": "Non-availability of land delayed the proposed airport project for over a decade.",
+    "zh-CN": "土地未能到位使拟建机场项目延误了十多年。"
+   },
+   "excerpt": "non-availability of land delayed the project for over a decade.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport location was changed to Purandar in September 2016."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport location was changed to Purandar in September 2016.",
+    "zh-CN": "拟建机场的选址于2016年9月改为普兰达尔。"
+   },
+   "excerpt": "In September 2016 the location was changed to Purandar, about 20 kilometres (12 mi) south-east of the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement.",
+    "zh-CN": "据2024年6月的一份部长声明，在相关当局批准后，拟建机场项目预计将取得进展。"
+   },
+   "excerpt": "But with approvals in place from relevant authorities the project is going to be making progress per a statement made by the civil aviation minister in June 2024.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws.",
+    "zh-CN": "浦那的公共交通包括浦那地铁、PMPML公交服务、浦那郊区铁路和机动三轮车。"
+   },
+   "excerpt": "Public transport in Pune include two operational lines of the Pune Metro, bus services operated by PMPML, the Pune Suburban Railway and auto rickshaws.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station."
+   },
+   "scope": null,
+   "text": {
+    "en": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station.",
+    "zh-CN": "浦那地铁第三条线路正在建设，连接欣贾瓦迪信息技术园区与浦那地区法院站。"
+   },
+   "excerpt": "Work is underway on an additional, third line of Pune Metro connecting the Hinjewadi IT hub to the District Court Pune station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The third Pune Metro line is expected to open to the public by 2025."
+   },
+   "scope": null,
+   "text": {
+    "en": "The third Pune Metro line is expected to open to the public by 2025.",
+    "zh-CN": "浦那地铁第三条线路预计于2025年前后向公众开放。"
+   },
+   "excerpt": "This line is expected to open to the public by 2025.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Metro has two operational lines with a combined operational length of 31.25 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Metro has two operational lines with a combined operational length of 31.25 km.",
+    "zh-CN": "浦那地铁有两条运营线路，合计运营里程为31.25公里。"
+   },
+   "excerpt": "The system comprises two operational lines with a combined operational length of 31.25 km (19.42 mi).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km.",
+    "zh-CN": "浦那地铁第三条线路完工后，合计运营里程将增至59.1公里。"
+   },
+   "excerpt": "Construction for a third line is underway, which on completion would increase the combined operational length to 59.1 km.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station.",
+    "zh-CN": "紫线从皮姆普里钦奇瓦德市政公司地铁站通往斯瓦盖特地铁站。"
+   },
+   "excerpt": "The Purple Line starts from the Pimpri Chinchwad Municipal Corporation metro station and terminates at the Swargate metro station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station.",
+    "zh-CN": "水线从瓦纳兹地铁站通往拉姆瓦迪地铁站。"
+   },
+   "excerpt": "The Aqua line starts from the Vanaz metro station and ends at the Ramwadi metro station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange."
+   },
+   "scope": null,
+   "text": {
+    "en": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange.",
+    "zh-CN": "浦那地铁的两条运营线路均经过浦那地区法院站，该站作为跨站台换乘站。"
+   },
+   "excerpt": "Both lines pass through the District Court Pune metro station, which as acts as a cross platform interchange.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public buses within Pune and its suburbs are operated by PMPML."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public buses within Pune and its suburbs are operated by PMPML.",
+    "zh-CN": "浦那市区及郊区的公共公交车由PMPML运营。"
+   },
+   "excerpt": "Public buses within the city and its suburbs are operated by PMPML .",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "Indian city to adopt e-buses"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the first Indian city to adopt e-buses in January 2019.",
+    "zh-CN": "2019年1月，浦那成为印度首个采用电动公交车的城市。"
+   },
+   "excerpt": "In January 2019, Pune became the first Indian city to adopt e-buses",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "all-electric bus depot"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Bhekrai Nagar became India's first all-electric bus depot in January 2019.",
+    "zh-CN": "2019年1月，贝赫赖 Nagar成为印度首个全电动公交车场。"
+   },
+   "excerpt": "Bhekrai Nagar became the country's first all electric bus depot.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Up to 490 electric buses had been deployed across Pune as of January 2026."
+   },
+   "scope": null,
+   "text": {
+    "en": "Up to 490 electric buses had been deployed across Pune as of January 2026.",
+    "zh-CN": "截至2026年1月，浦那全市已部署最多490辆电动公交车。"
+   },
+   "excerpt": "As of January 2026, up to 490 electric buses have been deployed across the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "PMPML operates the Rainbow BRTS system in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "PMPML operates the Rainbow BRTS system in Pune.",
+    "zh-CN": "PMPML运营浦那的彩虹公交快速交通系统。"
+   },
+   "excerpt": "PMPML operates the Rainbow BRTS system.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched.",
+    "zh-CN": "彩虹公交快速交通系统启动时是印度同类公交快速交通系统中的首个。"
+   },
+   "excerpt": "When launched, it was the first of its kind in India bus rapid transit system in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed.",
+    "zh-CN": "截至2023年，计划总长68公里的彩虹公交快速交通系统仅完成16公里。"
+   },
+   "excerpt": "As of 2023 only 16 km out of 68 km proposed were completed for the project.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+    "zh-CN": "从耶拉瓦达至维曼讷格尔的专用公交专用道于2023年被撤销。"
+   },
+   "excerpt": "dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala.",
+    "zh-CN": "浦那郊区铁路连接浦那、皮姆普里钦奇瓦德和洛纳瓦拉。"
+   },
+   "excerpt": "The Pune Suburban Railway (popularly called local trains) connects Pune to the industrial city of Pimpri-Chinchwad and the hill station of Lonavala.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has a diesel locomotive shed and an electric trip shed."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a diesel locomotive shed and an electric trip shed.",
+    "zh-CN": "浦那设有柴油机车库和电力机车检修库。"
+   },
+   "excerpt": "At Pune, there is a diesel locomotive shed and an electric trip shed.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Railway Station is administered by the Pune Railway Division of Central Railways."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+    "zh-CN": "浦那火车站由中央铁路公司浦那铁路分局管理。"
+   },
+   "excerpt": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 48 connects Pune with Mumbai and Bangalore."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 48 connects Pune with Mumbai and Bangalore.",
+    "zh-CN": "印度国道48号连接浦那、孟买和班加罗尔。"
+   },
+   "excerpt": "National Highway 48 connects it to Mumbai and Bangalore",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 65 connects Pune with Hyderabad."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 65 connects Pune with Hyderabad.",
+    "zh-CN": "印度国道65号连接浦那和海得拉巴。"
+   },
+   "excerpt": "National Highway 65 connects it to Hyderabad",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 60 connects Pune with Nashik."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 60 connects Pune with Nashik.",
+    "zh-CN": "印度国道60号连接浦那和纳西克。"
+   },
+   "excerpt": "National Highway 60 connects it to Nashik.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "State Highway 27 connects Pune with Ahmednagar."
+   },
+   "scope": null,
+   "text": {
+    "en": "State Highway 27 connects Pune with Ahmednagar.",
+    "zh-CN": "马哈拉施特拉邦国道27号连接浦那和艾哈迈德讷格尔。"
+   },
+   "excerpt": "State Highway 27 connects Pune to Ahmednagar.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai Pune Expressway",
+      "zh-CN": "孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2002",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was built in 2002.",
+    "zh-CN": "孟买—浦那高速公路于2002年建成。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway, and it was built in 2002.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "six-lane high-speed expressway in India"
+    },
+    "as_of": 2002
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was India's first six-lane high-speed expressway.",
+    "zh-CN": "孟买—浦那高速公路是印度首条六车道高速公路。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway.",
+    "zh-CN": "孟买—浦那高速公路仅允许四轮车辆通行。"
+   },
+   "excerpt": "Only four-wheeler vehicles are allowed on it.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours.",
+    "zh-CN": "孟买—浦那高速公路将浦那与孟买之间的出行时间缩短至略多于两小时。"
+   },
+   "excerpt": "This expressway has reduced travel time between Pune and Mumbai to a little over two hours.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Three ring roads are planned around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Three ring roads are planned around Pune.",
+    "zh-CN": "浦那周边规划建设三条环城道路。"
+   },
+   "excerpt": "Three ring roads are planned around the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was once known as the cycle city of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was once known as the cycle city of India.",
+    "zh-CN": "浦那曾被称为印度的自行车之城。"
+   },
+   "excerpt": "Once known as the \"cycle city of India\", Pune has experienced a rapid growth in the number of motorised two wheelers",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was reported to have one million two-wheelers in 2005."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was reported to have one million two-wheelers in 2005.",
+    "zh-CN": "据2005年的报道，浦那拥有100万辆两轮摩托车。"
+   },
+   "excerpt": "In 2005 the city was reported to have one million two wheelers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune.",
+    "zh-CN": "车辆和工业活动增加导致浦那部分地区颗粒物污染增加了十倍。"
+   },
+   "excerpt": "the increase in vehicular and industrial activity had led to a 10-fold increase in particulate pollution in some areas of the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 3.62 million total vehicles in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 3.62 million total vehicles in 2018.",
+    "zh-CN": "2018年，浦那共有362万辆机动车。"
+   },
+   "excerpt": "In 2018 the number of vehicles in the city has exceeded its population with 3.62 million total vehicles",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 2.70 million two-wheelers in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 2.70 million two-wheelers in 2018.",
+    "zh-CN": "2018年，浦那拥有270万辆两轮摩托车。"
+   },
+   "excerpt": "2.70 million being two wheelers.[verification needed]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune registered 300,000 new vehicles in fiscal year 2017–18."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune registered 300,000 new vehicles in fiscal year 2017–18.",
+    "zh-CN": "浦那在2017—18财年新登记了30万辆机动车。"
+   },
+   "excerpt": "In the fiscal year 2017–18 alone 300,000 new vehicles were registered in the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers.",
+    "zh-CN": "浦那在2017—18财年新登记车辆中有三分之二是两轮摩托车。"
+   },
+   "excerpt": "two-thirds of them two wheelers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004."
+   },
+   "scope": null,
+   "text": {
+    "en": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004.",
+    "zh-CN": "2004年，Jawaharlal Nehru国家城市更新任务下的公交快速交通系统项目曾尝试建设130公里的自行车道以复兴骑行。"
+   },
+   "excerpt": "A revival of cycling in Pune with 130 kilometres (81 mi) of cycle tracks built was attempted",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable."
+   },
+   "scope": null,
+   "text": {
+    "en": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable.",
+    "zh-CN": "2011年的一份报告称，实际建成的自行车道仅有88公里，而且大部分无法使用。"
+   },
+   "excerpt": "However, a 2011 report revealed that only 88 kilometres (55 mi) of tracks were actually built and most were unusable at the time of the report.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017.",
+    "zh-CN": "自2017年末起，浦那在智慧城市任务框架下推出了基于应用程序的自行车共享计划。"
+   },
+   "excerpt": "Under the Smart Cities Mission, app based cycle sharing schemes have been launched in the city since late 2017.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks.",
+    "zh-CN": "浦那市政委员会制定了浦那自行车计划，规划建设470公里的自行车道。"
+   },
+   "excerpt": "The PMC has devised the Pune Cycle Plan with 470 kilometres (290 mi) of cycle tracks planned.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than one hundred educational institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than one hundred educational institutes.",
+    "zh-CN": "浦那拥有100多所教育机构。"
+   },
+   "excerpt": "Pune has over a hundred educational institutes",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University.",
+    "zh-CN": "除萨维特里拜·普莱·浦那大学外，浦那还有九所以上法定认定大学。"
+   },
+   "excerpt": "more than nine deemed universities apart from the Savitribai Phule Pune University",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges.",
+    "zh-CN": "按附属学院总数计算，萨维特里拜·普莱·浦那大学是全国最大的大学。"
+   },
+   "excerpt": "which is the largest university in the country based on total number of affiliated colleges.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya.",
+    "zh-CN": "浦那的高等教育机构主要吸引来自伊朗、阿拉伯联合酋长国、埃塞俄比亚和肯尼亚的国际学生。"
+   },
+   "excerpt": "Higher education institutes attract international students mainly from the Middle Eastern countries such as Iran, and United Arab Emirates, and also African countries such as Ethiopia and Kenya.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the largest centre for Japanese-language learning in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest centre for Japanese-language learning in India.",
+    "zh-CN": "浦那是印度最大的日语学习中心。"
+   },
+   "excerpt": "Pune is the largest centre for Japanese learning in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "German and French are also taught in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "German and French are also taught in Pune.",
+    "zh-CN": "浦那还教授德语和法语。"
+   },
+   "excerpt": "Other languages taught in the city include German, which is taught at the Goethe-Institut, and French, which is taught at Alliance Française.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Several colleges in Pune have student exchange programmes with colleges in Europe."
+   },
+   "scope": null,
+   "text": {
+    "en": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+    "zh-CN": "浦那的数所学院与欧洲的学院设有学生交流项目。"
+   },
+   "excerpt": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 297 primary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 297 primary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营297所小学。"
+   },
+   "excerpt": "The PMC runs 297 primary schools",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 30 secondary and higher-secondary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 30 secondary and higher-secondary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营30所中学和高级中学。"
+   },
+   "excerpt": "30 secondary and higher secondary schools.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad.",
+    "zh-CN": "浦那乡村和郊区地区的公立小学由浦那县议会运营。"
+   },
+   "excerpt": "In the rural and suburban areas of the PMR, public primary schools are run by the Pune Zilla Parishad.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The primary language of instruction in Pune's public schools is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "The primary language of instruction in Pune's public schools is Marathi.",
+    "zh-CN": "浦那公立学校的主要教学语言是马拉地语。"
+   },
+   "excerpt": "The language of instruction in public schools is primarily Marathi",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune.",
+    "zh-CN": "浦那市政委员会还运营乌尔都语、英语和卡纳达语教学学校。"
+   },
+   "excerpt": "the PMC also runs Urdu, English and Kannada medium schools.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Private schools in Pune also offer instruction in Hindi and Gujarati."
+   },
+   "scope": null,
+   "text": {
+    "en": "Private schools in Pune also offer instruction in Hindi and Gujarati.",
+    "zh-CN": "浦那的私立学校还提供印地语和古吉拉特语教学。"
+   },
+   "excerpt": "Along with these languages, private schools also offer instruction in Hindi and Gujarati.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students."
+   },
+   "scope": null,
+   "text": {
+    "en": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students.",
+    "zh-CN": "位于萨达希夫佩特的贾纳·普拉博迪尼学校是印度首个面向智力优秀和有天赋学生的学校。"
+   },
+   "excerpt": "Jnana Prabodhini Prashala, located in Sadashiv Peth, is the first school for intellectually gifted and talented students in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide.",
+    "zh-CN": "位于穆尔希谷的UWC马欣德拉学院是全球18所联合世界学院之一。"
+   },
+   "excerpt": "it counts with one of the 18 United World Colleges across the globe, having UWC Mahindra College in the Mulshi Valley.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Most colleges in Pune are affiliated with Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Most colleges in Pune are affiliated with Savitribai Phule Pune University.",
+    "zh-CN": "浦那大多数学院隶属于萨维特里拜·普莱·浦那大学。"
+   },
+   "excerpt": "Most colleges in Pune are affiliated to the SPPU (Savitribai Phule Pune University).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Nine other universities have been established in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Nine other universities have been established in Pune.",
+    "zh-CN": "浦那还建立了其他九所大学。"
+   },
+   "excerpt": "Nine other universities have also been established in the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation.",
+    "zh-CN": "浦那设有军事情报培训学校，提供反情报、战斗情报、航拍图像与判读等文凭课程。"
+   },
+   "excerpt": "Pune also hosts the Military Intelligence Training School which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation, among others.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "College of Engineering Pune",
+      "zh-CN": "浦那工程学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1854",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune was founded in 1854.",
+    "zh-CN": "浦那工程学院创立于1854年。"
+   },
+   "excerpt": "The College of Engineering Pune, an autonomous institute of the government of Maharashtra founded in 1854",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Engineering Pune is the third-oldest engineering college in Asia."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune is the third-oldest engineering college in Asia.",
+    "zh-CN": "浦那工程学院是亚洲第三古老的工程学院。"
+   },
+   "excerpt": "is the third oldest engineering college in Asia.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Deccan Education Society",
+      "zh-CN": "德干教育协会"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1884",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Deccan Education Society was founded in Pune in 1884.",
+    "zh-CN": "德干教育协会于1884年在浦那创立。"
+   },
+   "excerpt": "The Deccan Education Society was founded by local citizens in 1884",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884.",
+    "zh-CN": "巴尔·甘加达尔·蒂拉克是1884年在浦那创立德干教育协会的当地人士之一。"
+   },
+   "excerpt": "including social and political activist Bal Gangadhar Tilak",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Fergusson College",
+      "zh-CN": "弗格森学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1885",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Fergusson College was founded in Pune in 1885.",
+    "zh-CN": "弗格森学院于1885年在浦那创立。"
+   },
+   "excerpt": "responsible for founding Fergusson College in 1885.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Indian Law Society's Law College is one of India's top ten law schools."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indian Law Society's Law College is one of India's top ten law schools.",
+    "zh-CN": "印度法律协会的法律学院是印度十所顶尖法学院之一。"
+   },
+   "excerpt": "The Indian Law Society's Law College is one of the top ten law schools in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Armed Forces Medical College consistently ranks among India's top five medical colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Armed Forces Medical College consistently ranks among India's top five medical colleges.",
+    "zh-CN": "武装部队医学院持续位居印度五大医学院之列。"
+   },
+   "excerpt": "The Armed Forces Medical College consistently ranks among the top five medical colleges in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network.",
+    "zh-CN": "印度电影与电视学院是全球CILECT电影学院网络中的三家印度机构之一。"
+   },
+   "excerpt": "The Film and Television Institute of India, one of only three Indian institutions in the global CILECT film school network",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is located on Law College Road in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is located on Law College Road in Pune.",
+    "zh-CN": "印度电影与电视学院位于浦那法学院路。"
+   },
+   "excerpt": "is located on Law College Road.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Lalit Kala Kendra has operated on the SPPU campus since 1987."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lalit Kala Kendra has operated on the SPPU campus since 1987.",
+    "zh-CN": "拉利特·卡拉·肯德拉自1987年起在SPPU校区运营。"
+   },
+   "excerpt": "The Lalit Kala Kendra is an undergraduate department of Music, Dance and Drama on the SPPU campus that has been operational since 1987.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune.",
+    "zh-CN": "军事工程学院、陆军体育训练学院和武器技术研究所均位于浦那。"
+   },
+   "excerpt": "The College of Military Engineering, the Army Institute of Physical Training, and the Institute of Armament Technology are also in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa."
+   },
+   "scope": null,
+   "text": {
+    "en": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa.",
+    "zh-CN": "基督大学浦那拉瓦萨校区是班加罗尔基督大学的组成部分，位于拉瓦萨。"
+   },
+   "excerpt": "Christ University Pune Lavasa campus, is part of Christ University, Bangalore located in Lavasa.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University operates 33 colleges and institutions in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University operates 33 colleges and institutions in Pune.",
+    "zh-CN": "辛共生国际大学在浦那运营33所学院和机构。"
+   },
+   "excerpt": "Symbiosis International University operates 33 colleges and institutions in the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University colleges are ranked among India's top management and law institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University colleges are ranked among India's top management and law institutes.",
+    "zh-CN": "辛共生国际大学的学院位居印度顶尖管理和法学院之列。"
+   },
+   "excerpt": "They are ranked among the top management and law institutes in the country.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology.",
+    "zh-CN": "辛共生计算机研究与学院是印度少数推广开源技术的学院之一。"
+   },
+   "excerpt": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open source technology.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College is the third United World College in Asia and is located near Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College is the third United World College in Asia and is located near Pune.",
+    "zh-CN": "UWC马欣德拉学院是亚洲第三所联合世界学院，位于浦那附近。"
+   },
+   "excerpt": "UWC Mahindra College, one of eighteen United World Colleges worldwide and the third is Asia",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences.",
+    "zh-CN": "浦那拥有政府和非政府研究机构，研究领域涵盖人文科学至自然科学。"
+   },
+   "excerpt": "Pune is home to a number of governmental and non-governmental research institutes focusing on a wide range of subject areas from the humanities to the sciences.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune.",
+    "zh-CN": "印度国防部在浦那及周边运营与国防有关的教育、培训和研究机构。"
+   },
+   "excerpt": "The Ministry of Defence also runs a number of defence related education, training and research establishments in and around the city.",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity."
+   },
+   "scope": null,
+   "text": {
+    "en": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport, has been proposed because the existing airport has limited capacity.",
+    "zh-CN": "由于现有机场容量有限，提议新建恰特拉帕蒂·桑巴吉·马哈拉吉国际机场。"
+   },
+   "excerpt": "A new international airport, Chhatrapati Sambhaji Maharaj International Airport has been proposed, due to the limited capacity of the existing airport.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Non-availability of land delayed the proposed airport project for over a decade."
+   },
+   "scope": null,
+   "text": {
+    "en": "Non-availability of land delayed the proposed airport project for over a decade.",
+    "zh-CN": "土地未能到位使拟建机场项目延误了十多年。"
+   },
+   "excerpt": "non-availability of land delayed the project for over a decade.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport location was changed to Purandar in September 2016."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport location was changed to Purandar in September 2016.",
+    "zh-CN": "拟建机场的选址于2016年9月改为普兰达尔。"
+   },
+   "excerpt": "In September 2016 the location was changed to Purandar, about 20 kilometres (12 mi) south-east of the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement."
+   },
+   "scope": null,
+   "text": {
+    "en": "The proposed airport project was expected to progress following approvals from relevant authorities, according to a June 2024 ministerial statement.",
+    "zh-CN": "据2024年6月的一份部长声明，在相关当局批准后，拟建机场项目预计将取得进展。"
+   },
+   "excerpt": "But with approvals in place from relevant authorities the project is going to be making progress per a statement made by the civil aviation minister in June 2024.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public transport in Pune includes the Pune Metro, PMPML bus services, the Pune Suburban Railway and auto rickshaws.",
+    "zh-CN": "浦那的公共交通包括浦那地铁、PMPML公交服务、浦那郊区铁路和机动三轮车。"
+   },
+   "excerpt": "Public transport in Pune include two operational lines of the Pune Metro, bus services operated by PMPML, the Pune Suburban Railway and auto rickshaws.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station."
+   },
+   "scope": null,
+   "text": {
+    "en": "A third Pune Metro line is under construction from the Hinjewadi IT hub to District Court Pune station.",
+    "zh-CN": "浦那地铁第三条线路正在建设，连接欣贾瓦迪信息技术园区与浦那地区法院站。"
+   },
+   "excerpt": "Work is underway on an additional, third line of Pune Metro connecting the Hinjewadi IT hub to the District Court Pune station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The third Pune Metro line is expected to open to the public by 2025."
+   },
+   "scope": null,
+   "text": {
+    "en": "The third Pune Metro line is expected to open to the public by 2025.",
+    "zh-CN": "浦那地铁第三条线路预计于2025年前后向公众开放。"
+   },
+   "excerpt": "This line is expected to open to the public by 2025.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Metro has two operational lines with a combined operational length of 31.25 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Metro has two operational lines with a combined operational length of 31.25 km.",
+    "zh-CN": "浦那地铁有两条运营线路，合计运营里程为31.25公里。"
+   },
+   "excerpt": "The system comprises two operational lines with a combined operational length of 31.25 km (19.42 mi).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km."
+   },
+   "scope": null,
+   "text": {
+    "en": "Completion of the third Pune Metro line would increase the combined operational length to 59.1 km.",
+    "zh-CN": "浦那地铁第三条线路完工后，合计运营里程将增至59.1公里。"
+   },
+   "excerpt": "Construction for a third line is underway, which on completion would increase the combined operational length to 59.1 km.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Purple Line runs from Pimpri Chinchwad Municipal Corporation metro station to Swargate metro station.",
+    "zh-CN": "紫线从皮姆普里钦奇瓦德市政公司地铁站通往斯瓦盖特地铁站。"
+   },
+   "excerpt": "The Purple Line starts from the Pimpri Chinchwad Municipal Corporation metro station and terminates at the Swargate metro station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Aqua Line runs from Vanaz metro station to Ramwadi metro station.",
+    "zh-CN": "水线从瓦纳兹地铁站通往拉姆瓦迪地铁站。"
+   },
+   "excerpt": "The Aqua line starts from the Vanaz metro station and ends at the Ramwadi metro station.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange."
+   },
+   "scope": null,
+   "text": {
+    "en": "Both operational Pune Metro lines pass through District Court Pune station, which acts as a cross-platform interchange.",
+    "zh-CN": "浦那地铁的两条运营线路均经过浦那地区法院站，该站作为跨站台换乘站。"
+   },
+   "excerpt": "Both lines pass through the District Court Pune metro station, which as acts as a cross platform interchange.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public buses within Pune and its suburbs are operated by PMPML."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public buses within Pune and its suburbs are operated by PMPML.",
+    "zh-CN": "浦那市区及郊区的公共公交车由PMPML运营。"
+   },
+   "excerpt": "Public buses within the city and its suburbs are operated by PMPML .",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "Indian city to adopt e-buses"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the first Indian city to adopt e-buses in January 2019.",
+    "zh-CN": "2019年1月，浦那成为印度首个采用电动公交车的城市。"
+   },
+   "excerpt": "In January 2019, Pune became the first Indian city to adopt e-buses",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "all-electric bus depot"
+    },
+    "as_of": 2019
+   },
+   "scope": null,
+   "text": {
+    "en": "Bhekrai Nagar became India's first all-electric bus depot in January 2019.",
+    "zh-CN": "2019年1月，贝赫赖 Nagar成为印度首个全电动公交车场。"
+   },
+   "excerpt": "Bhekrai Nagar became the country's first all electric bus depot.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Up to 490 electric buses had been deployed across Pune as of January 2026."
+   },
+   "scope": null,
+   "text": {
+    "en": "Up to 490 electric buses had been deployed across Pune as of January 2026.",
+    "zh-CN": "截至2026年1月，浦那全市已部署最多490辆电动公交车。"
+   },
+   "excerpt": "As of January 2026, up to 490 electric buses have been deployed across the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "PMPML operates the Rainbow BRTS system in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "PMPML operates the Rainbow BRTS system in Pune.",
+    "zh-CN": "PMPML运营浦那的彩虹公交快速交通系统。"
+   },
+   "excerpt": "PMPML operates the Rainbow BRTS system.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Rainbow BRTS was the first bus rapid transit system of its kind in India when launched.",
+    "zh-CN": "彩虹公交快速交通系统启动时是印度同类公交快速交通系统中的首个。"
+   },
+   "excerpt": "When launched, it was the first of its kind in India bus rapid transit system in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed."
+   },
+   "scope": null,
+   "text": {
+    "en": "As of 2023, only 16 km of the proposed 68 km Rainbow BRTS had been completed.",
+    "zh-CN": "截至2023年，计划总长68公里的彩虹公交快速交通系统仅完成16公里。"
+   },
+   "excerpt": "As of 2023 only 16 km out of 68 km proposed were completed for the project.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023."
+   },
+   "scope": null,
+   "text": {
+    "en": "Dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+    "zh-CN": "从耶拉瓦达至维曼讷格尔的专用公交专用道于2023年被撤销。"
+   },
+   "excerpt": "dedicated bus lanes from Yerawda to Vimannagar were removed in 2023.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Suburban Railway connects Pune with Pimpri-Chinchwad and Lonavala.",
+    "zh-CN": "浦那郊区铁路连接浦那、皮姆普里钦奇瓦德和洛纳瓦拉。"
+   },
+   "excerpt": "The Pune Suburban Railway (popularly called local trains) connects Pune to the industrial city of Pimpri-Chinchwad and the hill station of Lonavala.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has a diesel locomotive shed and an electric trip shed."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a diesel locomotive shed and an electric trip shed.",
+    "zh-CN": "浦那设有柴油机车库和电力机车检修库。"
+   },
+   "excerpt": "At Pune, there is a diesel locomotive shed and an electric trip shed.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune Railway Station is administered by the Pune Railway Division of Central Railways."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+    "zh-CN": "浦那火车站由中央铁路公司浦那铁路分局管理。"
+   },
+   "excerpt": "Pune Railway Station is administered by the Pune Railway Division of Central Railways.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 48 connects Pune with Mumbai and Bangalore."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 48 connects Pune with Mumbai and Bangalore.",
+    "zh-CN": "印度国道48号连接浦那、孟买和班加罗尔。"
+   },
+   "excerpt": "National Highway 48 connects it to Mumbai and Bangalore",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 65 connects Pune with Hyderabad."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 65 connects Pune with Hyderabad.",
+    "zh-CN": "印度国道65号连接浦那和海得拉巴。"
+   },
+   "excerpt": "National Highway 65 connects it to Hyderabad",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "National Highway 60 connects Pune with Nashik."
+   },
+   "scope": null,
+   "text": {
+    "en": "National Highway 60 connects Pune with Nashik.",
+    "zh-CN": "印度国道60号连接浦那和纳西克。"
+   },
+   "excerpt": "National Highway 60 connects it to Nashik.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "State Highway 27 connects Pune with Ahmednagar."
+   },
+   "scope": null,
+   "text": {
+    "en": "State Highway 27 connects Pune with Ahmednagar.",
+    "zh-CN": "马哈拉施特拉邦国道27号连接浦那和艾哈迈德讷格尔。"
+   },
+   "excerpt": "State Highway 27 connects Pune to Ahmednagar.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Mumbai Pune Expressway",
+      "zh-CN": "孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2002",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was built in 2002.",
+    "zh-CN": "孟买—浦那高速公路于2002年建成。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway, and it was built in 2002.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "first",
+    "category": {
+     "en": "six-lane high-speed expressway in India"
+    },
+    "as_of": 2002
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway was India's first six-lane high-speed expressway.",
+    "zh-CN": "孟买—浦那高速公路是印度首条六车道高速公路。"
+   },
+   "excerpt": "The Mumbai Pune Expressway is India's first six-lane high-speed expressway",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway."
+   },
+   "scope": null,
+   "text": {
+    "en": "Only four-wheel vehicles are allowed on the Mumbai Pune Expressway.",
+    "zh-CN": "孟买—浦那高速公路仅允许四轮车辆通行。"
+   },
+   "excerpt": "Only four-wheeler vehicles are allowed on it.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mumbai Pune Expressway reduced travel time between Pune and Mumbai to a little over two hours.",
+    "zh-CN": "孟买—浦那高速公路将浦那与孟买之间的出行时间缩短至略多于两小时。"
+   },
+   "excerpt": "This expressway has reduced travel time between Pune and Mumbai to a little over two hours.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Three ring roads are planned around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Three ring roads are planned around Pune.",
+    "zh-CN": "浦那周边规划建设三条环城道路。"
+   },
+   "excerpt": "Three ring roads are planned around the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was once known as the cycle city of India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was once known as the cycle city of India.",
+    "zh-CN": "浦那曾被称为印度的自行车之城。"
+   },
+   "excerpt": "Once known as the \"cycle city of India\", Pune has experienced a rapid growth in the number of motorised two wheelers",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune was reported to have one million two-wheelers in 2005."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was reported to have one million two-wheelers in 2005.",
+    "zh-CN": "据2005年的报道，浦那拥有100万辆两轮摩托车。"
+   },
+   "excerpt": "In 2005 the city was reported to have one million two wheelers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Increased vehicular and industrial activity led to a tenfold increase in particulate pollution in some areas of Pune.",
+    "zh-CN": "车辆和工业活动增加导致浦那部分地区颗粒物污染增加了十倍。"
+   },
+   "excerpt": "the increase in vehicular and industrial activity had led to a 10-fold increase in particulate pollution in some areas of the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 3.62 million total vehicles in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 3.62 million total vehicles in 2018.",
+    "zh-CN": "2018年，浦那共有362万辆机动车。"
+   },
+   "excerpt": "In 2018 the number of vehicles in the city has exceeded its population with 3.62 million total vehicles",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune had 2.70 million two-wheelers in 2018."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune had 2.70 million two-wheelers in 2018.",
+    "zh-CN": "2018年，浦那拥有270万辆两轮摩托车。"
+   },
+   "excerpt": "2.70 million being two wheelers.[verification needed]",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune registered 300,000 new vehicles in fiscal year 2017–18."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune registered 300,000 new vehicles in fiscal year 2017–18.",
+    "zh-CN": "浦那在2017—18财年新登记了30万辆机动车。"
+   },
+   "excerpt": "In the fiscal year 2017–18 alone 300,000 new vehicles were registered in the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers."
+   },
+   "scope": null,
+   "text": {
+    "en": "Two-thirds of the new vehicles registered in Pune in fiscal year 2017–18 were two-wheelers.",
+    "zh-CN": "浦那在2017—18财年新登记车辆中有三分之二是两轮摩托车。"
+   },
+   "excerpt": "two-thirds of them two wheelers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004."
+   },
+   "scope": null,
+   "text": {
+    "en": "A cycling revival with 130 km of cycle tracks was attempted as part of the BRT system under the Jawaharlal Nehru National Urban Renewal Mission in 2004.",
+    "zh-CN": "2004年，Jawaharlal Nehru国家城市更新任务下的公交快速交通系统项目曾尝试建设130公里的自行车道以复兴骑行。"
+   },
+   "excerpt": "A revival of cycling in Pune with 130 kilometres (81 mi) of cycle tracks built was attempted",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable."
+   },
+   "scope": null,
+   "text": {
+    "en": "A 2011 report said only 88 km of cycling tracks had actually been built and most were unusable.",
+    "zh-CN": "2011年的一份报告称，实际建成的自行车道仅有88公里，而且大部分无法使用。"
+   },
+   "excerpt": "However, a 2011 report revealed that only 88 kilometres (55 mi) of tracks were actually built and most were unusable at the time of the report.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017."
+   },
+   "scope": null,
+   "text": {
+    "en": "App-based cycle-sharing schemes have operated in Pune under the Smart Cities Mission since late 2017.",
+    "zh-CN": "自2017年末起，浦那在智慧城市任务框架下推出了基于应用程序的自行车共享计划。"
+   },
+   "excerpt": "Under the Smart Cities Mission, app based cycle sharing schemes have been launched in the city since late 2017.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC devised the Pune Cycle Plan, which plans 470 km of cycle tracks.",
+    "zh-CN": "浦那市政委员会制定了浦那自行车计划，规划建设470公里的自行车道。"
+   },
+   "excerpt": "The PMC has devised the Pune Cycle Plan with 470 kilometres (290 mi) of cycle tracks planned.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than one hundred educational institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than one hundred educational institutes.",
+    "zh-CN": "浦那拥有100多所教育机构。"
+   },
+   "excerpt": "Pune has over a hundred educational institutes",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has more than nine deemed universities apart from Savitribai Phule Pune University.",
+    "zh-CN": "除萨维特里拜·普莱·浦那大学外，浦那还有九所以上法定认定大学。"
+   },
+   "excerpt": "more than nine deemed universities apart from the Savitribai Phule Pune University",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Savitribai Phule Pune University is the country's largest university by total number of affiliated colleges.",
+    "zh-CN": "按附属学院总数计算，萨维特里拜·普莱·浦那大学是全国最大的大学。"
+   },
+   "excerpt": "which is the largest university in the country based on total number of affiliated colleges.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's higher-education institutes attract international students mainly from Iran, the United Arab Emirates, Ethiopia and Kenya.",
+    "zh-CN": "浦那的高等教育机构主要吸引来自伊朗、阿拉伯联合酋长国、埃塞俄比亚和肯尼亚的国际学生。"
+   },
+   "excerpt": "Higher education institutes attract international students mainly from the Middle Eastern countries such as Iran, and United Arab Emirates, and also African countries such as Ethiopia and Kenya.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is the largest centre for Japanese-language learning in India."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is the largest centre for Japanese-language learning in India.",
+    "zh-CN": "浦那是印度最大的日语学习中心。"
+   },
+   "excerpt": "Pune is the largest centre for Japanese learning in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "German and French are also taught in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "German and French are also taught in Pune.",
+    "zh-CN": "浦那还教授德语和法语。"
+   },
+   "excerpt": "Other languages taught in the city include German, which is taught at the Goethe-Institut, and French, which is taught at Alliance Française.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Several colleges in Pune have student exchange programmes with colleges in Europe."
+   },
+   "scope": null,
+   "text": {
+    "en": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+    "zh-CN": "浦那的数所学院与欧洲的学院设有学生交流项目。"
+   },
+   "excerpt": "Several colleges in Pune have student exchange programmes with colleges in Europe.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 297 primary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 297 primary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营297所小学。"
+   },
+   "excerpt": "The PMC runs 297 primary schools",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC runs 30 secondary and higher-secondary schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC runs 30 secondary and higher-secondary schools in Pune.",
+    "zh-CN": "浦那市政委员会运营30所中学和高级中学。"
+   },
+   "excerpt": "30 secondary and higher secondary schools.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad."
+   },
+   "scope": null,
+   "text": {
+    "en": "Public primary schools in Pune's rural and suburban areas are run by the Pune Zilla Parishad.",
+    "zh-CN": "浦那乡村和郊区地区的公立小学由浦那县议会运营。"
+   },
+   "excerpt": "In the rural and suburban areas of the PMR, public primary schools are run by the Pune Zilla Parishad.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The primary language of instruction in Pune's public schools is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "The primary language of instruction in Pune's public schools is Marathi.",
+    "zh-CN": "浦那公立学校的主要教学语言是马拉地语。"
+   },
+   "excerpt": "The language of instruction in public schools is primarily Marathi",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The PMC also runs Urdu-, English- and Kannada-medium schools in Pune.",
+    "zh-CN": "浦那市政委员会还运营乌尔都语、英语和卡纳达语教学学校。"
+   },
+   "excerpt": "the PMC also runs Urdu, English and Kannada medium schools.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Private schools in Pune also offer instruction in Hindi and Gujarati."
+   },
+   "scope": null,
+   "text": {
+    "en": "Private schools in Pune also offer instruction in Hindi and Gujarati.",
+    "zh-CN": "浦那的私立学校还提供印地语和古吉拉特语教学。"
+   },
+   "excerpt": "Along with these languages, private schools also offer instruction in Hindi and Gujarati.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students."
+   },
+   "scope": null,
+   "text": {
+    "en": "Jnana Prabodhini Prashala in Sadashiv Peth is India's first school for intellectually gifted and talented students.",
+    "zh-CN": "位于萨达希夫佩特的贾纳·普拉博迪尼学校是印度首个面向智力优秀和有天赋学生的学校。"
+   },
+   "excerpt": "Jnana Prabodhini Prashala, located in Sadashiv Peth, is the first school for intellectually gifted and talented students in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College in the Mulshi Valley is one of 18 United World Colleges worldwide.",
+    "zh-CN": "位于穆尔希谷的UWC马欣德拉学院是全球18所联合世界学院之一。"
+   },
+   "excerpt": "it counts with one of the 18 United World Colleges across the globe, having UWC Mahindra College in the Mulshi Valley.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Most colleges in Pune are affiliated with Savitribai Phule Pune University."
+   },
+   "scope": null,
+   "text": {
+    "en": "Most colleges in Pune are affiliated with Savitribai Phule Pune University.",
+    "zh-CN": "浦那大多数学院隶属于萨维特里拜·普莱·浦那大学。"
+   },
+   "excerpt": "Most colleges in Pune are affiliated to the SPPU (Savitribai Phule Pune University).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Nine other universities have been established in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Nine other universities have been established in Pune.",
+    "zh-CN": "浦那还建立了其他九所大学。"
+   },
+   "excerpt": "Nine other universities have also been established in the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosts the Military Intelligence Training School, which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation.",
+    "zh-CN": "浦那设有军事情报培训学校，提供反情报、战斗情报、航拍图像与判读等文凭课程。"
+   },
+   "excerpt": "Pune also hosts the Military Intelligence Training School which offers diploma courses in counter intelligence, combat intelligence, aerial imagery and interpretation, among others.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "College of Engineering Pune",
+      "zh-CN": "浦那工程学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1854",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune was founded in 1854.",
+    "zh-CN": "浦那工程学院创立于1854年。"
+   },
+   "excerpt": "The College of Engineering Pune, an autonomous institute of the government of Maharashtra founded in 1854",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Engineering Pune is the third-oldest engineering college in Asia."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Engineering Pune is the third-oldest engineering college in Asia.",
+    "zh-CN": "浦那工程学院是亚洲第三古老的工程学院。"
+   },
+   "excerpt": "is the third oldest engineering college in Asia.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Deccan Education Society",
+      "zh-CN": "德干教育协会"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1884",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Deccan Education Society was founded in Pune in 1884.",
+    "zh-CN": "德干教育协会于1884年在浦那创立。"
+   },
+   "excerpt": "The Deccan Education Society was founded by local citizens in 1884",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884."
+   },
+   "scope": null,
+   "text": {
+    "en": "Bal Gangadhar Tilak was among the local citizens who founded the Deccan Education Society in Pune in 1884.",
+    "zh-CN": "巴尔·甘加达尔·蒂拉克是1884年在浦那创立德干教育协会的当地人士之一。"
+   },
+   "excerpt": "including social and political activist Bal Gangadhar Tilak",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Fergusson College",
+      "zh-CN": "弗格森学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1885",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Fergusson College was founded in Pune in 1885.",
+    "zh-CN": "弗格森学院于1885年在浦那创立。"
+   },
+   "excerpt": "responsible for founding Fergusson College in 1885.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Indian Law Society's Law College is one of India's top ten law schools."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indian Law Society's Law College is one of India's top ten law schools.",
+    "zh-CN": "印度法律协会的法律学院是印度十所顶尖法学院之一。"
+   },
+   "excerpt": "The Indian Law Society's Law College is one of the top ten law schools in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Armed Forces Medical College consistently ranks among India's top five medical colleges."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Armed Forces Medical College consistently ranks among India's top five medical colleges.",
+    "zh-CN": "武装部队医学院持续位居印度五大医学院之列。"
+   },
+   "excerpt": "The Armed Forces Medical College consistently ranks among the top five medical colleges in India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is one of three Indian institutions in the global CILECT film school network.",
+    "zh-CN": "印度电影与电视学院是全球CILECT电影学院网络中的三家印度机构之一。"
+   },
+   "excerpt": "The Film and Television Institute of India, one of only three Indian institutions in the global CILECT film school network",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Film and Television Institute of India is located on Law College Road in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Film and Television Institute of India is located on Law College Road in Pune.",
+    "zh-CN": "印度电影与电视学院位于浦那法学院路。"
+   },
+   "excerpt": "is located on Law College Road.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Lalit Kala Kendra has operated on the SPPU campus since 1987."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lalit Kala Kendra has operated on the SPPU campus since 1987.",
+    "zh-CN": "拉利特·卡拉·肯德拉自1987年起在SPPU校区运营。"
+   },
+   "excerpt": "The Lalit Kala Kendra is an undergraduate department of Music, Dance and Drama on the SPPU campus that has been operational since 1987.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The College of Military Engineering, Army Institute of Physical Training and Institute of Armament Technology are in Pune.",
+    "zh-CN": "军事工程学院、陆军体育训练学院和武器技术研究所均位于浦那。"
+   },
+   "excerpt": "The College of Military Engineering, the Army Institute of Physical Training, and the Institute of Armament Technology are also in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa."
+   },
+   "scope": null,
+   "text": {
+    "en": "Christ University Pune Lavasa campus is part of Christ University, Bangalore, and is located in Lavasa.",
+    "zh-CN": "基督大学浦那拉瓦萨校区是班加罗尔基督大学的组成部分，位于拉瓦萨。"
+   },
+   "excerpt": "Christ University Pune Lavasa campus, is part of Christ University, Bangalore located in Lavasa.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University operates 33 colleges and institutions in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University operates 33 colleges and institutions in Pune.",
+    "zh-CN": "辛共生国际大学在浦那运营33所学院和机构。"
+   },
+   "excerpt": "Symbiosis International University operates 33 colleges and institutions in the city",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Symbiosis International University colleges are ranked among India's top management and law institutes."
+   },
+   "scope": null,
+   "text": {
+    "en": "Symbiosis International University colleges are ranked among India's top management and law institutes.",
+    "zh-CN": "辛共生国际大学的学院位居印度顶尖管理和法学院之列。"
+   },
+   "excerpt": "They are ranked among the top management and law institutes in the country.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open-source technology.",
+    "zh-CN": "辛共生计算机研究与学院是印度少数推广开源技术的学院之一。"
+   },
+   "excerpt": "The Symbiosis Institute of Computer Studies and Research is one of the few colleges in India that promotes open source technology.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "UWC Mahindra College is the third United World College in Asia and is located near Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "UWC Mahindra College is the third United World College in Asia and is located near Pune.",
+    "zh-CN": "UWC马欣德拉学院是亚洲第三所联合世界学院，位于浦那附近。"
+   },
+   "excerpt": "UWC Mahindra College, one of eighteen United World Colleges worldwide and the third is Asia",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is home to governmental and non-governmental research institutes covering subjects from the humanities to the sciences.",
+    "zh-CN": "浦那拥有政府和非政府研究机构，研究领域涵盖人文科学至自然科学。"
+   },
+   "excerpt": "Pune is home to a number of governmental and non-governmental research institutes focusing on a wide range of subject areas from the humanities to the sciences.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Ministry of Defence runs defence-related education, training and research establishments in and around Pune.",
+    "zh-CN": "印度国防部在浦那及周边运营与国防有关的教育、培训和研究机构。"
+   },
+   "excerpt": "The Ministry of Defence also runs a number of defence related education, training and research establishments in and around the city.",
+   "source_id": "s03"
+  }
+ ]
+}

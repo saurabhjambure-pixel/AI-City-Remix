@@ -1,0 +1,34 @@
+{
+ "raw": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "In 1779, a British army was surrounded while on its way to Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "In 1779, a British army was surrounded while on its way to Pune.",
+    "zh-CN": "1779年，一支英国军队在前往浦那的途中被包围。"
+   },
+   "excerpt": "In 1779 a British army was surrounded on its way to Pune",
+   "source_id": "s08"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "In 1779, a British army was surrounded while on its way to Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "In 1779, a British army was surrounded while on its way to Pune.",
+    "zh-CN": "1779年，一支英国军队在前往浦那的途中被包围。"
+   },
+   "excerpt": "In 1779 a British army was surrounded on its way to Pune",
+   "source_id": "s08"
+  }
+ ]
+}

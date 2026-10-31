@@ -1,0 +1,288 @@
+{
+ "raw": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Modern badminton originated in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Modern badminton originated in Pune.",
+    "zh-CN": "现代羽毛球运动起源于浦那。"
+   },
+   "excerpt": "Badminton in its modern form originated in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The first rules for modern badminton were drawn up in Poona in 1873."
+   },
+   "scope": null,
+   "text": {
+    "en": "The first rules for modern badminton were drawn up in Poona in 1873.",
+    "zh-CN": "现代羽毛球运动的第一套规则于1873年在浦那制定。"
+   },
+   "excerpt": "Poona where it was particularly popular and where the first rules for the game were drawn up in 1873.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is a river in Pune.",
+    "zh-CN": "穆拉-穆塔河是浦那的一条河流。"
+   },
+   "excerpt": "The Royal Connaught Boat Club is one of several boating clubs on the Mula-Mutha river.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Race Course",
+      "zh-CN": "浦那赛马场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1830",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Race Course was built in 1833 on 118.5 acres of land.",
+    "zh-CN": "浦那赛马场建于1833年，占地118.5英亩。"
+   },
+   "excerpt": "Pune Race Course was built in 1830 on 118.5 acres (0.480 km2) of land",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Skatepark",
+      "zh-CN": "浦那滑板公园"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Sahakarnagar",
+      "zh-CN": "萨哈卡尔纳加尔"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Skatepark was built in Sahakarnagar and includes an eight-foot bowl in a 3,000-square-foot flatground.",
+    "zh-CN": "浦那滑板公园建于萨哈卡尔纳加尔，设有一个八英尺深的碗池和3000平方英尺的平地。"
+   },
+   "excerpt": "Pune Skatepark is a skateboarding park built in Sahakarnagar, consisting of an eight-foot bowl in a 3,000 square foot flatground.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "All India Radio has been broadcasting from Pune since 1953."
+   },
+   "scope": null,
+   "text": {
+    "en": "All India Radio has been broadcasting from Pune since 1953.",
+    "zh-CN": "全印广播电台自1953年起一直在浦那播音。"
+   },
+   "excerpt": "The government owned All India Radio (AIR) has been broadcasting from Pune since 1953.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune International Marathon is an annual marathon conducted in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Marathon is an annual marathon conducted in Pune.",
+    "zh-CN": "浦那国际马拉松赛是每年在浦那举行的马拉松赛事。"
+   },
+   "excerpt": "The Pune International Marathon is an annual marathon conducted in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosted the 2009 FIVB Men's Junior World Championship."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosted the 2009 FIVB Men's Junior World Championship.",
+    "zh-CN": "浦那主办了2009年国际排联男青年世界锦标赛。"
+   },
+   "excerpt": "The city hosted the 2009 FIVB Men's Junior World Championship.",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Modern badminton originated in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "Modern badminton originated in Pune.",
+    "zh-CN": "现代羽毛球运动起源于浦那。"
+   },
+   "excerpt": "Badminton in its modern form originated in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The first rules for modern badminton were drawn up in Poona in 1873."
+   },
+   "scope": null,
+   "text": {
+    "en": "The first rules for modern badminton were drawn up in Poona in 1873.",
+    "zh-CN": "现代羽毛球运动的第一套规则于1873年在浦那制定。"
+   },
+   "excerpt": "Poona where it was particularly popular and where the first rules for the game were drawn up in 1873.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula-Mutha River",
+     "zh-CN": "穆拉-穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula-Mutha River is a river in Pune.",
+    "zh-CN": "穆拉-穆塔河是浦那的一条河流。"
+   },
+   "excerpt": "The Royal Connaught Boat Club is one of several boating clubs on the Mula-Mutha river.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Race Course",
+      "zh-CN": "浦那赛马场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1830",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Race Course was built in 1833 on 118.5 acres of land.",
+    "zh-CN": "浦那赛马场建于1833年，占地118.5英亩。"
+   },
+   "excerpt": "Pune Race Course was built in 1830 on 118.5 acres (0.480 km2) of land",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Skatepark",
+      "zh-CN": "浦那滑板公园"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Sahakarnagar",
+      "zh-CN": "萨哈卡尔纳加尔"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune Skatepark was built in Sahakarnagar and includes an eight-foot bowl in a 3,000-square-foot flatground.",
+    "zh-CN": "浦那滑板公园建于萨哈卡尔纳加尔，设有一个八英尺深的碗池和3000平方英尺的平地。"
+   },
+   "excerpt": "Pune Skatepark is a skateboarding park built in Sahakarnagar, consisting of an eight-foot bowl in a 3,000 square foot flatground.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "All India Radio has been broadcasting from Pune since 1953."
+   },
+   "scope": null,
+   "text": {
+    "en": "All India Radio has been broadcasting from Pune since 1953.",
+    "zh-CN": "全印广播电台自1953年起一直在浦那播音。"
+   },
+   "excerpt": "The government owned All India Radio (AIR) has been broadcasting from Pune since 1953.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "The Pune International Marathon is an annual marathon conducted in Pune."
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune International Marathon is an annual marathon conducted in Pune.",
+    "zh-CN": "浦那国际马拉松赛是每年在浦那举行的马拉松赛事。"
+   },
+   "excerpt": "The Pune International Marathon is an annual marathon conducted in Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune hosted the 2009 FIVB Men's Junior World Championship."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune hosted the 2009 FIVB Men's Junior World Championship.",
+    "zh-CN": "浦那主办了2009年国际排联男青年世界锦标赛。"
+   },
+   "excerpt": "The city hosted the 2009 FIVB Men's Junior World Championship.",
+   "source_id": "s03"
+  }
+ ]
+}

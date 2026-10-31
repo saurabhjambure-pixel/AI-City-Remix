@@ -1,0 +1,210 @@
+{
+ "schema": "chronicle-entail/1",
+ "script_sha256": "8933f5028edbc0fd654567ae09a6b665bf78815199095dd2370d2cb2b470248f",
+ "answers": [
+  {
+   "id": "title",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The title names Pune, Mula, and Mutha, all stated in the claims."
+  },
+  {
+   "id": "S01",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that Pune lies at the junction of the Mula and Mutha rivers."
+  },
+  {
+   "id": "S02",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "No claims are bound, so entailment is not applicable."
+  },
+  {
+   "id": "S03",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "A junction of the Mula and Mutha rivers entails that the two rivers meet."
+  },
+  {
+   "id": "S04",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The claim states that Pune derives from Puṇyanagara, meaning “City of Virtue.”"
+  },
+  {
+   "id": "S05",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly supported by the claim that Pune is at the Mula–Mutha junction."
+  },
+  {
+   "id": "S06",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The claim states that Pune served as the official Maratha capital from 1714."
+  },
+  {
+   "id": "S07",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates the claim that Pune stands at the Mula–Mutha junction."
+  },
+  {
+   "id": "S08",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the stated location of Pune at the Mula and Mutha rivers' junction."
+  },
+  {
+   "id": "S09",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states the claimed fact that Pune fell to the British in 1817."
+  },
+  {
+   "id": "S10",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the claim that Pune was the seasonal capital of the Bombay Presidency."
+  },
+  {
+   "id": "S11",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that the University of Pune dates to 1948."
+  },
+  {
+   "id": "S12",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The possessive reference is supported by the claim about the University of Pune dating to 1948."
+  },
+  {
+   "id": "S13",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The claim directly gives 1948 as the University of Pune's date."
+  },
+  {
+   "id": "S14",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The possessive reference is supported by the claim about the University of Pune dating to 1948."
+  },
+  {
+   "id": "S15",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states the claimed 1961 collapse of Panshet Dam."
+  },
+  {
+   "id": "S16",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates the collapse in 1961 and the washing away of substantial old Pune."
+  },
+  {
+   "id": "S17",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states the claimed collapse of Panshet Dam in 1961."
+  },
+  {
+   "id": "S18",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The claim says the collapse washed away a substantial part of Pune's old town."
+  },
+  {
+   "id": "S19",
+   "entailed": "n/a",
+   "extra_facts": "no",
+   "note": "No claims are bound, so entailment is not applicable."
+  },
+  {
+   "id": "S20",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that Pune lies at the Mula–Mutha junction."
+  },
+  {
+   "id": "S21",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the claim that Pune is headquarters of the Indian Army's southern command."
+  },
+  {
+   "id": "S22",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the claim that Pune is headquarters of the Indian Army's southern command."
+  },
+  {
+   "id": "S23",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The stylized wording retains the claim that the University of Pune dates to 1948."
+  },
+  {
+   "id": "S24",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that the University of Pune dates to 1948."
+  },
+  {
+   "id": "S25",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Supported by the claim that Pune is at the junction of the Mula and Mutha rivers."
+  },
+  {
+   "id": "S26",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly restates that Pune lies at the Mula–Mutha junction."
+  },
+  {
+   "id": "S27",
+   "entailed": "no",
+   "extra_facts": "yes",
+   "note": "The metaphor suggests gradual settlement and construction, facts not stated by the location claims."
+  },
+  {
+   "id": "kp1",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "The label identifies Mula as a river, as stated in the claims."
+  },
+  {
+   "id": "kp2",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Bombay Presidency is named in the claim about Pune's seasonal capital status."
+  },
+  {
+   "id": "kp3",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly states the claimed fact that Pune fell to the British in 1817."
+  },
+  {
+   "id": "kp4",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly matches the claim that the University of Pune dates to 1948."
+  },
+  {
+   "id": "kp5",
+   "entailed": "yes",
+   "extra_facts": "no",
+   "note": "Directly matches the claimed Panshet Dam collapse in 1961."
+  },
+  {
+   "id": "end_card",
+   "entailed": "no",
+   "extra_facts": "yes",
+   "note": "The metaphor suggests gradual settlement and construction, facts not stated by the location claims."
+  }
+ ]
+}

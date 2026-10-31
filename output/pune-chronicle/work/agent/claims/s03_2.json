@@ -1,0 +1,1254 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Country India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State Maharashtra",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Deccan Plateau",
+     "zh-CN": "德干高原"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located on the Deccan Plateau.",
+    "zh-CN": "浦那位于德干高原。"
+   },
+   "excerpt": "Pune (Marathi: Puṇē, pronounced [ˈpuɳeː] ⓘ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Western India",
+     "zh-CN": "印度西部"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Western India.",
+    "zh-CN": "浦那位于印度西部。"
+   },
+   "excerpt": "Pune (Marathi: Puṇē, pronounced [ˈpuɳeː] ⓘ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "758 CE",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established in 758 CE.",
+    "zh-CN": "浦那于公元758年建立。"
+   },
+   "excerpt": "Established758 CE",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a geographical area of 516.18 km².",
+    "zh-CN": "浦那的地理面积为516.18平方公里。"
+   },
+   "excerpt": "In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by area, with a geographical area of 516.18km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River runs through Pune's historical landscape.",
+    "zh-CN": "穆塔河贯穿浦那的历史景观。"
+   },
+   "excerpt": "He also commissioned the construction of the Shaniwar Wada on the high grounds of right bank of the Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1857"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's English name was anglicized to Poona in 1857.",
+    "zh-CN": "该城市的英语名称于1857年被 anglicized 为 Poona。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1978"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's name was changed to Pune in 1978.",
+    "zh-CN": "该城市的名称于1978年改为浦那。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Muhiyabad",
+      "zh-CN": "穆希亚巴德"
+     }
+    },
+    "date": {
+     "raw": "between 1703 and 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A neighbourhood in central Pune was temporarily renamed Muhiyabad between 1703 and 1705.",
+    "zh-CN": "浦那老城中心的一个街区在1703年至1705年间被暂时改名为穆希亚巴德。"
+   },
+   "excerpt": "Mughal emperor Aurangzeb renamed a small neighbourhood in central part of the old city as Muhiyabad (the only divergent naming) some time between 1703 and 1705",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Seuna Yadavas of Devagiri",
+      "zh-CN": "德瓦吉里的塞乌纳·雅达瓦人"
+     }
+    },
+    "date": {
+     "raw": "from the 9th century to 1327"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+    "zh-CN": "从9世纪到1327年，浦那属于德瓦吉里的塞乌纳·雅达瓦人统治的领土。"
+   },
+   "excerpt": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maloji Bhosale",
+      "zh-CN": "马洛吉·博萨勒"
+     }
+    },
+    "date": {
+     "raw": "1599"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Maloji Bhosale was granted the jagir of Pune in 1599.",
+    "zh-CN": "浦那的采邑于1599年授予马洛吉·博萨勒。"
+   },
+   "excerpt": "Pune was part of the Jagir (fiefdom) granted by the Nizamshahi (Ahmadnagar Sultanate) to Maloji Bhosale in 1599.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "town",
+      "zh-CN": "城镇"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was destroyed by Murar Jagdeo in 1636.",
+    "zh-CN": "浦那于1636年被穆拉尔·贾格德奥摧毁。"
+   },
+   "excerpt": "The town was destroyed by Murar Jagdeo, a general from the rival Adil Shahi dynasty in 1636.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves rock-cut temple complex",
+      "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pataleshwar Caves rock-cut temple complex was built in Pune.",
+    "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群建于浦那。"
+   },
+   "excerpt": "The Pataleshwar Caves rock-cut temple complex was built during this era.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640 AD"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal residence was completed in 1640 AD.",
+    "zh-CN": "拉尔宫于公元1640年建成。"
+   },
+   "excerpt": "The Lal Mahal residence of Jiajabai and Shivaji was completed in 1640 AD.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Shaniwar Wada",
+      "zh-CN": "沙尼瓦尔瓦达宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1730"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Construction of Shaniwar Wada was completed in 1730.",
+    "zh-CN": "沙尼瓦尔瓦达宫于1730年建成。"
+   },
+   "excerpt": "He also commissioned the construction of the Shaniwar Wada on the high grounds of right bank of the Mutha River. The construction was completed in 1730, ushering in the era of Peshwa control of the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Peshwas",
+      "zh-CN": "佩什瓦"
+     }
+    },
+    "date": {
+     "raw": "1730"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The completion of Shaniwar Wada in 1730 ushered in the era of Peshwa control of Pune.",
+    "zh-CN": "沙尼瓦尔瓦达宫于1730年建成，标志着浦那进入佩什瓦统治时期。"
+   },
+   "excerpt": "The construction was completed in 1730, ushering in the era of Peshwa control of the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aurangzeb",
+      "zh-CN": "奥朗则布"
+     }
+    },
+    "date": {
+     "raw": "1703 to 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by Mughal emperor Aurangzeb from 1703 to 1705.",
+    "zh-CN": "浦那于1703年至1705年被莫卧儿皇帝奥朗则布占领。"
+   },
+   "excerpt": "From 1703 to 1705, towards the end of the 27-year-long Mughal–Maratha Wars, the town was occupied by Mughal emperor Aurangzeb and its name was changed temporarily to Muhiyabad.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "date": {
+     "raw": "June 1670"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by the Marathas again in June 1670.",
+    "zh-CN": "浦那于1670年6月再次被马拉塔人占领。"
+   },
+   "excerpt": "Pune was occupied again by Marathas in June 1670, four months to the battle of Sinhagad and remained in the hands of Marathas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "lake at Katraj",
+      "zh-CN": "卡特拉吉湖"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Nanasaheb constructed a lake at Katraj on the outskirts of Pune.",
+    "zh-CN": "纳纳萨海布在浦那郊外修建了卡特拉吉湖。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "underground aqueduct",
+      "zh-CN": "地下引水渠"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "An underground aqueduct carried water from the Katraj lake to Shaniwar Wada and Pune.",
+    "zh-CN": "一条地下引水渠将水从卡特拉吉湖引至沙尼瓦尔瓦达宫和浦那。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "date": {
+     "raw": "5 November"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British seized Pune on 5 November following the Battle of Khadki.",
+    "zh-CN": "卡德基战役后，英国人于11月5日夺取浦那。"
+   },
+   "excerpt": "The Peshwas were defeated at the Battle of Khadki (then spelled Kirkee) on 5 November near Pune and the city was seized by the British.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British military cantonment",
+      "zh-CN": "英军军事营地"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British built a large military cantonment east of Pune.",
+    "zh-CN": "英国人在浦那以东修建了一座大型军事营地。"
+   },
+   "excerpt": "It was placed under the administration of the Bombay Presidency and the British built a large military cantonment to the east of the city (now used by the Indian Army).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Poona Municipality was established in 1858."
+   },
+   "scope": null,
+   "text": {
+    "en": "Poona Municipality was established in 1858.",
+    "zh-CN": "浦那市政机构于1858年成立。"
+   },
+   "excerpt": "Poona Municipality was established in 1858.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "railway line from Bombay to Pune",
+      "zh-CN": "孟买到浦那的铁路线"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1858"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A railway line from Bombay to Pune opened in 1858.",
+    "zh-CN": "一条从孟买通往浦那的铁路于1858年通车。"
+   },
+   "excerpt": "A railway line from Bombay to the city opened in 1858, run by the Great Indian Peninsula Railway (GIPR).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British rule",
+      "zh-CN": "英国统治"
+     }
+    },
+    "date": {
+     "raw": "1818–1947"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was under British rule from 1818 to 1947.",
+    "zh-CN": "浦那于1818年至1947年处于英国统治之下。"
+   },
+   "excerpt": "British rule (1818–1947)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's official language is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's official language is Marathi.",
+    "zh-CN": "浦那的官方语言是马拉地语。"
+   },
+   "excerpt": "Official languageMarathi",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Airport",
+      "zh-CN": "浦那国际机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is located in Pune.",
+    "zh-CN": "浦那国际机场位于浦那。"
+   },
+   "excerpt": "International airportsPune International Airport (PNQ)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Oxford of the East\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+    "zh-CN": "浦那因其教育机构而常被称为“东方的牛津”。"
+   },
+   "excerpt": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"the most liveable city in India\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been ranked \"the most liveable city in India\" several times.",
+    "zh-CN": "浦那曾多次被评为“印度最宜居的城市”。"
+   },
+   "excerpt": "It has been ranked \"the most liveable city in India\" several times.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Monsoon capital\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the \"Monsoon capital\" of the Governor of Bombay.",
+    "zh-CN": "浦那成为孟买总督的“季风之都”。"
+   },
+   "excerpt": "Due to its milder weather, the city became the \"Monsoon capital\" of the Governor of Bombay, thus making it one of the most important cities of the Bombay Presidency.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune expanded through the construction of around 250 temples and bridges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune expanded through the construction of around 250 temples and bridges.",
+    "zh-CN": "浦那通过修建约250座寺庙和桥梁而扩张。"
+   },
+   "excerpt": "The patronage of the Maratha Peshwas resulted in a great expansion of Pune, with the construction of around 250 temples and bridges in the city",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "India",
+     "zh-CN": "印度"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in India.",
+    "zh-CN": "浦那位于印度。"
+   },
+   "excerpt": "Country India",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "State Maharashtra",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "founded",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "758 CE",
+    "calendar": "gregorian"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was established in 758 CE.",
+    "zh-CN": "浦那于公元758年建立。"
+   },
+   "excerpt": "Established758 CE",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "516.18km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has a geographical area of 516.18 km².",
+    "zh-CN": "浦那的地理面积为516.18平方公里。"
+   },
+   "excerpt": "In terms of the total amount of land under its jurisdiction, Pune is the largest city in Maharashtra by area, with a geographical area of 516.18km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River runs through Pune's historical landscape.",
+    "zh-CN": "穆塔河贯穿浦那的历史景观。"
+   },
+   "excerpt": "He also commissioned the construction of the Shaniwar Wada on the high grounds of right bank of the Mutha River.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Poona",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1857"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's English name was anglicized to Poona in 1857.",
+    "zh-CN": "该城市的英语名称于1857年被 anglicized 为 Poona。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1978"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The city's name was changed to Pune in 1978.",
+    "zh-CN": "该城市的名称于1978年改为浦那。"
+   },
+   "excerpt": "Anglicized to Poona in 1857 by the English during British rule, the city's name was changed to Pune in 1978.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "renamed",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Muhiyabad",
+      "zh-CN": "穆希亚巴德"
+     }
+    },
+    "date": {
+     "raw": "between 1703 and 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A neighbourhood in central Pune was temporarily renamed Muhiyabad between 1703 and 1705.",
+    "zh-CN": "浦那老城中心的一个街区在1703年至1705年间被暂时改名为穆希亚巴德。"
+   },
+   "excerpt": "Mughal emperor Aurangzeb renamed a small neighbourhood in central part of the old city as Muhiyabad (the only divergent naming) some time between 1703 and 1705",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Seuna Yadavas of Devagiri",
+      "zh-CN": "德瓦吉里的塞乌纳·雅达瓦人"
+     }
+    },
+    "date": {
+     "raw": "from the 9th century to 1327"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+    "zh-CN": "从9世纪到1327年，浦那属于德瓦吉里的塞乌纳·雅达瓦人统治的领土。"
+   },
+   "excerpt": "Pune was part of the territory ruled by the Seuna Yadavas of Devagiri from the 9th century to 1327.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Maloji Bhosale",
+      "zh-CN": "马洛吉·博萨勒"
+     }
+    },
+    "date": {
+     "raw": "1599"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Maloji Bhosale was granted the jagir of Pune in 1599.",
+    "zh-CN": "浦那的采邑于1599年授予马洛吉·博萨勒。"
+   },
+   "excerpt": "Pune was part of the Jagir (fiefdom) granted by the Nizamshahi (Ahmadnagar Sultanate) to Maloji Bhosale in 1599.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "sacked",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "town",
+      "zh-CN": "城镇"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1636"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was destroyed by Murar Jagdeo in 1636.",
+    "zh-CN": "浦那于1636年被穆拉尔·贾格德奥摧毁。"
+   },
+   "excerpt": "The town was destroyed by Murar Jagdeo, a general from the rival Adil Shahi dynasty in 1636.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pataleshwar Caves rock-cut temple complex",
+      "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pataleshwar Caves rock-cut temple complex was built in Pune.",
+    "zh-CN": "帕塔莱什瓦尔洞窟岩凿寺庙群建于浦那。"
+   },
+   "excerpt": "The Pataleshwar Caves rock-cut temple complex was built during this era.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Lal Mahal",
+      "zh-CN": "拉尔宫"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1640 AD"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Lal Mahal residence was completed in 1640 AD.",
+    "zh-CN": "拉尔宫于公元1640年建成。"
+   },
+   "excerpt": "The Lal Mahal residence of Jiajabai and Shivaji was completed in 1640 AD.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Peshwas",
+      "zh-CN": "佩什瓦"
+     }
+    },
+    "date": {
+     "raw": "1730"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The completion of Shaniwar Wada in 1730 ushered in the era of Peshwa control of Pune.",
+    "zh-CN": "沙尼瓦尔瓦达宫于1730年建成，标志着浦那进入佩什瓦统治时期。"
+   },
+   "excerpt": "The construction was completed in 1730, ushering in the era of Peshwa control of the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Aurangzeb",
+      "zh-CN": "奥朗则布"
+     }
+    },
+    "date": {
+     "raw": "1703 to 1705"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by Mughal emperor Aurangzeb from 1703 to 1705.",
+    "zh-CN": "浦那于1703年至1705年被莫卧儿皇帝奥朗则布占领。"
+   },
+   "excerpt": "From 1703 to 1705, towards the end of the 27-year-long Mughal–Maratha Wars, the town was occupied by Mughal emperor Aurangzeb and its name was changed temporarily to Muhiyabad.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Marathas",
+      "zh-CN": "马拉塔人"
+     }
+    },
+    "date": {
+     "raw": "June 1670"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was occupied by the Marathas again in June 1670.",
+    "zh-CN": "浦那于1670年6月再次被马拉塔人占领。"
+   },
+   "excerpt": "Pune was occupied again by Marathas in June 1670, four months to the battle of Sinhagad and remained in the hands of Marathas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "lake at Katraj",
+      "zh-CN": "卡特拉吉湖"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Nanasaheb constructed a lake at Katraj on the outskirts of Pune.",
+    "zh-CN": "纳纳萨海布在浦那郊外修建了卡特拉吉湖。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "underground aqueduct",
+      "zh-CN": "地下引水渠"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "An underground aqueduct carried water from the Katraj lake to Shaniwar Wada and Pune.",
+    "zh-CN": "一条地下引水渠将水从卡特拉吉湖引至沙尼瓦尔瓦达宫和浦那。"
+   },
+   "excerpt": "Nanasaheb constructed a lake at Katraj on the outskirts of the city and an underground aqueduct to bring water from the lake to Shaniwar Wada and the city.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British",
+      "zh-CN": "英国人"
+     }
+    },
+    "date": {
+     "raw": "5 November"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British seized Pune on 5 November following the Battle of Khadki.",
+    "zh-CN": "卡德基战役后，英国人于11月5日夺取浦那。"
+   },
+   "excerpt": "The Peshwas were defeated at the Battle of Khadki (then spelled Kirkee) on 5 November near Pune and the city was seized by the British.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British military cantonment",
+      "zh-CN": "英军军事营地"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The British built a large military cantonment east of Pune.",
+    "zh-CN": "英国人在浦那以东修建了一座大型军事营地。"
+   },
+   "excerpt": "It was placed under the administration of the Bombay Presidency and the British built a large military cantonment to the east of the city (now used by the Indian Army).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Poona Municipality was established in 1858."
+   },
+   "scope": null,
+   "text": {
+    "en": "Poona Municipality was established in 1858.",
+    "zh-CN": "浦那市政机构于1858年成立。"
+   },
+   "excerpt": "Poona Municipality was established in 1858.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "railway line from Bombay to Pune",
+      "zh-CN": "孟买到浦那的铁路线"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1858"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A railway line from Bombay to Pune opened in 1858.",
+    "zh-CN": "一条从孟买通往浦那的铁路于1858年通车。"
+   },
+   "excerpt": "A railway line from Bombay to the city opened in 1858, run by the Great Indian Peninsula Railway (GIPR).",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "ruled_by",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "British rule",
+      "zh-CN": "英国统治"
+     }
+    },
+    "date": {
+     "raw": "1818–1947"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune was under British rule from 1818 to 1947.",
+    "zh-CN": "浦那于1818年至1947年处于英国统治之下。"
+   },
+   "excerpt": "British rule (1818–1947)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune's official language is Marathi."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune's official language is Marathi.",
+    "zh-CN": "浦那的官方语言是马拉地语。"
+   },
+   "excerpt": "Official languageMarathi",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune International Airport",
+      "zh-CN": "浦那国际机场"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune International Airport is located in Pune.",
+    "zh-CN": "浦那国际机场位于浦那。"
+   },
+   "excerpt": "International airportsPune International Airport (PNQ)",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Oxford of the East\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+    "zh-CN": "浦那因其教育机构而常被称为“东方的牛津”。"
+   },
+   "excerpt": "Pune is often referred to as the \"Oxford of the East\" because of its educational institutions.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"the most liveable city in India\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has been ranked \"the most liveable city in India\" several times.",
+    "zh-CN": "浦那曾多次被评为“印度最宜居的城市”。"
+   },
+   "excerpt": "It has been ranked \"the most liveable city in India\" several times.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "\"Monsoon capital\""
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune became the \"Monsoon capital\" of the Governor of Bombay.",
+    "zh-CN": "浦那成为孟买总督的“季风之都”。"
+   },
+   "excerpt": "Due to its milder weather, the city became the \"Monsoon capital\" of the Governor of Bombay, thus making it one of the most important cities of the Bombay Presidency.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "Pune expanded through the construction of around 250 temples and bridges."
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune expanded through the construction of around 250 temples and bridges.",
+    "zh-CN": "浦那通过修建约250座寺庙和桥梁而扩张。"
+   },
+   "excerpt": "The patronage of the Maratha Peshwas resulted in a great expansion of Pune, with the construction of around 250 temples and bridges in the city",
+   "source_id": "s03"
+  }
+ ]
+}

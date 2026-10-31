@@ -1,0 +1,2193 @@
+{
+ "title": {
+  "en": "Pune: Mula and Mutha",
+  "zh-CN": "浦那：穆拉河与穆塔河"
+ },
+ "title_claims": [
+  "agent.002",
+  "agent.003"
+ ],
+ "areas": [
+  {
+   "id": "early_settlement_core",
+   "label": {
+    "en": "Early settlement",
+    "zh-CN": "早期聚落"
+   },
+   "polygon_km": [
+    [
+     -0.05,
+     -0.65
+    ],
+    [
+     0.28,
+     -0.54
+    ],
+    [
+     0.45,
+     -0.22
+    ],
+    [
+     0.35,
+     0.18
+    ],
+    [
+     0.06,
+     0.32
+    ],
+    [
+     -0.26,
+     0.2
+    ],
+    [
+     -0.45,
+     -0.1
+    ],
+    [
+     -0.38,
+     -0.45
+    ]
+   ]
+  },
+  {
+   "id": "likely_maratha_capital",
+   "label": {
+    "en": "Maratha capital extent",
+    "zh-CN": "马拉塔都城范围"
+   },
+   "polygon_km": [
+    [
+     -0.08,
+     -1.02
+    ],
+    [
+     0.62,
+     -0.7
+    ],
+    [
+     0.72,
+     -0.2
+    ],
+    [
+     0.55,
+     0.32
+    ],
+    [
+     0.15,
+     0.72
+    ],
+    [
+     -0.25,
+     0.83
+    ],
+    [
+     -0.62,
+     0.52
+    ],
+    [
+     -0.72,
+     0.08
+    ],
+    [
+     -0.55,
+     -0.48
+    ],
+    [
+     -0.25,
+     -0.85
+    ]
+   ]
+  },
+  {
+   "id": "colonial_city",
+   "label": {
+    "en": "Colonial urban extent",
+    "zh-CN": "殖民时期城区范围"
+   },
+   "polygon_km": [
+    [
+     -1.35,
+     -1.85
+    ],
+    [
+     0.95,
+     -1.72
+    ],
+    [
+     1.58,
+     -0.95
+    ],
+    [
+     1.62,
+     0.12
+    ],
+    [
+     1.15,
+     1.12
+    ],
+    [
+     0.15,
+     1.65
+    ],
+    [
+     -0.92,
+     1.43
+    ],
+    [
+     -1.48,
+     0.52
+    ],
+    [
+     -1.55,
+     -0.55
+    ],
+    [
+     -1.05,
+     -1.25
+    ]
+   ]
+  },
+  {
+   "id": "post_1940_institutional_city",
+   "label": {
+    "en": "Institutional urban extent",
+    "zh-CN": "机构城区范围"
+   },
+   "polygon_km": [
+    [
+     -1.6,
+     -2.3
+    ],
+    [
+     2.8,
+     -2.1
+    ],
+    [
+     3.7,
+     -1.3
+    ],
+    [
+     3.65,
+     0.2
+    ],
+    [
+     2.2,
+     1.4
+    ],
+    [
+     0.4,
+     2.0
+    ],
+    [
+     -1.6,
+     3.8
+    ],
+    [
+     -3.7,
+     3.8
+    ],
+    [
+     -4.1,
+     1.2
+    ],
+    [
+     -3.2,
+     -0.6
+    ],
+    [
+     -2.1,
+     -1.8
+    ]
+   ]
+  }
+ ],
+ "chronology": {
+  "city": {
+   "en": "Pune",
+   "zh-CN": "浦那"
+  },
+  "coords": "18.52° N · 73.86° E",
+  "hud": [
+   {
+    "en": "Pune · Maharashtra",
+    "zh-CN": "浦那 · 马哈拉施特拉邦"
+   },
+   {
+    "en": "Historic extents · AI illustration",
+    "zh-CN": "历史范围 · AI示意图"
+   }
+  ],
+  "river": "Mula|Mutha",
+  "eras": [
+   {
+    "code": "01",
+    "from": 1714,
+    "label": {
+     "en": "Maratha capital",
+     "zh-CN": "马拉塔都城"
+    }
+   },
+   {
+    "code": "02",
+    "from": 1817,
+    "label": {
+     "en": "British-era city",
+     "zh-CN": "英国时期城市"
+    }
+   },
+   {
+    "code": "03",
+    "from": 1948,
+    "label": {
+     "en": "Institutional city",
+     "zh-CN": "机构城市"
+    }
+   },
+   {
+    "code": "04",
+    "from": 1961,
+    "label": {
+     "en": "Modern Pune",
+     "zh-CN": "现代浦那"
+    }
+   }
+  ],
+  "layers": [
+   {
+    "area": "early_settlement_core",
+    "from": 1714,
+    "to": 1817,
+    "color": "#4A6F78",
+    "morph": true
+   },
+   {
+    "area": "likely_maratha_capital",
+    "from": 1714,
+    "to": 1817,
+    "color": "#C88A3D",
+    "morph": true
+   },
+   {
+    "area": "colonial_city",
+    "from": 1817,
+    "to": 1948,
+    "color": "#7B6FA8",
+    "morph": true
+   },
+   {
+    "area": "post_1940_institutional_city",
+    "from": 1948,
+    "to": null,
+    "color": "#4C9A70",
+    "morph": true
+   }
+  ],
+  "places": [
+   {
+    "id": "lal_mahal",
+    "from": 1714,
+    "mark_built": false
+   },
+   {
+    "id": "shaniwar_wada",
+    "from": 1714,
+    "mark_built": false
+   },
+   {
+    "id": "pune_cantonment",
+    "from": 1817,
+    "mark_built": false
+   },
+   {
+    "id": "savitribai_phule_pune_university",
+    "from": 1948,
+    "mark_built": false
+   },
+   {
+    "id": "pune_junction",
+    "from": 2026,
+    "mark_built": false
+   },
+   {
+    "id": "pune_international_airport",
+    "from": 2026,
+    "mark_built": false
+   }
+  ],
+  "events": [
+   {
+    "year": 1714,
+    "until": 1817,
+    "title": {
+     "en": "Official Maratha capital",
+     "zh-CN": "正式马拉塔都城"
+    },
+    "sub": {
+     "en": "Marathas",
+     "zh-CN": "马拉塔人"
+    },
+    "place": null,
+    "kind": "event"
+   },
+   {
+    "year": 1817,
+    "until": null,
+    "title": {
+     "en": "Pune falls to the British",
+     "zh-CN": "浦那落入英国人手中"
+    },
+    "sub": {
+     "en": "British capture",
+     "zh-CN": "英国人占领"
+    },
+    "place": null,
+    "kind": "event"
+   },
+   {
+    "year": 1948,
+    "until": null,
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "Dates to 1948",
+     "zh-CN": "始于1948年"
+    },
+    "place": "savitribai_phule_pune_university",
+    "kind": "event"
+   },
+   {
+    "year": 1961,
+    "until": null,
+    "title": {
+     "en": "Panshet Dam collapse",
+     "zh-CN": "潘谢特水坝崩塌"
+    },
+    "sub": {
+     "en": "Substantial part of old town washed away",
+     "zh-CN": "旧城大片区域被冲走"
+    },
+    "place": null,
+    "kind": "scar"
+   }
+  ],
+  "focus": {
+   "f_name": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Puṇyanagara",
+     "zh-CN": "Puṇyanagara（美德之城）"
+    },
+    "sub": {
+     "en": "City of Virtue",
+     "zh-CN": "美德之城"
+    },
+    "kind": null,
+    "r_km": 0.15,
+    "show_built": false
+   },
+   "f_capital": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Official capital",
+     "zh-CN": "正式都城"
+    },
+    "sub": {
+     "en": "From 1714",
+     "zh-CN": "自1714年起"
+    },
+    "kind": null,
+    "r_km": 0.2,
+    "show_built": false
+   },
+   "f_british": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "British capture",
+     "zh-CN": "英国人占领"
+    },
+    "sub": {
+     "en": "1817",
+     "zh-CN": "1817"
+    },
+    "kind": null,
+    "r_km": 0.2,
+    "show_built": false
+   },
+   "f_seasonal": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Seasonal capital",
+     "zh-CN": "季节性首府"
+    },
+    "sub": {
+     "en": "Bombay Presidency",
+     "zh-CN": "孟买总督辖区"
+    },
+    "kind": null,
+    "r_km": 0.2,
+    "show_built": false
+   },
+   "f_university": {
+    "place": "savitribai_phule_pune_university",
+    "title": {
+     "en": "University of Pune",
+     "zh-CN": "浦那大学"
+    },
+    "sub": {
+     "en": "1948",
+     "zh-CN": "1948"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   },
+   "f_dam_collapse": {
+    "place": "shaniwar_wada",
+    "title": {
+     "en": "Panshet Dam collapse",
+     "zh-CN": "潘谢特水坝崩塌"
+    },
+    "sub": {
+     "en": "1961",
+     "zh-CN": "1961"
+    },
+    "kind": null,
+    "r_km": 0.2,
+    "show_built": false
+   },
+   "f_command": {
+    "place": "pune_cantonment",
+    "title": {
+     "en": "Southern Command",
+     "zh-CN": "南方司令部"
+    },
+    "sub": {
+     "en": "Headquarters",
+     "zh-CN": "所在地"
+    },
+    "kind": null,
+    "r_km": 0.25,
+    "show_built": false
+   }
+  },
+  "modern": {
+   "from": 2026,
+   "to": 2026,
+   "outside": [
+    "early_settlement_core",
+    "likely_maratha_capital",
+    "colonial_city"
+   ]
+  }
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "section": "intro",
+   "bars": 2,
+   "kind": "question",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "Pune lies at the Mula–Mutha junction.",
+     "em": [
+      "Mula–Mutha",
+      "junction"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那位于穆拉河与穆塔河交汇处。",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "A globe resolves into the real-building map of Pune.",
+   "motion": "The globe descends; the mapped city holds still.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.6,
+    "pitch": 58
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "globe": true,
+    "clean": true,
+    "grow": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "S02",
+   "section": "intro",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "How did this city take shape?",
+     "em": [
+      "city",
+      "shape"
+     ]
+    },
+    "zh-CN": {
+     "text": "这座城市如何成形？",
+     "em": [
+      "城市",
+      "成形"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The city stays whole while its light winds backward.",
+   "motion": "The city's light dims while the map texture runs backward.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.4,
+    "pitch": 62
+   },
+   "year": [
+    2026,
+    1714
+   ],
+   "effects": {
+    "clean": true,
+    "grow": [
+     0,
+     1
+    ],
+    "rewind": [
+     2026,
+     1714
+    ],
+    "dim": [
+     0,
+     0.3
+    ]
+   }
+  },
+  {
+   "id": "S03",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": "kp1",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The Mula and Mutha rivers meet.",
+     "em": [
+      "Mula",
+      "Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "穆拉河与穆塔河在此交汇。",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "Both river lines brighten at their mapped junction.",
+   "motion": "The Mula and Mutha lines brighten together.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "normal"
+    },
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 2.1,
+    "pitch": 55
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "river": true
+   }
+  },
+  {
+   "id": "S04",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.038"
+   ],
+   "hedge": "attributed",
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "According to records,\nPune means “City of Virtue.”",
+     "em": [
+      "City",
+      "Virtue"
+     ]
+    },
+    "zh-CN": {
+     "text": "据记载，浦那意为“美德之城”。",
+     "em": [
+      "美德",
+      "之城"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "A close map view holds while the name card arrives.",
+   "motion": "The camera settles; the name card resolves over the core.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 1.7,
+    "pitch": 57
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_name",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S05",
+   "section": "verse",
+   "bars": 2,
+   "kind": "rehook",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "Mula and Mutha rivers meet at Pune.",
+     "em": [
+      "Mula",
+      "Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "穆拉河与穆塔河在浦那交汇。",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The early extent tightens around the river bend.",
+   "motion": "The core tightens inward, then pauses.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "early_settlement_core",
+    "dist_km": 2.2,
+    "pitch": 60
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "era_label": true,
+    "grow": [
+     0.1,
+     0.35
+    ]
+   }
+  },
+  {
+   "id": "S06",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.007"
+   ],
+   "hedge": "attributed",
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "According to records,\nPune becomes an official capital.",
+     "em": [
+      "official",
+      "capital"
+     ]
+    },
+    "zh-CN": {
+     "text": "据记载，浦那成为正式都城。",
+     "em": [
+      "正式",
+      "都城"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The official capital glows within the growing extent.",
+   "motion": "The capital boundary brightens and expands outward.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 1.8,
+    "pitch": 58
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "era_label": true,
+    "grow": [
+     0.2,
+     0.7
+    ],
+    "focus": [
+     {
+      "id": "f_capital",
+      "beat": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "S07",
+   "section": "verse",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune stands at the Mula–Mutha junction.",
+     "em": [
+      "Pune",
+      "junction"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那位于穆拉—穆塔河交汇处。",
+     "em": [
+      "浦那",
+      "交汇处"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "A lit patch spreads beyond the old core.",
+   "motion": "A new lit ring grows from the core.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "likely_maratha_capital",
+    "dist_km": 2.3,
+    "pitch": 62
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "spread": [
+     {
+      "from": 1714,
+      "area": "likely_maratha_capital",
+      "r_km": 0.8,
+      "beat": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "S08",
+   "section": "verse",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The Mula and Mutha meet at Pune.",
+     "em": [
+      "Mula",
+      "Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "穆拉河与穆塔河在浦那交汇。",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "The camera traces the capital's river-facing edge.",
+   "motion": "The halo sweeps clockwise around the extent.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 3.4,
+    "pitch": 65
+   },
+   "year": [
+    1714,
+    1714
+   ],
+   "effects": {
+    "halo": {
+     "area": "likely_maratha_capital",
+     "beat": 0
+    }
+   }
+  },
+  {
+   "id": "S09",
+   "section": "build",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.008"
+   ],
+   "hedge": null,
+   "kp": "kp3",
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "In 1817, Pune falls to the British.",
+     "em": [
+      "1817",
+      "British"
+     ]
+    },
+    "zh-CN": {
+     "text": "1817年，浦那落入英国人手中。",
+     "em": [
+      "1817",
+      "英国人"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The map warms into the British-era city.",
+   "motion": "The outline morphs; a bright marker opens over Pune.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "colonial_city",
+    "dist_km": 4.6,
+    "pitch": 58
+   },
+   "year": [
+    1817,
+    1817
+   ],
+   "effects": {
+    "morph": {
+     "from": 1714,
+     "to": 1817,
+     "beat": 1
+    },
+    "focus": [
+     {
+      "id": "f_british",
+      "beat": 1
+     }
+    ],
+    "era_label": true
+   }
+  },
+  {
+   "id": "S10",
+   "section": "build",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.009"
+   ],
+   "hedge": null,
+   "kp": "kp2",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune becomes Bombay Presidency's\nseasonal capital.",
+     "em": [
+      "Presidency",
+      "capital"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那成为孟买总督辖区的\n季节性首府。",
+     "em": [
+      "总督辖区",
+      "首府"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "The lit capital area opens across the wider grid.",
+   "motion": "The light spreads west and north across the grid.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.2,
+    "pitch": 64
+   },
+   "year": [
+    1817,
+    1817
+   ],
+   "effects": {
+    "spread": [
+     {
+      "from": 1817,
+      "area": "colonial_city",
+      "r_km": 1.2,
+      "beat": 1
+     }
+    ],
+    "focus": [
+     {
+      "id": "f_seasonal",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S11",
+   "section": "drop",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The University of Pune dates to 1948.",
+     "em": [
+      "University of Pune",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学始于1948年。",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The institutional footprint replaces the colonial outline.",
+   "motion": "The map remaps into the institutional footprint.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "route",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "post_1940_institutional_city",
+    "dist_km": 4.6,
+    "pitch": 58
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "morph": {
+     "from": 1817,
+     "to": 1948,
+     "beat": 0
+    },
+    "era_label": true
+   }
+  },
+  {
+   "id": "S12",
+   "section": "drop",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": "kp4",
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune's university dates to 1948.",
+     "em": [
+      "university",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学始于1948年。",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "A wide campus view holds beside a fact card.",
+   "motion": "The camera pushes gently toward the distant campus; the year card appears.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "savitribai_phule_pune_university",
+    "dist_km": 4.6,
+    "pitch": 54
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_university",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S13",
+   "section": "drop",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The university's founding year is 1948.",
+     "em": [
+      "founding year",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "大学创立年份为1948年。",
+     "em": [
+      "创立年份",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "The distant university campus remains visible within the wider city map.",
+   "motion": "The view tracks left along the campus edge without entering its empty surroundings.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "route",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "savitribai_phule_pune_university",
+    "dist_km": 4.6,
+    "pitch": 52
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_university",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S14",
+   "section": "drop",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune's university dates to 1948.",
+     "em": [
+      "university",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学始于1948年。",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The whole institutional city fills the frame.",
+   "motion": "The institutional glow expands and fills the frame.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.8,
+    "pitch": 64
+   },
+   "year": [
+    1948,
+    1948
+   ],
+   "effects": {
+    "spread": [
+     {
+      "from": 1948,
+      "area": "post_1940_institutional_city",
+      "r_km": 1.6,
+      "beat": 1
+     }
+    ],
+    "grow": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "id": "S15",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.020"
+   ],
+   "hedge": null,
+   "kp": "kp5",
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "In 1961, Panshet Dam collapses.",
+     "em": [
+      "1961",
+      "Panshet"
+     ]
+    },
+    "zh-CN": {
+     "text": "1961年，潘谢特水坝崩塌。",
+     "em": [
+      "1961",
+      "水坝"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "Blue water opens across the riverside old core as the dam fact appears.",
+   "motion": "A plain callout appears while blue water spreads street by street.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "emphasis"
+    },
+    {
+     "beat": 1,
+     "kind": "reveal",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "shaniwar_wada",
+    "dist_km": 1.8,
+    "pitch": 56
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "early_settlement_core",
+      "r_km": 0.8,
+      "beat": 0,
+      "color": "#5AA9E6"
+     }
+    ],
+    "focus": [
+     {
+      "id": "f_dam_collapse",
+      "beat": 0
+     }
+    ],
+    "era_label": true
+   }
+  },
+  {
+   "id": "S16",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.020"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "1961: Panshet Dam collapsed.\nSubstantial part of old Pune washed away.",
+     "em": [
+      "Panshet Dam",
+      "1961"
+     ]
+    },
+    "zh-CN": {
+     "text": "1961年，潘谢特水坝崩塌，\n浦那旧城大片区域被冲走。",
+     "em": [
+      "潘谢特水坝",
+      "1961"
+     ]
+    }
+   },
+   "size": "close",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "Blue water runs through the affected section of the old core.",
+   "motion": "Water runs downstream through the core beneath a plain callout.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "early_settlement_core",
+    "dist_km": 1.6,
+    "pitch": 60
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "early_settlement_core",
+      "r_km": 0.8,
+      "beat": 0,
+      "color": "#5AA9E6"
+     }
+    ],
+    "focus": [
+     {
+      "id": "f_dam_collapse",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S17",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.020"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Panshet Dam collapsed in 1961.",
+     "em": [
+      "Panshet Dam",
+      "1961"
+     ]
+    },
+    "zh-CN": {
+     "text": "潘谢特水坝于1961年崩塌。",
+     "em": [
+      "潘谢特水坝",
+      "1961"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "A blue flood path crosses the wider old core.",
+   "motion": "Blue water extends from the riverside center into nearby streets.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 3.2,
+    "pitch": 68
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "early_settlement_core",
+      "r_km": 0.8,
+      "beat": 1,
+      "color": "#5AA9E6"
+     }
+    ],
+    "focus": [
+     {
+      "id": "f_dam_collapse",
+      "beat": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "S18",
+   "section": "breakdown",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.020"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The collapse washed away part of old Pune.",
+     "em": [
+      "collapse",
+      "old Pune"
+     ]
+    },
+    "zh-CN": {
+     "text": "崩塌冲走了浦那旧城的一部分。",
+     "em": [
+      "崩塌",
+      "浦那旧城"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "The blue wash remains visible along the riverside core.",
+   "motion": "The blue route traces the washed edge beside the river.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "route",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 3.8,
+    "pitch": 55
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "spread": [
+     {
+      "from": "shaniwar_wada",
+      "area": "early_settlement_core",
+      "r_km": 0.8,
+      "beat": 0,
+      "color": "#5AA9E6"
+     }
+    ],
+    "focus": [
+     {
+      "id": "f_dam_collapse",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S19",
+   "section": "build2",
+   "bars": 2,
+   "kind": "question",
+   "claims": [],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "What returns beside the old core?",
+     "em": [
+      "returns",
+      "core"
+     ]
+    },
+    "zh-CN": {
+     "text": "旧城核心旁会重新长出什么？",
+     "em": [
+      "旧城核心",
+      "长出"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The wide map holds on the broken river corridor.",
+   "motion": "Everything pauses over the damaged river corridor.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.1,
+    "pitch": 60
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_dam_collapse",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S20",
+   "section": "build2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune lies at the Mula–Mutha junction.",
+     "em": [
+      "Pune",
+      "Mula–Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那位于穆拉—穆塔河交汇处。",
+     "em": [
+      "浦那",
+      "交汇处"
+     ]
+    }
+   },
+   "size": "medium",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "A thin line of light returns along the same banks.",
+   "motion": "A thin light line grows along the banks.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 3.2,
+    "pitch": 53
+   },
+   "year": [
+    1961,
+    1961
+   ],
+   "effects": {
+    "river": true,
+    "clean": true
+   }
+  },
+  {
+   "id": "S21",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.016"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune hosts the southern command\nheadquarters.",
+     "em": [
+      "southern command",
+      "headquarters"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那是南方司令部\n所在地。",
+     "em": [
+      "南方司令部",
+      "所在地"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The full city map brightens around the center.",
+   "motion": "The full city brightens from the center outward.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 5,
+    "pitch": 64
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "clean": true,
+    "grow": [
+     1,
+     1
+    ],
+    "era_label": true,
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S22",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.016"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune hosts the southern command\nheadquarters.",
+     "em": [
+      "Pune",
+      "headquarters"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那是南方司令部\n所在地。",
+     "em": [
+      "浦那",
+      "司令部"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "push-in",
+   "transition": "cut",
+   "description": "The eastern military quarter is shown within the complete city.",
+   "motion": "The wide view settles on the eastern quarter without entering its unbuilt surroundings.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "appear",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "pune_cantonment",
+    "dist_km": 4.6,
+    "pitch": 54
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_command",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S23",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "fact",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The university dates its story to 1948.",
+     "em": [
+      "university",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学的故事始于1948年。",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-right",
+   "transition": "cut",
+   "description": "The university remains a distant landmark within today's city.",
+   "motion": "The wide city view pans toward the campus while surrounding lights shimmer.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "savitribai_phule_pune_university",
+    "dist_km": 4.6,
+    "pitch": 54
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "focus": [
+     {
+      "id": "f_university",
+      "beat": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "S24",
+   "section": "drop2",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.013"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "The University of Pune dates to 1948.",
+     "em": [
+      "University of Pune",
+      "1948"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那大学始于1948年。",
+     "em": [
+      "浦那大学",
+      "1948"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pull-out",
+   "transition": "cut",
+   "description": "The camera pulls back until today's city spans the map around the campus.",
+   "motion": "The camera rises; the whole city fills the map.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "climax"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 5.2,
+    "pitch": 66
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "grow": [
+     1,
+     1
+    ],
+    "halo": {
+     "area": "post_1940_institutional_city",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "S25",
+   "section": "outro",
+   "bars": 2,
+   "kind": "rehook",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": true,
+   "caption": {
+    "en": {
+     "text": "Mula and Mutha rivers meet in Pune.",
+     "em": [
+      "Mula",
+      "Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "穆拉河与穆塔河在浦那交汇。",
+     "em": [
+      "穆拉河",
+      "穆塔河"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "rise",
+   "transition": "cut",
+   "description": "The rivers glint across the returning city.",
+   "motion": "The river glints sweep across the city.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "route",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.7,
+    "pitch": 59
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "clean": true
+   }
+  },
+  {
+   "id": "S26",
+   "section": "outro",
+   "bars": 3,
+   "kind": "bridge",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Pune lies at the Mula–Mutha junction.",
+     "em": [
+      "Pune",
+      "Mula–Mutha"
+     ]
+    },
+    "zh-CN": {
+     "text": "浦那位于穆拉—穆塔河交汇处。",
+     "em": [
+      "浦那",
+      "交汇处"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "pan-left",
+   "transition": "cut",
+   "description": "Each lit extent aligns into a continuous city.",
+   "motion": "Lit extents converge into a single outline.",
+   "sfx": [
+    {
+     "beat": 1,
+     "kind": "route",
+     "tier": "normal"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.4,
+    "pitch": 58
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "era_label": true
+   }
+  },
+  {
+   "id": "S27",
+   "section": "outro",
+   "bars": 2,
+   "kind": "bridge",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "hedge": null,
+   "kp": null,
+   "rehook": false,
+   "caption": {
+    "en": {
+     "text": "Putting down roots here,\none brick at a time.",
+     "em": [
+      "roots",
+      "brick"
+     ]
+    },
+    "zh-CN": {
+     "text": "在这里扎根，\n一砖一瓦。",
+     "em": [
+      "扎根",
+      "一砖一瓦"
+     ]
+    }
+   },
+   "size": "wide",
+   "camera": "hold",
+   "transition": "cut",
+   "description": "The opening city view holds while the final line appears.",
+   "motion": "The city holds still; the final line settles.",
+   "sfx": [
+    {
+     "beat": 0,
+     "kind": "reveal",
+     "tier": "emphasis"
+    }
+   ],
+   "view": {
+    "at": "center",
+    "dist_km": 4.6,
+    "pitch": 58
+   },
+   "year": [
+    2026,
+    2026
+   ],
+   "effects": {
+    "rings": true
+   }
+  }
+ ],
+ "knowledge_points": [
+  {
+   "id": "kp1",
+   "claims": [
+    "agent.002",
+    "agent.003"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "River name",
+     "value": "Mula River"
+    },
+    "zh-CN": {
+     "title": "河流名称",
+     "value": "穆拉河"
+    }
+   }
+  },
+  {
+   "id": "kp2",
+   "claims": [
+    "agent.009"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Presidency",
+     "value": "Bombay Presidency"
+    },
+    "zh-CN": {
+     "title": "总督辖区",
+     "value": "孟买总督辖区"
+    }
+   }
+  },
+  {
+   "id": "kp3",
+   "claims": [
+    "agent.008"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Pune fell to the British",
+     "value": "1817"
+    },
+    "zh-CN": {
+     "title": "浦那落入英国人手中",
+     "value": "1817"
+    }
+   }
+  },
+  {
+   "id": "kp4",
+   "claims": [
+    "agent.013"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "University date",
+     "value": "1948"
+    },
+    "zh-CN": {
+     "title": "大学年代",
+     "value": "1948"
+    }
+   }
+  },
+  {
+   "id": "kp5",
+   "claims": [
+    "agent.020"
+   ],
+   "count": null,
+   "card": {
+    "en": {
+     "title": "Panshet Dam collapse",
+     "value": "1961"
+    },
+    "zh-CN": {
+     "title": "潘谢特水坝崩塌",
+     "value": "1961"
+    }
+   }
+  }
+ ],
+ "end_card": {
+  "line": {
+   "en": "Putting down roots here, one brick at a time.",
+   "zh-CN": "在这里扎根，一砖一瓦。"
+  },
+  "claims": [
+   "agent.002",
+   "agent.003"
+  ]
+ }
+}

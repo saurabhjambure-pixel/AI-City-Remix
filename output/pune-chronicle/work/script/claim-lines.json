@@ -1,0 +1,42 @@
+{
+  "schema": "chronicle-claim-lines/1",
+  "script_sha256": "312ed013293924e95b1b5fd13ac5d9cde746a27d0cc4939c853aa1e346564eea",
+  "lines": {
+    "agent.002": [
+      "S03",
+      "kp1",
+      "title"
+    ],
+    "agent.003": [
+      "S03",
+      "title"
+    ],
+    "agent.005": [
+      "S06"
+    ],
+    "agent.007": [
+      "S06",
+      "S07"
+    ],
+    "agent.008": [
+      "S11",
+      "kp4"
+    ],
+    "agent.009": [
+      "S10",
+      "kp2"
+    ],
+    "agent.013": [
+      "S14",
+      "kp5"
+    ],
+    "agent.016": [
+      "S20",
+      "kp3"
+    ],
+    "agent.020": [
+      "S16",
+      "kp6"
+    ]
+  }
+}

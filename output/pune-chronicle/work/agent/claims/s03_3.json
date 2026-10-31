@@ -1,0 +1,818 @@
+{
+ "raw": [
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Municipal Corporation (PMC)",
+      "zh-CN": "浦那市政公司（PMC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Poona Municipal Council was reorganized to form the Pune Municipal Corporation in 1950.",
+    "zh-CN": "1950年，浦那市政委员会被改组为浦那市政公司。"
+   },
+   "excerpt": "The Poona Municipal Council was reorganised to form the Pune Municipal Corporation (PMC) in 1950.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune, now Savitribai Phule Pune University",
+      "zh-CN": "浦那大学，现为萨维特里拜·普莱·浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1949",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune, now Savitribai Phule Pune University, was established in 1949.",
+    "zh-CN": "浦那大学（现为萨维特里拜·普莱·浦那大学）于1949年成立。"
+   },
+   "excerpt": "the establishment of the University of Pune (now, Savitribai Phule Pune University) in 1949",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Chemical Laboratory",
+      "zh-CN": "国家化学实验室"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Chemical Laboratory was established in Pune in 1950.",
+    "zh-CN": "国家化学实验室于1950年在浦那成立。"
+   },
+   "excerpt": "the National Chemical Laboratory in 1950",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Defence Academy",
+      "zh-CN": "国防学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1955",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Defence Academy was established in Pune in 1955.",
+    "zh-CN": "国防学院于1955年在浦那成立。"
+   },
+   "excerpt": "the National Defence Academy in 1955",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Hindustan Antibiotics",
+      "zh-CN": "印度斯坦抗生素公司"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Hadapsar, Bhosari and Pimpri, Pune",
+      "zh-CN": "浦那的哈达普萨尔、博萨里和皮姆普里"
+     }
+    },
+    "date": {
+     "raw": "1954",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in Pune's Hadapsar, Bhosari and Pimpri areas.",
+    "zh-CN": "印度斯坦抗生素公司于1954年成立，标志着浦那哈达普萨尔、博萨里和皮姆普里地区工业发展的开始。"
+   },
+   "excerpt": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in the Hadapsar, Bhosari, and Pimpri areas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet dam breach and resulting flood",
+      "zh-CN": "潘谢特大坝溃决及由此引发的洪水"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A breach in the Panshet dam caused a destructive flood in Pune in 1961.",
+    "zh-CN": "1961年，潘谢特大坝溃决并在浦那引发破坏性洪水。"
+   },
+   "excerpt": "The breach in the Panshet dam and the resulting flood of 1961 led to severe damage and the destruction of housing close to the river banks.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Six-lane Mumbai–Pune Expressway",
+      "zh-CN": "六车道孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001.",
+    "zh-CN": "六车道孟买—浦那高速公路于2001年完工。"
+   },
+   "excerpt": "it was completed in 2001",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bomb explosion at the German Bakery",
+      "zh-CN": "德国面包店炸弹爆炸"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "German Bakery, Koregaon Park, Pune",
+      "zh-CN": "浦那科里冈公园的德国面包店"
+     }
+    },
+    "date": {
+     "raw": "13 February 2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bomb exploded at the German Bakery in Koregaon Park, Pune, on 13 February 2010.",
+    "zh-CN": "2010年2月13日，一枚炸弹在浦那科里冈公园的德国面包店爆炸。"
+   },
+   "excerpt": "On 13 February 2010, a bomb exploded at the German Bakery in the upmarket Koregaon Park neighbourhood in eastern Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "'Oxford Of The East'"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has the nickname 'Oxford Of The East'.",
+    "zh-CN": "浦那有“东方牛津”的昵称。"
+   },
+   "excerpt": "earning it the nickname of the 'Oxford Of The East'",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "15,642 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune district has an area of 15,642 square kilometers.",
+    "zh-CN": "浦那县面积为15,642平方公里。"
+   },
+   "excerpt": "The area of Pune district is 15,642 km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "518 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune municipal corporation area covers 518 square kilometers.",
+    "zh-CN": "浦那市政公司辖区面积为518平方公里。"
+   },
+   "excerpt": "the municipal corporation area covers 518 km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Deccan Plateau",
+     "zh-CN": "德干高原"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies on the western margin of the Deccan Plateau.",
+    "zh-CN": "浦那位于德干高原西缘。"
+   },
+   "excerpt": "Pune lies on the western margin of the Deccan Plateau",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River flows through Pune.",
+    "zh-CN": "穆拉河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River flows through Pune.",
+    "zh-CN": "穆塔河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "帕瓦纳河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "因德拉亚尼河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Metropolitan Region has grown to an area of 7,256 square kilometers.",
+    "zh-CN": "浦那大都会区已扩展至7,256平方公里。"
+   },
+   "excerpt": "has grown to 7,256 km2 made up of the ten talukas of the Pune district",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "36%"
+   },
+   "scope": null,
+   "text": {
+    "en": "Approximately 36 percent of Pune's population lives in slum areas.",
+    "zh-CN": "浦那约36%的人口居住在贫民区。"
+   },
+   "excerpt": "Approximately 36% of the population lives in 486 slum areas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "second_highest",
+    "category": {
+     "en": "Quality of Living Rankings in India",
+     "zh-CN": "印度生活质量排名"
+    },
+    "as_of": 2017
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranked 145th and second highest in India in the Mercer 2017 Quality of Living Rankings.",
+    "zh-CN": "在梅瑟2017年生活质量排名中，浦那位居全球第145位、印度第二。"
+   },
+   "excerpt": "ranked Pune at 145, second highest in India after Hyderabad at 144",
+   "source_id": "s03"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Pune Municipal Corporation (PMC)",
+      "zh-CN": "浦那市政公司（PMC）"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Poona Municipal Council was reorganized to form the Pune Municipal Corporation in 1950.",
+    "zh-CN": "1950年，浦那市政委员会被改组为浦那市政公司。"
+   },
+   "excerpt": "The Poona Municipal Council was reorganised to form the Pune Municipal Corporation (PMC) in 1950.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "University of Pune, now Savitribai Phule Pune University",
+      "zh-CN": "浦那大学，现为萨维特里拜·普莱·浦那大学"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1949",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The University of Pune, now Savitribai Phule Pune University, was established in 1949.",
+    "zh-CN": "浦那大学（现为萨维特里拜·普莱·浦那大学）于1949年成立。"
+   },
+   "excerpt": "the establishment of the University of Pune (now, Savitribai Phule Pune University) in 1949",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Chemical Laboratory",
+      "zh-CN": "国家化学实验室"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1950",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Chemical Laboratory was established in Pune in 1950.",
+    "zh-CN": "国家化学实验室于1950年在浦那成立。"
+   },
+   "excerpt": "the National Chemical Laboratory in 1950",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "National Defence Academy",
+      "zh-CN": "国防学院"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1955",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The National Defence Academy was established in Pune in 1955.",
+    "zh-CN": "国防学院于1955年在浦那成立。"
+   },
+   "excerpt": "the National Defence Academy in 1955",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Hindustan Antibiotics",
+      "zh-CN": "印度斯坦抗生素公司"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Hadapsar, Bhosari and Pimpri, Pune",
+      "zh-CN": "浦那的哈达普萨尔、博萨里和皮姆普里"
+     }
+    },
+    "date": {
+     "raw": "1954",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in Pune's Hadapsar, Bhosari and Pimpri areas.",
+    "zh-CN": "印度斯坦抗生素公司于1954年成立，标志着浦那哈达普萨尔、博萨里和皮姆普里地区工业发展的开始。"
+   },
+   "excerpt": "The establishment of Hindustan Antibiotics in 1954 marked the beginning of industrial development in the Hadapsar, Bhosari, and Pimpri areas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Panshet dam breach and resulting flood",
+      "zh-CN": "潘谢特大坝溃决及由此引发的洪水"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "1961",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A breach in the Panshet dam caused a destructive flood in Pune in 1961.",
+    "zh-CN": "1961年，潘谢特大坝溃决并在浦那引发破坏性洪水。"
+   },
+   "excerpt": "The breach in the Panshet dam and the resulting flood of 1961 led to severe damage and the destruction of housing close to the river banks.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "structure_built",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Six-lane Mumbai–Pune Expressway",
+      "zh-CN": "六车道孟买—浦那高速公路"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "Pune",
+      "zh-CN": "浦那"
+     }
+    },
+    "date": {
+     "raw": "2001",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The six-lane Mumbai–Pune Expressway was completed in 2001.",
+    "zh-CN": "六车道孟买—浦那高速公路于2001年完工。"
+   },
+   "excerpt": "it was completed in 2001",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "disaster",
+   "subject_qid": "Q1538",
+   "value": {
+    "object": {
+     "label": {
+      "en": "Bomb explosion at the German Bakery",
+      "zh-CN": "德国面包店炸弹爆炸"
+     }
+    },
+    "place": {
+     "label": {
+      "en": "German Bakery, Koregaon Park, Pune",
+      "zh-CN": "浦那科里冈公园的德国面包店"
+     }
+    },
+    "date": {
+     "raw": "13 February 2010",
+     "calendar": "gregorian"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "A bomb exploded at the German Bakery in Koregaon Park, Pune, on 13 February 2010.",
+    "zh-CN": "2010年2月13日，一枚炸弹在浦那科里冈公园的德国面包店爆炸。"
+   },
+   "excerpt": "On 13 February 2010, a bomb exploded at the German Bakery in the upmarket Koregaon Park neighbourhood in eastern Pune",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "quote",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "'Oxford Of The East'"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune has the nickname 'Oxford Of The East'.",
+    "zh-CN": "浦那有“东方牛津”的昵称。"
+   },
+   "excerpt": "earning it the nickname of the 'Oxford Of The East'",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "15,642 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune district has an area of 15,642 square kilometers.",
+    "zh-CN": "浦那县面积为15,642平方公里。"
+   },
+   "excerpt": "The area of Pune district is 15,642 km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "518 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune municipal corporation area covers 518 square kilometers.",
+    "zh-CN": "浦那市政公司辖区面积为518平方公里。"
+   },
+   "excerpt": "the municipal corporation area covers 518 km2",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Deccan Plateau",
+     "zh-CN": "德干高原"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune lies on the western margin of the Deccan Plateau.",
+    "zh-CN": "浦那位于德干高原西缘。"
+   },
+   "excerpt": "Pune lies on the western margin of the Deccan Plateau",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mula River",
+     "zh-CN": "穆拉河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mula River flows through Pune.",
+    "zh-CN": "穆拉河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Mutha River",
+     "zh-CN": "穆塔河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Mutha River flows through Pune.",
+    "zh-CN": "穆塔河流经浦那。"
+   },
+   "excerpt": "The old city of Pune is at the confluence of the Mula and Mutha rivers.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Pavana River",
+     "zh-CN": "帕瓦纳河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pavana River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "帕瓦纳河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "river",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Indrayani River",
+     "zh-CN": "因德拉亚尼河"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "The Indrayani River traverses northwestern neighborhoods of Pune.",
+    "zh-CN": "因德拉亚尼河流经浦那西北部各街区。"
+   },
+   "excerpt": "The Pavana, a tributary of Mula River and Indrayani River, a tributary of the Bhima River, traverse the northwest Neighbourhoods of Pune.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "area",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "7,256 km2"
+   },
+   "scope": null,
+   "text": {
+    "en": "The Pune Metropolitan Region has grown to an area of 7,256 square kilometers.",
+    "zh-CN": "浦那大都会区已扩展至7,256平方公里。"
+   },
+   "excerpt": "has grown to 7,256 km2 made up of the ten talukas of the Pune district",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "36%"
+   },
+   "scope": null,
+   "text": {
+    "en": "Approximately 36 percent of Pune's population lives in slum areas.",
+    "zh-CN": "浦那约36%的人口居住在贫民区。"
+   },
+   "excerpt": "Approximately 36% of the population lives in 486 slum areas.",
+   "source_id": "s03"
+  },
+  {
+   "predicate": "superlative",
+   "subject_qid": "Q1538",
+   "value": {
+    "dimension": "second_highest",
+    "category": {
+     "en": "Quality of Living Rankings in India",
+     "zh-CN": "印度生活质量排名"
+    },
+    "as_of": 2017
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranked 145th and second highest in India in the Mercer 2017 Quality of Living Rankings.",
+    "zh-CN": "在梅瑟2017年生活质量排名中，浦那位居全球第145位、印度第二。"
+   },
+   "excerpt": "ranked Pune at 145, second highest in India after Hyderabad at 144",
+   "source_id": "s03"
+  }
+ ]
+}

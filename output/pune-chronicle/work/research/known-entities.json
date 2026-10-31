@@ -1,0 +1,111 @@
+{
+  "schema": "chronicle-known-entities/1",
+  "entities": {
+    "Q1797336": {
+      "labels": {
+        "zh-hant": "浦那縣",
+        "zh": "浦那縣",
+        "en": "Pune district"
+      },
+      "aliases": {
+        "en": [
+          "Pune District"
+        ]
+      }
+    },
+    "Q2627082": {
+      "labels": {
+        "zh-hans": "孟买省",
+        "zh-hant": "孟買省",
+        "zh": "孟買邦",
+        "en": "Bombay State"
+      },
+      "aliases": {
+        "zh": [
+          "孟买省"
+        ],
+        "en": [
+          "Bombay Province",
+          "province of Bombay",
+          "Mumbai State",
+          "state of Bombay",
+          "state of Mumbai",
+          "Mumbai Province",
+          "province of Mumbai"
+        ]
+      }
+    },
+    "Q668": {
+      "labels": {
+        "zh-hans": "印度",
+        "zh-hant": "印度",
+        "zh": "印度",
+        "en": "India"
+      },
+      "aliases": {
+        "zh": [
+          "印",
+          "天竺",
+          "身毒",
+          "贤督",
+          "賢豆",
+          "神督"
+        ],
+        "en": [
+          "Republic of India",
+          "Bharatvarsh",
+          "Hindustan",
+          "Bharata",
+          "Hindoostan",
+          "Indostan",
+          "Bharat Ganarajya",
+          "Al Hind",
+          "Tianzhu",
+          "Tenjiku"
+        ]
+      }
+    },
+    "Q83618": {
+      "labels": {
+        "zh-hans": "马拉塔帝国",
+        "zh-hant": "馬拉塔帝國",
+        "zh": "馬拉塔帝國",
+        "en": "Maratha Empire"
+      },
+      "aliases": {
+        "zh": [
+          "马拉塔国家联盟",
+          "马拉塔帝国",
+          "马拉塔联盟",
+          "馬拉塔聯盟",
+          "马拉特联盟",
+          "馬拉地帝國"
+        ],
+        "en": [
+          "Maratha Confederacy",
+          "Maratha"
+        ]
+      }
+    },
+    "Q891827": {
+      "labels": {
+        "zh-hans": "孟买省",
+        "zh-hant": "孟買省",
+        "zh": "孟买管辖区",
+        "en": "Bombay Presidency"
+      },
+      "aliases": {
+        "zh-hant": [
+          "孟買管轄區"
+        ],
+        "zh": [
+          "孟买省"
+        ],
+        "en": [
+          "Mumbai Presidency",
+          "Bombay"
+        ]
+      }
+    }
+  }
+}

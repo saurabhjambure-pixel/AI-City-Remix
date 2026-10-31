@@ -1,0 +1,96 @@
+{
+ "raw": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "The population listed for Pune is 3,115,431.",
+    "zh-CN": "浦那的人口为3,115,431。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那在印度最大城市列表中排名第9。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranks ninth in the list of India's largest cities.",
+    "zh-CN": "浦那在印度最大城市列表中排名第9。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02"
+  }
+ ],
+ "kept": [
+  {
+   "predicate": "located_in",
+   "subject_qid": "Q1538",
+   "value": {
+    "label": {
+     "en": "Maharashtra",
+     "zh-CN": "马哈拉施特拉邦"
+    }
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune is located in Maharashtra.",
+    "zh-CN": "浦那位于马哈拉施特拉邦。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "population",
+   "subject_qid": "Q1538",
+   "value": {
+    "raw": "3,115,431"
+   },
+   "scope": null,
+   "text": {
+    "en": "The population listed for Pune is 3,115,431.",
+    "zh-CN": "浦那的人口为3,115,431。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02"
+  },
+  {
+   "predicate": "other",
+   "subject_qid": "Q1538",
+   "value": {
+    "text": "浦那在印度最大城市列表中排名第9。"
+   },
+   "scope": null,
+   "text": {
+    "en": "Pune ranks ninth in the list of India's largest cities.",
+    "zh-CN": "浦那在印度最大城市列表中排名第9。"
+   },
+   "excerpt": "9浦那马哈拉施特拉邦3,115,431",
+   "source_id": "s02"
+  }
+ ]
+}

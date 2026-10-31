@@ -1,0 +1,3002 @@
+{
+  "schema": "chronicle-timeline/2",
+  "theme": "ink-theme",
+  "seconds": 150,
+  "fps": 30,
+  "frames": 4500,
+  "aspect": "16:9",
+  "lang": "en",
+  "dir": "ltr",
+  "bpm": 88,
+  "bar_s": 2.727,
+  "beat_s": 0.682,
+  "sections": [
+    {
+      "id": "intro",
+      "start": 0,
+      "end": 10.9,
+      "start_frame": 0,
+      "start_bar": 0,
+      "bars": 4
+    },
+    {
+      "id": "verse",
+      "start": 10.9,
+      "end": 43.63333333333333,
+      "start_frame": 327,
+      "start_bar": 4,
+      "bars": 12
+    },
+    {
+      "id": "build",
+      "start": 43.63333333333333,
+      "end": 54.53333333333333,
+      "start_frame": 1309,
+      "start_bar": 16,
+      "bars": 4
+    },
+    {
+      "id": "drop",
+      "start": 54.53333333333333,
+      "end": 76.36666666666666,
+      "start_frame": 1636,
+      "start_bar": 20,
+      "bars": 8
+    },
+    {
+      "id": "breakdown",
+      "start": 76.36666666666666,
+      "end": 98.16666666666667,
+      "start_frame": 2291,
+      "start_bar": 28,
+      "bars": 8
+    },
+    {
+      "id": "build2",
+      "start": 98.16666666666667,
+      "end": 109.1,
+      "start_frame": 2945,
+      "start_bar": 36,
+      "bars": 4
+    },
+    {
+      "id": "drop2",
+      "start": 109.1,
+      "end": 130.9,
+      "start_frame": 3273,
+      "start_bar": 40,
+      "bars": 8
+    },
+    {
+      "id": "outro",
+      "start": 130.9,
+      "end": 150,
+      "start_frame": 3927,
+      "start_bar": 48,
+      "bars": 7
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "section": "intro",
+      "scene": "city-3d",
+      "params": {
+        "globe": {
+          "lat": 18.5211,
+          "lon": 73.8553,
+          "km": [
+            32000,
+            0
+          ]
+        },
+        "clean": true,
+        "grow": [
+          0,
+          0
+        ],
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          null,
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": 20,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.4,
+            "pitch": 62,
+            "yaw": 16,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 58,
+            "yaw": 12,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 0,
+      "end": 5.466666666666667,
+      "start_frame": 0,
+      "end_frame": 164,
+      "start_bar": 0,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "A globe eases into the live city model, with Pune's real buildings spread across the frame.",
+      "claims": []
+    },
+    {
+      "id": "S02",
+      "section": "intro",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 1
+        },
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": 20,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.4,
+            "pitch": 62,
+            "yaw": 16,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 58,
+            "yaw": 12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3,
+            "pitch": 60,
+            "yaw": 8,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 5.466666666666667,
+      "end": 10.9,
+      "start_frame": 164,
+      "end_frame": 327,
+      "start_bar": 2,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The camera pulls away from the compact core until the full urban map is visible.",
+      "claims": []
+    },
+    {
+      "id": "S03",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "clean": true,
+        "grow": [
+          0,
+          1
+        ],
+        "rewind": [
+          2026,
+          1714
+        ],
+        "dim": [
+          0,
+          0.3
+        ],
+        "river": true,
+        "found": {
+          "place": "shaniwar_wada",
+          "beat": 1
+        },
+        "focus": [
+          {
+            "id": "river_junction",
+            "beat": 2
+          }
+        ],
+        "era_label": true,
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.4,
+            "pitch": 62,
+            "yaw": 16,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 58,
+            "yaw": 12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3,
+            "pitch": 60,
+            "yaw": 8,
+            "fov": 34
+          },
+          {
+            "x": -0.138,
+            "y": -0.221,
+            "d": 4.8,
+            "pitch": 64,
+            "yaw": 4,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "medium",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 10.9,
+      "end": 16.366666666666667,
+      "start_frame": 327,
+      "end_frame": 491,
+      "start_bar": 4,
+      "bars": 2,
+      "kp": "kp1",
+      "rehook": false,
+      "title": false,
+      "description": "The present buildings recede as the Mula and Mutha river lines brighten around the early core.",
+      "claims": [
+        "agent.002",
+        "agent.003"
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 1
+        },
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 58,
+            "yaw": 12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3,
+            "pitch": 60,
+            "yaw": 8,
+            "fov": 34
+          },
+          {
+            "x": -0.138,
+            "y": -0.221,
+            "d": 4.8,
+            "pitch": 64,
+            "yaw": 4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 1.7,
+            "pitch": 52,
+            "yaw": 0,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 16.366666666666667,
+      "end": 21.833333333333332,
+      "start_frame": 491,
+      "end_frame": 655,
+      "start_bar": 6,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A small polygon marks the approximate early settlement around the real river lines and landmark positions.",
+      "claims": []
+    },
+    {
+      "id": "S05",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 1
+        },
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3,
+            "pitch": 60,
+            "yaw": 8,
+            "fov": 34
+          },
+          {
+            "x": -0.138,
+            "y": -0.221,
+            "d": 4.8,
+            "pitch": 64,
+            "yaw": 4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 1.7,
+            "pitch": 52,
+            "yaw": 0,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.1,
+            "pitch": 56,
+            "yaw": -4,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 21.833333333333332,
+      "end": 27.266666666666666,
+      "start_frame": 655,
+      "end_frame": 818,
+      "start_bar": 8,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "The view rises from the junction to reveal the river-shaped ground around the compact core.",
+      "claims": []
+    },
+    {
+      "id": "S06",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "focus": [
+          {
+            "id": "capital",
+            "beat": 1
+          }
+        ],
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 2
+        },
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": -0.138,
+            "y": -0.221,
+            "d": 4.8,
+            "pitch": 64,
+            "yaw": 4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 1.7,
+            "pitch": 52,
+            "yaw": 0,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.1,
+            "pitch": 56,
+            "yaw": -4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.3,
+            "pitch": 58,
+            "yaw": -8,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "close",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 27.266666666666666,
+      "end": 32.733333333333334,
+      "start_frame": 818,
+      "end_frame": 982,
+      "start_bar": 10,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The compact core fills the frame as an attributed historical layer appears over the old centre.",
+      "claims": [
+        "agent.005",
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "focus": [
+          {
+            "id": "capital",
+            "beat": 1
+          }
+        ],
+        "halo": {
+          "area": "likely_maratha_capital",
+          "beat": 2
+        },
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 1.7,
+            "pitch": 52,
+            "yaw": 0,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.1,
+            "pitch": 56,
+            "yaw": -4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.3,
+            "pitch": 58,
+            "yaw": -8,
+            "fov": 34
+          },
+          {
+            "x": -0.122,
+            "y": -0.211,
+            "d": 4.6,
+            "pitch": 64,
+            "yaw": -12,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "close",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 32.733333333333334,
+      "end": 38.166666666666664,
+      "start_frame": 982,
+      "end_frame": 1145,
+      "start_bar": 12,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The capital layer consolidates over the old centre and the surrounding river bend.",
+      "claims": [
+        "agent.007"
+      ]
+    },
+    {
+      "id": "S08",
+      "section": "verse",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "likely_maratha_capital",
+          "beat": 1
+        },
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.1,
+            "pitch": 56,
+            "yaw": -4,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.3,
+            "pitch": 58,
+            "yaw": -8,
+            "fov": 34
+          },
+          {
+            "x": -0.122,
+            "y": -0.211,
+            "d": 4.6,
+            "pitch": 64,
+            "yaw": -12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 60,
+            "yaw": -16,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "medium",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 38.166666666666664,
+      "end": 43.63333333333333,
+      "start_frame": 1145,
+      "end_frame": 1309,
+      "start_bar": 14,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A close local view follows the river bend and the compact group of landmarks around the old centre.",
+      "claims": []
+    },
+    {
+      "id": "S09",
+      "section": "build",
+      "scene": "city-3d",
+      "params": {
+        "morph": {
+          "from": "early_settlement_core",
+          "to": "likely_maratha_capital",
+          "beat": 1
+        },
+        "spread": [
+          {
+            "from": "shaniwar_wada",
+            "area": "likely_maratha_capital",
+            "r_km": 1.1,
+            "beat": 2
+          }
+        ],
+        "year": [
+          1714,
+          1714
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.3,
+            "pitch": 58,
+            "yaw": -8,
+            "fov": 34
+          },
+          {
+            "x": -0.122,
+            "y": -0.211,
+            "d": 4.6,
+            "pitch": 64,
+            "yaw": -12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 60,
+            "yaw": -16,
+            "fov": 34
+          },
+          {
+            "x": 1.88,
+            "y": 0.914,
+            "d": 3,
+            "pitch": 57,
+            "yaw": -20,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "rise",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 43.63333333333333,
+      "end": 49.1,
+      "start_frame": 1309,
+      "end_frame": 1473,
+      "start_bar": 16,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "The small core transforms into the larger Maratha capital extent while the real river lines remain visible.",
+      "claims": []
+    },
+    {
+      "id": "S10",
+      "section": "build",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "likely_maratha_capital",
+          "beat": 1
+        },
+        "year": [
+          1714,
+          1817
+        ],
+        "path": [
+          {
+            "x": -0.122,
+            "y": -0.211,
+            "d": 4.6,
+            "pitch": 64,
+            "yaw": -12,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 60,
+            "yaw": -16,
+            "fov": 34
+          },
+          {
+            "x": 1.88,
+            "y": 0.914,
+            "d": 3,
+            "pitch": 57,
+            "yaw": -20,
+            "fov": 34
+          },
+          {
+            "x": 0.955,
+            "y": -0.09,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -24,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 49.1,
+      "end": 54.53333333333333,
+      "start_frame": 1473,
+      "end_frame": 1636,
+      "start_bar": 18,
+      "bars": 2,
+      "kp": "kp2",
+      "rehook": false,
+      "title": false,
+      "description": "The capital extent remains highlighted in a broad view of the river-defined city.",
+      "claims": [
+        "agent.009"
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "drop",
+      "scene": "city-3d",
+      "params": {
+        "morph": {
+          "from": "likely_maratha_capital",
+          "to": "colonial_city",
+          "beat": 1
+        },
+        "spread": [
+          {
+            "from": "shaniwar_wada",
+            "area": "colonial_city",
+            "r_km": 2.4,
+            "beat": 2
+          }
+        ],
+        "focus": [
+          {
+            "id": "british_cantonment",
+            "beat": 3
+          }
+        ],
+        "year": [
+          1817,
+          1817
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 60,
+            "yaw": -16,
+            "fov": 34
+          },
+          {
+            "x": 1.88,
+            "y": 0.914,
+            "d": 3,
+            "pitch": 57,
+            "yaw": -20,
+            "fov": 34
+          },
+          {
+            "x": 0.955,
+            "y": -0.09,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -24,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 3.4,
+            "pitch": 60,
+            "yaw": -28,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 54.53333333333333,
+      "end": 60,
+      "start_frame": 1636,
+      "end_frame": 1800,
+      "start_bar": 20,
+      "bars": 2,
+      "kp": "kp4",
+      "rehook": false,
+      "title": false,
+      "description": "The capital extent changes into a wider colonial city, with the eastern cantonment singled out.",
+      "claims": [
+        "agent.008"
+      ]
+    },
+    {
+      "id": "S12",
+      "section": "drop",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "colonial_city",
+          "beat": 1
+        },
+        "year": [
+          1817,
+          1817
+        ],
+        "path": [
+          {
+            "x": 1.88,
+            "y": 0.914,
+            "d": 3,
+            "pitch": 57,
+            "yaw": -20,
+            "fov": 34
+          },
+          {
+            "x": 0.955,
+            "y": -0.09,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -24,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 3.4,
+            "pitch": 60,
+            "yaw": -28,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 64,
+            "yaw": -32,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 60,
+      "end": 65.46666666666667,
+      "start_frame": 1800,
+      "end_frame": 1964,
+      "start_bar": 22,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The camera travels across the broad colonial-era extent toward its eastern margin.",
+      "claims": []
+    },
+    {
+      "id": "S13",
+      "section": "drop",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "colonial_city",
+          "beat": 1
+        },
+        "year": [
+          1817,
+          1948
+        ],
+        "path": [
+          {
+            "x": 0.955,
+            "y": -0.09,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -24,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 3.4,
+            "pitch": 60,
+            "yaw": -28,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 64,
+            "yaw": -32,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.9,
+            "pitch": 61,
+            "yaw": -36,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 65.46666666666667,
+      "end": 70.9,
+      "start_frame": 1964,
+      "end_frame": 2127,
+      "start_bar": 24,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A moving wide shot contrasts the compact centre with the newer outer city footprint.",
+      "claims": []
+    },
+    {
+      "id": "S14",
+      "section": "drop",
+      "scene": "city-3d",
+      "params": {
+        "morph": {
+          "from": "colonial_city",
+          "to": "post_1940_institutional_city",
+          "beat": 1
+        },
+        "spread": [
+          {
+            "from": "shaniwar_wada",
+            "area": "post_1940_institutional_city",
+            "r_km": 3.3,
+            "beat": 2
+          }
+        ],
+        "focus": [
+          {
+            "id": "university",
+            "beat": 3
+          }
+        ],
+        "year": [
+          1948,
+          1948
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 3.4,
+            "pitch": 60,
+            "yaw": -28,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 64,
+            "yaw": -32,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.9,
+            "pitch": 61,
+            "yaw": -36,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 54,
+            "yaw": -40,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 70.9,
+      "end": 76.36666666666666,
+      "start_frame": 2127,
+      "end_frame": 2291,
+      "start_bar": 26,
+      "bars": 2,
+      "kp": "kp5",
+      "rehook": false,
+      "title": false,
+      "description": "The university site appears as the institutional urban extent expands around it.",
+      "claims": [
+        "agent.013"
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "breakdown",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 1
+        },
+        "year": [
+          1948,
+          1948
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 3.2,
+            "pitch": 64,
+            "yaw": -32,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.9,
+            "pitch": 61,
+            "yaw": -36,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 54,
+            "yaw": -40,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.2,
+            "pitch": 58,
+            "yaw": -44,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 76.36666666666666,
+      "end": 81.83333333333333,
+      "start_frame": 2291,
+      "end_frame": 2455,
+      "start_bar": 28,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "The view returns toward the old centre, where the river lines converge beneath the larger city.",
+      "claims": []
+    },
+    {
+      "id": "S16",
+      "section": "breakdown",
+      "scene": "city-3d",
+      "params": {
+        "river": true,
+        "spread": [
+          {
+            "from": "shaniwar_wada",
+            "area": "early_settlement_core",
+            "r_km": 0.75,
+            "color": "#5AA9E6",
+            "beat": 1
+          }
+        ],
+        "focus": [
+          {
+            "id": "flood",
+            "beat": 2
+          }
+        ],
+        "year": [
+          1961,
+          1961
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.9,
+            "pitch": 61,
+            "yaw": -36,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 54,
+            "yaw": -40,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.2,
+            "pitch": 58,
+            "yaw": -44,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.6,
+            "pitch": 61,
+            "yaw": -48,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "close",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 81.83333333333333,
+      "end": 87.26666666666667,
+      "start_frame": 2455,
+      "end_frame": 2618,
+      "start_bar": 30,
+      "bars": 2,
+      "kp": "kp6",
+      "rehook": false,
+      "title": false,
+      "description": "Blue water runs through the streets of the old centre, following the real river direction into the core.",
+      "claims": [
+        "agent.020"
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "breakdown",
+      "scene": "city-3d",
+      "params": {
+        "dim": [
+          0,
+          0.4
+        ],
+        "year": [
+          1961,
+          1961
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.4,
+            "pitch": 54,
+            "yaw": -40,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.2,
+            "pitch": 58,
+            "yaw": -44,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.6,
+            "pitch": 61,
+            "yaw": -48,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 64,
+            "yaw": -52,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "medium",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 87.26666666666667,
+      "end": 92.73333333333333,
+      "start_frame": 2618,
+      "end_frame": 2782,
+      "start_bar": 32,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The old centre darkens beneath the surrounding real building outlines after the flood passage.",
+      "claims": []
+    },
+    {
+      "id": "S18",
+      "section": "breakdown",
+      "scene": "city-3d",
+      "params": {
+        "river": true,
+        "year": [
+          1961,
+          1961
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": -0.215,
+            "d": 2.2,
+            "pitch": 58,
+            "yaw": -44,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.6,
+            "pitch": 61,
+            "yaw": -48,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 64,
+            "yaw": -52,
+            "fov": 34
+          },
+          {
+            "x": 3.248,
+            "y": -0.947,
+            "d": 5.4,
+            "pitch": 59,
+            "yaw": -56,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 92.73333333333333,
+      "end": 98.16666666666667,
+      "start_frame": 2782,
+      "end_frame": 2945,
+      "start_bar": 34,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The camera leaves the close flood passage and follows the water back toward the river junction.",
+      "claims": []
+    },
+    {
+      "id": "S19",
+      "section": "build2",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "early_settlement_core",
+          "beat": 1
+        },
+        "year": [
+          1961,
+          1961
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.6,
+            "pitch": 61,
+            "yaw": -48,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 64,
+            "yaw": -52,
+            "fov": 34
+          },
+          {
+            "x": 3.248,
+            "y": -0.947,
+            "d": 5.4,
+            "pitch": 59,
+            "yaw": -56,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -60,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "rise",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 98.16666666666667,
+      "end": 103.63333333333334,
+      "start_frame": 2945,
+      "end_frame": 3109,
+      "start_bar": 36,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "The camera rises above the river junction and reveals the larger city waiting beyond it.",
+      "claims": []
+    },
+    {
+      "id": "S20",
+      "section": "build2",
+      "scene": "city-3d",
+      "params": {
+        "focus": [
+          {
+            "id": "army",
+            "beat": 1
+          }
+        ],
+        "halo": {
+          "area": "post_1940_institutional_city",
+          "beat": 2
+        },
+        "year": [
+          1961,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 64,
+            "yaw": -52,
+            "fov": 34
+          },
+          {
+            "x": 3.248,
+            "y": -0.947,
+            "d": 5.4,
+            "pitch": 59,
+            "yaw": -56,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -60,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.1,
+            "pitch": 64,
+            "yaw": -64,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pan-right",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 103.63333333333334,
+      "end": 109.1,
+      "start_frame": 3109,
+      "end_frame": 3273,
+      "start_bar": 38,
+      "bars": 2,
+      "kp": "kp3",
+      "rehook": false,
+      "title": false,
+      "description": "A wide view links the eastern cantonment with the institutions distributed across the modern city.",
+      "claims": [
+        "agent.016"
+      ]
+    },
+    {
+      "id": "S21",
+      "section": "drop2",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "post_1940_institutional_city",
+          "beat": 1
+        },
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 3.248,
+            "y": -0.947,
+            "d": 5.4,
+            "pitch": 59,
+            "yaw": -56,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -60,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.1,
+            "pitch": 64,
+            "yaw": -64,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.5,
+            "pitch": 60,
+            "yaw": -68,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 109.1,
+      "end": 114.53333333333333,
+      "start_frame": 3273,
+      "end_frame": 3436,
+      "start_bar": 40,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "A bright marker appears within the present-day building model as the modern street pattern fills the frame.",
+      "claims": []
+    },
+    {
+      "id": "S22",
+      "section": "drop2",
+      "scene": "city-3d",
+      "params": {
+        "grow": [
+          0,
+          1
+        ],
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5.6,
+            "pitch": 62,
+            "yaw": -60,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.1,
+            "pitch": 64,
+            "yaw": -64,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.5,
+            "pitch": 60,
+            "yaw": -68,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.8,
+            "pitch": 66,
+            "yaw": -72,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pull-out",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 114.53333333333333,
+      "end": 120,
+      "start_frame": 3436,
+      "end_frame": 3600,
+      "start_bar": 42,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The present-day building model expands across the frame, contrasting with the earlier compact core.",
+      "claims": []
+    },
+    {
+      "id": "S23",
+      "section": "drop2",
+      "scene": "city-3d",
+      "params": {
+        "river": true,
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.1,
+            "pitch": 64,
+            "yaw": -64,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.5,
+            "pitch": 60,
+            "yaw": -68,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.8,
+            "pitch": 66,
+            "yaw": -72,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -76,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "pan-left",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 120,
+      "end": 125.46666666666667,
+      "start_frame": 3600,
+      "end_frame": 3764,
+      "start_bar": 44,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The camera crosses the full city and follows the Mula-Mutha course through today's urban extent.",
+      "claims": []
+    },
+    {
+      "id": "S24",
+      "section": "drop2",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "post_1940_institutional_city",
+          "beat": 1
+        },
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.5,
+            "pitch": 60,
+            "yaw": -68,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.8,
+            "pitch": 66,
+            "yaw": -72,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -76,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 61,
+            "yaw": -80,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "rise",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 125.46666666666667,
+      "end": 130.9,
+      "start_frame": 3764,
+      "end_frame": 3927,
+      "start_bar": 46,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "The camera reaches a high view in which the whole modern city, rivers, and institutional sites share one frame.",
+      "claims": []
+    },
+    {
+      "id": "S25",
+      "section": "outro",
+      "scene": "city-3d",
+      "params": {
+        "clean": true,
+        "grow": [
+          0,
+          1
+        ],
+        "rings": true,
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 6.8,
+            "pitch": 66,
+            "yaw": -72,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -76,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 61,
+            "yaw": -80,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -84,
+            "fov": 34
+          }
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 130.9,
+      "end": 136.36666666666667,
+      "start_frame": 3927,
+      "end_frame": 4091,
+      "start_bar": 48,
+      "bars": 2,
+      "kp": null,
+      "rehook": true,
+      "title": false,
+      "description": "The viewpoint returns to the opening framing, restoring the complete live city model.",
+      "claims": []
+    },
+    {
+      "id": "S26",
+      "section": "outro",
+      "scene": "city-3d",
+      "params": {
+        "halo": {
+          "area": "post_1940_institutional_city",
+          "beat": 1
+        },
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -76,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 61,
+            "yaw": -80,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -84,
+            "fov": 34
+          },
+          null
+        ]
+      },
+      "size": "wide",
+      "camera": "push-in",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 136.36666666666667,
+      "end": 144.53333333333333,
+      "start_frame": 4091,
+      "end_frame": 4336,
+      "start_bar": 50,
+      "bars": 3,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Historic extent polygons and today's buildings overlap across the same real-world map.",
+      "claims": []
+    },
+    {
+      "id": "S27",
+      "section": "outro",
+      "scene": "city-3d",
+      "params": {
+        "rings": true,
+        "year": [
+          2026,
+          2026
+        ],
+        "path": [
+          {
+            "x": 0,
+            "y": 0,
+            "d": 5,
+            "pitch": 61,
+            "yaw": -80,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -84,
+            "fov": 34
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "d": 4.5,
+            "pitch": 65,
+            "yaw": -84,
+            "fov": 34
+          },
+          null
+        ]
+      },
+      "size": "wide",
+      "camera": "hold",
+      "transition": "cut",
+      "transition_s": 0,
+      "start": 144.53333333333333,
+      "end": 150,
+      "start_frame": 4336,
+      "end_frame": 4500,
+      "start_bar": 53,
+      "bars": 2,
+      "kp": null,
+      "rehook": false,
+      "title": false,
+      "description": "Concentric rings settle over the complete city as the view holds at the opening position.",
+      "claims": []
+    }
+  ],
+  "captions": [
+    {
+      "shot": "S01",
+      "start": 0.3333333333333333,
+      "end": 5.466666666666667,
+      "lines": [
+        "The whole city glows on the live map"
+      ],
+      "em": [
+        "city",
+        "map"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S02",
+      "start": 5.8,
+      "end": 10.9,
+      "lines": [
+        "How did this city take shape?"
+      ],
+      "em": [
+        "city",
+        "shape"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S03",
+      "start": 11.233333333333333,
+      "end": 16.366666666666667,
+      "lines": [
+        "Pune sits where Mula and Mutha meet"
+      ],
+      "em": [
+        "Mula",
+        "Mutha"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S04",
+      "start": 16.7,
+      "end": 21.833333333333332,
+      "lines": [
+        "The small outlined core glows clearly"
+      ],
+      "em": [
+        "outlined core",
+        "glows"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S05",
+      "start": 22.166666666666668,
+      "end": 27.266666666666666,
+      "lines": [
+        "What shaped this city’s early outline?"
+      ],
+      "em": [
+        "early outline",
+        "city"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S06",
+      "start": 27.6,
+      "end": 32.733333333333334,
+      "lines": [
+        "According to the account:",
+        "Pune rose as Bhonsle capital"
+      ],
+      "em": [
+        "Bhonsle",
+        "capital"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S07",
+      "start": 33.06666666666667,
+      "end": 38.166666666666664,
+      "lines": [
+        "Records say Pune was capital from 1714."
+      ],
+      "em": [
+        "Records say",
+        "1714"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S08",
+      "start": 38.5,
+      "end": 43.63333333333333,
+      "lines": [
+        "The camera settles over the old centre"
+      ],
+      "em": [
+        "camera",
+        "old centre"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S09",
+      "start": 43.96666666666667,
+      "end": 49.1,
+      "lines": [
+        "The lit footprint widens beyond the core"
+      ],
+      "em": [
+        "lit footprint",
+        "core"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S10",
+      "start": 49.43333333333333,
+      "end": 54.53333333333333,
+      "lines": [
+        "Pune served as the seasonal",
+        "capital of Bombay Presidency"
+      ],
+      "em": [
+        "seasonal capital",
+        "Bombay Presidency"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S11",
+      "start": 54.86666666666667,
+      "end": 60,
+      "lines": [
+        "The British took Pune in 1817"
+      ],
+      "em": [
+        "British",
+        "1817"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S12",
+      "start": 60.333333333333336,
+      "end": 65.46666666666667,
+      "lines": [
+        "Light reaches the map’s eastern edge"
+      ],
+      "em": [
+        "map",
+        "eastern edge"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S13",
+      "start": 65.8,
+      "end": 70.9,
+      "lines": [
+        "The camera glides along",
+        "the expanded city edge"
+      ],
+      "em": [
+        "camera",
+        "expanded city edge"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S14",
+      "start": 71.23333333333333,
+      "end": 76.36666666666666,
+      "lines": [
+        "The University of Pune dates to 1948"
+      ],
+      "em": [
+        "University of Pune",
+        "1948"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S15",
+      "start": 76.7,
+      "end": 81.83333333333333,
+      "lines": [
+        "What changes along the glowing map lines?"
+      ],
+      "em": [
+        "glowing map lines",
+        "changes"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S16",
+      "start": 82.16666666666667,
+      "end": 87.26666666666667,
+      "lines": [
+        "Panshet Dam collapsed in 1961, washing",
+        "away much of old Pune."
+      ],
+      "em": [
+        "Panshet Dam",
+        "1961"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S17",
+      "start": 87.6,
+      "end": 92.73333333333333,
+      "lines": [
+        "The camera pauses over the old centre"
+      ],
+      "em": [
+        "camera",
+        "old centre"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S18",
+      "start": 93.06666666666666,
+      "end": 98.16666666666667,
+      "lines": [
+        "Water threads through the lowest streets"
+      ],
+      "em": [
+        "Water",
+        "lowest streets"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S19",
+      "start": 98.5,
+      "end": 103.63333333333334,
+      "lines": [
+        "What rises after the water recedes?"
+      ],
+      "em": [
+        "water",
+        "rises"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S20",
+      "start": 103.96666666666667,
+      "end": 109.1,
+      "lines": [
+        "Pune hosts the southern",
+        "command headquarters"
+      ],
+      "em": [
+        "Pune",
+        "southern command"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S21",
+      "start": 109.43333333333334,
+      "end": 114.53333333333333,
+      "lines": [
+        "A bright local marker anchors today's map"
+      ],
+      "em": [
+        "local marker",
+        "map"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S22",
+      "start": 114.86666666666666,
+      "end": 120,
+      "lines": [
+        "Today’s streets fill every lit edge"
+      ],
+      "em": [
+        "Today’s streets",
+        "lit edge"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S23",
+      "start": 120.33333333333333,
+      "end": 125.46666666666667,
+      "lines": [
+        "The same rivers are visible"
+      ],
+      "em": [
+        "rivers",
+        "visible"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S24",
+      "start": 125.8,
+      "end": 130.9,
+      "lines": [
+        "The map holds the whole present city"
+      ],
+      "em": [
+        "map",
+        "present city"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S25",
+      "start": 131.23333333333332,
+      "end": 136.36666666666667,
+      "lines": [
+        "The whole city returns to the opening view"
+      ],
+      "em": [
+        "whole city",
+        "opening view"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S26",
+      "start": 136.7,
+      "end": 144.53333333333333,
+      "lines": [
+        "Old and new shapes share the same map"
+      ],
+      "em": [
+        "Old",
+        "new shapes"
+      ],
+      "dir": "ltr"
+    },
+    {
+      "shot": "S27",
+      "start": 144.86666666666667,
+      "end": 144.53333333333333,
+      "lines": [
+        "Putting down roots here,",
+        "one brick at a time."
+      ],
+      "em": [
+        "roots",
+        "brick"
+      ],
+      "dir": "ltr"
+    }
+  ],
+  "kp_cards": [
+    {
+      "id": "kp1",
+      "shot": "S03",
+      "start": 11.566666666666666,
+      "end": 16.2,
+      "title": "Junction river",
+      "value": "Mula River",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp2",
+      "shot": "S10",
+      "start": 49.766666666666666,
+      "end": 54.36666666666667,
+      "title": "Seasonal capital",
+      "value": "Bombay Presidency",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp4",
+      "shot": "S11",
+      "start": 55.2,
+      "end": 59.833333333333336,
+      "title": "British arrival",
+      "value": "1817",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp5",
+      "shot": "S14",
+      "start": 71.56666666666666,
+      "end": 76.2,
+      "title": "University",
+      "value": "1948",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp6",
+      "shot": "S16",
+      "start": 82.5,
+      "end": 87.1,
+      "title": "Panshet Dam collapse",
+      "value": "1961",
+      "count": null,
+      "count_s": 0
+    },
+    {
+      "id": "kp3",
+      "shot": "S20",
+      "start": 104.3,
+      "end": 108.93333333333334,
+      "title": "Army headquarters",
+      "value": "Southern Command of the Indian Army",
+      "count": null,
+      "count_s": 0
+    }
+  ],
+  "sfx": [
+    {
+      "shot": "S01",
+      "t": 0.6666666666666666,
+      "frame": 20,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x001"
+    },
+    {
+      "shot": "S02",
+      "t": 5.466666666666667,
+      "frame": 164,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x002"
+    },
+    {
+      "shot": "S03",
+      "t": 10.9,
+      "frame": 327,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x003"
+    },
+    {
+      "shot": "S03",
+      "t": 11.566666666666666,
+      "frame": 347,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x004"
+    },
+    {
+      "shot": "S03",
+      "t": 11.566666666666666,
+      "frame": 347,
+      "kind": "route",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x005"
+    },
+    {
+      "shot": "S03",
+      "t": 12.266666666666667,
+      "frame": 368,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 1,
+      "id": "x006"
+    },
+    {
+      "shot": "S04",
+      "t": 16.366666666666667,
+      "frame": 491,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x007"
+    },
+    {
+      "shot": "S04",
+      "t": 17.033333333333335,
+      "frame": 511,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x008"
+    },
+    {
+      "shot": "S05",
+      "t": 21.833333333333332,
+      "frame": 655,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x009"
+    },
+    {
+      "shot": "S06",
+      "t": 27.266666666666666,
+      "frame": 818,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x010"
+    },
+    {
+      "shot": "S06",
+      "t": 27.933333333333334,
+      "frame": 838,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x011"
+    },
+    {
+      "shot": "S07",
+      "t": 32.733333333333334,
+      "frame": 982,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x012"
+    },
+    {
+      "shot": "S07",
+      "t": 33.4,
+      "frame": 1002,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x013"
+    },
+    {
+      "shot": "S08",
+      "t": 38.166666666666664,
+      "frame": 1145,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x014"
+    },
+    {
+      "shot": "S09",
+      "t": 43.63333333333333,
+      "frame": 1309,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x015"
+    },
+    {
+      "shot": "S09",
+      "t": 45,
+      "frame": 1350,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x016"
+    },
+    {
+      "shot": "S10",
+      "t": 49.1,
+      "frame": 1473,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x017"
+    },
+    {
+      "shot": "S10",
+      "t": 49.766666666666666,
+      "frame": 1493,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x018"
+    },
+    {
+      "shot": "S10",
+      "t": 49.766666666666666,
+      "frame": 1493,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x019"
+    },
+    {
+      "shot": "S11",
+      "t": 54.53333333333333,
+      "frame": 1636,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x020"
+    },
+    {
+      "shot": "S11",
+      "t": 55.2,
+      "frame": 1656,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x021"
+    },
+    {
+      "shot": "S11",
+      "t": 55.2,
+      "frame": 1656,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x022"
+    },
+    {
+      "shot": "S11",
+      "t": 55.9,
+      "frame": 1677,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "shot",
+      "step": 1,
+      "id": "x023"
+    },
+    {
+      "shot": "S12",
+      "t": 60,
+      "frame": 1800,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x024"
+    },
+    {
+      "shot": "S13",
+      "t": 65.46666666666667,
+      "frame": 1964,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x025"
+    },
+    {
+      "shot": "S13",
+      "t": 66.13333333333334,
+      "frame": 1984,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x026"
+    },
+    {
+      "shot": "S14",
+      "t": 70.9,
+      "frame": 2127,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x027"
+    },
+    {
+      "shot": "S14",
+      "t": 71.56666666666666,
+      "frame": 2147,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x028"
+    },
+    {
+      "shot": "S14",
+      "t": 71.56666666666666,
+      "frame": 2147,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x029"
+    },
+    {
+      "shot": "S14",
+      "t": 72.26666666666667,
+      "frame": 2168,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "shot",
+      "step": 1,
+      "id": "x030"
+    },
+    {
+      "shot": "S15",
+      "t": 76.36666666666666,
+      "frame": 2291,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x031"
+    },
+    {
+      "shot": "S16",
+      "t": 81.83333333333333,
+      "frame": 2455,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x032"
+    },
+    {
+      "shot": "S16",
+      "t": 82.5,
+      "frame": 2475,
+      "kind": "route",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x033"
+    },
+    {
+      "shot": "S16",
+      "t": 82.5,
+      "frame": 2475,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x034"
+    },
+    {
+      "shot": "S16",
+      "t": 83.2,
+      "frame": 2496,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "shot",
+      "step": 1,
+      "id": "x035"
+    },
+    {
+      "shot": "S17",
+      "t": 87.26666666666667,
+      "frame": 2618,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x036"
+    },
+    {
+      "shot": "S18",
+      "t": 92.73333333333333,
+      "frame": 2782,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x037"
+    },
+    {
+      "shot": "S18",
+      "t": 93.4,
+      "frame": 2802,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x038"
+    },
+    {
+      "shot": "S19",
+      "t": 98.16666666666667,
+      "frame": 2945,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x039"
+    },
+    {
+      "shot": "S20",
+      "t": 103.63333333333334,
+      "frame": 3109,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x040"
+    },
+    {
+      "shot": "S20",
+      "t": 104.3,
+      "frame": 3129,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x041"
+    },
+    {
+      "shot": "S20",
+      "t": 105,
+      "frame": 3150,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x042"
+    },
+    {
+      "shot": "S21",
+      "t": 109.1,
+      "frame": 3273,
+      "kind": "reveal",
+      "tier": "climax",
+      "source": "auto",
+      "id": "x043"
+    },
+    {
+      "shot": "S21",
+      "t": 109.76666666666667,
+      "frame": 3293,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x044"
+    },
+    {
+      "shot": "S22",
+      "t": 114.53333333333333,
+      "frame": 3436,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x045"
+    },
+    {
+      "shot": "S22",
+      "t": 115.2,
+      "frame": 3456,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x046"
+    },
+    {
+      "shot": "S23",
+      "t": 120,
+      "frame": 3600,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x047"
+    },
+    {
+      "shot": "S23",
+      "t": 120.66666666666667,
+      "frame": 3620,
+      "kind": "appear",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x048"
+    },
+    {
+      "shot": "S24",
+      "t": 125.46666666666667,
+      "frame": 3764,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x049"
+    },
+    {
+      "shot": "S24",
+      "t": 126.13333333333334,
+      "frame": 3784,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x050"
+    },
+    {
+      "shot": "S25",
+      "t": 130.9,
+      "frame": 3927,
+      "kind": "transition",
+      "tier": "emphasis",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x051"
+    },
+    {
+      "shot": "S25",
+      "t": 131.56666666666666,
+      "frame": 3947,
+      "kind": "appear",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x052"
+    },
+    {
+      "shot": "S26",
+      "t": 136.36666666666667,
+      "frame": 4091,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x053"
+    },
+    {
+      "shot": "S26",
+      "t": 137.03333333333333,
+      "frame": 4111,
+      "kind": "reveal",
+      "tier": "normal",
+      "source": "shot",
+      "step": 0,
+      "id": "x054"
+    },
+    {
+      "shot": "S27",
+      "t": 144.53333333333333,
+      "frame": 4336,
+      "kind": "seal",
+      "tier": "emphasis",
+      "source": "auto",
+      "id": "x055"
+    },
+    {
+      "shot": "S27",
+      "t": 144.53333333333333,
+      "frame": 4336,
+      "kind": "transition",
+      "tier": "normal",
+      "source": "auto",
+      "dur": 0.682,
+      "id": "x056"
+    },
+    {
+      "shot": "S27",
+      "t": 145.2,
+      "frame": 4356,
+      "kind": "reveal",
+      "tier": "emphasis",
+      "source": "shot",
+      "step": 0,
+      "id": "x057"
+    }
+  ],
+  "title": {
+    "text": "Pune: Mula River and Mutha River",
+    "shot": null,
+    "start": null,
+    "end": null
+  },
+  "end_card": {
+    "line": "Putting down roots here,\none brick at a time.",
+    "start": 144.53333333333333,
+    "end": 150
+  },
+  "badge": {
+    "kind": "aigc",
+    "start": 0,
+    "end": 3
+  },
+  "rehooks": [
+    {
+      "i": 0,
+      "bar": 0,
+      "kind": "hook",
+      "section": "intro",
+      "t": 0
+    },
+    {
+      "i": 1,
+      "bar": 8,
+      "kind": "mid",
+      "section": "verse",
+      "t": 21.818
+    },
+    {
+      "i": 2,
+      "bar": 16,
+      "kind": "turn",
+      "section": "build",
+      "t": 43.636
+    },
+    {
+      "i": 3,
+      "bar": 28,
+      "kind": "turn",
+      "section": "breakdown",
+      "t": 76.364
+    },
+    {
+      "i": 4,
+      "bar": 36,
+      "kind": "turn",
+      "section": "build2",
+      "t": 98.182
+    },
+    {
+      "i": 5,
+      "bar": 48,
+      "kind": "final",
+      "section": "outro",
+      "t": 130.909
+    }
+  ],
+  "segments": [
+    {
+      "id": "s1",
+      "name": "opening",
+      "sections": [
+        "intro"
+      ],
+      "start": 0,
+      "end": 10.9,
+      "from_frame": 0,
+      "to_frame": 327
+    },
+    {
+      "id": "s2",
+      "name": "verse",
+      "sections": [
+        "verse"
+      ],
+      "start": 10.9,
+      "end": 43.63333333333333,
+      "from_frame": 327,
+      "to_frame": 1309
+    },
+    {
+      "id": "s3",
+      "name": "build-drop",
+      "sections": [
+        "build",
+        "drop"
+      ],
+      "start": 43.63333333333333,
+      "end": 76.36666666666666,
+      "from_frame": 1309,
+      "to_frame": 2291
+    },
+    {
+      "id": "s4",
+      "name": "breakdown-build2",
+      "sections": [
+        "breakdown",
+        "build2"
+      ],
+      "start": 76.36666666666666,
+      "end": 109.1,
+      "from_frame": 2291,
+      "to_frame": 3273
+    },
+    {
+      "id": "s5",
+      "name": "drop2-outro",
+      "sections": [
+        "drop2",
+        "outro"
+      ],
+      "start": 109.1,
+      "end": 150,
+      "from_frame": 3273,
+      "to_frame": 4500
+    }
+  ]
+}
