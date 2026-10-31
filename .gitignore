@@ -26,3 +26,9 @@ output/pune-chronicle/work/render/
 output/pune-chronicle/work/music/
 output/pune-chronicle/work/scenes/
 final/*.mp4
+
+# Skill request files embed full source texts (copyrighted Britannica articles); keep them local
+output/pune-chronicle/work/facts/claims.request.json
+output/pune-chronicle/work/**/*.request.json
+!output/pune-chronicle/work/script/script.request.json
+output/videos/

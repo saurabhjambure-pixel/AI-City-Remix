@@ -1,5 +1,45 @@
 # AI City Remix Pipeline
 
+## The film: "Pune: Mula River and Mutha River" (AI City Remix entry)
+
+A 150-second 3D life-story film of Pune, directed end to end by **MiniMax M3.1 flash** through SandBase,
+made with the official **chronicle-ink v0.4.3** Skill (subject city, structure life, style model). The globe
+flies into ~17,000 real OpenStreetMap buildings; history is projected on today's city as light, from the
+Mula–Mutha junction to the 1961 Panshet Dam flood and the present. Every fact on screen passed the Skill's
+cross-check: two agreeing publishers, one a reference institution (Britannica).
+
+**How it was made** (`stages/chronicle_agent.py` drives the Skill; every model call is in `runs.jsonl`):
+
+| Step | Who decides | Code |
+|---|---|---|
+| Choose Britannica pages from Britannica's own search results | M3.1 | `--plan-sources` |
+| Atomic claims with verbatim excerpts; Britannica↔Wikipedia pairing | M3.1 | Skill `facts` + harness |
+| Landmarks (Wikidata QIDs resolved by code) and era extents | M3.1 | `--write-places`, `tools/geo_cached.mjs` |
+| Chronology, 27-shot list, every caption | M3.1 | `--write-film` (Skill gate + independent M3.1 entailment check) |
+| Segment review from code measurements (no vision model) | M3.1 | `stages/chronicle_review.py` |
+| Narration (MiniMax Speech 2.8 HD) and instrumental (MiniMax Music 2.6) | M3.1 prompts, SandBase tools | `stages/chronicle_audio.py` |
+| Title, summary, cover frame; checks; upload | M3.1 / code | `stages/chronicle_final.py`, `tools/submit_entry.py` |
+
+Final result: all 10 Skill checks pass (format, loudness, downbeats, sound sync, captions, AIGC labels,
+re-hooks, facts, scene scan, visual review). Plan and decisions: `docs/PLAN_chronicle_ink.md`; day-by-day log:
+`PROGRESS.md`; package: `final/` (the MP4 itself is not committed).
+
+**Not included:** the chronicle-ink Skill (download it from SandBase Lab into `vendor/chronicle-ink-0.4.3/`),
+the official `contest-submit.py`, the full source texts the facts were extracted from, and generated audio/video
+masters. Credentials come only from `.env` (see `.env.example`).
+
+### Data, sources and licences
+
+- Code in this repository: MIT (see `LICENSE`).
+- Map data: © OpenStreetMap contributors, ODbL (`output/pune-chronicle/geo/basemap.json`); landmark coordinates
+  and years from Wikidata (CC0).
+- Fact excerpts: short quotations (≤30 words) from Encyclopaedia Britannica and Wikipedia (CC BY-SA), each with
+  its source URL in the claim files; sources for the film are listed in `final/fact_sources.txt`.
+- Narration and music: generated with MiniMax Speech 2.8 HD and MiniMax Music 2.6 via SandBase.
+- Historic extents in the film are approximations and are labelled "AI illustration" on screen.
+
+## Earlier pipeline (Oct 25–28)
+
 Infrastructure pipeline for the **AI City Remix** documentary generation challenge. All runtime creative and factual decisions—historical research, factual claims, multi-scene screenplay, scene HTML code generation, and visual frame reviews—originate exclusively from **MiniMax M3.1 Flash** via the SandBase API.
 
 ## Core Architecture & Rules
