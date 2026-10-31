@@ -126,3 +126,7 @@
 - Final Skill check: **10/10 passed** (format, loudness, downbeats, sfx_sync, captions, aigc, rehooks, facts, scene_scan, visual_review).
 - final/: film.mp4 (86.5 MiB, two-pass from the 600+ MB master, comment metadata corrected), cover.jpg, entry.json, check.json, fact_sources.txt.
 - Submission: the first token expired (grant_expired). Cloudflare blocks Python's default UA, so `tools/submit_entry.py` runs the unmodified client with an honest UA (owner approved). Waiting for the owner's new authorization.
+
+## 2026-10-31 — Submitted (Lab status: pending)
+- Ran the unmodified official contest-submit.py (SHA-256 7599c1c0… verified) via tools/submit_entry.py with the owner's new authorization in the subprocess environment only (never in a file or argv; old token files deleted). Uploaded final/entry.json, final/film.mp4 (86.5 MiB) and final/cover.jpg to entry a43da048-c1e7-429f-9306-005dabcd638b.
+- Client: "Submitted for review." Read-back: HTTP 200, status **pending**, title "Pune: Mula River and Mutha River", video and cover present. Pending is not approval; review happens on Lab.
